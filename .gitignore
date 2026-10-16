@@ -1,0 +1,20 @@
+# Strictly exclude all PDFs and reference notes from git and GitHub
+*.pdf
+*.PDF
+NOTEBOOK_REFERENCE.md
+
+# Dependencies & Build Output
+node_modules
+dist
+dist-ssr
+.gh-pages-deploy
+scratch
+
+# Logs & OS files
+logs
+*.log
+npm-debug.log*
+.DS_Store
+*.local
+.env
+.env.*
