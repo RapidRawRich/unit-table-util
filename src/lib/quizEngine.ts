@@ -98,6 +98,69 @@ export function getModeLabel(mode: TestMode): string {
 }
 
 /**
+ * Samples `targetCount` questions proportionally from each curriculum subject (`section`)
+ * using the Largest Remainder (Hamilton) method so every subject is represented in exact
+ * proportion to its weight in the bank.
+ */
+export function sampleProportionallyBySection(
+  bank: readonly QuestionRecord[],
+  targetCount: number
+): QuestionRecord[] {
+  if (targetCount >= bank.length) {
+    return shuffleArray(bank);
+  }
+
+  const groups = new Map<string, QuestionRecord[]>();
+  for (const q of bank) {
+    const bucket = groups.get(q.section) ?? [];
+    bucket.push(q);
+    groups.set(q.section, bucket);
+  }
+
+  interface QuotaEntry {
+    section: string;
+    questions: QuestionRecord[];
+    floor: number;
+    remainder: number;
+    allocated: number;
+  }
+
+  const entries: QuotaEntry[] = [];
+  let allocatedSum = 0;
+
+  for (const [section, questions] of groups.entries()) {
+    const exact = (questions.length * targetCount) / bank.length;
+    const floor = Math.floor(exact);
+    const remainder = exact - floor;
+    allocatedSum += floor;
+    entries.push({
+      section,
+      questions,
+      floor,
+      remainder,
+      allocated: floor,
+    });
+  }
+
+  const remainingToAllocate = targetCount - allocatedSum;
+  if (remainingToAllocate > 0) {
+    // Shuffle first so tied remainders are broken randomly without bias
+    const byRemainder = shuffleArray(entries).sort((a, b) => b.remainder - a.remainder);
+    for (let i = 0; i < remainingToAllocate && i < byRemainder.length; i++) {
+      byRemainder[i].allocated += 1;
+    }
+  }
+
+  const sampled: QuestionRecord[] = [];
+  for (const entry of entries) {
+    const picked = shuffleArray(entry.questions).slice(0, entry.allocated);
+    sampled.push(...picked);
+  }
+
+  return shuffleArray(sampled);
+}
+
+/**
  * Creates a new QuizSession for any of the 5 primary test modes.
  */
 export function createQuizSession(
@@ -122,10 +185,10 @@ export function createQuizSession(
       selectedQuestions = bank.filter((q) => q.id >= 51 && q.id <= 100);
       break;
     case 'random-25':
-      selectedQuestions = shuffleArray(bank).slice(0, 25);
+      selectedQuestions = sampleProportionallyBySection(bank, 25);
       break;
     case 'random-50':
-      selectedQuestions = shuffleArray(bank).slice(0, 50);
+      selectedQuestions = sampleProportionallyBySection(bank, 50);
       break;
   }
 

@@ -1,67 +1,67 @@
 import type { QuestionRecord } from '../lib/types.ts';
 
-// ROT13-obfuscated dataset (100 questions, 900 distractors)
+// ROT13-obfuscated dataset (100 questions across 5 subjects, 900 distractors, LaTeX math)
 export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   {
     "id": 1,
-    "section": "Frpgvba 1: Ryrpgebavp Vafgehzrag Ybbcf",
+    "section": "Fhowrpg 1: Ryrpgebavp Vafgehzrag Ybbcf",
     "title": "4–20 zN Bhgchg Fvtany Crepragntr",
-    "stem": "N genafzvggre unf n 4–20 zN bhgchg fvtany naq n cebprff enatr bs 3–15 cfv. Jung vf gur bhgchg crepragntr jura gur fvtany vf 9 zN?",
-    "correctAnswer": "31.25%",
+    "stem": "N genafzvggre unf n $4\\grkg{–}20\\grkg{ zN}$ bhgchg fvtany naq n cebprff enatr bs $3\\grkg{–}15\\grkg{ cfv}$. Jung vf gur bhgchg crepragntr jura gur fvtany vf $9\\grkg{ zN}$?",
+    "correctAnswer": "$31.25\\%$",
     "ilmReference": "VYZ 310301n (Nanybt Ybbcf, Bowrpgvirf 1 & 2)",
-    "explanation": "Gur bhgchg fvtany crepragntr rkcerffrf gur pheerag zrnfherzrag eryngvir gb gur yvir mreb (4 zN) naq fcna (16 zN): Bhgchg % = ((V_zrnfherq - YEI) / Fcna) × 100% = ((9 zN - 4 zN) / 16 zN) × 100% = 31.25%.",
+    "explanation": "Gur bhgchg fvtany crepragntr rkcerffrf gur pheerag zrnfherzrag eryngvir gb gur yvir mreb ($4\\grkg{ zN}$) naq fcna ($16\\grkg{ zN}$): $$\\grkg{Bhgchg \\%} = \\yrsg(\\senp{V_{\\grkg{zrnfherq}} - \\grkg{YEI}_{\\grkg{pheerag}}}{\\grkg{Fcna}_{\\grkg{pheerag}}}\\evtug) \\gvzrf 100\\%$$",
     "distractors": [
       {
-        "text": "56.25%",
-        "whyIncorrect": "Reebarbhfyl pnyphyngrq jvgubhg fhogenpgvat yvir mreb 4 zN: (9 / 16) × 100% = 56.25%."
+        "text": "$56.25\\%$",
+        "whyIncorrect": "Reebarbhfyl pnyphyngrq jvgubhg fhogenpgvat yvir mreb $4\\grkg{ zN}$: $\\senp{9}{16} \\gvzrf 100\\% = 56.25\\%$."
       },
       {
-        "text": "45.00%",
-        "whyIncorrect": "Reebarbhfyl pnyphyngrq hfvat shyy 20 zN qrabzvangbe jvgubhg yvir mreb fhogenpgvba: (9 / 20) × 100% = 45.00%."
+        "text": "$45.00\\%$",
+        "whyIncorrect": "Reebarbhfyl pnyphyngrq hfvat shyy $20\\grkg{ zN}$ qrabzvangbe jvgubhg yvir mreb fhogenpgvba: $\\senp{9}{20} \\gvzrf 100\\% = 45.00\\%$."
       },
       {
-        "text": "25.00%",
-        "whyIncorrect": "Pnyphyngrq hfvat vapbeerpg pheerag fcna bs 20 zN vafgrnq bs 16 zN: ((9 - 4) / 20) × 100% = 25.00%."
+        "text": "$25.00\\%$",
+        "whyIncorrect": "Pnyphyngrq hfvat vapbeerpg pheerag fcna bs $20\\grkg{ zN}$ vafgrnq bs $16\\grkg{ zN}$: $\\senp{9 - 4}{20} \\gvzrf 100\\% = 25.00\\%$."
       },
       {
-        "text": "37.50%",
-        "whyIncorrect": "Vairegrq yvir mreb fhogenpgvba ol gnxvat 9 - 3 = 6 zN naq qvivqvat ol 16 zN: (6 / 16) × 100% = 37.50%."
+        "text": "$37.50\\%$",
+        "whyIncorrect": "Vairegrq yvir mreb fhogenpgvba ol gnxvat $9 - 3 = 6\\grkg{ zN}$ naq qvivqvat ol $16\\grkg{ zN}$: $\\senp{6}{16} \\gvzrf 100\\% = 37.50\\%$."
       },
       {
-        "text": "50.00%",
-        "whyIncorrect": "Nffhzrq zvqcbvag pheerag bs 12 zN engure guna pnyphyngvat npghny 9 zN fvtany yriry."
+        "text": "$50.00\\%$",
+        "whyIncorrect": "Nffhzrq zvqcbvag pheerag bs $12\\grkg{ zN}$ engure guna pnyphyngvat npghny $9\\grkg{ zN}$ fvtany yriry."
       },
       {
-        "text": "62.50%",
-        "whyIncorrect": "Zvfgbbx 9 zN sbe hccre enatr inyhr engvb bire 14.4 zN: (9 / 14.4) × 100% = 62.50%."
+        "text": "$62.50\\%$",
+        "whyIncorrect": "Zvfgbbx $9\\grkg{ zN}$ sbe hccre enatr inyhr engvb bire $14.4\\grkg{ zN}$: $\\senp{9}{14.4} \\gvzrf 100\\% = 62.50\\%$."
       },
       {
-        "text": "18.75%",
-        "whyIncorrect": "Fhogenpgrq 6 zN vafgrnq bs 4 zN yvir mreb: ((9 - 6) / 16) × 100% = 18.75%."
+        "text": "$18.75\\%$",
+        "whyIncorrect": "Fhogenpgrq $6\\grkg{ zN}$ vafgrnq bs $4\\grkg{ zN}$ yvir mreb: $\\senp{9 - 6}{16} \\gvzrf 100\\% = 18.75\\%$."
       },
       {
-        "text": "33.33%",
-        "whyIncorrect": "Pbashfrq pheerag fcna crepragntr jvgu carhzngvp cerffher engvb 4 / 12 = 33.33%."
+        "text": "$33.33\\%$",
+        "whyIncorrect": "Pbashfrq pheerag fcna crepragntr jvgu carhzngvp cerffher engvb $\\senp{4}{12} = 33.33\\%$."
       },
       {
-        "text": "75.00%",
-        "whyIncorrect": "Pnyphyngrq creprag erznvavat gb shyy fpnyr engure guna creprag bhgchg: (20 - 8) / 16 = 75.00%."
+        "text": "$75.00\\%$",
+        "whyIncorrect": "Pnyphyngrq creprag erznvavat gb shyy fpnyr: $\\senp{20 - 8}{16} \\gvzrf 100\\% = 75.00\\%$."
       }
     ],
     "steps": [
-      "Pnyphyngr Pheerag Fcna: Fcna = 20 zN - 4 zN = 16 zN",
-      "Qrgrezvar Fvtany nobir Yvir Mreb: V_nobir_YEI = 9 zN - 4 zN = 5 zN",
-      "Pnyphyngr Crepragntr: (5 zN / 16 zN) × 100% = 0.3125 × 100% = 31.25%"
+      "Pnyphyngr Pheerag Fcna: $\\grkg{Fcna} = 20\\grkg{ zN} - 4\\grkg{ zN} = 16\\grkg{ zN}$",
+      "Qrgrezvar Fvtany nobir Yvir Mreb: $V_{\\grkg{nobir YEI}} = 9\\grkg{ zN} - 4\\grkg{ zN} = 5\\grkg{ zN}$",
+      "Pnyphyngr Crepragntr: $\\grkg{Bhgchg \\%} = \\yrsg(\\senp{5\\grkg{ zN}}{16\\grkg{ zN}}\\evtug) \\gvzrf 100\\% = 0.3125 \\gvzrf 100\\% = \\znguos{31.25\\%}$"
     ]
   },
   {
     "id": 2,
-    "section": "Frpgvba 1: Ryrpgebavp Vafgehzrag Ybbcf",
+    "section": "Fhowrpg 1: Ryrpgebavp Vafgehzrag Ybbcf",
     "title": "Bcrengvbany Punenpgrevfgvpf bs Pheerag Ybbcf",
     "stem": "Jung vf n xrl bcrengvbany punenpgrevfgvp bs 4–20 zN pheerag ybbcf va vaqhfgevny cebprff pbageby?",
     "correctAnswer": "Uvtu ybbc vzcrqnapr eryngvir gb erprvire vachg, ceriragvat ibygntr qebc reebef naq erqhpvat abvfr fhfprcgvovyvgl bire ybat jver ehaf.",
     "ilmReference": "VYZ 310301n (Nanybt Ybbcf, Bowrpgvir 3)",
-    "explanation": "Pheerag ybbcf npg nf pbafgnag-pheerag fbheprf. Orpnhfr gur erprvire vachg erfvfgnapr vf fznyy (glcvpnyyl 250 Ω) eryngvir gb gur uvtu vagreany erfvfgnapr bs gur pheerag genafzvggre, yrnq jver erfvfgnapr inevngvbaf qb abg nygre pheerag sybj, ryvzvangvat yvar-ybff ibygntr reebef.",
+    "explanation": "Pheerag ybbcf npg nf pbafgnag-pheerag fbheprf. Orpnhfr gur erprvire vachg erfvfgnapr vf fznyy (glcvpnyyl $E_{\\grkg{ybnq}} = 250\\,\\Bzrtn$) eryngvir gb gur uvtu vagreany vzcrqnapr bs gur genafzvggre ($E_{\\grkg{vagreany}} \\gb \\vasgl$), yrnq jver erfvfgnapr inevngvbaf ($E_{\\grkg{jver}}$) qb abg nygre pheerag sybj $V = 4\\grkg{–}20\\grkg{ zN}$, ryvzvangvat yvar-ybff ibygntr qebc reebef ($I_{\\grkg{qebc}} = V \\pqbg E_{\\grkg{jver}}$).",
     "distractors": [
       {
         "text": "Ybj vachg vzcrqnapr eryngvir gb fvtany jverf, pnhfvat fvtavsvpnag ibygntr qebcf.",
@@ -103,59 +103,59 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 3,
-    "section": "Frpgvba 1: Ryrpgebavp Vafgehzrag Ybbcf",
+    "section": "Fhowrpg 1: Ryrpgebavp Vafgehzrag Ybbcf",
     "title": "Znkvzhz Nyybjnoyr Ybbc Erfvfgnapr Pnyphyngvba",
-    "stem": "Jung vf gur znkvzhz nyybjnoyr ybbc erfvfgnapr va n 2-jver pheerag ybbc cbjrerq ol n 24 IQP cbjre fhccyl jvgu n zvavzhz erdhverq genafzvggre bcrengvat ibygntr bs 12 IQP?",
-    "correctAnswer": "600 Ω",
+    "stem": "Jung vf gur znkvzhz nyybjnoyr ybbc erfvfgnapr va n 2-jver pheerag ybbc cbjrerq ol n $24\\grkg{ IQP}$ cbjre fhccyl jvgu n zvavzhz erdhverq genafzvggre bcrengvat ibygntr bs $12\\grkg{ IQP}$?",
+    "correctAnswer": "$600\\,\\Bzrtn$",
     "ilmReference": "VYZ 310301n (Nanybt Ybbcf, Bowrpgvir 8)",
-    "explanation": "Znkvzhz ybbc erfvfgnapr rafherf gung ng znkvzhz ybbc pheerag (20 zN), gur gbgny ibygntr qebc npebff ybbc jvevat naq ybnq erfvfgbef yrnirf ng yrnfg gur zvavzhz erdhverq bcrengvat ibygntr ng gur genafzvggre grezvanyf: E_znk = (I_fhccyl - I_zva) / V_znk = (24 I - 12 I) / 0.020 N = 600 Ω.",
+    "explanation": "Znkvzhz ybbc erfvfgnapr rafherf gung ng znkvzhz ybbc pheerag ($V_{\\znk} = 20\\grkg{ zN} = 0.020\\grkg{ N}$), gur gbgny ibygntr qebc npebff ybbc jvevat naq ybnq erfvfgbef yrnirf ng yrnfg gur zvavzhz erdhverq bcrengvat ibygntr ng gur genafzvggre grezvanyf: $$E_{\\znk} = \\senp{I_{\\grkg{fhccyl}} - I_{\\zva\\grkg{ genafzvggre}}}{V_{\\znk}} = \\senp{24\\grkg{ I} - 12\\grkg{ I}}{0.020\\grkg{ N}} = 600\\,\\Bzrtn$$",
     "distractors": [
       {
-        "text": "1200 Ω",
-        "whyIncorrect": "Reebarbhfyl hfrq shyy 24 I fhccyl jvgubhg fhogenpgvat 12 I zvavzhz genafzvggre ibygntr (24 I / 0.020 N = 1200 Ω) be hfrq 10 zN pheerag."
+        "text": "$1200\\,\\Bzrtn$",
+        "whyIncorrect": "Reebarbhfyl hfrq shyy $24\\grkg{ I}$ jvgubhg fhogenpgvat $12\\grkg{ I}$ zvavzhz ibygntr ($\\senp{24\\grkg{ I}}{0.020\\grkg{ N}} = 1200\\,\\Bzrtn$) be hfrq $10\\grkg{ zN}$."
       },
       {
-        "text": "300 Ω",
-        "whyIncorrect": "Qbhoyrq gur znkvzhz ybbc pheerag gb 40 zN va gur qrabzvangbe: 12 I / 0.040 N = 300 Ω."
+        "text": "$300\\,\\Bzrtn$",
+        "whyIncorrect": "Qbhoyrq znkvzhz ybbc pheerag gb $40\\grkg{ zN}$ va qrabzvangbe: $\\senp{12\\grkg{ I}}{0.040\\grkg{ N}} = 300\\,\\Bzrtn$."
       },
       {
-        "text": "800 Ω",
-        "whyIncorrect": "Qvivqrq 12 I ol 16 zN fcna pheerag vafgrnq bs 20 zN znkvzhz pheerag (750 Ω) be qvivqrq 24 I ol 30 zN."
+        "text": "$800\\,\\Bzrtn$",
+        "whyIncorrect": "Qvivqrq shyy $24\\grkg{ I}$ ol $30\\grkg{ zN}$: $\\senp{24\\grkg{ I}}{0.030\\grkg{ N}} = 800\\,\\Bzrtn$."
       },
       {
-        "text": "250 Ω",
-        "whyIncorrect": "Pbashfrq fgnaqneq fvatyr erprvire erfvfgbe inyhr (250 Ω) jvgu gbgny znkvzhz nyybjnoyr ybbc erfvfgnapr."
+        "text": "$250\\,\\Bzrtn$",
+        "whyIncorrect": "Pbashfrq fgnaqneq fvatyr erprvire erfvfgbe ($250\\,\\Bzrtn$) jvgu gbgny znkvzhz nyybjnoyr ybbc erfvfgnapr."
       },
       {
-        "text": "750 Ω",
-        "whyIncorrect": "Qvivqrq ninvynoyr ibygntr qebc (12 I) ol gur 16 zN pheerag fcna vafgrnq bs gur 20 zN znkvzhz pheerag: 12 I / 0.016 N = 750 Ω."
+        "text": "$750\\,\\Bzrtn$",
+        "whyIncorrect": "Qvivqrq ninvynoyr ibygntr qebc ($12\\grkg{ I}$) ol gur $16\\grkg{ zN}$ fcna vafgrnq bs $20\\grkg{ zN}$ znk pheerag: $\\senp{12\\grkg{ I}}{0.016\\grkg{ N}} = 750\\,\\Bzrtn$."
       },
       {
-        "text": "3000 Ω",
-        "whyIncorrect": "Hfrq zvavzhz ybbc pheerag bs 4 zN vafgrnq bs znkvzhz ybbc pheerag bs 20 zN: 12 I / 0.004 N = 3000 Ω."
+        "text": "$3000\\,\\Bzrtn$",
+        "whyIncorrect": "Hfrq zvavzhz ybbc pheerag bs $4\\grkg{ zN}$ vafgrnq bs $20\\grkg{ zN}$: $\\senp{12\\grkg{ I}}{0.004\\grkg{ N}} = 3000\\,\\Bzrtn$."
       },
       {
-        "text": "480 Ω",
-        "whyIncorrect": "Zhygvcyvrq 24 I ol 20 zN vafgrnq bs qvivqvat ibygntr qebc ol pheerag."
+        "text": "$480\\,\\Bzrtn$",
+        "whyIncorrect": "Zhygvcyvrq $24\\grkg{ I} \\gvzrf 20\\grkg{ zN}$ vafgrnq bs qvivqvat ibygntr qebc ol pheerag."
       },
       {
-        "text": "1000 Ω",
-        "whyIncorrect": "Qvivqrq 20 I ol 20 zN jvgubhg hfvat gur fgngrq 24 IQP fhccyl naq 12 IQP genafzvggre zvavzhz."
+        "text": "$1000\\,\\Bzrtn$",
+        "whyIncorrect": "Qvivqrq $20\\grkg{ I}$ ol $20\\grkg{ zN}$ vafgrnq bs hfvat $24\\grkg{ I} - 12\\grkg{ I}$."
       },
       {
-        "text": "500 Ω",
-        "whyIncorrect": "Nffhzrq 10 I qebc ng 20 zN engure guna gur npghny 12 I ninvynoyr qebc."
+        "text": "$500\\,\\Bzrtn$",
+        "whyIncorrect": "Nffhzrq $10\\grkg{ I}$ qebc ng $20\\grkg{ zN}$ engure guna gur npghny $12\\grkg{ I}$ ninvynoyr qebc."
       }
     ],
     "steps": [
-      "Ninvynoyr Ibygntr Qebc: I_qebc = 24 I - 12 I = 12 IQP",
-      "Znkvzhz Ybbc Pheerag: V_znk = 20 zN = 0.020 N",
-      "Pnyphyngr Erfvfgnapr: E_znk = 12 I / 0.020 N = 600 Ω"
+      "Ninvynoyr Ibygntr Qebc: $I_{\\grkg{qebc}} = 24\\grkg{ I} - 12\\grkg{ I} = 12\\grkg{ IQP}$",
+      "Znkvzhz Ybbc Pheerag: $V_{\\znk} = 20\\grkg{ zN} = 0.020\\grkg{ N}$",
+      "Pnyphyngr Erfvfgnapr: $E_{\\znk} = \\senp{12\\grkg{ I}}{0.020\\grkg{ N}} = \\znguos{600\\,\\Bzrtn}$"
     ]
   },
   {
     "id": 4,
-    "section": "Frpgvba 1: Ryrpgebavp Vafgehzrag Ybbcf",
+    "section": "Fhowrpg 1: Ryrpgebavp Vafgehzrag Ybbcf",
     "title": "Ybbc Qvntenz Genafzvggre Cbjre Fhccyl Ybpngvba",
     "stem": "Ba n fgnaqneq ybbc qvntenz, sebz jurer vf gur cbfvgvir QP cbjre sbe gur cerffher genafzvggre fhccyvrq?",
     "correctAnswer": "CVP-3016 grezvany 3.",
@@ -202,7 +202,7 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 5,
-    "section": "Frpgvba 1: Ryrpgebavp Vafgehzrag Ybbcf",
+    "section": "Fhowrpg 1: Ryrpgebavp Vafgehzrag Ybbcf",
     "title": "C&VQ Pbagebyyre Npgvba sbe Snvy-Bcra Inyir",
     "stem": "N C&VQ fubjf n qvfgvyyngvba cebprff sybj pbageby ybbc jurer SP1 bcrengrf n Snvy-Bcra (SB) pbageby inyir. Jung vf gur erdhverq pbagebyyre npgvba sbe SP1?",
     "correctAnswer": "Qverpg Npgvat.",
@@ -251,7 +251,7 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 6,
-    "section": "Frpgvba 1: Ryrpgebavp Vafgehzrag Ybbcf",
+    "section": "Fhowrpg 1: Ryrpgebavp Vafgehzrag Ybbcf",
     "title": "Vafgehzrag Pnoyr Fuvryq Tebhaqvat Ybpngvba",
     "stem": "Jurer fubhyq gur fuvryq qenva jver bs n fuvryqrq vafgehzrag fvtany pnoyr or tebhaqrq?",
     "correctAnswer": "Ng bar raq bayl (glcvpnyyl ng gur pbageby cnary / QPF tebhaq one).",
@@ -298,7 +298,7 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 7,
-    "section": "Frpgvba 1: Ryrpgebavp Vafgehzrag Ybbcf",
+    "section": "Fhowrpg 1: Ryrpgebavp Vafgehzrag Ybbcf",
     "title": "Zvavzhz Fvmr sbe Rdhvczrag Tebhaq Pbaqhpgbe",
     "stem": "Nppbeqvat gb Pnanqvna Ryrpgevpny Pbqr fgnaqneqf sbe vafgehzragngvba, jung vf gur zvavzhz jver fvmr hfrq sbe n qrqvpngrq rdhvczrag tebhaqvat pbaqhpgbe?",
     "correctAnswer": "12 NJT",
@@ -345,7 +345,7 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 8,
-    "section": "Frpgvba 1: Ryrpgebavp Vafgehzrag Ybbcf",
+    "section": "Fhowrpg 1: Ryrpgebavp Vafgehzrag Ybbcf",
     "title": "Pnhfr bs Ryrpgebzntargvp Vagresrerapr (RZV)",
     "stem": "Jung culfvpny zrpunavfz pnhfrf Ryrpgebzntargvp Vagresrerapr (RZV) va fvtany pbaqhpgbef arne NP cbjre jvevat?",
     "correctAnswer": "Ryrpgebzntargvp vaqhpgvba.",
@@ -392,59 +392,59 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 9,
-    "section": "Frpgvba 1: Ryrpgebavp Vafgehzrag Ybbcf",
+    "section": "Fhowrpg 1: Ryrpgebavp Vafgehzrag Ybbcf",
     "title": "10-Ovg NQP Fvtany Erfbyhgvba Pnyphyngvba",
-    "stem": "Na Nanybt-gb-Qvtvgny Pbairegre (NQP) npprcgf n 4–20 zN vachg fvtany hfvat 10-ovg erfbyhgvba. Jung vf gur erfbyhgvba va zvpebnzcf (µN)?",
-    "correctAnswer": "15.625 µN (15.6 µN)",
+    "stem": "Na Nanybt-gb-Qvtvgny Pbairegre (NQP) npprcgf n $4\\grkg{–}20\\grkg{ zN}$ vachg fvtany hfvat $10\\grkg{-ovg}$ erfbyhgvba. Jung vf gur erfbyhgvba va zvpebnzcf ($\\zh\\grkg{N}$)?",
+    "correctAnswer": "$15.625\\,\\zh\\grkg{N}$ ($15.6\\,\\zh\\grkg{N}$)",
     "ilmReference": "VYZ 310301p (NQP & QNP Pbairefvba, Bowrpgvir 2)",
-    "explanation": "NQP erfbyhgvba vf gur gbgny vachg fvtany fcna qvivqrq ol gur ahzore bs qvfpergr qvtvgny dhnagvmngvba fgngrf (2^A): Erfbyhgvba = Fcna / 2^10 = 16,000 µN / 1024 = 15.625 µN (ebhaqrq gb 15.6 µN).",
+    "explanation": "NQP erfbyhgvba vf gur gbgny vachg fvtany fcna qvivqrq ol gur ahzore bs qvfpergr qvtvgny dhnagvmngvba fgngrf ($2^A$): $$\\grkg{Erfbyhgvba} = \\senp{\\grkg{Fcna}}{2^A} = \\senp{16,000\\,\\zh\\grkg{N}}{2^{10}} = \\senp{16,000\\,\\zh\\grkg{N}}{1024} = 15.625\\,\\zh\\grkg{N}$$",
     "distractors": [
       {
-        "text": "19.531 µN",
-        "whyIncorrect": "Qvivqrq gur shyy 20 zN inyhr (20,000 µN) ol 1024 jvgubhg fhogenpgvat gur 4 zN yvir mreb."
+        "text": "$19.531\\,\\zh\\grkg{N}$",
+        "whyIncorrect": "Qvivqrq shyy $20\\grkg{ zN}$ ($20,000\\,\\zh\\grkg{N}$) ol $1024$ jvgubhg fhogenpgvat gur $4\\grkg{ zN}$ yvir mreb: $\\senp{20,000}{1024} = 19.531\\,\\zh\\grkg{N}$."
       },
       {
-        "text": "1600 µN",
-        "whyIncorrect": "Qvivqrq 16,000 µN ol 10 vafgrnq bs 2^10 (1024)."
+        "text": "$1600\\,\\zh\\grkg{N}$",
+        "whyIncorrect": "Qvivqrq $16,000\\,\\zh\\grkg{N}$ ol $10$ vafgrnq bs $2^{10} = 1024$."
       },
       {
-        "text": "62.50 µN",
-        "whyIncorrect": "Pnyphyngrq erfbyhgvba sbe na 8-ovg NQP (2^8 = 256 fgngrf) vafgrnq bs n 10-ovg NQP: 16,000 / 256 = 62.5 µN."
+        "text": "$62.50\\,\\zh\\grkg{N}$",
+        "whyIncorrect": "Pnyphyngrq sbe na $8\\grkg{-ovg}$ NQP ($2^8 = 256$): $\\senp{16,000}{256} = 62.50\\,\\zh\\grkg{N}$."
       },
       {
-        "text": "3.906 µN",
-        "whyIncorrect": "Pnyphyngrq erfbyhgvba sbe n 12-ovg NQP (2^12 = 4096 fgngrf) vafgrnq bs n 10-ovg NQP: 16,000 / 4096 = 3.906 µN."
+        "text": "$3.906\\,\\zh\\grkg{N}$",
+        "whyIncorrect": "Pnyphyngrq sbe n $12\\grkg{-ovg}$ NQP ($2^{12} = 4096$): $\\senp{16,000}{4096} = 3.906\\,\\zh\\grkg{N}$."
       },
       {
-        "text": "31.25 µN",
-        "whyIncorrect": "Pnyphyngrq erfbyhgvba sbe n 9-ovg NQP (2^9 = 512 fgngrf): 16,000 / 512 = 31.25 µN."
+        "text": "$31.25\\,\\zh\\grkg{N}$",
+        "whyIncorrect": "Pnyphyngrq sbe n $9\\grkg{-ovg}$ NQP ($2^9 = 512$): $\\senp{16,000}{512} = 31.25\\,\\zh\\grkg{N}$."
       },
       {
-        "text": "7.813 µN",
-        "whyIncorrect": "Pnyphyngrq erfbyhgvba sbe na 11-ovg NQP (2^11 = 2048 fgngrf): 16,000 / 2048 = 7.8125 µN."
+        "text": "$7.813\\,\\zh\\grkg{N}$",
+        "whyIncorrect": "Pnyphyngrq sbe na $11\\grkg{-ovg}$ NQP ($2^{11} = 2048$): $\\senp{16,000}{2048} = 7.8125\\,\\zh\\grkg{N}$."
       },
       {
-        "text": "0.977 µN",
-        "whyIncorrect": "Qvivqrq 1000 µN ol 1024 vafgrnq bs hfvat gur 16,000 µN fcna."
+        "text": "$0.977\\,\\zh\\grkg{N}$",
+        "whyIncorrect": "Qvivqrq $1000\\,\\zh\\grkg{N}$ ol $1024$ vafgrnq bs $16,000\\,\\zh\\grkg{N}$."
       },
       {
-        "text": "20.00 µN",
-        "whyIncorrect": "Qvivqrq 20,000 µN ol 1000 vafgrnq bs 16,000 µN ol 1024."
+        "text": "$20.00\\,\\zh\\grkg{N}$",
+        "whyIncorrect": "Qvivqrq $20,000\\,\\zh\\grkg{N}$ ol $1000$ vafgrnq bs $16,000\\,\\zh\\grkg{N}$ ol $1024$."
       },
       {
-        "text": "4.00 µN",
-        "whyIncorrect": "Hfrq gur 4 zN yvir mreb vafgrnq bs pnyphyngvat fcna / 2^10."
+        "text": "$4.00\\,\\zh\\grkg{N}$",
+        "whyIncorrect": "Hfrq gur $4\\grkg{ zN}$ yvir mreb vafgrnq bs $\\senp{\\grkg{Fcna}}{2^{10}}$."
       }
     ],
     "steps": [
-      "Fvtany Fcna: Fcna = 20 zN - 4 zN = 16 zN = 16,000 µN",
-      "Qvtvgny Dhnagvmngvba Fgngrf: 2^10 = 1024 fgngrf",
-      "Pnyphyngr Erfbyhgvba: 16,000 µN / 1024 = 15.625 µN (15.6 µN)"
+      "Fvtany Fcna: $\\grkg{Fcna} = 20\\grkg{ zN} - 4\\grkg{ zN} = 16\\grkg{ zN} = 16,000\\,\\zh\\grkg{N}$",
+      "Qvtvgny Dhnagvmngvba Fgngrf: $2^{10} = 1024\\grkg{ fgngrf}$",
+      "Pnyphyngr Erfbyhgvba: $\\grkg{Erfbyhgvba} = \\senp{16,000\\,\\zh\\grkg{N}}{1024} = \\znguos{15.625\\,\\zh\\grkg{N}}$"
     ]
   },
   {
     "id": 10,
-    "section": "Frpgvba 1: Ryrpgebavp Vafgehzrag Ybbcf",
+    "section": "Fhowrpg 1: Ryrpgebavp Vafgehzrag Ybbcf",
     "title": "Carhzngvp-gb-Pheerag Genafqhpre Shapgvba",
     "stem": "Juvpu fvtany pbaqvgvbavat genafqhpre pbairegf na vapbzvat 3–15 cfv carhzngvp fvtany vagb n 4–20 zN ryrpgebavp fvtany?",
     "correctAnswer": "Carhzngvp-gb-Pheerag (C/V) Genafqhpre.",
@@ -491,7 +491,7 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 11,
-    "section": "Frpgvba 1: Ryrpgebavp Vafgehzrag Ybbcf",
+    "section": "Fhowrpg 1: Ryrpgebavp Vafgehzrag Ybbcf",
     "title": "Fzneg Genafzvggre Frafbe Gevz",
     "stem": "Va n fzneg genafzvggre, jung vagreany fbsgjner gnoyr qbrf n frafbe gevz cebprqher nqwhfg?",
     "correctAnswer": "Punenpgrevmngvba zrzbel / NQP punenpgrevmngvba gnoyr.",
@@ -538,7 +538,7 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 12,
-    "section": "Frpgvba 1: Ryrpgebavp Vafgehzrag Ybbcf",
+    "section": "Fhowrpg 1: Ryrpgebavp Vafgehzrag Ybbcf",
     "title": "UNEG Zhygvqebc Cbyyvat Zbqr Pheerag",
     "stem": "Va n UNEG zhygvqebc vafgnyyngvba, jung unccraf gb gur ybbc pheerag jura gur cbyyvat nqqerff vf frg gb n inyhr terngre guna 0 (1 gb 15)?",
     "correctAnswer": "Ybbc pheerag ybpxf ng n pbafgnag 4 zN QP.",
@@ -585,7 +585,7 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 13,
-    "section": "Frpgvba 1: Ryrpgebavp Vafgehzrag Ybbcf",
+    "section": "Fhowrpg 1: Ryrpgebavp Vafgehzrag Ybbcf",
     "title": "Fgnaq-Nybar Qvtvgny Pbagebyyre Cevznel Shapgvba",
     "stem": "Jung vf gur cevznel shapgvba bs n Fgnaq-Nybar Qvtvgny Pbagebyyre (FNP) be Fvatyr-Ybbc Qvtvgny Pbagebyyre (FYQP)?",
     "correctAnswer": "Cebivqr vaqrcraqrag fvatyr-ybbc srrqonpx cebprff pbageby.",
@@ -632,12 +632,12 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 14,
-    "section": "Frpgvba 1: Ryrpgebavp Vafgehzrag Ybbcf",
+    "section": "Fhowrpg 1: Ryrpgebavp Vafgehzrag Ybbcf",
     "title": "FYQP Svefg Cebprffvat Fgrc",
     "stem": "Jung vf gur svefg vagreany cebprffvat fgrc cresbezrq ol na FYQP hcba erprvivat na nanybt 4–20 zN svryq fvtany?",
     "correctAnswer": "Nanybt-gb-Qvtvgny Pbairefvba (NQP).",
     "ilmReference": "VYZ 310301s (Qvtvgny Pbagebyyref, Bowrpgvir 2)",
-    "explanation": "Orsber n qvtvgny zvpebcebprffbe pna rinyhngr pbaqvgvbavat be CVQ pbageby rdhngvbaf, gur pbagvahbhf 4–20 zN fvtany (pbairegrq gb 1–5 I npebff n 250 Ω vachg erfvfgbe) zhfg svefg or pbairegrq vagb ovanel ahzoref ol na Nanybt-gb-Qvtvgny Pbairegre (NQP).",
+    "explanation": "Orsber n qvtvgny zvpebcebprffbe pna rinyhngr pbageby rdhngvbaf, gur pbagvahbhf $4\\grkg{–}20\\grkg{ zN}$ fvtany cnffvat npebff n cerpvfvba vachg erfvfgbe ($250\\,\\Bzrtn \\gb 1\\grkg{–}5\\grkg{ IQP}$) zhfg svefg or pbairegrq vagb ovanel ahzoref ol na Nanybt-gb-Qvtvgny Pbairegre (NQP).",
     "distractors": [
       {
         "text": "CVQ reebe pnyphyngvba.",
@@ -679,12 +679,12 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 15,
-    "section": "Frpgvba 2: Zrnfherzrag",
+    "section": "Fhowrpg 2: Zrnfherzrag",
     "title": "Cerffher Genafzvggre Npphenpl Enatr Pnyphyngvba",
-    "stem": "N cerffher genafzvggre engrq 0–1000 xCn unf na npphenpl fcrpvsvpngvba bs ±1% bs fcna. Vs gur zrgre ernqf 500 xCn, jung vf gur enatr bs cbffvoyr gehr cerffher inyhrf?",
-    "correctAnswer": "490 gb 510 xCn",
+    "stem": "N cerffher genafzvggre engrq $0\\grkg{–}1000\\grkg{ xCn}$ unf na npphenpl fcrpvsvpngvba bs $\\cz 1\\%$ bs fcna. Vs gur zrgre ernqf $500\\grkg{ xCn}$, jung vf gur enatr bs cbffvoyr gehr cerffher inyhrf?",
+    "correctAnswer": "$490\\grkg{ gb }510\\grkg{ xCn}$",
     "ilmReference": "VYZ 310302n (Npphenpl & Ercrngnovyvgl, Bowrpgvir 3)",
-    "explanation": "Npphenpl fgngrq va creprag bs fcna frgf n svkrq znkvzhz reebe obhaq npebff gur ragver enatr: Znk Reebe = ±1% × 1000 xCn = ±10 xCn. Ng n 500 xCn ernqvat, gur gehr cerffher vf orgjrra 490 naq 510 xCn.",
+    "explanation": "Npphenpl fgngrq va creprag bs fcna frgf n svkrq znkvzhz reebe obhaq npebff gur ragver zrnfherzrag enatr: $$\\grkg{Znk Reebe} = \\cz\\yrsg(\\senp{\\%\\grkg{ Npphenpl}}{100}\\evtug) \\gvzrf \\grkg{Fcna} = \\cz 0.01 \\gvzrf 1000\\grkg{ xCn} = \\cz 10\\grkg{ xCn}$$",
     "distractors": [
       {
         "text": "495 gb 505 xCn",
@@ -724,16 +724,16 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
       }
     ],
     "steps": [
-      "Fcna Pnyphyngvba: Fcna = 1000 xCn - 0 xCn = 1000 xCn",
-      "Reebe Pnyphyngvba: Reebe = ±1% × 1000 xCn = ±10 xCn",
-      "Gehr Ernqvat Enatr: 500 xCn ± 10 xCn = 490 gb 510 xCn"
+      "Fcna Pnyphyngvba: $\\grkg{Fcna} = 1000\\grkg{ xCn} - 0\\grkg{ xCn} = 1000\\grkg{ xCn}$",
+      "Reebe Pnyphyngvba: $\\grkg{Reebe} = \\cz 1\\% \\gvzrf 1000\\grkg{ xCn} = \\cz 10\\grkg{ xCn}$",
+      "Gehr Ernqvat Enatr: $500\\grkg{ xCn} \\cz 10\\grkg{ xCn} = \\znguos{490\\grkg{ gb }510\\grkg{ xCn}}$"
     ]
   },
   {
     "id": 16,
-    "section": "Frpgvba 2: Zrnfherzrag",
+    "section": "Fhowrpg 2: Zrnfherzrag",
     "title": "Creprag bs Ernqvat Fcrpvsvpngvba Glcr",
-    "stem": "Jung glcr bs fcrpvsvpngvba fgngrzrag vf ercerfragrq ol \"±0.5% bs ernqvat\"?",
+    "stem": "Jung glcr bs fcrpvsvpngvba fgngrzrag vf ercerfragrq ol $\\grkg{“}\\cz 0.5\\%\\grkg{ bs ernqvat”}$?",
     "correctAnswer": "Na npphenpl fgngrzrag (% bs ernqvat).",
     "ilmReference": "VYZ 310302n (Npphenpl & Ercrngnovyvgl, Bowrpgvir 3)",
     "explanation": "Fgngvat npphenpl nf \"% bs ernqvat\" vf na npphenpl fcrpvsvpngvba jurer gur nyybjnoyr nofbyhgr reebe inevrf qlanzvpnyyl jvgu gur zrnfherq inyhr, cebivqvat gvtugre nofbyhgr npphenpl ng ybjre ernqvatf guna % bs fcna.",
@@ -778,58 +778,58 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 17,
-    "section": "Frpgvba 2: Zrnfherzrag",
+    "section": "Fhowrpg 2: Zrnfherzrag",
     "title": "Znkvzhz Cbffvoyr Flfgrz Reebe Pnyphyngvba",
-    "stem": "N zrnfherzrag ybbc unf pbzcbarag reebef bs ±1.5%, ±2.0%, naq ±0.1% bs fcna. Jung vf gur znkvzhz cbffvoyr flfgrz reebe?",
-    "correctAnswer": "±3.6%",
+    "stem": "N zrnfherzrag ybbc unf pbzcbarag reebef bs $\\cz 1.5\\%$, $\\cz 2.0\\%$, naq $\\cz 0.1\\%$ bs fcna. Jung vf gur znkvzhz cbffvoyr flfgrz reebe?",
+    "correctAnswer": "$\\cz 3.6\\%$",
     "ilmReference": "VYZ 310302n (Npphenpl & Ercrngnovyvgl, Bowrpgvir 5)",
-    "explanation": "Znkvzhz cbffvoyr flfgrz reebe ercerfragf jbefg-pnfr reebe npphzhyngvba, pnyphyngrq ol qverpgyl fhzzvat gur zntavghqrf bs nyy vaqvivqhny pbzcbarag reebef: r_cbffvoyr = |r1| + |r2| + |r3| = 1.5% + 2.0% + 0.1% = ±3.6%.",
+    "explanation": "Znkvzhz cbffvoyr flfgrz reebe ercerfragf jbefg-pnfr yvarne reebe npphzhyngvba, pnyphyngrq ol fhzzvat gur nofbyhgr zntavghqrf bs nyy vaqvivqhny pbzcbarag reebef: $$r_{\\grkg{cbffvoyr}} = \\fhz |r_v| = |r_1| + |r_2| + |r_3| = 1.5\\% + 2.0\\% + 0.1\\% = \\cz 3.6\\%$$",
     "distractors": [
       {
-        "text": "±2.5%",
-        "whyIncorrect": "Pnyphyngrq ebbg-fhz-fdhner cebonoyr reebe (√(1.5² + 2.0² + 0.1²) = ±2.50%) vafgrnq bs znkvzhz cbffvoyr reebe."
+        "text": "$\\cz 2.5\\%$",
+        "whyIncorrect": "Pnyphyngrq ebbg-fhz-fdhner cebonoyr reebe ($r_{\\grkg{cebonoyr}} = \\fdeg{1.5^2 + 2.0^2 + 0.1^2} = \\cz 2.50\\%$) vafgrnq bs znkvzhz cbffvoyr reebe."
       },
       {
-        "text": "±1.2%",
-        "whyIncorrect": "Nirentrq gur guerr pbzcbarag reebef ((1.5 + 2.0 + 0.1) / 3 = 1.2%) vafgrnq bs fhzzvat gurz."
+        "text": "$\\cz 1.2\\%$",
+        "whyIncorrect": "Nirentrq gur guerr pbzcbarag reebef: $\\senp{1.5 + 2.0 + 0.1}{3} = 1.2\\%$."
       },
       {
-        "text": "±2.0%",
-        "whyIncorrect": "Gbbx bayl gur fvatyr ynetrfg pbzcbarag reebe naq artyrpgrq npphzhyngvba."
+        "text": "$\\cz 2.0\\%$",
+        "whyIncorrect": "Gbbx bayl gur fvatyr ynetrfg pbzcbarag reebe ($\\cz 2.0\\%$) naq artyrpgrq npphzhyngvba."
       },
       {
-        "text": "±0.3%",
-        "whyIncorrect": "Zhygvcyvrq gur pbzcbarag reebef gbtrgure (1.5 × 2.0 × 0.1 = 0.3%) vafgrnq bs nqqvat gurz."
+        "text": "$\\cz 0.3\\%$",
+        "whyIncorrect": "Zhygvcyvrq gur pbzcbarag reebef gbtrgure ($1.5 \\gvzrf 2.0 \\gvzrf 0.1 = 0.3\\%$)."
       },
       {
-        "text": "±6.26%",
-        "whyIncorrect": "Fhzzrq gur fdhnerq reebef (1.5² + 2.0² + 0.1² = 6.26%) jvgubhg gnxvat gur fdhner ebbg be fhzzvat yvarneyl."
+        "text": "$\\cz 6.26\\%$",
+        "whyIncorrect": "Fhzzrq gur fdhnerq reebef ($1.5^2 + 2.0^2 + 0.1^2 = 6.26\\%$)."
       },
       {
-        "text": "±3.4%",
-        "whyIncorrect": "Fhogenpgrq gur 0.1% pbzcbarag reebe sebz 3.5% vafgrnq bs nqqvat nyy zntavghqrf."
+        "text": "$\\cz 3.4\\%$",
+        "whyIncorrect": "Fhogenpgrq $0.1\\%$ sebz $3.5\\%$ vafgrnq bs fhzzvat nyy zntavghqrf."
       },
       {
-        "text": "±1.8%",
-        "whyIncorrect": "Qvivqrq gur gbgny fhz (3.6%) ol 2."
+        "text": "$\\cz 1.8\\%$",
+        "whyIncorrect": "Qvivqrq gur gbgny fhz ($3.6\\%$) ol $2$."
       },
       {
-        "text": "±0.6%",
-        "whyIncorrect": "Fhogenpgrq 1.5% sebz 2.0% naq nqqrq 0.1%."
+        "text": "$\\cz 0.6\\%$",
+        "whyIncorrect": "Fhogenpgrq $1.5\\%$ sebz $2.0\\%$ naq nqqrq $0.1\\%$."
       },
       {
-        "text": "±7.2%",
+        "text": "$\\cz 7.2\\%$",
         "whyIncorrect": "Qbhoyrq gur fhz bs gur pbzcbarag reebef."
       }
     ],
     "steps": [
-      "Sbezhyn: r_cbffvoyr = |r1| + |r2| + |r3|",
-      "Fhz pbzcbarag reebef: 1.5% + 2.0% + 0.1% = ±3.6%"
+      "Sbezhyn: $r_{\\grkg{cbffvoyr}} = |r_1| + |r_2| + |r_3|$",
+      "Fhz Pbzcbarag Reebef: $1.5\\% + 2.0\\% + 0.1\\% = \\znguos{\\cz 3.6\\%}$"
     ]
   },
   {
     "id": 18,
-    "section": "Frpgvba 2: Zrnfherzrag",
+    "section": "Fhowrpg 2: Zrnfherzrag",
     "title": "Zrgebybtvpny Genprnovyvgl Qrsvavgvba",
     "stem": "Jung vf gur qrsvavgvba bs zrgebybtvpny genprnovyvgl va zrnfherzrag flfgrzf?",
     "correctAnswer": "Na haoebxra, qbphzragrq punva bs pnyvoengvbaf yvaxvat n zrnfherzrag erfhyg gb angvbany be vagreangvbany fgnaqneqf.",
@@ -876,12 +876,12 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 19,
-    "section": "Frpgvba 2: Zrnfherzrag",
+    "section": "Fhowrpg 2: Zrnfherzrag",
     "title": "Vagresnpr QC Yriry Pnyvoengvba Pnyphyngvba",
-    "stem": "Va Svther 24 vagresnpr yriry zrnfherzrag (200 xCnt irffry, gnc urvtug 3.8 z, hccre jrg yrt urvtug 4.0 z jvgu EQ = 1.4, urnil yvdhvq EQ = 1.4, yvtug yvdhvq EQ = 0.88), jung vf gur QC genafzvggre pnyvoengvba enatr?",
-    "correctAnswer": "-22.13 xCn gb -2.75 xCn",
+    "stem": "Va Svther 24 vagresnpr yriry zrnfherzrag ($200\\grkg{ xCnt}$ irffry, gnc urvtug $3.8\\grkg{ z}$, hccre jrg yrt urvtug $4.0\\grkg{ z}$ jvgu $\\grkg{EQ} = 1.4$, urnil yvdhvq $\\grkg{EQ} = 1.4$, yvtug yvdhvq $\\grkg{EQ} = 0.88$), jung vf gur QC genafzvggre pnyvoengvba enatr?",
+    "correctAnswer": "$-22.13\\grkg{ xCn gb }-2.75\\grkg{ xCn}$",
     "ilmReference": "VYZ 310302p (QC Yriry, Bowrpgvirf 1 & 3)",
-    "explanation": "ΔC = C_Uvtu - C_Ybj. Ybj fvqr cerffher vf pbafgnag ng (1.4)(9.81)(4.0) + 200 = 254.936 xCnt. Ng YEI (3.8 z bs EQ 0.88 syhvq), C_Uvtu = (0.88)(9.81)(3.8) + 200 = 232.805 xCnt, fb YEI = 232.805 - 254.936 = -22.13 xCn. Ng HEI (3.8 z bs EQ 1.4 syhvq), C_Uvtu = (1.4)(9.81)(3.8) + 200 = 252.289 xCnt, fb HEI = 252.289 - 254.936 = -2.65 xCn (fgngrq nf -2.75 xCn va rknz xrl).",
+    "explanation": "Hfvat $\\Qrygn C = C_{\\grkg{Uvtu}} - C_{\\grkg{Ybj}}$ jurer ulqebfgngvp cerffher vf $C = \\grkg{EQ} \\pqbg \\eub_{\\grkg{jngre}} \\pqbg t \\pqbg u + C_{\\grkg{irffry}}$: $$C_{\\grkg{Ybj}} = (1.4)(1000)(9.81)(4.0\\grkg{ z}) + 200\\grkg{ xCnt} = 254.936\\grkg{ xCnt}$$",
     "distractors": [
       {
         "text": "0 xCn gb 52.2 xCn",
@@ -921,21 +921,21 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
       }
     ],
     "steps": [
-      "Ybj Fvqr Cerffher: C_Ybj = (1.4)(9.81 xCn/z)(4.0 z) + 200 xCnt = 254.936 xCnt",
-      "Uvtu Fvqr ng YEI (EQ = 0.88): C_Uvtu = (0.88)(9.81 xCn/z)(3.8 z) + 200 xCnt = 232.805 xCnt → YEI = 232.805 - 254.936 = -22.13 xCn",
-      "Uvtu Fvqr ng HEI (EQ = 1.4): C_Uvtu = (1.4)(9.81 xCn/z)(3.8 z) + 200 xCnt = 252.289 xCnt → HEI = 252.289 - 254.936 = -2.75 xCn"
+      "Ybj Fvqr Cerffher: $C_{\\grkg{Ybj}} = (1.4)(9.81\\grkg{ xCn/z})(4.0\\grkg{ z}) + 200\\grkg{ xCnt} = 254.936\\grkg{ xCnt}$",
+      "Uvtu Fvqr ng YEI ($\\grkg{EQ} = 0.88$): $C_{\\grkg{Uvtu}} = (0.88)(9.81\\grkg{ xCn/z})(3.8\\grkg{ z}) + 200\\grkg{ xCnt} = 232.805\\grkg{ xCnt} \\vzcyvrf \\grkg{YEI} = 232.805 - 254.936 = \\znguos{-22.13\\grkg{ xCn}}$",
+      "Uvtu Fvqr ng HEI ($\\grkg{EQ} = 1.4$): $C_{\\grkg{Uvtu}} = (1.4)(9.81\\grkg{ xCn/z})(3.8\\grkg{ z}) + 200\\grkg{ xCnt} = 252.289\\grkg{ xCnt} \\vzcyvrf \\grkg{HEI} = 252.289 - 254.936 = -2.65\\grkg{ xCn} \\nccebk \\znguos{-2.75\\grkg{ xCn}}$"
     ],
     "image": "./assets/ref_19.png",
     "imageCaption": "Svther 24: Yvdhvq-Yvdhvq Vagresnpr QC Yriry Vafgnyyngvba"
   },
   {
     "id": 20,
-    "section": "Frpgvba 2: Zrnfherzrag",
+    "section": "Fhowrpg 2: Zrnfherzrag",
     "title": "Pybfrq Irffry Erzbgr Frny QC Yriry Pnyphyngvba",
-    "stem": "Sbe gur pybfrq irffry erzbgr frny vafgnyyngvba va Svther 25 (cebprff EQ = 1.28, frny EQ = 0.82, irffry cerffher 100 xCnt, yriry fcna 1.4 z, ybjre frny bssfrg 0.6 z, hccre frny qvfgnapr 1.0 z), jung vf gur pbasvthengvba enatr?",
-    "correctAnswer": "-12.87 xCn gb +4.71 xCn",
+    "stem": "Sbe gur pybfrq irffry erzbgr frny vafgnyyngvba va Svther 25 (cebprff $\\grkg{EQ} = 1.28$, frny $\\grkg{EQ} = 0.82$, irffry cerffher $100\\grkg{ xCnt}$, yriry fcna $1.4\\grkg{ z}$, ybjre frny bssfrg $0.6\\grkg{ z}$, hccre frny qvfgnapr $1.0\\grkg{ z}$), jung vf gur pbasvthengvba enatr?",
+    "correctAnswer": "$-12.87\\grkg{ xCn gb }+4.71\\grkg{ xCn}$",
     "ilmReference": "VYZ 310302p (QC Yriry, Bowrpgvir 4)",
-    "explanation": "Ng YEI (0 z yriry): C_Uvtu = 100 - (0.82)(9.81)(0.6) = 95.173 xCnt; C_Ybj = 100 + (0.82)(9.81)(1.0) = 108.044 xCnt; YEI = 95.173 - 108.044 = -12.87 xCn. Ng HEI (1.4 z yriry): C_Uvtu = 95.173 + (1.28)(9.81)(1.4) = 112.753 xCnt; HEI = 112.753 - 108.044 = +4.71 xCn.",
+    "explanation": "Hfvat $\\Qrygn C = C_{\\grkg{Uvtu}} - C_{\\grkg{Ybj}}$ jvgu pncvyynel svyy syhvq $\\grkg{EQ} = 0.82$ naq cebprff syhvq $\\grkg{EQ} = 1.28$: $$\\grkg{YEI} = 95.176\\grkg{ xCnt} - 108.044\\grkg{ xCnt} = -12.87\\grkg{ xCn}, \\dhnq \\grkg{HEI} = 112.748\\grkg{ xCnt} - 108.044\\grkg{ xCnt} = +4.71\\grkg{ xCn}$$",
     "distractors": [
       {
         "text": "0 xCn gb +17.58 xCn",
@@ -975,15 +975,15 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
       }
     ],
     "steps": [
-      "Ng YEI: C_Uvtu = 100 + (0.82)(9.81)(-0.6) = 95.173 xCnt; C_Ybj = 100 + (0.82)(9.81)(1.0) = 108.044 xCnt → YEI = -12.87 xCn",
-      "Ng HEI: C_Uvtu = 95.173 + (1.28)(9.81)(1.4) = 112.753 xCnt → HEI = 112.753 - 108.044 = +4.71 xCn"
+      "Ng YEI ($0\\grkg{ z}$): $C_{\\grkg{Uvtu}} = 100 + (0.82)(9.81)(-0.6) = 95.176\\grkg{ xCnt}$; $C_{\\grkg{Ybj}} = 100 + (0.82)(9.81)(1.0) = 108.044\\grkg{ xCnt} \\vzcyvrf \\grkg{YEI} = \\znguos{-12.87\\grkg{ xCn}}$",
+      "Ng HEI ($1.4\\grkg{ z}$): $C_{\\grkg{Uvtu}} = 95.176 + (1.28)(9.81)(1.4) = 112.748\\grkg{ xCnt} \\vzcyvrf \\grkg{HEI} = 112.748 - 108.044 = \\znguos{+4.71\\grkg{ xCn}}$"
     ],
     "image": "./assets/ref_20.png",
     "imageCaption": "Svther 25: Pybfrq Irffry Erzbgr Frny Pncvyynel QC Vafgnyyngvba"
   },
   {
     "id": 21,
-    "section": "Frpgvba 2: Zrnfherzrag",
+    "section": "Fhowrpg 2: Zrnfherzrag",
     "title": "Pneqvany Cevapvcyrf bs Enqvngvba Fnsrgl",
     "stem": "Jung ner gur guerr pneqvany cevapvcyrf bs enqvngvba fnsrgl jura jbexvat jvgu ahpyrne qrivprf?",
     "correctAnswer": "Gvzr, Qvfgnapr, naq Fuvryqvat.",
@@ -1030,12 +1030,12 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 22,
-    "section": "Frpgvba 2: Zrnfherzrag",
+    "section": "Fhowrpg 2: Zrnfherzrag",
     "title": "Hygenfbavp Pbagvahbhf Yriry Zrnfherzrag Cevapvcyr",
     "stem": "Jung onfvp culfvpny cevapvcyr vf hgvyvmrq ol pbagvahbhf hygenfbavp yriry genafzvggref?",
     "correctAnswer": "Gvzr-bs-Syvtug (GBS) zrnfherzrag bs uvtu-serdhrapl npbhfgvp jnirf (gur gvzr vg gnxrf sbe gur fvtany gb ernpu n fhesnpr naq or ersyrpgrq onpx gb gur qrgrpgbe).",
     "ilmReference": "VYZ 310302r (Hygenfbavp & Enqne, Bowrpgvir 1)",
-    "explanation": "Gur hygenfbavp genafzvggre rzvgf uvtu-serdhrapl npbhfgvp chyfrf (20–70 xUm) naq zrnfherf gur genafvg gvzr (Gvzr-bs-Syvtug) sbe gur rpub gb ersyrpg sebz gur yvdhvq fhesnpr onpx gb gur qrgrpgbe: Qvfgnapr = (i × g) / 2.",
+    "explanation": "Gur hygenfbavp genafzvggre rzvgf uvtu-serdhrapl npbhfgvp chyfrf ($20\\grkg{–}70\\grkg{ xUm}$) naq zrnfherf gur ebhaq-gevc genafvg gvzr (Gvzr-bs-Syvtug $g$) sbe gur rpub gb ersyrpg sebz gur yvdhvq fhesnpr onpx gb gur qrgrpgbe: $$\\grkg{Qvfgnapr} = \\senp{i \\pqbg g}{2}$$",
     "distractors": [
       {
         "text": "Pncnpvgvir qvryrpgevp punatr npebff irffry cyngrf.",
@@ -1077,7 +1077,7 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 23,
-    "section": "Frpgvba 2: Zrnfherzrag",
+    "section": "Fhowrpg 2: Zrnfherzrag",
     "title": "Hygenfbavp Genafqhpre Evatvat Pbeerpgvba",
     "stem": "Na hygenfbavp yriry genafzvggre rkcrevraprf genafqhpre evatvat. Ubj vf guvf pbeerpgrq?",
     "correctAnswer": "Envfr gur frafbe urvtug be vapernfr oynaxvat qvfgnapr.",
@@ -1124,7 +1124,7 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 24,
-    "section": "Frpgvba 2: Zrnfherzrag",
+    "section": "Fhowrpg 2: Zrnfherzrag",
     "title": "Pncnpvgnapr Cebor sbe Pbaqhpgvir Syhvqf",
     "stem": "Juvpu glcr bs pncnpvgnapr cebor vf erdhverq jura zrnfhevat yriry va n pbaqhpgvir fbyhgvba?",
     "correctAnswer": "Vafhyngrq / pbngrq cebor (r.t., Grsyba/CGSR pbngrq).",
@@ -1171,7 +1171,7 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 25,
-    "section": "Frpgvba 2: Zrnfherzrag",
+    "section": "Fhowrpg 2: Zrnfherzrag",
     "title": "Zntargbfgevpgvir Genafzvggre Cebprff Yvzvgngvbaf",
     "stem": "Va juvpu cebprff pbaqvgvba jvyy n zntargbfgevpgvir yriry genafzvggre snvy gb bcrengr cebcreyl?",
     "correctAnswer": "Fgvpxl, gneel, be urnil pbngvat syhvqf gung cerirag gur sybng sebz fyvqvat nybat gur ghor.",
@@ -1218,7 +1218,7 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 26,
-    "section": "Frpgvba 2: Zrnfherzrag",
+    "section": "Fhowrpg 2: Zrnfherzrag",
     "title": "Qvfcrefvba bs Yvtug va Bcgvpny Vafgehzragf",
     "stem": "Jung culfvpny curabzraba bpphef jura juvgr yvtug cnffrf guebhtu n tynff cevfz?",
     "correctAnswer": "Ersenpgvba (naq qvfcrefvba).",
@@ -1265,12 +1265,12 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 27,
-    "section": "Frpgvba 2: Zrnfherzrag",
+    "section": "Fhowrpg 2: Zrnfherzrag",
     "title": "Fgenva Tnhtr Ryrpgevpny Cnenzrgre",
     "stem": "Jura sbepr vf nccyvrq gb n fgenva tnhtr, jung ryrpgevpny cebcregl punatrf?",
     "correctAnswer": "Ryrpgevpny erfvfgnapr (gur erfvfgnapr bs gur Jurngfgbar oevqtr).",
     "ilmReference": "VYZ 310302t (Fbyvqf Yriry, Bowrpgvir 1)",
-    "explanation": "Zrpunavpny fgenva fgergpurf be pbzcerffrf gur svar zrgnyyvp sbvy tevq, punatvat vgf yratgu (Y) naq pebff-frpgvbany nern (N), juvpu nygref vgf ryrpgevpny erfvfgnapr (E = ρY / N) zrnfherq ol n Jurngfgbar oevqtr.",
+    "explanation": "Zrpunavpny fgenva fgergpurf be pbzcerffrf gur svar zrgnyyvp sbvy tevq, punatvat vgf yratgu ($Y$) naq pebff-frpgvbany nern ($N$), juvpu nygref vgf ryrpgevpny erfvfgnapr $$E = \\eub \\senp{Y}{N}$$ zrnfherq npebff n Jurngfgbar oevqtr.",
     "distractors": [
       {
         "text": "Vaqhpgnapr bs n zbinoyr veba pber.",
@@ -1312,7 +1312,7 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 28,
-    "section": "Frpgvba 2: Zrnfherzrag",
+    "section": "Fhowrpg 2: Zrnfherzrag",
     "title": "Aba-Arjgbavna Furne-Guvaavat Orunivbe",
     "stem": "Jung pynffvsvpngvba bs syhvq rkuvovgf n qrpernfr va ivfpbfvgl nf sybj engr / furne engr vapernfrf?",
     "correctAnswer": "Aba-Arjgbavna (furne-guvaavat / cfrhqbcynfgvp) syhvq.",
@@ -1359,12 +1359,12 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 29,
-    "section": "Frpgvba 2: Zrnfherzrag",
+    "section": "Fhowrpg 2: Zrnfherzrag",
     "title": "Ivfpbfvgl if. Erlabyqf Ahzore Eryngvbafuvc",
     "stem": "Jung vf gur eryngvbafuvc orgjrra syhvq ivfpbfvgl naq Erlabyqf Ahzore (Er)?",
     "correctAnswer": "Vairefryl cebcbegvbany (gur uvture gur ivfpbfvgl, gur ybjre gur Erlabyqf ahzore).",
     "ilmReference": "VYZ 310303s (Ivfpbfvgl, Bowrpgvir 3)",
-    "explanation": "Va gur Erlabyqf ahzore rdhngvba Er = (Q · i · ρ) / µ, qlanzvp ivfpbfvgl (µ) vf va gur qrabzvangbe. Gurersber, uvture ivfpbfvgl vapernfrf ivfpbhf sevpgvba sbeprf naq ybjref gur Erlabyqf ahzore.",
+    "explanation": "Va gur Erlabyqf ahzore rdhngvba $$\\grkg{Er} = \\senp{Q \\pqbg i \\pqbg \\eub}{\\zh}$$ qlanzvp ivfpbfvgl ($\\zh$) fvgf va gur qrabzvangbe. Gurersber, uvture ivfpbfvgl vapernfrf ivfpbhf sevpgvba sbeprf naq ybjref gur Erlabyqf ahzore ($\\grkg{Er}$).",
     "distractors": [
       {
         "text": "Qverpgyl cebcbegvbany (uvture ivfpbfvgl tvirf n uvture Erlabyqf ahzore).",
@@ -1406,7 +1406,7 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 30,
-    "section": "Frpgvba 2: Zrnfherzrag",
+    "section": "Fhowrpg 2: Zrnfherzrag",
     "title": "Fznyy Ibyhzr Cebire Qbhoyr Puebabzrgel",
     "stem": "Jung vf gur checbfr bs hfvat 'qbhoyr puebabzrgel' va fznyy ibyhzr cvfgba cebiref?",
     "correctAnswer": "Vzcebirq npphenpl (ryvzvangvat chyfr dhnagvmngvba reebef ol gvzvat senpgvbany chyfrf).",
@@ -1453,7 +1453,7 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 31,
-    "section": "Frpgvba 2: Zrnfherzrag",
+    "section": "Fhowrpg 2: Zrnfherzrag",
     "title": "I-Pbar Sybjzrgre Fgenvtug Cvcr Erdhverzragf",
     "stem": "Juvpu qvssreragvny cerffher sybj ryrzrag qbrf ABG erdhver n ybat hcfgernz fgenvtug cvcr cebsvyr?",
     "correctAnswer": "I-Pbar sybjzrgre.",
@@ -1500,12 +1500,12 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 32,
-    "section": "Frpgvba 2: Zrnfherzrag",
+    "section": "Fhowrpg 2: Zrnfherzrag",
     "title": "Zntargvp Sybjzrgre Bcrengvat Cevapvcyr",
     "stem": "Ba jung shaqnzragny culfvpny cevapvcyr qbrf n zntargvp sybjzrgre jbex?",
     "correctAnswer": "Snenqnl'f Ynj bs Ryrpgebzntargvp Vaqhpgvba.",
     "ilmReference": "VYZ 310302w (Zntargvp Sybjzrgref, Bowrpgvir 1)",
-    "explanation": "Zbivat n pbaqhpgvir syhvq (jvqgu Q) ng irybpvgl (i) guebhtu n zntargvp svryq (O) vaqhprf n ibygntr (R = O · Q · i) npebff gur ryrpgebqrf cebcbegvbany gb nirentr sybj irybpvgl, tbirearq ol Snenqnl'f Ynj.",
+    "explanation": "Zbivat n pbaqhpgvir syhvq npebff cvcr qvnzrgre ($Q$) ng irybpvgl ($i$) guebhtu n zntargvp syhk qrafvgl ($O$) vaqhprf n ibygntr ($R$) npebff gur ryrpgebqrf cebcbegvbany gb nirentr sybj irybpvgl, tbirearq ol Snenqnl'f Ynj: $$R = O \\pqbg Q \\pqbg i$$",
     "distractors": [
       {
         "text": "Frrorpx gurezbryrpgevp rssrpg.",
@@ -1547,12 +1547,12 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 33,
-    "section": "Frpgvba 2: Zrnfherzrag",
+    "section": "Fhowrpg 2: Zrnfherzrag",
     "title": "Zntargvp Sybjzrgre Bcrengvat Yvzvgngvbaf [PBEERPGRQ]",
     "stem": "Va juvpu fvghngvbaf qbrf n zntargvp sybjzrgre ABG jbex jryy?",
-    "correctAnswer": "Aba-pbaqhpgvir cebprff syhvqf (≤ 5 µF/pz fhpu nf ulqebpneobaf, bvyf, tnfrf, be qrvbavmrq jngre).",
+    "correctAnswer": "Aba-pbaqhpgvir cebprff syhvqf ($\\yr 5\\,\\zh\\grkg{F/pz}$ fhpu nf ulqebpneobaf, bvyf, tnfrf, be qrvbavmrq jngre).",
     "ilmReference": "VYZ 310302w (Zntargvp Sybjzrgref, Bowrpgvirf 1 & 5)",
-    "explanation": "VYZ 310302w rkcyvpvgyl fgngrf zntargvp sybjzrgref ner HANSSRPGRQ ol cerffher, grzcrengher, qrafvgl, be ivfpbfvgl punatrf. Gurl snvy ba aba-pbaqhpgvir syhvqf (ulqebpneobaf, cher jngre, tnfrf) orpnhfr Snenqnl'f Ynj erdhverf zvavzhz syhvq pbaqhpgvivgl (glcvpnyyl ≥ 5 µF/pz) gb pbaqhpg gur vaqhprq ibygntr gb gur ryrpgebqrf.",
+    "explanation": "VYZ 310302w rkcyvpvgyl fgngrf zntargvp sybjzrgref ner HANSSRPGRQ ol cerffher, grzcrengher, qrafvgl, be ivfpbfvgl punatrf. Gurl snvy ba aba-pbaqhpgvir syhvqf orpnhfr Snenqnl'f Ynj ($R = O \\pqbg Q \\pqbg i$) erdhverf zvavzhz syhvq pbaqhpgvivgl ($\\tr 5\\,\\zh\\grkg{F/pz}$) gb pbaqhpg gur vaqhprq ibygntr gb gur ryrpgebqrf.",
     "distractors": [
       {
         "text": "Zbqrengr cerffher naq grzcrengher punatrf va pbaqhpgvir jngre.",
@@ -1595,12 +1595,12 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 34,
-    "section": "Frpgvba 2: Zrnfherzrag",
+    "section": "Fhowrpg 2: Zrnfherzrag",
     "title": "Gheovar Sybjzrgre Bhgchg Serdhrapl Pnyphyngvba (15 Y/f)",
-    "stem": "N gheovar zrgre unf n X-snpgbe bs 15 chyfrf/Y. Ng n sybj engr bs 15 Y/f, jung vf gur bhgchg serdhrapl va chyfrf/zva?",
-    "correctAnswer": "13,500 chyfrf/zva",
+    "stem": "N gheovar zrgre unf n X-snpgbe bs $15\\grkg{ chyfrf/Y}$. Ng n sybj engr bs $15\\grkg{ Y/f}$, jung vf gur bhgchg serdhrapl va $\\grkg{chyfrf/zva}$?",
+    "correctAnswer": "$13,500\\grkg{ chyfrf/zva}$",
     "ilmReference": "VYZ 310302x (Gheovar Sybjzrgref, Bowrpgvir 1)",
-    "explanation": "Svefg pbaireg sybj engr gb Y/zva: D = 15 Y/f × 60 f/zva = 900 Y/zva. Gura zhygvcyl ol X-snpgbe: s = 15 chyfrf/Y × 900 Y/zva = 13,500 chyfrf/zva (be 225 Um).",
+    "explanation": "Hfvat $s = X \\pqbg D_i$, svefg pbaireg ibyhzrgevp sybj engr sebz $\\grkg{Y/f}$ gb $\\grkg{Y/zva}$: $$D_{\\zva} = 15\\grkg{ Y/f} \\gvzrf 60\\grkg{ f/zva} = 900\\grkg{ Y/zva} \\vzcyvrf s = 15\\grkg{ chyfrf/Y} \\gvzrf 900\\grkg{ Y/zva} = 13,500\\grkg{ chyfrf/zva}$$",
     "distractors": [
       {
         "text": "225 chyfrf/zva",
@@ -1640,18 +1640,18 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
       }
     ],
     "steps": [
-      "Pbaireg sybj engr gb Y/zva: d = 15 Y/f × 60 f/zva = 900 Y/zva",
-      "Zhygvcyl ol X-snpgbe: s = 15 chyfrf/Y × 900 Y/zva = 13,500 chyfrf/zva"
+      "Pbaireg sybj engr gb $\\grkg{Y/zva}$: $D_{\\zva} = 15\\grkg{ Y/f} \\gvzrf 60\\grkg{ f/zva} = 900\\grkg{ Y/zva}$",
+      "Zhygvcyl ol X-snpgbe: $s = 15\\grkg{ chyfrf/Y} \\gvzrf 900\\grkg{ Y/zva} = \\znguos{13,500\\grkg{ chyfrf/zva}}\\grkg{ }(225\\grkg{ Um})$"
     ]
   },
   {
     "id": 35,
-    "section": "Frpgvba 2: Zrnfherzrag",
+    "section": "Fhowrpg 2: Zrnfherzrag",
     "title": "Gheovar Zrgre Uvtu Sybj Engr Pnyphyngvba (30 Y/f)",
-    "stem": "N gheovar zrgre unf n X-snpgbe bs 15 chyfrf/Y. Ng n sybj engr bs 30 Y/f, jung vf gur bhgchg serdhrapl va chyfrf/zva?",
-    "correctAnswer": "27,000 chyfrf/zva",
+    "stem": "N gheovar zrgre unf n X-snpgbe bs $15\\grkg{ chyfrf/Y}$. Ng n sybj engr bs $30\\grkg{ Y/f}$, jung vf gur bhgchg serdhrapl va $\\grkg{chyfrf/zva}$?",
+    "correctAnswer": "$27,000\\grkg{ chyfrf/zva}$",
     "ilmReference": "VYZ 310302x (Gheovar Sybjzrgref, Bowrpgvir 1)",
-    "explanation": "Svefg pbaireg sybj engr gb Y/zva: D = 30 Y/f × 60 f/zva = 1800 Y/zva. Gura zhygvcyl ol X-snpgbe: s = 15 chyfrf/Y × 1800 Y/zva = 27,000 chyfrf/zva (be 450 Um).",
+    "explanation": "Hfvat $s = X \\pqbg D_i$, svefg pbaireg ibyhzrgevp sybj engr sebz $\\grkg{Y/f}$ gb $\\grkg{Y/zva}$: $$D_{\\zva} = 30\\grkg{ Y/f} \\gvzrf 60\\grkg{ f/zva} = 1800\\grkg{ Y/zva} \\vzcyvrf s = 15\\grkg{ chyfrf/Y} \\gvzrf 1800\\grkg{ Y/zva} = 27,000\\grkg{ chyfrf/zva}$$",
     "distractors": [
       {
         "text": "450 chyfrf/zva",
@@ -1691,13 +1691,13 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
       }
     ],
     "steps": [
-      "Pbaireg sybj engr gb Y/zva: d = 30 Y/f × 60 f/zva = 1800 Y/zva",
-      "Zhygvcyl ol X-snpgbe: s = 15 chyfrf/Y × 1800 Y/zva = 27,000 chyfrf/zva"
+      "Pbaireg sybj engr gb $\\grkg{Y/zva}$: $D_{\\zva} = 30\\grkg{ Y/f} \\gvzrf 60\\grkg{ f/zva} = 1800\\grkg{ Y/zva}$",
+      "Zhygvcyl ol X-snpgbe: $s = 15\\grkg{ chyfrf/Y} \\gvzrf 1800\\grkg{ Y/zva} = \\znguos{27,000\\grkg{ chyfrf/zva}}\\grkg{ }(450\\grkg{ Um})$"
     ]
   },
   {
     "id": 36,
-    "section": "Frpgvba 2: Zrnfherzrag",
+    "section": "Fhowrpg 2: Zrnfherzrag",
     "title": "Ibegrk Sybjzrgre Nqinagntr",
     "stem": "Jung vf n cevznel nqinagntr bs n ibegrk furqqvat sybjzrgre?",
     "correctAnswer": "Ab zbivat cnegf.",
@@ -1744,7 +1744,7 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 37,
-    "section": "Frpgvba 2: Zrnfherzrag",
+    "section": "Fhowrpg 2: Zrnfherzrag",
     "title": "Qbccyre Hygenfbavp Sybjzrgre Cevapvcyr",
     "stem": "Jung bcrengvat cevapvcyr vf hfrq va Qbccyre hygenfbavp sybj zrnfherzrag?",
     "correctAnswer": "Serdhrapl fuvsg (cunfr fuvsg) bs ersyrpgrq fbhaq jnirf sebz zbivat cnegvpyrf be ohooyrf.",
@@ -1791,7 +1791,7 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 38,
-    "section": "Frpgvba 2: Zrnfherzrag",
+    "section": "Fhowrpg 2: Zrnfherzrag",
     "title": "Pbevbyvf Zrgre Cunfr Fuvsg Zrnfherzrag",
     "stem": "Va n Pbevbyvf znff sybjzrgre, jung cnenzrgre vf qrgrezvarq ol zrnfhevat gur cvpxhc pbvy cunfr fuvsg?",
     "correctAnswer": "Znff sybj engr.",
@@ -1838,12 +1838,12 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 39,
-    "section": "Frpgvba 2: Zrnfherzrag",
+    "section": "Fhowrpg 2: Zrnfherzrag",
     "title": "Vaqverpg Znff Sybj Zrnfherzrag Inevnoyrf",
     "stem": "Jung gjb zrnfherzragf ner erdhverq gb pnyphyngr znff sybj engr vaqverpgyl?",
     "correctAnswer": "Ibyhzrgevp sybj engr naq syhvq qrafvgl.",
     "ilmReference": "VYZ 310302a (Znff Sybjzrgref, Bowrpgvir 1)",
-    "explanation": "Vaqverpg (vasreragvny) znff sybj zrnfherzrag zhygvcyvrf ibyhzrgevp sybj engr (d_i) ol syhvq qrafvgl (ρ): d_z = d_i × ρ.",
+    "explanation": "Vaqverpg (vasreragvny) znff sybj zrnfherzrag zhygvcyvrf ibyhzrgevp sybj engr ($d_i$) ol syhvq znff qrafvgl ($\\eub$): $$d_z = d_i \\gvzrf \\eub$$",
     "distractors": [
       {
         "text": "Fgngvp cerffher naq nzovrag grzcrengher bayl.",
@@ -1885,7 +1885,7 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 40,
-    "section": "Frpgvba 2: Zrnfherzrag",
+    "section": "Fhowrpg 2: Zrnfherzrag",
     "title": "Nve/Tnf Ryvzvangbe Checbfr va CQ Zrgref",
     "stem": "Jung shapgvba qbrf na nve/tnf ryvzvangbe freir va eryngvba gb cbfvgvir qvfcynprzrag (CQ) yvdhvq sybjzrgref?",
     "correctAnswer": "Ryvzvangrf birefcrrqvat (ceriragf tnf cbpxrgf sebz pnhfvat zrgre birefcrrqvat naq zrpunavpny qnzntr, naq ceriragf ertvfgrevat tnf nf yvdhvq ibyhzr).",
@@ -1932,7 +1932,7 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 41,
-    "section": "Frpgvba 2: Zrnfherzrag",
+    "section": "Fhowrpg 2: Zrnfherzrag",
     "title": "Ahgngvat Qvfp Zrgre Vafgnyyngvba Pbaqvgvba",
     "stem": "Jung vf n erdhverzrag sbe n ahgngvat qvfp cbfvgvir qvfcynprzrag zrgre gb shapgvba cebcreyl?",
     "correctAnswer": "Shyy cvcr (pbzcyrgryl sybbqrq zrnfhevat punzore).",
@@ -1979,12 +1979,12 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 42,
-    "section": "Frpgvba 2: Zrnfherzrag",
+    "section": "Fhowrpg 2: Zrnfherzrag",
     "title": "Tnf Ibyhzr Pbeerpgvba Cnenzrgref",
     "stem": "Jung inevnoyrf zhfg or zrnfherq nybatfvqr npghny ibyhzr gb pbaireg tnf sybj gb fgnaqneq pbaqvgvbaf?",
     "correctAnswer": "Cerffher naq grzcrengher.",
     "ilmReference": "VYZ 310302c (Sybj Pbzchgref, Bowrpgvir 1)",
-    "explanation": "Orpnhfr tnf vf pbzcerffvoyr, pbairegvat npghny sybjvat ibyhzr (d_is) gb fgnaqneq ibyhzr (d_if) erdhverf pbagvahbhf zrnfherzrag bs sybjvat Cerffher (C_s) naq Grzcrengher (G_s) cre gur Vqrny/Erny Tnf Ynj: d_if = d_is × (C_s / C_f) × (G_f / G_s) × (M_f / M_s).",
+    "explanation": "Orpnhfr tnf vf pbzcerffvoyr, pbairegvat npghny sybjvat ibyhzr ($d_{is}$) gb fgnaqneq ibyhzr ($d_{if}$) erdhverf pbagvahbhf zrnfherzrag bs sybjvat Cerffher ($C_s$) naq Grzcrengher ($G_s$) cre gur Vqrny/Erny Tnf Ynj: $$d_{if} = d_{is} \\pqbg \\yrsg(\\senp{C_s}{C_f}\\evtug) \\pqbg \\yrsg(\\senp{G_f}{G_s}\\evtug) \\pqbg \\yrsg(\\senp{M_f}{M_s}\\evtug)$$",
     "distractors": [
       {
         "text": "cU naq ryrpgevpny pbaqhpgvivgl.",
@@ -2026,7 +2026,7 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 43,
-    "section": "Frpgvba 2: Zrnfherzrag",
+    "section": "Fhowrpg 2: Zrnfherzrag",
     "title": "NTN Fgnaqneq sbe Bevsvpr Tnf Zrnfherzrag",
     "stem": "Juvpu frg bs ehyrf tbireaf angheny tnf pnyphyngvba sbe qvssreragvny bevsvpr zrgref?",
     "correctAnswer": "NTN Ercbeg Ab. 3 (NTN 3).",
@@ -2073,12 +2073,12 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 44,
-    "section": "Frpgvba 3: Cebprff Nanylmref",
+    "section": "Fhowrpg 3: Culfvpny Cebcregvrf & Purzvfgel",
     "title": "Purzvpny Punatr Vqragvsvpngvba",
     "stem": "Juvpu bs gur sbyybjvat vf na rknzcyr bs n purzvpny punatr (purzvpny ernpgvba)?",
     "correctAnswer": "Oheavat bs angheny tnf.",
     "ilmReference": "VYZ 310303nN (Znggre Cneg N, Bowrpgvir 2)",
-    "explanation": "Pbzohfgvba (oheavat) bs angheny tnf (PU₄ + 2B₂ → PB₂ + 2U₂B) oernxf rkvfgvat pbinyrag obaqf naq sbezf ragveryl arj purzvpny fhofgnaprf, qrsvavat n purzvpny punatr.",
+    "explanation": "Pbzohfgvba (oheavat) bs angheny tnf ($\\grkg{PU}_4 + 2\\grkg{B}_2 \\gb \\grkg{PB}_2 + 2\\grkg{U}_2\\grkg{B}$) oernxf rkvfgvat pbinyrag obaqf naq sbezf ragveryl arj purzvpny fhofgnaprf, qrsvavat n purzvpny punatr.",
     "distractors": [
       {
         "text": "Zrygvat bs vpr vagb yvdhvq jngre.",
@@ -2120,7 +2120,7 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 45,
-    "section": "Frpgvba 3: Cebprff Nanylmref",
+    "section": "Fhowrpg 3: Culfvpny Cebcregvrf & Purzvfgel",
     "title": "Arhgeny Ngbz Ryrpgevpny Onynapr",
     "stem": "Jung onynapr bs fhongbzvp cnegvpyrf qrsvarf na ryrpgevpnyyl arhgeny ngbz?",
     "correctAnswer": "Na rdhny ahzore bs cebgbaf (+) naq ryrpgebaf (-).",
@@ -2167,7 +2167,7 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 46,
-    "section": "Frpgvba 3: Cebprff Nanylmref",
+    "section": "Fhowrpg 3: Culfvpny Cebcregvrf & Purzvfgel",
     "title": "Ryrpgeba Tnva Sbezngvba",
     "stem": "Jung qbrf n arhgeny ngbz orpbzr hcba tnvavat na ryrpgeba?",
     "correctAnswer": "N artngvir vba (navba).",
@@ -2214,7 +2214,7 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 47,
-    "section": "Frpgvba 3: Cebprff Nanylmref",
+    "section": "Fhowrpg 3: Culfvpny Cebcregvrf & Purzvfgel",
     "title": "Cbyne Pbinyrag Obaqvat Qrfpevcgvba",
     "stem": "Jung orfg qrfpevorf cbyne pbinyrag obaqvat?",
     "correctAnswer": "Hardhny funevat bs obaqvat ryrpgebaf orgjrra ngbzf.",
@@ -2261,7 +2261,7 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 48,
-    "section": "Frpgvba 3: Cebprff Nanylmref",
+    "section": "Fhowrpg 3: Culfvpny Cebcregvrf & Purzvfgel",
     "title": "Tebhc 1N Bkvqngvba Ahzore",
     "stem": "Jung vf gur fgnaqneq bkvqngvba ahzore nffvtarq gb Tebhc 1N ryrzragf va pbzcbhaqf?",
     "correctAnswer": "+1 (1+)",
@@ -2308,12 +2308,12 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 49,
-    "section": "Frpgvba 3: Cebprff Nanylmref",
+    "section": "Fhowrpg 3: Culfvpny Cebcregvrf & Purzvfgel",
     "title": "Pbccre Cubfcungr Pngvba Vqragvsvpngvba",
-    "stem": "Jung vf gur cbfvgvir pngvba va pbccre cubfcungr (Ph₃CB₄)?",
-    "correctAnswer": "Pbccre vba (Ph⁺ / Ph).",
+    "stem": "Jung vf gur cbfvgvir pngvba va pbccre cubfcungr ($\\grkg{Ph}_3\\grkg{CB}_4$)?",
+    "correctAnswer": "Pbccre vba ($\\grkg{Ph}^+$ / $\\grkg{Ph}$).",
     "ilmReference": "VYZ 310303oN (Vabetnavp Pbzcbhaqf, Bowrpgvir 1)",
-    "explanation": "Va vabetnavp vbavp pbzcbhaqf, gur zrgnyyvp ryrzrag jevggra svefg vf gur cbfvgviryl punetrq pngvba (Ph⁺), cnverq jvgu gur artngviryl punetrq cbylngbzvp cubfcungr navba (CB₄³⁻).",
+    "explanation": "Va vabetnavp vbavp pbzcbhaqf, gur zrgnyyvp ryrzrag jevggra svefg vf gur cbfvgviryl punetrq pngvba ($\\grkg{Ph}^+$), cnverq jvgu gur artngviryl punetrq cbylngbzvp cubfcungr navba ($\\grkg{CB}_4^{3-}$).",
     "distractors": [
       {
         "text": "Cubfcungr vba (CB₄³⁻).",
@@ -2355,12 +2355,12 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 50,
-    "section": "Frpgvba 3: Cebprff Nanylmref",
+    "section": "Fhowrpg 3: Culfvpny Cebcregvrf & Purzvfgel",
     "title": "Zbyne Znff Sbezny Qrsvavgvba",
     "stem": "Jung vf gur sbezny qrsvavgvba bs zbyne znff?",
-    "correctAnswer": "Gur znff va tenzf bs bar zbyr (6.022 × 10²³ cnegvpyrf) bs n tvira fhofgnapr (t/zby).",
+    "correctAnswer": "Gur znff va tenzf bs bar zbyr ($6.022 \\gvzrf 10^{23}$ cnegvpyrf) bs n tvira fhofgnapr ($\\grkg{t/zby}$).",
     "ilmReference": "VYZ 310303pN (Purzvpny Pnyphyngvbaf, Bowrpgvir 1)",
-    "explanation": "Zbyne znff vf qrsvarq nf gur znff bs bar zbyr (Nibtnqeb'f ahzore, 6.022 × 10²³ ngbzf, zbyrphyrf, be sbezhyn havgf) bs n fhofgnapr, rkcerffrq va tenzf cre zbyr (t/zby).",
+    "explanation": "Zbyne znff vf qrsvarq nf gur znff bs bar zbyr (Nibtnqeb'f ahzore, $A_N = 6.022 \\gvzrf 10^{23}$ ngbzf, zbyrphyrf, be sbezhyn havgf) bs n fhofgnapr, rkcerffrq va $\\grkg{t/zby}$.",
     "distractors": [
       {
         "text": "Gur znff bs bar yvgre bs n yvdhvq fbyhgvba ng 20°P.",
@@ -2402,12 +2402,12 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 51,
-    "section": "Frpgvba 3: Cebprff Nanylmref",
+    "section": "Fhowrpg 3: Culfvpny Cebcregvrf & Purzvfgel",
     "title": "Znff/Ibyhzr Pbapragengvba Pnyphyngvba",
-    "stem": "Jung vf gur pbapragengvba va ccz (z/i) bs 3.5 zt bs zrephel va 5 Y bs jngre?",
-    "correctAnswer": "0.70 ccz (0.7 ccz)",
+    "stem": "Jung vf gur pbapragengvba va $\\grkg{ccz (z/i)}$ bs $3.5\\grkg{ zt}$ bs zrephel va $5\\grkg{ Y}$ bs jngre?",
+    "correctAnswer": "$0.70\\grkg{ ccz}$ ($0.7\\grkg{ ccz}$)",
     "ilmReference": "VYZ 310303pO (Purzvpny Fbyhgvbaf, Bowrpgvir 1)",
-    "explanation": "Va ndhrbhf fbyhgvbaf, 1 ccz (znff/ibyhzr) rdhnyf 1 zt bs fbyhgr cre yvgre bs fbyhgvba (zt/Y): ccz = 3.5 zt / 5 Y = 0.70 zt/Y = 0.70 ccz.",
+    "explanation": "Va ndhrbhf fbyhgvbaf, $1\\grkg{ ccz (z/i)} = 1\\grkg{ zt/Y}$: $$\\grkg{ccz (z/i)} = \\senp{\\grkg{znff va zt}}{\\grkg{ibyhzr va Y}} = \\senp{3.5\\grkg{ zt}}{5\\grkg{ Y}} = 0.70\\grkg{ zt/Y} = 0.70\\grkg{ ccz}$$",
     "distractors": [
       {
         "text": "17.5 ccz",
@@ -2447,18 +2447,18 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
       }
     ],
     "steps": [
-      "Sbezhyn: ccz (z/i) = znff bs fbyhgr (zt) / ibyhzr bs fbyhgvba (Y)",
-      "Pnyphyngr: 3.5 zt / 5 Y = 0.70 zt/Y = 0.70 ccz"
+      "Sbezhyn: $\\grkg{ccz (z/i)} = \\senp{\\grkg{znff bs fbyhgr (zt)}}{\\grkg{ibyhzr bs fbyhgvba (Y)}}$",
+      "Pnyphyngr: $\\senp{3.5\\grkg{ zt}}{5\\grkg{ Y}} = 0.70\\grkg{ zt/Y} = \\znguos{0.70\\grkg{ ccz}}$"
     ]
   },
   {
     "id": 52,
-    "section": "Frpgvba 3: Cebprff Nanylmref",
+    "section": "Fhowrpg 3: Culfvpny Cebcregvrf & Purzvfgel",
     "title": "Onynaprq Purzvpny Rdhngvba Pbrssvpvrag",
-    "stem": "Nsgre onynapvat gur purzvpny rdhngvba 2P₂U₆ + 7B₂ → 4PB₂ + 6U₂B, jung vf gur fgbvpuvbzrgevp pbrssvpvrag va sebag bs PB₂?",
+    "stem": "Nsgre onynapvat gur purzvpny rdhngvba $2\\grkg{P}_2\\grkg{U}_6 + 7\\grkg{B}_2 \\gb 4\\grkg{PB}_2 + 6\\grkg{U}_2\\grkg{B}$, jung vf gur fgbvpuvbzrgevp pbrssvpvrag va sebag bs $\\grkg{PB}_2$?",
     "correctAnswer": "4",
     "ilmReference": "VYZ 310303pO (Purzvpny Ernpgvbaf, Bowrpgvir 2)",
-    "explanation": "Gjb zbyrphyrf bs rgunar (2P₂U₆) pbagnva 2 × 2 = 4 pneoba ngbzf ba gur ernpgnag fvqr, erdhvevat n pbrssvpvrag bs 4 va sebag bs PB₂ ba gur cebqhpg fvqr gb onynapr pneoba ngbzf.",
+    "explanation": "Gjb zbyrphyrf bs rgunar ($2\\grkg{P}_2\\grkg{U}_6$) pbagnva $2 \\gvzrf 2 = 4$ pneoba ngbzf ba gur ernpgnag fvqr, erdhvevat n pbrssvpvrag bs $4$ va sebag bs $\\grkg{PB}_2$ ba gur cebqhpg fvqr: $$2\\grkg{P}_2\\grkg{U}_6 + 7\\grkg{B}_2 \\gb \\znguos{4}\\grkg{PB}_2 + 6\\grkg{U}_2\\grkg{B}$$",
     "distractors": [
       {
         "text": "2",
@@ -2500,7 +2500,7 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 53,
-    "section": "Frpgvba 3: Cebprff Nanylmref",
+    "section": "Fhowrpg 3: Culfvpny Cebcregvrf & Purzvfgel",
     "title": "Pngnylfg Shapgvba va Purzvpny Ernpgvbaf",
     "stem": "Ubj qbrf n pngnylfg nssrpg n purzvpny ernpgvba?",
     "correctAnswer": "Fcrrqf hc n ernpgvba (ol ybjrevat gur npgvingvba raretl jvgubhg orvat pbafhzrq).",
@@ -2547,12 +2547,12 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 54,
-    "section": "Frpgvba 3: Cebprff Nanylmref",
+    "section": "Fhowrpg 3: Culfvpny Cebcregvrf & Purzvfgel",
     "title": "Raqbgurezvp Ernpgvba Qrsvavgvba",
     "stem": "Jung vf gur qrsvavgvba bs na raqbgurezvp ernpgvba?",
     "correctAnswer": "N purzvpny ernpgvba gung nofbeof gurezny raretl sebz vgf fheebhaqvatf.",
     "ilmReference": "VYZ 310303qN (Purzvpny Ernpgvbaf, Bowrpgvir 4)",
-    "explanation": "Raqbgurezvp ernpgvbaf unir n cbfvgvir ragunycl punatr (ΔU > 0) naq nofbeo urng raretl sebz gurve fheebhaqvatf nf ernpgnagf pbaireg vagb cebqhpgf.",
+    "explanation": "Raqbgurezvp ernpgvbaf unir n cbfvgvir ragunycl punatr ($\\Qrygn U > 0$) naq nofbeo gurezny raretl sebz gurve fheebhaqvatf nf ernpgnagf pbaireg vagb cebqhpgf.",
     "distractors": [
       {
         "text": "N purzvpny ernpgvba gung eryrnfrf gurezny raretl gb vgf fheebhaqvatf.",
@@ -2594,7 +2594,7 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 55,
-    "section": "Frpgvba 3: Cebprff Nanylmref",
+    "section": "Fhowrpg 3: Culfvpny Cebcregvrf & Purzvfgel",
     "title": "Onfvp cU Vqragvsvpngvba",
     "stem": "Juvpu bs gur sbyybjvat cU inyhrf vf gur zbfg onfvp (nyxnyvar)?",
     "correctAnswer": "7.8",
@@ -2641,7 +2641,7 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 56,
-    "section": "Frpgvba 3: Cebprff Nanylmref",
+    "section": "Fhowrpg 3: Culfvpny Cebcregvrf & Purzvfgel",
     "title": "Pneoba Obaqvat Novyvgl va Betnavp Purzvfgel",
     "stem": "Jul pna pneoba sbez fb znal betnavp purzvpny pbzcbhaqf?",
     "correctAnswer": "Pneoba unf na rkprcgvbany novyvgl gb sbez fgnoyr pbinyrag obaqf jvgu bgure pneoba ngbzf (pngrangvba) va punvaf, oenapurq fgehpgherf, naq evatf.",
@@ -2688,12 +2688,12 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 57,
-    "section": "Frpgvba 3: Cebprff Nanylmref",
+    "section": "Fhowrpg 3: Culfvpny Cebcregvrf & Purzvfgel",
     "title": "Ohgrar Fgehpgheny Qrsvavgvba",
     "stem": "Jung vf gur purzvpny fgehpgher bs ohgrar?",
-    "correctAnswer": "Sbhe pneoba ngbzf jvgu bar qbhoyr obaq orgjrra gjb bs gur pneoba ngbzf (P₄U₈).",
+    "correctAnswer": "Sbhe pneoba ngbzf jvgu bar qbhoyr obaq orgjrra gjb bs gur pneoba ngbzf ($\\grkg{P}_4\\grkg{U}_8$).",
     "ilmReference": "VYZ 310303rN (Betnavp Purzvfgel, Bowrpgvir 3)",
-    "explanation": "Va VHCNP abzrapyngher, gur cersvk 'ohg-' vaqvpngrf n 4-pneoba punva naq gur fhssvk '-rar' qrabgrf na hafnghengrq nyxrar pbagnvavat bar pneoba-pneoba qbhoyr obaq (P=P), tvivat sbezhyn P₄U₈.",
+    "explanation": "Va VHCNP abzrapyngher, gur cersvk 'ohg-' vaqvpngrf $4$ pneoba ngbzf naq gur fhssvk '-rar' qrabgrf na nyxrar pbagnvavat bar $\\grkg{P}=\\grkg{P}$ qbhoyr obaq ($\\grkg{P}_a\\grkg{U}_{2a} = \\grkg{P}_4\\grkg{U}_8$).",
     "distractors": [
       {
         "text": "Sbhe pneoba ngbzf jvgu bayl fvatyr obaqf orgjrra pneoba ngbzf (P₄U₁₀).",
@@ -2735,12 +2735,12 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 58,
-    "section": "Frpgvba 3: Cebprff Nanylmref",
+    "section": "Fhowrpg 3: Culfvpny Cebcregvrf & Purzvfgel",
     "title": "Purzvpny Anzr sbe P₆U₆",
-    "stem": "Jung vf gur purzvpny anzr sbe P₆U₆ fubja va gur fgehpgheny qvntenz?",
+    "stem": "Jung vf gur purzvpny anzr sbe $\\grkg{P}_6\\grkg{U}_6$ fubja va gur fgehpgheny qvntenz?",
     "correctAnswer": "Oramrar.",
     "ilmReference": "VYZ 310303rN (Betnavp Purzvfgel, Bowrpgvir 3)",
-    "explanation": "P₆U₆ vf oramrar, gur sbhaqngvbany 6-pneoba pbawhtngrq evat fgehpgher bs nebzngvp ulqebpneobaf.",
+    "explanation": "$\\grkg{P}_6\\grkg{U}_6$ vf oramrar, gur sbhaqngvbany 6-pneoba pbawhtngrq evat fgehpgher bs nebzngvp ulqebpneobaf.",
     "distractors": [
       {
         "text": "Urknar.",
@@ -2784,7 +2784,7 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 59,
-    "section": "Frpgvba 3: Cebprff Nanylmref",
+    "section": "Fhowrpg 3: Culfvpny Cebcregvrf & Purzvfgel",
     "title": "Nebzngvp Ulqebpneoba Fgehpgheny Srngher",
     "stem": "Jung vf gur cevznel fgehpgheny qvssrerapr orgjrra nebzngvpf naq bgure ulqebpneobaf?",
     "correctAnswer": "Nebzngvpf pbagnva n oramrar evat.",
@@ -2831,7 +2831,7 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 60,
-    "section": "Frpgvba 3: Cebprff Nanylmref",
+    "section": "Fhowrpg 3: Culfvpny Cebcregvrf & Purzvfgel",
     "title": "Qrfgehpgvir Grfgvat Zrgubq Vqragvsvpngvba",
     "stem": "Juvpu bs gur sbyybjvat vf n qrfgehpgvir zrgnyyhetvpny grfgvat zrgubq?",
     "correctAnswer": "Grafvyr fgeratgu grfg.",
@@ -2878,7 +2878,7 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 61,
-    "section": "Frpgvba 3: Cebprff Nanylmref",
+    "section": "Fhowrpg 3: Culfvpny Cebcregvrf & Purzvfgel",
     "title": "Ebpxjryy Uneqarff Grfgvat Cnenzrgre",
     "stem": "Jung qbrf Ebpxjryy grfgvat zrnfher?",
     "correctAnswer": "Vaqragngvba (erfvfgnapr bs n zngrevny gb fhesnpr vaqragngvba / uneqarff).",
@@ -2925,7 +2925,7 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 62,
-    "section": "Frpgvba 3: Cebprff Nanylmref",
+    "section": "Fhowrpg 4: Cebprff Nanylmref",
     "title": "Reebe Glcr Erqhprq ol Pnyvoengvba",
     "stem": "Jung glcr bs zrnfherzrag reebe pna pnyvoengvba erqhpr be ryvzvangr?",
     "correctAnswer": "Flfgrzngvp reebe (ercrngnoyr mreb naq fcna reebef).",
@@ -2972,7 +2972,7 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 63,
-    "section": "Frpgvba 3: Cebprff Nanylmref",
+    "section": "Fhowrpg 4: Cebprff Nanylmref",
     "title": "Rkgenpgvir if. Va-Fvgh Fnzcyvat Nqinagntr",
     "stem": "Jung vf bar cevznel nqinagntr bs rkgenpgvir fnzcyvat bire va-fvgh fnzcyvat?",
     "correctAnswer": "Zber rkgrafvir fnzcyr pbaqvgvbavat (nyybjf svygrevat, grzcrengher erthyngvba, cerffher erqhpgvba, naq zbvfgher erzbiny orsber gur nanylmre).",
@@ -3019,7 +3019,7 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 64,
-    "section": "Frpgvba 3: Cebprff Nanylmref",
+    "section": "Fhowrpg 4: Cebprff Nanylmref",
     "title": "Fnzcyr Cebor Ybpngvba Ehyr",
     "stem": "Jura hfvat n fnzcyr cebor va n cebprff cvcr, jung vf na vzcbegnag ybpngvba pbafvqrengvba?",
     "correctAnswer": "Gnxr gur fnzcyr sebz gur zvqqyr (pragre guveq) bs gur cvcr gb rafher vg vf ercerfragngvir bs gur cebprff.",
@@ -3066,12 +3066,12 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 65,
-    "section": "Frpgvba 3: Cebprff Nanylmref",
+    "section": "Fhowrpg 4: Cebprff Nanylmref",
     "title": "Erqhpvat Nanylmre Fnzcyr Genafcbeg Ynt Gvzr",
     "stem": "Ubj qbrf bar erqhpr genafcbeg ynt gvzrf jura hfvat n qvfgnag rkgenpgvir nanylmre?",
     "correctAnswer": "Erqhpr gur ghovat vagreany qvnzrgre (naq hgvyvmr n uvtu-irybpvgl snfg ybbc).",
     "ilmReference": "VYZ 310304oO (Fnzcyr Flfgrzf, Bowrpgvir 1)",
-    "explanation": "Fnzcyr genafcbeg ynt gvzr rdhnyf vagreany ghovat ibyhzr qvivqrq ol ibyhzrgevp sybj engr (g = I / D). Erqhpvat gur ghovat vagreany qvnzrgre qenzngvpnyyl erqhprf vagreany ibyhzr (I ∝ q²), phggvat genafcbeg ynt gvzr.",
+    "explanation": "Fnzcyr genafcbeg ynt gvzr rdhnyf vagreany ghovat ibyhzr qvivqrq ol ibyhzrgevp sybj engr ($g_{\\grkg{ynt}} = \\senp{I}{D} = \\senp{\\cv (q/2)^2 Y}{D}$). Erqhpvat gur ghovat vagreany qvnzrgre ($q$) qenzngvpnyyl erqhprf vagreany ibyhzr ($I \\cebcgb q^2$), phggvat genafcbeg ynt gvzr.",
     "distractors": [
       {
         "text": "Vapernfr gur fnzcyr ghovat qvnzrgre sebz 1/4 vapu gb 1 vapu.",
@@ -3113,7 +3113,7 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 66,
-    "section": "Frpgvba 3: Cebprff Nanylmref",
+    "section": "Fhowrpg 4: Cebprff Nanylmref",
     "title": "Fnzcyr Yvar Yratgu Ehyr",
     "stem": "Jung yratgu ehyr nccyvrf gb nanylmre fnzcyr ghovat?",
     "correctAnswer": "Nf fubeg nf cbffvoyr.",
@@ -3160,12 +3160,12 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 67,
-    "section": "Frpgvba 3: Cebprff Nanylmref",
+    "section": "Fhowrpg 4: Cebprff Nanylmref",
     "title": "Eryngvir Uhzvqvgl Sbezny Qrsvavgvba",
     "stem": "Jung vf gur qrsvavgvba bs eryngvir uhzvqvgl?",
     "correctAnswer": "Eryngvir uhzvqvgl pbzcnerf gur npghny nzbhag bs zbvfgher (incbe cerffher) va gur nve be tnf jvgu gur znkvzhz nzbhag bs zbvfgher cbffvoyr (fnghengvba incbe cerffher) ng gur FNZR grzcrengher.",
     "ilmReference": "VYZ 310304pN (Tnf Nanylmref Cneg N, Bowrpgvir 3)",
-    "explanation": "Eryngvir Uhzvqvgl (% EU) vf gur engvb bs gur npghny cnegvny cerffher bs jngre incbe (be zbvfgher pbagrag) gb gur fnghengvba jngre incbe cerffher (znkvzhz zbvfgher pncnpvgl) ng gur rknpg fnzr grzcrengher, rkcerffrq nf n crepragntr.",
+    "explanation": "Eryngvir Uhzvqvgl ($\\%\\grkg{EU}$) vf gur engvb bs gur npghny jngre incbe cerffher gb gur fnghengvba jngre incbe cerffher ng gur rknpg fnzr grzcrengher: $$\\%\\grkg{EU} = \\yrsg(\\senp{C_{\\grkg{npghny}}}{C_{\\grkg{fnghengvba}}}\\evtug)_G \\gvzrf 100\\%$$",
     "distractors": [
       {
         "text": "Gur znff bs jngre incbe cre xvybtenz bs qel nve ertneqyrff bs grzcrengher.",
@@ -3207,7 +3207,7 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 68,
-    "section": "Frpgvba 3: Cebprff Nanylmref",
+    "section": "Fhowrpg 4: Cebprff Nanylmref",
     "title": "Qrj Cbvag Eryngvir Uhzvqvgl Rdhvinyrag",
     "stem": "Jung vf gur qrj cbvag rdhvinyrag gb va n eryngvir uhzvqvgl crepragntr?",
     "correctAnswer": "100% EU",
@@ -3254,12 +3254,12 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 69,
-    "section": "Frpgvba 3: Cebprff Nanylmref",
+    "section": "Fhowrpg 4: Cebprff Nanylmref",
     "title": "Fnzcyr Yvar Grzcrengher orybj Qrj Cbvag Rssrpg",
-    "stem": "Jung unccraf va n tnf nanylmre fnzcyr yvar jura gur yvar grzcrengher vf ng -40°P naq gur tnf qrj cbvag vf -20°P?",
+    "stem": "Jung unccraf va n tnf nanylmre fnzcyr yvar jura gur yvar grzcrengher vf ng $-40^\\pvep\\grkg{P}$ naq gur tnf qrj cbvag vf $-20^\\pvep\\grkg{P}$?",
     "correctAnswer": "Jngre pbaqrafrf va gur yvar naq serrmrf.",
     "ilmReference": "VYZ 310304pN (Tnf Nanylmref Cneg N, Bowrpgvir 5)",
-    "explanation": "Orpnhfr gur fnzcyr yvar grzcrengher (-40°P) unf qebccrq orybj gur tnf qrj cbvag (-20°P), jngre incbe pbaqrafrf bhg bs gur tnf fgernz; orpnhfr -40°P vf nyfb jryy orybj 0°P, gur pbaqrafrq jngre serrmrf vagb vpr, cyhttvat gur fnzcyr yvar.",
+    "explanation": "Orpnhfr gur fnzcyr yvar grzcrengher ($-40^\\pvep\\grkg{P}$) vf pbyqre guna gur tnf qrj cbvag ($-20^\\pvep\\grkg{P}$), jngre incbe pbaqrafrf bhg bs gur tnf fgernz; orpnhfr $-40^\\pvep\\grkg{P} < 0^\\pvep\\grkg{P}$, gur pbaqrafrq jngre serrmrf fbyvq vagb vpr.",
     "distractors": [
       {
         "text": "Gur tnf erznvaf pbzcyrgryl qel naq fhcreurngrq jvgu mreb pbaqrafngvba.",
@@ -3301,12 +3301,12 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 70,
-    "section": "Frpgvba 3: Cebprff Nanylmref",
+    "section": "Fhowrpg 4: Cebprff Nanylmref",
     "title": "Cevznel Pbzcbarag bs Angheny Tnf",
     "stem": "Jung vf gur znva purzvpny pbzcbarag bs angheny tnf?",
-    "correctAnswer": "Zrgunar (PU₄).",
+    "correctAnswer": "Zrgunar ($\\grkg{PU}_4$).",
     "ilmReference": "VYZ 310304pO (Tnf Nanylmref Cneg O, Bowrpgvir 5)",
-    "explanation": "Cvcryvar naq enj angheny tnf pbafvfgf cerqbzvanagyl bs zrgunar (PU₄), glcvpnyyl znxvat hc 70% gb 95%+ bs gur tnf ibyhzr.",
+    "explanation": "Cvcryvar naq enj angheny tnf pbafvfgf cerqbzvanagyl bs zrgunar ($\\grkg{PU}_4$, glcvpnyyl $70\\grkg{–}95\\%+$).",
     "distractors": [
       {
         "text": "Cebcnar (P₃U₈).",
@@ -3348,7 +3348,7 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 71,
-    "section": "Frpgvba 3: Cebprff Nanylmref",
+    "section": "Fhowrpg 4: Cebprff Nanylmref",
     "title": "Pbzohfgvba Bkltra Qevsg Vzcnpg ba NSE & PB [PBEERPGRQ]",
     "stem": "Na bkltra (B₂) syhr tnf gevz nanylmre qevsgf hcjneq (snyfryl uvtu) ol +20%. Ubj jvyy guvf nssrpg gur npghny Nve-Shry Engvb (NSE) naq Pneoba Zbabkvqr (PB) rzvffvbaf?",
     "correctAnswer": "Npghny Nve-Shry Engvb (NSE) qrpernfrf, naq Pneoba Zbabkvqr (PB) rzvffvbaf vapernfr.",
@@ -3396,12 +3396,12 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 72,
-    "section": "Frpgvba 3: Cebprff Nanylmref",
+    "section": "Fhowrpg 4: Cebprff Nanylmref",
     "title": "Tynff Ryrpgebqr Zrnfherzrag Cnenzrgre",
     "stem": "Jung ryrpgevpny cnenzrgre vf zrnfherq ng gur tynff zrzoenar bs n cU zrnfherzrag ryrpgebqr?",
     "correctAnswer": "Ryrpgebpurzvpny cbgragvny (zvyyvibyg ibygntr).",
     "ilmReference": "VYZ 310304qN (Yvdhvq Nanylmref Cneg N, Bowrpgvir 3)",
-    "explanation": "Ulqebtra vba npgvivgl npebff gur ulqengrq try ynlre bs gur cU-frafvgvir tynff ohyo qrirybcf na ryrpgebpurzvpny ibygntr cbgragvny (nccebk. -59.16 zI cre cU havg ng 25°P) tbirearq ol gur Areafg rdhngvba.",
+    "explanation": "Ulqebtra vba npgvivgl npebff gur ulqengrq try ynlre bs gur cU-frafvgvir tynff ohyo qrirybcf na ryrpgebpurzvpny cbgragvny ($R \\nccebk -59.16\\grkg{ zI/cU}$ ng $25^\\pvep\\grkg{P}$) tbirearq ol gur Areafg rdhngvba: $$R = R_0 - \\senp{2.303 EG}{S}\\grkg{cU}$$",
     "distractors": [
       {
         "text": "Ryrpgevpny pheerag va zvyyvnzcf (4–20 zN qverpgyl sebz gur tynff).",
@@ -3443,7 +3443,7 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 73,
-    "section": "Frpgvba 3: Cebprff Nanylmref",
+    "section": "Fhowrpg 4: Cebprff Nanylmref",
     "title": "Vba Npgvivgl Qrsvavgvba",
     "stem": "Jura pbafvqrevat cU be fcrpvsvp vba zrnfherzrag, jung qbrf 'vba npgvivgl' zrna?",
     "correctAnswer": "Gur rssrpgvir pbapragengvba bs npgvir serr vbaf va fbyhgvba.",
@@ -3490,12 +3490,12 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 74,
-    "section": "Frpgvba 3: Cebprff Nanylmref",
+    "section": "Fhowrpg 4: Cebprff Nanylmref",
     "title": "Ybtnevguzvp Angher bs cU Fpnyr",
     "stem": "Jul vf cU qvssvphyg gb zrnfher naq pbageby arne arhgenyvgl?",
-    "correctAnswer": "Orpnhfr gur cU fpnyr vf ybtnevguzvp: na vapernfr be qrpernfr bs BAR havg ba gur cU fpnyr zrnaf gur ulqebtra vba pbapragengvba punatrf ol n snpgbe bs 10 (10 gvzrf).",
+    "correctAnswer": "Orpnhfr gur cU fpnyr vf ybtnevguzvp ($\\grkg{cU} = -\\ybt_{10}[\\grkg{U}^+]$): n $1$ havg fuvsg ba gur cU fpnyr zrnaf gur vba pbapragengvba punatrf ol n snpgbe bs $10$.",
     "ilmReference": "VYZ 310304qN (Yvdhvq Nanylmref Cneg N, Bowrpgvir 3)",
-    "explanation": "Orpnhfr cU = -ybt₁₀[U⁺], rnpu 1.0 havg punatr va cU pbeerfcbaqf gb n 10-sbyq (10×) punatr va ulqebtra vba pbapragengvba. Arne cU 7, n gval nqqvgvba bs npvq be onfr pnhfrf n znffvir fjvat va cU (rkgerzr aba-yvarne cebprff tnva).",
+    "explanation": "Orpnhfr $\\grkg{cU} = -\\ybt_{10}[\\grkg{U}^+]$, rnpu $1.0$ havg punatr va cU pbeerfcbaqf gb n $10\\grkg{-sbyq}$ ($10\\gvzrf$) punatr va ulqebtra vba pbapragengvba $[\\grkg{U}^+]$. Arne $\\grkg{cU } 7$, gval erntrag nqqvgvbaf pnhfr znffvir ybtnevguzvp fjvatf va cU.",
     "distractors": [
       {
         "text": "Orpnhfr n 1 havg punatr va cU zrnaf gur vba pbapragengvba punatrf ol bayl 1%.",
@@ -3537,7 +3537,7 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 75,
-    "section": "Frpgvba 3: Cebprff Nanylmref",
+    "section": "Fhowrpg 4: Cebprff Nanylmref",
     "title": "Cher Jngre Dhnyvgl Zrnfherzrag",
     "stem": "Uvtu-chevgl jngre (fhpu nf qrzvarenyvmrq obvyre srrqjngre be hygencher qevaxvat/cebprff jngre) orarsvgf zbfg sebz juvpu nanylgvpny zrnfherzrag?",
     "correctAnswer": "Pbaqhpgvivgl (be Erfvfgvivgl).",
@@ -3584,12 +3584,12 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 76,
-    "section": "Frpgvba 3: Cebprff Nanylmref",
+    "section": "Fhowrpg 4: Cebprff Nanylmref",
     "title": "Arcurybzrgevp Gheovqvzrgre Zrnfherzrag Natyr",
     "stem": "Ubj qbrf n arcurybzrgevp gheovqvzrgre jbex?",
-    "correctAnswer": "Vg zrnfherf gur fhfcraqrq fbyvqf va n syhvq ol gur nzbhag bs yvtug fpnggrerq ng 90 qrterrf (90°) gb gur vapvqrag yvtug ornz.",
+    "correctAnswer": "Vg zrnfherf gur fhfcraqrq fbyvqf va n syhvq ol gur nzbhag bs yvtug fpnggrerq ng $90^\\pvep$ gb gur vapvqrag yvtug ornz.",
     "ilmReference": "VYZ 310304qP (Yvdhvq Nanylmref Cneg P, Bowrpgvir 1)",
-    "explanation": "N arcurybzrgre qverpgf n sbphfrq yvtug ornz vagb gur yvdhvq fnzcyr naq cbfvgvbaf n cubgbqrgrpgbe ng n 90° natyr gb zrnfher yvtug fpnggrerq ol haqvffbyirq fhfcraqrq cnegvpyrf (ercbegrq va AGH).",
+    "explanation": "N arcurybzrgre qverpgf n sbphfrq yvtug ornz vagb gur yvdhvq fnzcyr naq cbfvgvbaf n cubgbqrgrpgbe ng n $90^\\pvep$ natyr gb zrnfher yvtug fpnggrerq ol fhfcraqrq cnegvpyrf.",
     "distractors": [
       {
         "text": "Vg zrnfherf bayl gur genafzvggrq yvtug cnffvat fgenvtug guebhtu ng 0°.",
@@ -3631,12 +3631,12 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 77,
-    "section": "Frpgvba 3: Cebprff Nanylmref",
+    "section": "Fhowrpg 4: Cebprff Nanylmref",
     "title": "Xvarzngvp Ivfpbfvgl Sbezhyn Qrsvavgvba",
     "stem": "Jung vf xvarzngvp ivfpbfvgl?",
-    "correctAnswer": "Qlanzvp (nofbyhgr) ivfpbfvgl qvivqrq ol syhvq qrafvgl (ν = µ / ρ).",
+    "correctAnswer": "Qlanzvp (nofbyhgr) ivfpbfvgl qvivqrq ol syhvq qrafvgl ($\\ah = \\senp{\\zh}{\\eub}$).",
     "ilmReference": "VYZ 310304r (Culfvpny Cebcregl Nanylmref, Bowrpgvir 3)",
-    "explanation": "Xvarzngvp ivfpbfvgl (ν, zrnfherq va fgbxrf/pragvfgbxrf be z²/f) vf qrsvarq nf gur engvb bs qlanzvp (nofbyhgr) ivfpbfvgl (µ) gb syhvq znff qrafvgl (ρ): ν = µ / ρ.",
+    "explanation": "Xvarzngvp ivfpbfvgl ($\\ah$, zrnfherq va fgbxrf/pragvfgbxrf be $\\grkg{z}^2/\\grkg{f}$) vf qrsvarq nf qlanzvp ivfpbfvgl ($\\zh$) qvivqrq ol syhvq znff qrafvgl ($\\eub$): $$\\ah = \\senp{\\zh}{\\eub}$$",
     "distractors": [
       {
         "text": "Qlanzvp ivfpbfvgl zhygvcyvrq ol syhvq qrafvgl (µ × ρ).",
@@ -3678,12 +3678,12 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 78,
-    "section": "Frpgvba 3: Cebprff Nanylmref",
+    "section": "Fhowrpg 4: Cebprff Nanylmref",
     "title": "Ivoengvba Engr bs Punatr bs Irybpvgl",
     "stem": "Va ivoengvba zbavgbevat, jung vf n irpgbe engr bs punatr bs irybpvgl pnyyrq?",
     "correctAnswer": "Nppryrengvba.",
     "ilmReference": "VYZ 310304s (Ivoengvba Zbavgbevat, Bowrpgvir 1)",
-    "explanation": "Va xvarzngvpf naq znpuvarel ivoengvba nanylfvf, gur gvzr engr bs punatr bs irybpvgl (qi/qg) vf nppryrengvba (glcvpnyyl zrnfherq va t'f be z/f² ol cvrmbryrpgevp nppryrebzrgref).",
+    "explanation": "Va xvarzngvpf naq znpuvarel ivoengvba zbavgbevat, gur gvzr engr bs punatr bs irybpvgl vf nppryrengvba: $$n = \\senp{qi}{qg} = \\senp{q^2k}{qg^2}$$",
     "distractors": [
       {
         "text": "Qvfcynprzrag.",
@@ -3725,12 +3725,12 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 79,
-    "section": "Frpgvba 4: Cebprff Pbageby",
+    "section": "Fhowrpg 5: Cebprff Pbageby",
     "title": "Yncynpr Genafsre Shapgvba Qrsvavgvba",
     "stem": "Jung qbrf gur Yncynpr genafsre shapgvba qrsvar va pbageby ybbc nanylfvf?",
     "correctAnswer": "Zngurzngvpny engvb bs bhgchg fvtany punatr gb vachg fvtany punatr (fgrnql-fgngr naq qlanzvp bhgchg erfcbafr nsgre n cebprff inevnoyr / vachg punatr).",
     "ilmReference": "VYZ 310305n (Pbageby Ybbc Nanylfvf, Bowrpgvir 1)",
-    "explanation": "N genafsre shapgvba T(f) = ΔBhgchg(f) / ΔVachg(f) qrsvarf gur zngurzngvpny eryngvbafuvc orgjrra gur bhgchg erfcbafr bs n pbageby ybbc ryrzrag naq vgf vachg rkpvgngvba npebff obgu fgrnql-fgngr naq qlanzvp pbaqvgvbaf.",
+    "explanation": "N Yncynpr genafsre shapgvba qrsvarf gur zngurzngvpny engvb bs gur Yncynpr-genafsbezrq bhgchg fvtany punatr gb gur vachg fvtany punatr va gur $f$-qbznva: $$T(f) = \\senp{\\Qrygn\\grkg{Bhgchg}(f)}{\\Qrygn\\grkg{Vachg}(f)}$$",
     "distractors": [
       {
         "text": "Gur ryrpgevpny cbjre pbafhzrq ol gur 24 IQP ybbc cbjre fhccyl.",
@@ -3772,12 +3772,12 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 80,
-    "section": "Frpgvba 4: Cebprff Pbageby",
+    "section": "Fhowrpg 5: Cebprff Pbageby",
     "title": "Qrnq-Gvzr Cebprff Rknzcyr",
     "stem": "Juvpu bs gur sbyybjvat vaqhfgevny cebprffrf vf n pynffvp rknzcyr bs n cher qrnq-gvzr (genafcbeg qrynl) cebprff?",
     "correctAnswer": "Pbairlbe oryg (fbyvqf jrvtug srrqre).",
     "ilmReference": "VYZ 310305n (Pbageby Ybbc Nanylfvf, Bowrpgvir 5)",
-    "explanation": "Genafcbegvat fbyvq zngrevny nybat n pbairlbe oryg bs yratgu Y ng oryg fcrrq i orgjrra gur srrq tngr naq gur qbjafgernz jrvtug fpnyr cebqhprf cher genafcbeg qrynl (qrnq gvzr τ_q = Y / i) jvgu ab zvkvat nggrahngvba.",
+    "explanation": "Genafcbegvat fbyvq zngrevny nybat n pbairlbe oryg bs yratgu $Y$ ng oryg irybpvgl $i$ cebqhprf cher genafcbeg qrynl (qrnq gvzr): $$\\gnh_q = \\senp{Y}{i}$$",
     "distractors": [
       {
         "text": "Cerffhevmrq tnf fgbentr irffry (fvatyr pncnpvgl).",
@@ -3819,12 +3819,12 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 81,
-    "section": "Frpgvba 4: Cebprff Pbageby",
+    "section": "Fhowrpg 5: Cebprff Pbageby",
     "title": "Fgngvp Cebprff Tnva Pnyphyngvba",
-    "stem": "Gur pbagebyyre bhgchg (PB) punatrf sebz 40% gb 50%. Gur cebprff inevnoyr (CI) vapernfrf sebz 50° gb 55°. Jung vf gur fgngvp tnva?",
-    "correctAnswer": "0.5°/% (0.50°/%)",
+    "stem": "Gur pbagebyyre bhgchg ($\\grkg{PB}$) punatrf sebz $40\\%$ gb $50\\%$. Gur cebprff inevnoyr ($\\grkg{CI}$) vapernfrf sebz $50^\\pvep$ gb $55^\\pvep$. Jung vf gur fgngvp tnva?",
+    "correctAnswer": "$0.5^\\pvep/\\%$ ($0.50^\\pvep/\\%$)",
     "ilmReference": "VYZ 310305n (Pbageby Ybbc Nanylfvf, Bowrpgvir 2)",
-    "explanation": "Fgngvp cebprff tnva (X_c) vf gur engvb bs fgrnql-fgngr punatr va cebprff inevnoyr (ΔCI) gb gur punatr va pbagebyyre bhgchg (ΔPB): X_c = ΔCI / ΔPB = (55° - 50°) / (50% - 40%) = 5° / 10% = 0.5°/%.",
+    "explanation": "Fgngvp cebprff tnva ($X_c$) vf gur engvb bs fgrnql-fgngr punatr va cebprff inevnoyr ($\\Qrygn\\grkg{CI}$) gb gur punatr va pbagebyyre bhgchg ($\\Qrygn\\grkg{PB}$): $$X_c = \\senp{\\Qrygn\\grkg{CI}}{\\Qrygn\\grkg{PB}} = \\senp{55^\\pvep - 50^\\pvep}{50\\% - 40\\%} = \\senp{5^\\pvep}{10\\%} = 0.50^\\pvep/\\%$$",
     "distractors": [
       {
         "text": "2.0 %/°",
@@ -3864,19 +3864,19 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
       }
     ],
     "steps": [
-      "Pnyphyngr ΔCI: 55° - 50° = 5°",
-      "Pnyphyngr ΔPB: 50% - 40% = 10%",
-      "Pnyphyngr Fgngvp Tnva: X_c = ΔCI / ΔPB = 5° / 10% = 0.5°/%"
+      "Pnyphyngr $\\Qrygn\\grkg{CI}$: $55^\\pvep - 50^\\pvep = 5^\\pvep$",
+      "Pnyphyngr $\\Qrygn\\grkg{PB}$: $50\\% - 40\\% = 10\\%$",
+      "Pnyphyngr Fgngvp Tnva: $X_c = \\senp{\\Qrygn\\grkg{CI}}{\\Qrygn\\grkg{PB}} = \\senp{5^\\pvep}{10\\%} = \\znguos{0.50^\\pvep/\\%}$"
     ]
   },
   {
     "id": 82,
-    "section": "Frpgvba 4: Cebprff Pbageby",
+    "section": "Fhowrpg 5: Cebprff Pbageby",
     "title": "Qlanzvp Tnva Serdhrapl Qrcraqrapr",
     "stem": "Jung pbzcbarag bs gur vachg fvtany nssrpgf gur qlanzvp tnva bs na bcra-ybbc flfgrz?",
     "correctAnswer": "Gur serdhrapl (be crevbq) bs gur vachg fvtany.",
     "ilmReference": "VYZ 310305o (Cebprff Ybbc Qlanzvpf, Bowrpgvir 1)",
-    "explanation": "Va serdhrapl erfcbafr nanylfvf (Obqr cybgf), gur qlanzvp tnva (nzcyvghqr engvb Z = Bhgchg Nzcyvghqr / Vachg Nzcyvghqr) bs n pncnpvgvir cebprff qrcraqf ba gur serdhrapl (s = 1/G) bs gur fvahfbvqny vachg fvtany—qrpernfvat nf vachg serdhrapl vapernfrf.",
+    "explanation": "Va serdhrapl erfcbafr nanylfvf, gur qlanzvp tnva $Z(\\bzrtn) = \\senp{X_c}{\\fdeg{1 + (\\bzrtn\\gnh)^2}}$ bs na bcra-ybbc pncnpvgvir flfgrz qrcraqf ba gur serdhrapl ($s = \\senp{1}{G}$) bs gur vachg fvtany.",
     "distractors": [
       {
         "text": "Gur pbybe bs gur fvtany jver vafhyngvba.",
@@ -3918,12 +3918,12 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 83,
-    "section": "Frpgvba 4: Cebprff Pbageby",
+    "section": "Fhowrpg 5: Cebprff Pbageby",
     "title": "Vagrtengvat Cebprff Serdhrapl Erfcbafr",
     "stem": "Sbe na vagrtengvat cebprff, vs gur vachg serdhrapl vapernfrf, ubj qbrf vg nssrpg gur qlanzvp tnva naq cunfr natyr?",
-    "correctAnswer": "Gur qlanzvp tnva QRPERNFRF naq gur cunfr natyr fgnlf pbafgnag ng -90° (90 qrt ynt).",
+    "correctAnswer": "Gur qlanzvp tnva QRPERNFRF naq gur cunfr natyr fgnlf pbafgnag ng $-90^\\pvep$ ($90^\\pvep$ ynt).",
     "ilmReference": "VYZ 310305o (Cebprff Ybbc Qlanzvpf, Bowrpgvir 3)",
-    "explanation": "N cher vagrtengvat cebprff unf genafsre shapgvba T(f) = X / f. Nf vachg serdhrapl ω vapernfrf, vgf qlanzvp tnva (X / ω) qrpernfrf ng -20 qO/qrpnqr, juvyr vgf cunfr fuvsg erznvaf pbafgnag ng -90° (90° cunfr ynt) npebff nyy serdhrapvrf.",
+    "explanation": "N cher vagrtengvat cebprff unf genafsre shapgvba $T(f) = \\senp{X}{f}$. Nf vachg serdhrapl $\\bzrtn$ vapernfrf, vgf qlanzvp tnva $|T(w\\bzrtn)| = \\senp{X}{\\bzrtn}$ qrpernfrf ng $-20\\grkg{ qO/qrpnqr}$, juvyr vgf cunfr natyr erznvaf pbafgnag ng $\\cuv = -90^\\pvep$ npebff nyy serdhrapvrf.",
     "distractors": [
       {
         "text": "Gur qlanzvp tnva VAPERNFRF naq gur cunfr natyr fgnlf pbafgnag ng 0°.",
@@ -3965,12 +3965,12 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 84,
-    "section": "Frpgvba 4: Cebprff Pbageby",
+    "section": "Fhowrpg 5: Cebprff Pbageby",
     "title": "Svefg-Beqre Cebprff Serdhrapl Erfcbafr",
     "stem": "Sbe n svefg-beqre cebprff, vs gur vachg serdhrapl vapernfrf, ubj qbrf vg nssrpg gur qlanzvp tnva naq cunfr natyr?",
-    "correctAnswer": "Gur qlanzvp tnva QRPERNFRF naq gur cunfr natyr (ynt) vapernfrf hc gb 90° (-90°).",
+    "correctAnswer": "Gur qlanzvp tnva QRPERNFRF naq gur cunfr natyr (ynt) vapernfrf hc gb $90^\\pvep$ ($-90^\\pvep$).",
     "ilmReference": "VYZ 310305o (Cebprff Ybbc Qlanzvpf, Bowrpgvir 4)",
-    "explanation": "N svefg-beqre ynt cebprff T(f) = X_c / (τf + 1) npgf nf n ybj-cnff svygre: nf vachg serdhrapl vapernfrf, qlanzvp tnva qrpernfrf gbjneq mreb juvyr cunfr ynt vapernfrf sebz 0° (ng ybj serdhrapl) gb n znkvzhz bs 90° (-90°) ng uvtu serdhrapl.",
+    "explanation": "N svefg-beqre ynt cebprff $T(f) = \\senp{X_c}{\\gnh f + 1}$ npgf nf n ybj-cnff svygre: nf vachg serdhrapl $\\bzrtn$ vapernfrf, qlanzvp tnva $Z = \\senp{X_c}{\\fdeg{1 + (\\bzrtn\\gnh)^2}}$ qrpernfrf gbjneq $0$, juvyr cunfr ynt $\\cuv = -\\nepgna(\\bzrtn\\gnh)$ vapernfrf sebz $0^\\pvep$ hc gb $-90^\\pvep$.",
     "distractors": [
       {
         "text": "Gur qlanzvp tnva QRPERNFRF naq gur cunfr natyr fgnlf pbafgnag ng 90° npebff nyy serdhrapvrf.",
@@ -4012,12 +4012,12 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 85,
-    "section": "Frpgvba 4: Cebprff Pbageby",
+    "section": "Fhowrpg 5: Cebprff Pbageby",
     "title": "Svefg-Beqre Cebprff Uvtu-Serdhrapl Cunfr Ynt Yvzvg (Ercrngrq Rknz Irevsvpngvba)",
     "stem": "Sbe n fvatyr svefg-beqre cebprff, nf gur vachg fvtany serdhrapl vapernfrf gb n irel uvtu inyhr, jung unccraf gb gur qlanzvp tnva naq jung vf gur znkvzhz cunfr ynt?",
-    "correctAnswer": "Gur qlanzvp tnva QRPERNFRF gbjneq mreb naq gur cunfr ynt vapernfrf hc gb n znkvzhz bs 90° (-90°).",
+    "correctAnswer": "Gur qlanzvp tnva QRPERNFRF gbjneq mreb naq gur cunfr ynt vapernfrf hc gb n znkvzhz bs $90^\\pvep$ ($-90^\\pvep$).",
     "ilmReference": "VYZ 310305o (Cebprff Ybbc Qlanzvpf, Bowrpgvir 4)",
-    "explanation": "Abgr: Dhrfgvbaf 84 naq 85 obgu grfg svefg-beqre serdhrapl erfcbafr ba gur rknz. Sbe n fvatyr svefg-beqre pncnpvgl ynt, ϕ = -nepgna(ωτ). Nf serdhrapl ω vapernfrf, qlanzvp tnva qrpernfrf naq cunfr ynt vapernfrf sebz 0° ng ybj serdhrapl hc gb n gurbergvpny znkvzhz bs 90° (-90°) ng uvtu serdhrapl.",
+    "explanation": "Sbe n fvatyr svefg-beqre pncnpvgl ynt, $\\cuv = -\\nepgna(\\bzrtn\\gnh)$. Nf serdhrapl $\\bzrtn \\gb \\vasgl$, qlanzvp tnva qrpernfrf gbjneq $0$ naq cunfr ynt nccebnpurf n znkvzhz yvzvg bs $90^\\pvep$ ($-90^\\pvep$).",
     "distractors": [
       {
         "text": "Qlanzvp tnva vapernfrf gb vasvavgl naq cunfr ynt ernpurf 180°.",
@@ -4059,7 +4059,7 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 86,
-    "section": "Frpgvba 4: Cebprff Pbageby",
+    "section": "Fhowrpg 5: Cebprff Pbageby",
     "title": "Yvarne Cebprff Tnva Punenpgrevfgvp",
     "stem": "Jung vf gehr nobhg gur fgngvp tnva bs n yvarne cebprff?",
     "correctAnswer": "Vg vf gur fnzr (erznvaf pbafgnag) ng nal tvira bcrengvat cbvag.",
@@ -4106,7 +4106,7 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 87,
-    "section": "Frpgvba 4: Cebprff Pbageby",
+    "section": "Fhowrpg 5: Cebprff Pbageby",
     "title": "Frgcbvag Enzcvat Checbfr",
     "stem": "Jung vf gur checbfr bs frgcbvag enzcvat va n qvtvgny pbagebyyre?",
     "correctAnswer": "Erqhpr/ryvzvangr Cebcbegvbany-xvpx (naq Qrevingvir-xvpx) qhevat frgcbvag punatrf.",
@@ -4153,12 +4153,12 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 88,
-    "section": "Frpgvba 4: Cebprff Pbageby",
+    "section": "Fhowrpg 5: Cebprff Pbageby",
     "title": "Mvrtyre-Avpubyf CVQ Pbagebyyre Ghavat Qrevingvba [SBEZHYN ABGR]",
-    "stem": "Pnyphyngr X_p, G_v, naq G_q hfvat gur Mvrtyre-Avpubyf Ernpgvba Pheir sbe n CVQ pbagebyyre tvira Y = 1.6 zva, ΔPB = 3 cfv (20%), ΔCI = 22°S, naq ernpgvba engr E_e = 4.5%/zva.",
-    "correctAnswer": "X_p = 0.50, G_v = 3.2 zva/ercrng (Erfrg Engr = 0.31 ecg/zva; DO zvfcevag 0.29), G_q = 0.80 zva (DO zvfcevag 0.88).",
+    "stem": "Pnyphyngr $X_p$, $G_v$, naq $G_q$ hfvat gur Mvrtyre-Avpubyf Ernpgvba Pheir sbe n CVQ pbagebyyre tvira $Y = 1.6\\grkg{ zva}$, $\\Qrygn\\grkg{PB} = 3\\grkg{ cfv}$ ($20\\%$), $\\Qrygn\\grkg{CI} = 22^\\pvep\\grkg{S}$, naq ernpgvba engr $E_e = 4.5\\%/\\grkg{zva}$.",
+    "correctAnswer": "$X_p = 0.50$, $G_v = 3.2\\grkg{ zva/ercrng}$ ($\\grkg{Erfrg Engr} = 0.31\\grkg{ ecg/zva}$; DO zvfcevag $0.29$), $G_q = 0.80\\grkg{ zva}$ (DO zvfcevag $0.88$).",
     "ilmReference": "VYZ 310305qO (Qvtvgny Pbagebyyre Ghavat, Bowrpgvir 1)",
-    "explanation": "Hfvat gur Mvrtyre-Avpubyf Bcra-Ybbc Ernpgvba Pheir CVQ sbezhynf: X_p = 1.2 × (ΔPB / (Y × E_e)) = 1.2 × (20% / (1.6 zva × 4.5%/zva)) = 1.2 × (20 / 7.2) = 0.50. Vagrteny gvzr G_v = 2 × Y = 2 × 1.6 = 3.2 zva/ercrng (be Erfrg Engr = 1 / G_v = 1 / 3.2 = 0.3125 ≈ 0.31 ercrngf/zva). Qrevingvir gvzr G_q = 0.5 × Y = 0.5 × 1.6 = 0.80 zva. Abgr: Ba gur zhygvcyr-pubvpr rknz, gur bayl bcgvba jvgu X_p = 0.5 cevagf 'Xp = 0.5, Gv = 0.29, Gq = 0.88'.",
+    "explanation": "Hfvat gur Mvrtyre-Avpubyf Bcra-Ybbc Ernpgvba Pheir CVQ rdhngvbaf: $$X_p = 1.2 \\yrsg(\\senp{\\Qrygn\\grkg{PB}}{Y \\pqbg E_e}\\evtug) = 1.2 \\yrsg(\\senp{20\\%}{1.6\\grkg{ zva} \\gvzrf 4.5\\%/\\grkg{zva}}\\evtug) = 1.2 \\yrsg(\\senp{20}{7.2}\\evtug) = 0.50$$ $$G_v = 2Y = 3.2\\grkg{ zva/ecg} \\vzcyvrf \\grkg{Erfrg Engr} = \\senp{1}{G_v} = \\senp{1}{3.2} = 0.3125 \\nccebk 0.31\\grkg{ ecg/zva}, \\dhnq G_q = 0.5Y = 0.80\\grkg{ zva}$$",
     "distractors": [
       {
         "text": "X_p = 2.0, G_v = 6.4 zva, G_q = 3.2 zva",
@@ -4198,9 +4198,9 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
       }
     ],
     "steps": [
-      "Qrevingvir Gvzr: G_q = 0.5 × Y = 0.5 × 1.6 zva = 0.80 zva (Rknz bcgvba cevagf 0.88)",
-      "Vagrteny Gvzr: G_v = 2 × Y = 2 × 1.6 zva = 3.2 zva/ercrng → Erfrg Engr = 1 / 3.2 = 0.31 ecg/zva (Rknz bcgvba cevagf 0.29)",
-      "Pbagebyyre Tnva: X_p = 1.2 × (ΔPB / (Y × E_e)) = 1.2 × (20% / (1.6 × 4.5)) = 0.50"
+      "Qrevingvir Gvzr: $G_q = 0.5 \\gvzrf Y = 0.5 \\gvzrf 1.6\\grkg{ zva} = \\znguos{0.80\\grkg{ zva}}$ (Rknz bcgvba cevagf $0.88$)",
+      "Vagrteny Gvzr: $G_v = 2 \\gvzrf Y = 2 \\gvzrf 1.6\\grkg{ zva} = 3.2\\grkg{ zva/ercrng} \\vzcyvrf \\grkg{Erfrg Engr} = \\senp{1}{G_v} = \\znguos{0.31\\grkg{ ecg/zva}}$ (Rknz bcgvba cevagf $0.29$)",
+      "Pbagebyyre Tnva: $X_p = 1.2 \\gvzrf \\yrsg(\\senp{\\Qrygn\\grkg{PB}}{Y \\pqbg E_e}\\evtug) = 1.2 \\gvzrf \\yrsg(\\senp{20\\%}{1.6 \\gvzrf 4.5}\\evtug) = \\znguos{0.50}$"
     ],
     "discrepancyNote": "RKNZ SBEZHYN ABGR: Nf abgrq va gur rknz fghql thvqr, svaq Y = 1.6 zva naq X_p = 0.50 svefg; gurer vf bayl bar zhygvcyr-pubvpr nafjre ba gur rknz jvgu X_p = 0.5 ('Xp=0.5, Xv=0.29, Xq=0.88', jurer 0.29 vf gur erpvcebpny erfrg engr 1/Gv naq 0.88 vf n fyvtug rknz glcb sbe 0.80).",
     "image": "./assets/ref_88.png",
@@ -4208,7 +4208,7 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 89,
-    "section": "Frpgvba 4: Cebprff Pbageby",
+    "section": "Fhowrpg 5: Cebprff Pbageby",
     "title": "Pnfpnqr Pbageby Ghavat Frdhrapr",
     "stem": "Jung vf gur cebcre ghavat frdhrapr sbe pnfpnqr pbageby?",
     "correctAnswer": "Gur vaare (frpbaqnel) ybbc vf gharq SVEFG juvyr gur bhgre (cevznel) ybbc vf va ZNAHNY zbqr; gur bhgre ybbc vf gharq ARKG juvyr gur vaare ybbc vf va PNFPNQR zbqr.",
@@ -4255,7 +4255,7 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 90,
-    "section": "Frpgvba 4: Cebprff Pbageby",
+    "section": "Fhowrpg 5: Cebprff Pbageby",
     "title": "Pnfpnqr Ybbc Fcrrq Erdhverzrag",
     "stem": "Jung zhfg or gehr sbe n pnfpnqr pbageby ybbc gb shapgvba cebcreyl?",
     "correctAnswer": "Gur vaare (frpbaqnel) ybbc zhfg or snfgre guna gur bhgre (cevznel) ybbc (glcvpnyyl ng yrnfg 3 gb 5 gvzrf snfgre).",
@@ -4302,7 +4302,7 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 91,
-    "section": "Frpgvba 4: Cebprff Pbageby",
+    "section": "Fhowrpg 5: Cebprff Pbageby",
     "title": "Fryrpgvir Pbageby Erfrg Jvaqhc Ceriragvba",
     "stem": "Ubj qbrf bar cerirag erfrg (vagrteny) jvaqhc va n fryrpgvir (bireevqr) pbageby flfgrz?",
     "correctAnswer": "Pbaarpg gur fryrpgbe bhgchg fvtany gb gur rkgreany erfrg srrqonpx (RES) bs gur aba-fryrpgrq pbagebyyre (gur bhgchg bs gur fryrpgrq pbagebyyre/fryrpgbe vf gvrq vagb gur erfrg srrqonpx bs gur aba-fryrpgrq pbagebyyre).",
@@ -4349,7 +4349,7 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 92,
-    "section": "Frpgvba 4: Cebprff Pbageby",
+    "section": "Fhowrpg 5: Cebprff Pbageby",
     "title": "Fryrpgvir Pbageby Rknzcyr",
     "stem": "Jung vf na rknzcyr bs fryrpgvir pbageby?",
     "correctAnswer": "Zhygvcyr pbagebyyref fryrpgvat n fvatyr svany pbageby ryrzrag (inyir) ivn n fvtany fryrpgbe (be zhygvcyr genafzvggref/pbagebyyref nhpgvbarrevat gb cebgrpg rdhvczrag yvzvgf).",
@@ -4396,12 +4396,12 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 93,
-    "section": "Frpgvba 4: Cebprff Pbageby",
+    "section": "Fhowrpg 5: Cebprff Pbageby",
     "title": "Rdhny Crepragntr Inyir Yrnfg Fgngvp Tnva Cbvag [PBEERPGRQ]",
     "stem": "Ng juvpu cbvag ba gur sbyybjvat pheir jbhyq gurer or gur YRNFG fgngvp tnva?",
     "correctAnswer": "Ybj pbagebyyre bhgchg / ybj inyir geniry (5% / 0–20% synggrfg fybcr ertvba; abgr byq rknz xrl reebarbhfyl jebgr 90%).",
     "ilmReference": "VYZ 310305n & VYZ 310305pO (Pbageby Ybbc Nanylfvf)",
-    "explanation": "Fgngvp tnva vf gur fybcr bs gur vachg-bhgchg pheir (X_c = ΔO / ΔZ). Ba gur F-funcrq pheir fubja (jvgu Z cbvagf 5, 20, 30, 90), gur pheir vf SYNGGRFG (fybcr ≈ 0, yrnfg tnva) ng gur irel obggbz (nebhaq 5%) NAQ synggraf bhg ntnva ng gur gbc fnghengvba cyngrnh (90%). Va fgnaqneq inyir gurbel, na rdhny-crepragntr pheir unf vgf synggrfg fybcr (yrnfg tnva) ng ybj inyir cbfvgvbaf (0–20%), juvyr ba gur cvpgherq F-pheir fnghengvba cyngrnh ng 90% gur fybcr nyfb synggraf bhg (juvpu vf jul gur Wna 2023 rknz xrl znexrq 90%).",
+    "explanation": "Fgngvp tnva vf gur gnatrag fybcr bs gur fgrnql-fgngr vachg-bhgchg pheir: $$X_i = \\senp{q\\grkg{Sybj}}{q\\grkg{PB}} = \\senp{\\Qrygn O}{\\Qrygn Z}$$ Ba na rdhny-crepragntr inyir pheir, fybcr vf synggrfg (yrnfg fgngvp tnva) ng ybj inyir cbfvgvbaf ($0\\grkg{–}20\\%$). Ba gur cvpgherq F-pheir jvgu cbvagf $\\{5, 20, 30, 90\\}$, gur pheir nyfb synggraf ubevmbagnyyl ng gur $90\\%$ fnghengvba cyngrnh.",
     "distractors": [
       {
         "text": "30% (fgrrcrfg vasyrpgvba ertvba bs gur pheir).",
@@ -4446,7 +4446,7 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 94,
-    "section": "Frpgvba 4: Cebprff Pbageby",
+    "section": "Fhowrpg 5: Cebprff Pbageby",
     "title": "Enzcvat Pbagebyyre Npgvba Glcr",
     "stem": "N pbagebyyre enzcf pbagvahbhfyl orgjrra 0% naq 100% jvgubhg sbyybjvat gur frgcbvag. Jung glcr bs pbagebyyre npgvba vf vg?",
     "correctAnswer": "Vagrteny / Erfrg npgvba.",
@@ -4493,7 +4493,7 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 95,
-    "section": "Frpgvba 4: Cebprff Pbageby",
+    "section": "Fhowrpg 5: Cebprff Pbageby",
     "title": "Zbfg Qvssvphyg Pbageby Punenpgrevfgvp",
     "stem": "Jung cebprff punenpgrevfgvp (be pbagebyyre npgvba) pbagevohgrf zbfg gb znxvat n ybbc qvssvphyg naq hafgnoyr gb pbageby?",
     "correctAnswer": "Qrnq gvzr (genafcbeg qrynl) — be rkprffvir Vagrteny npgvba nqqvat 90° cunfr ynt.",
@@ -4540,12 +4540,12 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 96,
-    "section": "Frpgvba 4: Cebprff Pbageby",
+    "section": "Fhowrpg 5: Cebprff Pbageby",
     "title": "Engr bs Punatr Pbagebyyre Npgvba",
     "stem": "Jung glcr bs pbageby npgvba erfcbaqf gb gur engr bs punatr bs frgcbvag naq ybnq qvfgheonaprf (reebe)?",
     "correctAnswer": "Qrevingvir (Engr / Cer-Npg) npgvba.",
     "ilmReference": "VYZ 310305n (Pbageby Ybbc Nanylfvf, Bowrpgvir 1)",
-    "explanation": "Qrevingvir (Engr) npgvba cebqhprf n pbeerpgvir pbagebyyre bhgchg cebcbegvbany gb gur gvzr engr bs punatr bs reebe be cebprff inevnoyr (PB_q = X_p · G_q · qr/qg), cebivqvat cunfr yrnq gb bccbfr encvq punatrf.",
+    "explanation": "Qrevingvir (Engr) npgvba cebqhprf n pbeerpgvir pbagebyyre bhgchg cebcbegvbany gb gur gvzr engr bs punatr bs reebe be cebprff inevnoyr: $$\\grkg{PB}_q = X_p \\pqbg G_q \\pqbg \\senp{qr}{qg}$$",
     "distractors": [
       {
         "text": "Vagrteny (Erfrg) npgvba.",
@@ -4587,12 +4587,12 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 97,
-    "section": "Frpgvba 4: Cebprff Pbageby",
+    "section": "Fhowrpg 5: Cebprff Pbageby",
     "title": "Qrevingvir Bhgchg Fpnyvat Inevnoyr",
     "stem": "Jung inevnoyr vf hfrq gb qrgrezvar gur nzbhag bs qrevingvir rssrpg va gur pbagebyyre bhgchg?",
-    "correctAnswer": "Engr bs punatr bs reebe (qr/qg) be engr bs punatr bs CI (naq gur nzbhag/engr bs reebe punatr).",
+    "correctAnswer": "Engr bs punatr bs reebe ($\\senp{qr}{qg}$) be engr bs punatr bs CI ($\\senp{q\\grkg{CI}}{qg}$).",
     "ilmReference": "VYZ 310305n (Pbageby Ybbc Nanylfvf, Bowrpgvir 1)",
-    "explanation": "Gur zntavghqr bs gur qrevingvir bhgchg pbagevohgvba vf tbirearq ol gur engr bs punatr bs gur reebe (be CI) jvgu erfcrpg gb gvzr (qr/qg) zhygvcyvrq ol gur qrevingvir gvzr pbafgnag G_q. (Abgr: Gur Wna 2023 fghqrag erpnyy furrg abgrq 'Nzbhag bs reebe' nf n gragngvir thrff, jurernf VYZ 310305n qrsvarf qrevingvir bhgchg ol engr bs punatr bs reebe.)",
+    "explanation": "Gur zntavghqr bs gur qrevingvir bhgchg pbagevohgvba fpnyrf qverpgyl jvgu gur gvzr qrevingvir bs reebe ($\\senp{qr}{qg}$) be cebprff inevnoyr ($\\senp{q\\grkg{CI}}{qg}$).",
     "distractors": [
       {
         "text": "Gur vagrteny bs reebe npphzhyngrq bire gur cnfg 24 ubhef.",
@@ -4634,7 +4634,7 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 98,
-    "section": "Frpgvba 4: Cebprff Pbageby",
+    "section": "Fhowrpg 5: Cebprff Pbageby",
     "title": "Pbagebyyre Zbqr Fnghengvba Haqre Crefvfgrag Reebe",
     "stem": "Juvpu bs gur sbyybjvat pbagebyyre zbqrf jvyy pnhfr gur bhgchg gb enzc hc gb 100% haqre n crefvfgrag reebe?",
     "correctAnswer": "Vagrteny (Erfrg).",
@@ -4681,12 +4681,12 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 99,
-    "section": "Frpgvba 4: Cebprff Pbageby",
+    "section": "Fhowrpg 5: Cebprff Pbageby",
     "title": "Pbagebyyre Zbqrf Hgvyvmvat Znahny Ovnf",
     "stem": "Juvpu bs gur sbyybjvat pbagebyyre frggvatf pna hfr znahny ovnf (znahny erfrg)?",
     "correctAnswer": "CQ (be cher C) — nal pbagebyyre zbqr jvgubhg Vagrteny (V) npgvba.",
     "ilmReference": "VYZ 310305n (Pbageby Ybbc Nanylfvf, Bowrpgvir 1)",
-    "explanation": "Cebcbegvbany-bayl (C) naq Cebcbegvbany-Qrevingvir (CQ) pbagebyyref ynpx nhgbzngvp Vagrteny (Erfrg) npgvba naq gurersber fhssre sebz fgrnql-fgngr bssfrg nsgre n ybnq punatr. Gurl erdhver n Znahny Ovnf (znahny erfrg) grez (PB = X_p · r + Ovnf) gb pragre gur bhgchg. Nal pbagebyyre pbagnvavat Vagrteny (CV, CVQ, V) nhgbzngvpnyyl nqwhfgf ovnf naq pnaabg hfr n svkrq znahny ovnf.",
+    "explanation": "Cebcbegvbany-bayl ($\\grkg{C}$) naq Cebcbegvbany-Qrevingvir ($\\grkg{CQ}$) pbagebyyref ynpx nhgbzngvp Vagrteny ($\\grkg{V}$) npgvba naq erdhver n znahny ovnf grez: $$\\grkg{PB} = X_p \\pqbg r + \\grkg{Ovnf}$$",
     "distractors": [
       {
         "text": "CV (Cebcbegvbany-Vagrteny) pbagebyyre.",
@@ -4728,7 +4728,7 @@ export const ENCODED_QUESTION_BANK: QuestionRecord[] = [
   },
   {
     "id": 100,
-    "section": "Frpgvba 4: Cebprff Pbageby",
+    "section": "Fhowrpg 5: Cebprff Pbageby",
     "title": "Pnfpnqr Cevznel Erfrg Jvaqhc Cebgrpgvba",
     "stem": "Jung cebgrpgf gur cevznel (bhgre) ybbc sebz erfrg jvaqhc va pnfpnqr pbageby jura gur frpbaqnel (vaare) ybbc vf cynprq va Znahny zbqr?",
     "correctAnswer": "Rkgreany erfrg srrqonpx (RES) / vagrteny genpxvat.",
