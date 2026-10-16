@@ -1,4 +1,4 @@
-import { decodeQuestionRecord } from './codec.ts';
+import { decodeQuestionRecord, rot13 } from './codec.ts';
 import { ENCODED_QUESTION_BANK } from '../data/encodedBank.ts';
 import type {
   QuestionRecord,
@@ -83,17 +83,17 @@ export interface CreateSessionConfig {
 export function getModeLabel(mode: TestMode): string {
   switch (mode) {
     case 'ironman':
-      return 'Ironman Mode (Full 100 Questions)';
+      return rot13('Vebazna Zbqr (Shyy 100 Dhrfgvbaf)');
     case 'half-1':
-      return 'Half Marathon — First Half (Q1–Q50)';
+      return rot13('Unys Znenguba — Svefg Unys (D1–D50)');
     case 'half-2':
-      return 'Half Marathon — Second Half (Q51–Q100)';
+      return rot13('Unys Znenguba — Frpbaq Unys (D51–D100)');
     case 'random-25':
-      return 'Quick Sprint — Random 25 Questions';
+      return rot13('Dhvpx Fcevag — Enaqbz 25 Dhrfgvbaf');
     case 'random-50':
-      return 'Endurance — Random 50 Questions';
+      return rot13('Raqhenapr — Enaqbz 50 Dhrfgvbaf');
     case 'retake':
-      return 'Retake Missed Questions (Re-Randomized Distractors)';
+      return rot13('Ergnxr Zvffrq Dhrfgvbaf (Er-Enaqbzvmrq Qvfgenpgbef)');
   }
 }
 
