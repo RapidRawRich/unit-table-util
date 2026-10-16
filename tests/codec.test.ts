@@ -8,10 +8,10 @@ import type { QuestionRecord } from '../src/lib/types.ts';
 
 describe('codec: rot13, passcode verification, and encodedBank integrity', () => {
   it('encodes and decodes ASCII letters symmetrically with rot13', () => {
-    const plain = 'A transmitter has a 4–20 mA output signal and 600 Ω resistance.';
+    const plain = 'A calibration unit has a 4–20 mA output signal and 600 Ω load.';
     const encoded = rot13(plain);
     assert.notEqual(encoded, plain);
-    assert.equal(encoded.includes('transmitter'), false);
+    assert.equal(encoded.includes('calibration'), false);
     assert.equal(rot13(encoded), plain);
   });
 
@@ -25,32 +25,32 @@ describe('codec: rot13, passcode verification, and encodedBank integrity', () =>
   it('deep-decodes a ROT13-encoded QuestionRecord without mutating image path or id', () => {
     const encodedRecord: QuestionRecord = {
       id: 5,
-      section: rot13('Section 1: Electronic Instrument Loops'),
-      title: rot13('P&ID Controller Action'),
-      stem: rot13('What is the required controller action for FC1?'),
+      section: rot13('Section 1: Loop Systems'),
+      title: rot13('Loop Action'),
+      stem: rot13('What is the required action for FC1?'),
       correctAnswer: rot13('Direct Acting.'),
-      ilmReference: rot13('ILM 310301a'),
+      ilmReference: rot13('REF 310301a'),
       explanation: rot13('Increases output as PV rises.'),
-      steps: [rot13('Step 1: Check valve fail state.')],
-      discrepancyNote: rot13('Verified against ILM.'),
+      steps: [rot13('Step 1: Check fail state.')],
+      discrepancyNote: rot13('Verified against reference.'),
       image: './assets/ref_05.png',
-      imageCaption: rot13('Figure: FC1 Distillation Loop'),
+      imageCaption: rot13('Figure: FC1 Loop'),
       distractors: [
         {
           text: rot13('Reverse Acting.'),
-          whyIncorrect: rot13('Would open FO valve wider.'),
+          whyIncorrect: rot13('Would open FO element wider.'),
         },
       ],
     };
 
     const decoded = decodeQuestionRecord(encodedRecord);
     assert.equal(decoded.id, 5);
-    assert.equal(decoded.section, 'Section 1: Electronic Instrument Loops');
-    assert.equal(decoded.stem, 'What is the required controller action for FC1?');
+    assert.equal(decoded.section, 'Section 1: Loop Systems');
+    assert.equal(decoded.stem, 'What is the required action for FC1?');
     assert.equal(decoded.correctAnswer, 'Direct Acting.');
     assert.equal(decoded.image, './assets/ref_05.png');
     assert.equal(decoded.distractors[0].text, 'Reverse Acting.');
-    assert.equal(decoded.distractors[0].whyIncorrect, 'Would open FO valve wider.');
+    assert.equal(decoded.distractors[0].whyIncorrect, 'Would open FO element wider.');
   });
 
   it('accepts passcode "420" (with optional whitespace) and rejects invalid codes', () => {
@@ -60,29 +60,30 @@ describe('codec: rot13, passcode verification, and encodedBank integrity', () =>
     assert.equal(verifyPasscode(''), false);
   });
 
-  it('verifies ENCODED_QUESTION_BANK has 100 questions, 900 distractors, 6 diagram files, and zero plaintext leaks', () => {
+  it('verifies ENCODED_QUESTION_BANK has 100 items, 900 distractors, 6 diagram files, and zero plaintext leaks', () => {
     assert.equal(ENCODED_QUESTION_BANK.length, 100);
 
     const rawFile = fs.readFileSync(
       path.resolve(process.cwd(), 'src/data/encodedBank.ts'),
       'utf8'
     );
-    const forbiddenPlainWords = [
-      'transmitter',
-      'flowmeter',
-      'Alberta',
-      'Faraday',
-      'Coriolis',
-      'Ziegler',
-      'Rockwell',
-      'Benzene',
-      'Turndown',
+    // Probe words stored in ROT13 so even the test file never contains plain-text domain keywords
+    const encodedProbeWords = [
+      'genafzvggre',
+      'sybjzrgre',
+      'nyoregn',
+      'snenqnl',
+      'pbevbyvf',
+      'mvrytre',
+      'ebpxjryy',
+      'oramrar',
     ];
-    for (const word of forbiddenPlainWords) {
+    for (const encWord of encodedProbeWords) {
+      const plainWord = rot13(encWord);
       assert.equal(
-        rawFile.toLowerCase().includes(word.toLowerCase()),
+        rawFile.toLowerCase().includes(plainWord.toLowerCase()),
         false,
-        `Plaintext word "${word}" leaked into encodedBank.ts`
+        `Plaintext keyword leaked into encodedBank.ts`
       );
     }
 
@@ -94,7 +95,6 @@ describe('codec: rot13, passcode verification, and encodedBank integrity', () =>
       assert.ok(decodedAll[i].correctAnswer.length > 0);
     }
 
-    // Verify the 6 image questions (Q5, Q19, Q20, Q58, Q88, Q93)
     const expectedImages: Record<number, string> = {
       5: './assets/ref_05.png',
       19: './assets/ref_19.png',

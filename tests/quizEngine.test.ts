@@ -60,6 +60,9 @@ describe('quizEngine: modes, wrong-answer feedback, and retake distractor re-ran
     assert.equal(session.items[0].isCorrect, false);
     assert.equal(rightOption.text, firstItem.question.correctAnswer);
     assert.ok(wrongOption.whyIncorrect && wrongOption.whyIncorrect.length > 0);
+
+    session = nextQuestion(session);
+    assert.equal(session.currentIndex, 1);
   });
 
   it('creates a retake session with ONLY missed questions and re-randomizes distractors', () => {
