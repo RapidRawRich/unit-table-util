@@ -39,7 +39,7 @@ export function ModeSelector({ onStartMode, onLock }: ModeSelectorProps) {
       subtitle: 'All 100 Questions • Q1 to Q100',
       badge: '100 Qs',
       description: rot13(
-        'Pbzcyrgr 100-dhrfgvba raqhenapr eha pbirevat Ryrpgebavp Vafgehzrag Ybbcf, Zrnfherzrag, Cebprff Nanylmref, naq Cebprff Pbageby.'
+        'Pbzcyrgr 100-dhrfgvba raqhenapr eha pbirevat nyy 5 Fhowrpgf: Ryrpgebavp Vafgehzrag Ybbcf, Zrnfherzrag, Culfvpny Cebcregvrf & Purzvfgel, Cebprff Nanylmref, naq Cebprff Pbageby.'
       ),
       icon: <Flame className="w-5 h-5 text-amber-400" aria-hidden="true" />,
     },
@@ -49,7 +49,7 @@ export function ModeSelector({ onStartMode, onLock }: ModeSelectorProps) {
       subtitle: 'First 50 Questions • Q1 to Q50',
       badge: 'Q1–Q50',
       description: rot13(
-        'Pbiref Frpgvba 1 (Ryrpgebavp Vafgehzrag Ybbcf, D1–14), Frpgvba 2 (Zrnfherzrag, D15–43), naq rneyl Frpgvba 3 (D44–50).'
+        'Pbiref Fhowrpg 1 (Ryrpgebavp Vafgehzrag Ybbcf, D1–14), Fhowrpg 2 (Zrnfherzrag, D15–43), naq rneyl Fhowrpg 3 (Culfvpny Cebcregvrf & Purzvfgel, D44–50).'
       ),
       icon: <SplitSquareVertical className="w-5 h-5 text-sky-400" aria-hidden="true" />,
     },
@@ -59,26 +59,28 @@ export function ModeSelector({ onStartMode, onLock }: ModeSelectorProps) {
       subtitle: 'Second 50 Questions • Q51 to Q100',
       badge: 'Q51–Q100',
       description: rot13(
-        'Pbiref Frpgvba 3 (Cebprff Nanylmref & Purzvfgel, D51–78) naq Frpgvba 4 (Cebprff Pbageby & Ghavat, D79–100).'
+        'Pbiref Fhowrpg 3 (Culfvpny Cebcregvrf & Purzvfgel, D51–61), Fhowrpg 4 (Cebprff Nanylmref, D62–78), naq Fhowrpg 5 (Cebprff Pbageby, D79–100).'
       ),
       icon: <SplitSquareVertical className="w-5 h-5 text-emerald-400" aria-hidden="true" />,
     },
     {
       mode: 'random-25',
       title: 'Random 25 Questions',
-      subtitle: '25 Randomly Sampled Questions',
+      subtitle: 'Proportional 5-Subject Sample • 25 Questions',
       badge: '25 RANDOM',
-      description:
-        'Draws 25 unique random questions across all four sections with freshly randomized distractors.',
+      description: rot13(
+        'Cebcbegvbanyyl fnzcyrf 25 havdhr dhrfgvbaf npebff nyy 5 fhowrpgf (14% Ybbcf, 29% Zrnfherzrag, 18% Culfvpny Cebcregvrf & Purzvfgel, 17% Nanylmref, 22% Cebprff Pbageby).'
+      ),
       icon: <Shuffle className="w-5 h-5 text-amber-300" aria-hidden="true" />,
     },
     {
       mode: 'random-50',
       title: 'Random 50 Questions',
-      subtitle: '50 Randomly Sampled Questions',
+      subtitle: 'Proportional 5-Subject Sample • 50 Questions',
       badge: '50 RANDOM',
-      description:
-        'Draws 50 unique random questions from the 100-question bank for a balanced half-length practice session.',
+      description: rot13(
+        'Cebcbegvbanyyl fnzcyrf 50 havdhr dhrfgvbaf npebff nyy 5 fhowrpgf (7 Ybbcf, 14–15 Zrnfherzrag, 9 Culfvpny Cebcregvrf & Purzvfgel, 8–9 Nanylmref, 11 Cebprff Pbageby).'
+      ),
       icon: <Shuffle className="w-5 h-5 text-teal-300" aria-hidden="true" />,
     },
   ];

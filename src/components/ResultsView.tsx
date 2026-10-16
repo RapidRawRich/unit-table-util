@@ -10,6 +10,7 @@ import {
 import type { QuizSession } from '../lib/types.ts';
 import { getSessionStats } from '../lib/quizEngine.ts';
 import { rot13 } from '../lib/codec.ts';
+import { MathText } from './MathText.tsx';
 
 interface ResultsViewProps {
   session: QuizSession;
@@ -170,9 +171,9 @@ export function ResultsView({
                       </span>
                     </div>
 
-                    <p className="text-sm sm:text-base font-medium text-slate-100">
-                      {item.question.stem}
-                    </p>
+                    <div className="text-sm sm:text-base font-medium text-slate-100">
+                      <MathText text={item.question.stem} />
+                    </div>
 
                     {item.question.image && (
                       <div className="bg-white rounded p-2.5 border border-slate-700 max-w-md">
@@ -194,11 +195,15 @@ export function ResultsView({
                           <span>Your Answer:</span>
                         </div>
                         <div className="text-rose-100 font-medium">
-                          {userSelected?.text ?? 'No answer selected'}
+                          {userSelected ? (
+                            <MathText text={userSelected.text} />
+                          ) : (
+                            'No answer selected'
+                          )}
                         </div>
                         {userSelected?.whyIncorrect && (
                           <div className="text-xs text-rose-300 mt-1.5">
-                            {userSelected.whyIncorrect}
+                            <MathText text={userSelected.whyIncorrect} />
                           </div>
                         )}
                       </div>
@@ -209,17 +214,28 @@ export function ResultsView({
                           <span>Correct Answer:</span>
                         </div>
                         <div className="text-emerald-100 font-semibold">
-                          {item.question.correctAnswer}
+                          <MathText text={item.question.correctAnswer} />
                         </div>
                       </div>
                     </div>
 
-                    <div className="bg-slate-950 border border-slate-800 rounded p-3 text-xs sm:text-sm text-slate-300 space-y-1">
+                    <div className="bg-slate-950 border border-slate-800 rounded p-3 text-xs sm:text-sm text-slate-300 space-y-2">
                       <div className="flex items-center gap-1.5 font-mono text-xs text-amber-300 uppercase">
                         <BookOpen className="w-3.5 h-3.5" aria-hidden="true" />
-                        <span>Explanation:</span>
+                        <span>Explanation & LaTeX Solution:</span>
                       </div>
-                      <p>{item.question.explanation}</p>
+                      <div>
+                        <MathText text={item.question.explanation} />
+                      </div>
+                      {item.question.steps && item.question.steps.length > 0 && (
+                        <ol className="list-decimal list-inside space-y-1.5 pt-2 border-t border-slate-800/80 font-mono text-xs text-slate-300">
+                          {item.question.steps.map((step, idx) => (
+                            <li key={idx} className="leading-relaxed">
+                              <MathText text={step} />
+                            </li>
+                          ))}
+                        </ol>
+                      )}
                     </div>
                   </article>
                 );

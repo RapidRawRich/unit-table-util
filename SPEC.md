@@ -89,7 +89,9 @@ export function rot13(input: string): string {
 ## Success Criteria
 - [x] Passcode gate blocks access until `"420"` is entered.
 - [x] Source code contains ROT13-encoded text.
-- [x] All 100 items and 900 distractors + explanations are present and accurate.
+- [x] All 100 items and 900 distractors + explanations are present and accurate across all 5 subjects (Loops: 14, Measurement: 29, Physical Properties: 18, Process Analyzers: 17, Process Control: 22).
+- [x] Random 25 and Random 50 modes sample proportionally from each of the 5 subjects using the Largest Remainder Method.
+- [x] Mathematical equations, chemical formulas, and step-by-step derivations use LaTeX markup (`$...$` and `$$...$$`) rendered via KaTeX.
 - [x] Items 5, 19, 20, 58, 88, and 93 render their corresponding diagrams.
 - [x] All 5 modes (Ironman 100, 1st Half 1–50, 2nd Half 51–100, Random 25, Random 50) work accurately.
 - [x] Answering wrong immediately displays the correct answer and explanation.
