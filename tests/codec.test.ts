@@ -1,9 +1,12 @@
 import { describe, it } from 'node:test';
 import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import path from 'node:path';
 import { rot13, decodeQuestionRecord, verifyPasscode } from '../src/lib/codec.ts';
+import { ENCODED_QUESTION_BANK } from '../src/data/encodedBank.ts';
 import type { QuestionRecord } from '../src/lib/types.ts';
 
-describe('codec: rot13 and passcode verification', () => {
+describe('codec: rot13, passcode verification, and encodedBank integrity', () => {
   it('encodes and decodes ASCII letters symmetrically with rot13', () => {
     const plain = 'A transmitter has a 4–20 mA output signal and 600 Ω resistance.';
     const encoded = rot13(plain);
@@ -55,5 +58,57 @@ describe('codec: rot13 and passcode verification', () => {
     assert.equal(verifyPasscode('  420 \n'), true);
     assert.equal(verifyPasscode('421'), false);
     assert.equal(verifyPasscode(''), false);
+  });
+
+  it('verifies ENCODED_QUESTION_BANK has 100 questions, 900 distractors, 6 diagram files, and zero plaintext leaks', () => {
+    assert.equal(ENCODED_QUESTION_BANK.length, 100);
+
+    const rawFile = fs.readFileSync(
+      path.resolve(process.cwd(), 'src/data/encodedBank.ts'),
+      'utf8'
+    );
+    const forbiddenPlainWords = [
+      'transmitter',
+      'flowmeter',
+      'Alberta',
+      'Faraday',
+      'Coriolis',
+      'Ziegler',
+      'Rockwell',
+      'Benzene',
+      'Turndown',
+    ];
+    for (const word of forbiddenPlainWords) {
+      assert.equal(
+        rawFile.toLowerCase().includes(word.toLowerCase()),
+        false,
+        `Plaintext word "${word}" leaked into encodedBank.ts`
+      );
+    }
+
+    const decodedAll = ENCODED_QUESTION_BANK.map(decodeQuestionRecord);
+    for (let i = 0; i < 100; i++) {
+      assert.equal(decodedAll[i].id, i + 1);
+      assert.equal(decodedAll[i].distractors.length, 9);
+      assert.ok(decodedAll[i].stem.length > 10);
+      assert.ok(decodedAll[i].correctAnswer.length > 0);
+    }
+
+    // Verify the 6 image questions (Q5, Q19, Q20, Q58, Q88, Q93)
+    const expectedImages: Record<number, string> = {
+      5: './assets/ref_05.png',
+      19: './assets/ref_19.png',
+      20: './assets/ref_20.png',
+      58: './assets/ref_58.png',
+      88: './assets/ref_88.png',
+      93: './assets/ref_93.png',
+    };
+    for (const [qIdStr, relPath] of Object.entries(expectedImages)) {
+      const qId = Number(qIdStr);
+      const q = decodedAll.find((item) => item.id === qId)!;
+      assert.equal(q.image, relPath);
+      const diskPath = path.resolve(process.cwd(), 'public', relPath.replace('./', ''));
+      assert.equal(fs.existsSync(diskPath), true, `Missing diagram file: ${diskPath}`);
+    }
   });
 });
