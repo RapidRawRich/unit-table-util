@@ -2,6 +2,12 @@
 
 All notable changes to this project are documented in this file.
 
+## [1.1.0] - 2026-10-15
+
+### Added
+- KaTeX LaTeX math typesetting (`$...$` inline and `$$...$$` display equations) across question stems, answer options, distractor explanations, and step-by-step derivations via `MathText` and `parseAndRenderMath`.
+- Five-subject curriculum partitioning (`14 / 29 / 18 / 17 / 22`) and Largest Remainder (Hamilton) proportional stratified sampling (`sampleProportionallyBySection`) for `Random 25` and `Random 50` modes.
+
 ## [1.0.0] - 2026-10-15
 
 ### Added

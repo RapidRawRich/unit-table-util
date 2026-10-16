@@ -13,6 +13,7 @@ import {
 import type { QuizSession } from '../lib/types.ts';
 import { getSessionStats } from '../lib/quizEngine.ts';
 import { rot13 } from '../lib/codec.ts';
+import { MathText } from './MathText.tsx';
 
 interface QuestionCardProps {
   session: QuizSession;
@@ -189,7 +190,7 @@ export function QuestionCard({
           </div>
 
           <h1 className="text-base sm:text-lg font-medium text-slate-100 leading-relaxed">
-            {question.stem}
+            <MathText text={question.stem} />
           </h1>
 
           {/* Source Diagram from 3rd_Year_TQ_Question.pdf */}
@@ -257,7 +258,9 @@ export function QuestionCard({
                 </span>
 
                 <div className="flex-1 space-y-1.5">
-                  <div className="text-sm sm:text-base leading-snug">{opt.text}</div>
+                  <div className="text-sm sm:text-base leading-snug">
+                    <MathText text={opt.text} />
+                  </div>
 
                   {/* If user picked this wrong option, explain why it's wrong right on the option */}
                   {isAnswered && isSelected && !opt.isCorrect && opt.whyIncorrect && (
@@ -265,7 +268,7 @@ export function QuestionCard({
                       <span className="font-mono font-semibold uppercase text-rose-300">
                         Why Your Selection Is Incorrect:{' '}
                       </span>
-                      {opt.whyIncorrect}
+                      <MathText text={opt.whyIncorrect} />
                     </div>
                   )}
                 </div>
@@ -327,7 +330,7 @@ export function QuestionCard({
                 Correct Answer:
               </div>
               <div className="text-sm sm:text-base font-semibold text-emerald-200">
-                {correctOption.text}
+                <MathText text={correctOption.text} />
               </div>
             </div>
 
@@ -338,7 +341,7 @@ export function QuestionCard({
                   Distractor Analysis (Your Choice):
                 </div>
                 <div className="text-xs sm:text-sm text-rose-200">
-                  {selectedOption.whyIncorrect}
+                  <MathText text={selectedOption.whyIncorrect} />
                 </div>
               </div>
             )}
@@ -349,12 +352,16 @@ export function QuestionCard({
                 <BookOpen className="w-4 h-4" aria-hidden="true" />
                 <span>{rot13('VYZ Tebhaqvat & Qrevingvba:')}</span>
               </div>
-              <p className="leading-relaxed text-slate-200">{question.explanation}</p>
+              <div className="leading-relaxed text-slate-200">
+                <MathText text={question.explanation} />
+              </div>
 
               {question.steps && question.steps.length > 0 && (
-                <ol className="list-decimal list-inside space-y-1 bg-slate-950 border border-slate-800 rounded p-3 text-xs sm:text-sm font-mono text-slate-300">
+                <ol className="list-decimal list-inside space-y-2 bg-slate-950 border border-slate-800 rounded p-3.5 text-xs sm:text-sm font-mono text-slate-300">
                   {question.steps.map((step, i) => (
-                    <li key={i}>{step}</li>
+                    <li key={i} className="leading-relaxed">
+                      <MathText text={step} />
+                    </li>
                   ))}
                 </ol>
               )}
@@ -364,7 +371,9 @@ export function QuestionCard({
             {question.discrepancyNote && (
               <div className="flex items-start gap-2.5 bg-amber-950/50 border border-amber-700/80 rounded p-3.5 text-xs sm:text-sm text-amber-200">
                 <AlertTriangle className="w-5 h-5 text-amber-400 shrink-0 mt-0.5" aria-hidden="true" />
-                <div>{question.discrepancyNote}</div>
+                <div>
+                  <MathText text={question.discrepancyNote} />
+                </div>
               </div>
             )}
           </section>

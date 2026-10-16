@@ -41,3 +41,12 @@
 - [x] `git ls-files "*.pdf"` is empty
 - [x] `dist/` bundle contains zero plain-text exam strings
 - [x] GitHub repository created and deployed to GitHub Pages
+
+## Task 7: Five-Subject Proportional Sampling & LaTeX Math Bank (TDD)
+- [x] Partition the 100-item bank into the 5 curriculum subjects (S1: 14, S2: 29, S3: 18, S4: 17, S5: 22)
+- [x] Format all math formulas, derivations, chemical equations, and distractors with LaTeX markup (`$...$` and `$$...$$`)
+- [x] Implement proportional stratified sampling (`sampleProportionallyBySection`) for Random 25 and Random 50 modes and verify with unit tests
+
+## Task 8: KaTeX Math Rendering Component (`MathText.tsx`)
+- [x] Implement `src/components/MathText.tsx` using `katex` to render inline `$...$` and display `$$...$$` equations
+- [x] Integrate `<MathText />` across `QuestionCard.tsx` and `ResultsView.tsx` and deploy updated build to GitHub Pages
