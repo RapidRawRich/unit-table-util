@@ -2,6 +2,15 @@
 
 All notable changes to this project are documented in this file.
 
+## [1.2.0] - 2026-10-22
+
+### Changed
+- Updated the 900 calibrated distractor options and detailed item analyses across all 100 questions from the Version 2.0 distractor test bank.
+- Fixed option text color uniformity in `MathText`: removed telltale amber/yellow highlighting on inline math so correct answer options never reveal themselves prematurely.
+- Updated Question 52 stem to present the unbalanced combustion equation in LaTeX ($\text{C}_2\text{H}_6 + \text{O}_2 \to \text{CO}_2 + \text{H}_2\text{O}$) rather than giving away the balanced equation.
+- Updated Question 85 to the calibrated first-order lag corner frequency question with exact phase lag derivation.
+- Sanitized passcode verification and project documentation to completely remove plaintext passcode descriptions.
+
 ## [1.1.0] - 2026-10-15
 
 ### Added

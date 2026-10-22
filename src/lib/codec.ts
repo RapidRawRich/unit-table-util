@@ -35,8 +35,12 @@ export function decodeQuestionRecord(encoded: QuestionRecord): QuestionRecord {
 }
 
 /**
- * Verifies the landing gate passcode ("420").
+ * Verifies the landing gate access passcode.
  */
 export function verifyPasscode(input: string): boolean {
-  return input.trim() === '420';
+  const normalized = input.trim();
+  if (typeof globalThis.btoa === 'function') {
+    return globalThis.btoa(normalized) === 'NDIw';
+  }
+  return false;
 }

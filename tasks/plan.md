@@ -1,7 +1,7 @@
 # Implementation Plan: Grid Config Utility (`unit-table-util`)
 
 ## Overview
-Build an obscurely named, passcode-gated (`"420"`) interactive simulation engine for the 100-item dataset with 900 calibrated distractors, reference derivations, 6 cropped diagrams, ROT13 source text obfuscation, five modes (Ironman 100, Half Marathon 1st Half, Half Marathon 2nd Half, Random 25, Random 50), immediate wrong-answer explanations, and a retake-missed-questions workflow that re-randomizes distractors.
+Build an obscurely named, passcode-gated interactive simulation engine for the 100-item dataset with 900 calibrated distractors, reference derivations, 6 cropped diagrams, ROT13 source text obfuscation, five modes (Ironman 100, Half Marathon 1st Half, Half Marathon 2nd Half, Random 25, Random 50), immediate wrong-answer explanations, and a retake-missed-questions workflow that re-randomizes distractors.
 
 ## Dependency Graph
 ```text
@@ -28,7 +28,7 @@ Project Scaffold & .gitignore (PDF exclusion)
 
 ### Phase 1: Foundation & Security Hygiene
 - [x] Task 1: Initialize Vite + React + TypeScript + test scaffold and strict `.gitignore` excluding `*.pdf` and reference notes
-- [x] Task 2: Implement ROT13 codec and `"420"` passcode verification with TDD (`src/lib/codec.ts`, `tests/codec.test.ts`)
+- [x] Task 2: Implement ROT13 codec and passcode verification with TDD (`src/lib/codec.ts`, `tests/codec.test.ts`)
 
 ### Checkpoint: Foundation
 - [x] `npm test` passes

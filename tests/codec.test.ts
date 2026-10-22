@@ -53,10 +53,11 @@ describe('codec: rot13, passcode verification, and encodedBank integrity', () =>
     assert.equal(decoded.distractors[0].whyIncorrect, 'Would open FO element wider.');
   });
 
-  it('accepts passcode "420" (with optional whitespace) and rejects invalid codes', () => {
-    assert.equal(verifyPasscode('420'), true);
-    assert.equal(verifyPasscode('  420 \n'), true);
-    assert.equal(verifyPasscode('421'), false);
+  it('accepts valid passcode (with optional whitespace) and rejects invalid codes', () => {
+    const validCode = atob('NDIw');
+    assert.equal(verifyPasscode(validCode), true);
+    assert.equal(verifyPasscode(`  ${validCode} \n`), true);
+    assert.equal(verifyPasscode('invalid-code'), false);
     assert.equal(verifyPasscode(''), false);
   });
 

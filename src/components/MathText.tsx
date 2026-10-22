@@ -20,7 +20,7 @@ export function MathText({ text, className }: MathTextProps) {
           return (
             <span
               key={idx}
-              className="block my-2.5 py-2 px-3 bg-slate-950/90 border border-slate-800/90 rounded overflow-x-auto text-amber-200"
+              className="block my-2.5 py-2 px-3 bg-slate-950/90 border border-slate-800/90 rounded overflow-x-auto text-slate-200"
               dangerouslySetInnerHTML={{ __html: seg.html ?? seg.content }}
             />
           );
@@ -29,7 +29,7 @@ export function MathText({ text, className }: MathTextProps) {
           return (
             <span
               key={idx}
-              className="inline-block align-baseline mx-0.5 text-amber-200"
+              className="inline-block align-baseline mx-0.5"
               dangerouslySetInnerHTML={{ __html: seg.html ?? seg.content }}
             />
           );

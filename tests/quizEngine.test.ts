@@ -182,4 +182,28 @@ describe('quizEngine: modes, 5-subject proportional sampling, LaTeX markup, and 
       'Expected retake session to re-randomize distractors and option order'
     );
   });
+
+  it('verifies Q52 provides the unbalanced equation in LaTeX and Q85 covers corner frequency', () => {
+    const q52 = bank.find((q) => q.id === 52)!;
+    assert.ok(
+      q52.stem.includes(String.raw`\text{C}_2\text{H}_6 + \text{O}_2 \to \text{CO}_2 + \text{H}_2\text{O}`),
+      'Expected Q52 to display the unbalanced chemical equation'
+    );
+    assert.equal(q52.correctAnswer, '4');
+
+    const q85 = bank.find((q) => q.id === 85)!;
+    assert.ok(
+      q85.stem.includes(String.raw`\omega = \frac{1}{\tau}`),
+      'Expected Q85 to ask for corner frequency phase lag angle'
+    );
+    assert.equal(q85.correctAnswer, '-45 degrees');
+
+    // 10-choice session verification:
+    const session10 = createQuizSession(bank, 'random-25', { optionCount: 10 });
+    for (const item of session10.items) {
+      assert.equal(item.options.length, 10, `Item Q${item.question.id} must have 10 options`);
+      assert.equal(item.options.filter((o) => o.isCorrect).length, 1);
+    }
+  });
 });
+

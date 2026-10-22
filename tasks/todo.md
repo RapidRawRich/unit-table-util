@@ -7,7 +7,7 @@
 
 ## Task 2: ROT13 Codec & Passcode Verification (TDD)
 - [x] `rot13(rot13(text)) === text` for all ASCII characters, numbers, symbols, and Unicode units (`Ω`, `µ`, `°`, `±`)
-- [x] `verifyPasscode("420")` returns `true` (trimmed) and rejects other inputs
+- [x] `verifyPasscode(...)` returns `true` for authorized passcode (trimmed) and rejects other inputs
 - [x] Unit tests written first (RED) and passing (GREEN)
 
 ## Checkpoint: After Tasks 1–2
@@ -32,7 +32,7 @@
 - [x] 100 questions and 6 diagrams verified by automated test assertions
 
 ## Task 5: Accessible Industrial Web UI
-- [x] Landing page displays obscure utility gate requiring `"420"`
+- [x] Landing page displays obscure utility gate requiring authorized passcode
 - [x] Mode selector offers Ironman (100), Half Marathon 1st Half (1–50), Half Marathon 2nd Half (51–100), Random 25, and Random 50, plus option count selector (4 / 6 / 10 choices) and question order toggle
 - [x] Question view renders diagrams for Q5, Q19, Q20, Q58, Q88, Q93, supports keyboard shortcuts, and immediately reveals the correct answer + explanation + distractor analysis when answered wrong
 - [x] Results view displays accuracy, section breakdown, missed questions review, and "Retake Wrong Questions (Re-Randomize Distractors)" button

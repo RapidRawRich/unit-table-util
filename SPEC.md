@@ -87,7 +87,7 @@ export function rot13(input: string): string {
 - **Never**: Commit `*.pdf` or local reference notes to git; expose plain-text questions in `src/`.
 
 ## Success Criteria
-- [x] Passcode gate blocks access until `"420"` is entered.
+- [x] Passcode gate blocks access until the authorized passcode is entered.
 - [x] Source code contains ROT13-encoded text.
 - [x] All 100 items and 900 distractors + explanations are present and accurate across all 5 subjects (Loops: 14, Measurement: 29, Physical Properties: 18, Process Analyzers: 17, Process Control: 22).
 - [x] Random 25 and Random 50 modes sample proportionally from each of the 5 subjects using the Largest Remainder Method.
