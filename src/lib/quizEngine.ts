@@ -1,23 +1,37 @@
-import { decodeQuestionRecord, rot13 } from './codec.ts';
+import { decodeQuestionRecord } from './codec.ts';
 import { ENCODED_QUESTION_BANK } from '../data/encodedBank.ts';
+import { getAllQuestions, SUBJECT_METADATA_MAP } from '../data/questionBanks.ts';
 import type {
   QuestionRecord,
   QuizSession,
   RenderedOption,
   SessionQuestion,
+  SubjectId,
+  SubjectMetadata,
   TestMode,
 } from './types.ts';
 
-let cachedDecodedBank: QuestionRecord[] | null = null;
+let cachedLegacyBank: QuestionRecord[] | null = null;
+let cachedAllQuestions: QuestionRecord[] | null = null;
 
 /**
- * Decodes the ROT13 question bank in memory once unlocked.
+ * Returns decoded 100-question bank (IDs 1-100).
  */
 export function getDecodedBank(): QuestionRecord[] {
-  if (!cachedDecodedBank) {
-    cachedDecodedBank = ENCODED_QUESTION_BANK.map(decodeQuestionRecord);
+  if (!cachedLegacyBank) {
+    cachedLegacyBank = ENCODED_QUESTION_BANK.map(decodeQuestionRecord);
   }
-  return cachedDecodedBank;
+  return cachedLegacyBank;
+}
+
+/**
+ * Returns all 1,000 decoded curriculum questions (IDs 101-1100).
+ */
+export function getDecodedAllQuestions(): QuestionRecord[] {
+  if (!cachedAllQuestions) {
+    cachedAllQuestions = getAllQuestions();
+  }
+  return cachedAllQuestions;
 }
 
 /**
@@ -80,31 +94,37 @@ export interface CreateSessionConfig {
   shuffleQuestions?: boolean;
 }
 
-export function getModeLabel(mode: TestMode): string {
+export function getModeLabel(mode: TestMode, subjectMeta?: SubjectMetadata): string {
+  const prefix = subjectMeta && subjectMeta.id !== 'all' ? `[${subjectMeta.shortTitle}] ` : '';
   switch (mode) {
     case 'ironman':
-      return rot13('Vebazna Zbqr (Shyy 100 Dhrfgvbaf)');
+      return subjectMeta?.id === 'all'
+        ? 'Official 100-Question Simulated Exam (Weighted 22/26/15/17/20%)'
+        : `${prefix}Full Subject Bank (${subjectMeta?.totalQuestions ?? 200} Questions)`;
     case 'half-1':
-      return rot13('Unys Znenguba — Svefg Unys (D1–D50)');
+      return `${prefix}Half Drill — Part 1 (First Half)`;
     case 'half-2':
-      return rot13('Unys Znenguba — Frpbaq Unys (D51–D100)');
+      return `${prefix}Half Drill — Part 2 (Second Half)`;
     case 'random-25':
-      return rot13('Dhvpx Fcevag — Enaqbz 25 Dhrfgvbaf');
+      return `${prefix}Quick Sprint — Proportional 25 Questions`;
     case 'random-50':
-      return rot13('Raqhenapr — Enaqbz 50 Dhrfgvbaf');
+      return `${prefix}Rapid Drill — Proportional 50 Questions`;
+    case 'diagrams':
+      return `${prefix}Schematics & Diagrams Mastery Drill`;
     case 'retake':
-      return rot13('Ergnxr Zvffrq Dhrfgvbaf (Er-Enaqbzvmrq Qvfgenpgbef)');
+      return 'Retake Missed Questions (Re-Randomized Distractors)';
   }
 }
 
 /**
- * Samples `targetCount` questions proportionally from each curriculum subject (`section`)
- * using the Largest Remainder (Hamilton) method so every subject is represented in exact
+ * Samples `targetCount` questions proportionally from curriculum categories (topics or sections)
+ * using the Largest Remainder (Hamilton) method so every category is represented in exact
  * proportion to its weight in the bank.
  */
-export function sampleProportionallyBySection(
+export function sampleProportionallyByGrouping(
   bank: readonly QuestionRecord[],
-  targetCount: number
+  targetCount: number,
+  groupKey: (q: QuestionRecord) => string
 ): QuestionRecord[] {
   if (targetCount >= bank.length) {
     return shuffleArray(bank);
@@ -112,13 +132,14 @@ export function sampleProportionallyBySection(
 
   const groups = new Map<string, QuestionRecord[]>();
   for (const q of bank) {
-    const bucket = groups.get(q.section) ?? [];
+    const key = groupKey(q);
+    const bucket = groups.get(key) ?? [];
     bucket.push(q);
-    groups.set(q.section, bucket);
+    groups.set(key, bucket);
   }
 
   interface QuotaEntry {
-    section: string;
+    key: string;
     questions: QuestionRecord[];
     floor: number;
     remainder: number;
@@ -128,13 +149,13 @@ export function sampleProportionallyBySection(
   const entries: QuotaEntry[] = [];
   let allocatedSum = 0;
 
-  for (const [section, questions] of groups.entries()) {
+  for (const [key, questions] of groups.entries()) {
     const exact = (questions.length * targetCount) / bank.length;
     const floor = Math.floor(exact);
     const remainder = exact - floor;
     allocatedSum += floor;
     entries.push({
-      section,
+      key,
       questions,
       floor,
       remainder,
@@ -144,7 +165,6 @@ export function sampleProportionallyBySection(
 
   const remainingToAllocate = targetCount - allocatedSum;
   if (remainingToAllocate > 0) {
-    // Shuffle first so tied remainders are broken randomly without bias
     const byRemainder = shuffleArray(entries).sort((a, b) => b.remainder - a.remainder);
     for (let i = 0; i < remainingToAllocate && i < byRemainder.length; i++) {
       byRemainder[i].allocated += 1;
@@ -161,38 +181,122 @@ export function sampleProportionallyBySection(
 }
 
 /**
- * Creates a new QuizSession for any of the 5 primary test modes.
+ * Samples `targetCount` questions proportionally from each curriculum subject (`section`)
+ * using the Largest Remainder (Hamilton) method.
+ */
+export function sampleProportionallyBySection(
+  bank: readonly QuestionRecord[],
+  targetCount: number
+): QuestionRecord[] {
+  return sampleProportionallyByGrouping(bank, targetCount, (q) => q.section);
+}
+
+/**
+ * Creates a new QuizSession for any subject and test mode.
  */
 export function createQuizSession(
   bank: readonly QuestionRecord[],
   mode: Exclude<TestMode, 'retake'>,
-  config: CreateSessionConfig = {}
+  config: CreateSessionConfig = {},
+  subjectId: SubjectId = 'all'
 ): QuizSession {
   const optionCount = config.optionCount ?? 4;
   const shouldShuffle =
-    config.shuffleQuestions ?? (mode === 'random-25' || mode === 'random-50');
+    config.shuffleQuestions ?? (mode === 'random-25' || mode === 'random-50' || mode === 'diagrams');
 
   let selectedQuestions: QuestionRecord[];
+  const subjectMeta = SUBJECT_METADATA_MAP[subjectId];
 
-  switch (mode) {
-    case 'ironman':
-      selectedQuestions = [...bank];
-      break;
-    case 'half-1':
-      selectedQuestions = bank.filter((q) => q.id >= 1 && q.id <= 50);
-      break;
-    case 'half-2':
-      selectedQuestions = bank.filter((q) => q.id >= 51 && q.id <= 100);
-      break;
-    case 'random-25':
-      selectedQuestions = sampleProportionallyBySection(bank, 25);
-      break;
-    case 'random-50':
-      selectedQuestions = sampleProportionallyBySection(bank, 50);
-      break;
+  if (bank.length === 100) {
+    // 100-Question Legacy Bank
+    switch (mode) {
+      case 'ironman':
+        selectedQuestions = [...bank];
+        break;
+      case 'half-1':
+        selectedQuestions = bank.filter((q) => q.id >= 1 && q.id <= 50);
+        break;
+      case 'half-2':
+        selectedQuestions = bank.filter((q) => q.id >= 51 && q.id <= 100);
+        break;
+      case 'random-25':
+        selectedQuestions = sampleProportionallyBySection(bank, 25);
+        break;
+      case 'random-50':
+        selectedQuestions = sampleProportionallyBySection(bank, 50);
+        break;
+      case 'diagrams': {
+        const withDiagrams = bank.filter((q) => Boolean(q.image));
+        selectedQuestions = withDiagrams.length > 0 ? shuffleArray(withDiagrams) : [...bank.slice(0, 25)];
+        break;
+      }
+    }
+  } else if (subjectId === 'all') {
+    // Full 1,000-Question 5-Subject Bank
+    switch (mode) {
+      case 'ironman': {
+        // Official 100-Question Simulated Exam strictly weighted across 5 subjects:
+        // S1 (22 Qs), S2 (26 Qs), S3 (15 Qs), S4 (17 Qs), S5 (20 Qs) = 100 Qs!
+        const s1 = bank.filter((q) => q.subjectId === 's1_loops');
+        const s2 = bank.filter((q) => q.subjectId === 's2_measurement');
+        const s3 = bank.filter((q) => q.subjectId === 's3_chemistry');
+        const s4 = bank.filter((q) => q.subjectId === 's4_analyzers');
+        const s5 = bank.filter((q) => q.subjectId === 's5_control');
+
+        selectedQuestions = [
+          ...sampleProportionallyByGrouping(s1, 22, (q) => q.topic ?? q.section),
+          ...sampleProportionallyByGrouping(s2, 26, (q) => q.topic ?? q.section),
+          ...sampleProportionallyByGrouping(s3, 15, (q) => q.topic ?? q.section),
+          ...sampleProportionallyByGrouping(s4, 17, (q) => q.topic ?? q.section),
+          ...sampleProportionallyByGrouping(s5, 20, (q) => q.topic ?? q.section),
+        ];
+        break;
+      }
+      case 'half-1':
+        selectedQuestions = bank.slice(0, 500);
+        break;
+      case 'half-2':
+        selectedQuestions = bank.slice(500);
+        break;
+      case 'random-25':
+        selectedQuestions = sampleProportionallyByGrouping(bank, 25, (q) => q.subjectId ?? q.section);
+        break;
+      case 'random-50':
+        selectedQuestions = sampleProportionallyByGrouping(bank, 50, (q) => q.subjectId ?? q.section);
+        break;
+      case 'diagrams': {
+        const withDiagrams = bank.filter((q) => Boolean(q.image));
+        selectedQuestions = withDiagrams.length > 0 ? shuffleArray(withDiagrams) : [...bank.slice(0, 25)];
+        break;
+      }
+    }
+  } else {
+    // Single Subject Bank (200 Questions)
+    switch (mode) {
+      case 'ironman':
+        selectedQuestions = [...bank];
+        break;
+      case 'half-1':
+        selectedQuestions = bank.slice(0, 100);
+        break;
+      case 'half-2':
+        selectedQuestions = bank.slice(100);
+        break;
+      case 'random-25':
+        selectedQuestions = sampleProportionallyByGrouping(bank, 25, (q) => q.topic ?? q.section);
+        break;
+      case 'random-50':
+        selectedQuestions = sampleProportionallyByGrouping(bank, 50, (q) => q.topic ?? q.section);
+        break;
+      case 'diagrams': {
+        const withDiagrams = bank.filter((q) => Boolean(q.image));
+        selectedQuestions = withDiagrams.length > 0 ? shuffleArray(withDiagrams) : [...bank.slice(0, 25)];
+        break;
+      }
+    }
   }
 
-  if (shouldShuffle && mode !== 'random-25' && mode !== 'random-50') {
+  if (shouldShuffle && mode !== 'random-25' && mode !== 'random-50' && mode !== 'diagrams') {
     selectedQuestions = shuffleArray(selectedQuestions);
   }
 
@@ -204,8 +308,9 @@ export function createQuizSession(
   }));
 
   return {
+    subjectId,
     mode,
-    modeLabel: getModeLabel(mode),
+    modeLabel: getModeLabel(mode, subjectMeta),
     optionCount,
     items,
     currentIndex: 0,
@@ -294,7 +399,7 @@ export function getSessionStats(session: QuizSession): SessionStats {
   const bySection: Record<string, { total: number; correct: number }> = {};
 
   for (const item of session.items) {
-    const sec = item.question.section;
+    const sec = item.question.topic || item.question.section;
     if (!bySection[sec]) {
       bySection[sec] = { total: 0, correct: 0 };
     }
@@ -351,6 +456,7 @@ export function createRetakeSession(previousSession: QuizSession): QuizSession {
   });
 
   return {
+    subjectId: previousSession.subjectId,
     mode: 'retake',
     modeLabel: `${getModeLabel('retake')} — Round ${previousSession.roundNumber + 1}`,
     optionCount: previousSession.optionCount,

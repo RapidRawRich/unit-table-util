@@ -4,7 +4,6 @@ import { ModeSelector } from './components/ModeSelector.tsx';
 import { QuestionCard } from './components/QuestionCard.tsx';
 import { ResultsView } from './components/ResultsView.tsx';
 import {
-  getDecodedBank,
   createQuizSession,
   submitAnswer,
   nextQuestion,
@@ -12,7 +11,8 @@ import {
   createRetakeSession,
   type CreateSessionConfig,
 } from './lib/quizEngine.ts';
-import type { QuizSession, TestMode } from './lib/types.ts';
+import { getSubjectQuestions } from './data/questionBanks.ts';
+import type { QuizSession, SubjectId, TestMode } from './lib/types.ts';
 
 export function App() {
   const [unlocked, setUnlocked] = useState<boolean>(false);
@@ -24,10 +24,11 @@ export function App() {
 
   const handleStartMode = (
     mode: Exclude<TestMode, 'retake'>,
-    config: CreateSessionConfig
+    config: CreateSessionConfig,
+    subjectId: SubjectId = 'all'
   ) => {
-    const bank = getDecodedBank();
-    const newSession = createQuizSession(bank, mode, config);
+    const bank = getSubjectQuestions(subjectId);
+    const newSession = createQuizSession(bank, mode, config, subjectId);
     setSession(newSession);
   };
 
@@ -59,7 +60,9 @@ export function App() {
   return (
     <QuestionCard
       session={session}
-      onSelectOption={(optionId) => setSession((prev) => (prev ? submitAnswer(prev, optionId) : null))}
+      onSelectOption={(optionId) =>
+        setSession((prev) => (prev ? submitAnswer(prev, optionId) : null))
+      }
       onNext={() => setSession((prev) => (prev ? nextQuestion(prev) : null))}
       onPrev={() =>
         setSession((prev) =>

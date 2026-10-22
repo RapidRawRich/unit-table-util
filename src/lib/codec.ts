@@ -5,6 +5,7 @@ import type { QuestionRecord } from './types.ts';
  * Numbers, mathematical symbols, and punctuation remain intact.
  */
 export function rot13(input: string): string {
+  if (!input) return input;
   return input.replace(/[a-zA-Z]/g, (char) => {
     const base = char <= 'Z' ? 65 : 97;
     return String.fromCharCode(((char.charCodeAt(0) - base + 13) % 26) + base);
@@ -17,6 +18,8 @@ export function rot13(input: string): string {
 export function decodeQuestionRecord(encoded: QuestionRecord): QuestionRecord {
   return {
     id: encoded.id,
+    subjectId: encoded.subjectId,
+    topic: encoded.topic ? rot13(encoded.topic) : undefined,
     section: rot13(encoded.section),
     title: rot13(encoded.title),
     stem: rot13(encoded.stem),
@@ -35,7 +38,7 @@ export function decodeQuestionRecord(encoded: QuestionRecord): QuestionRecord {
 }
 
 /**
- * Verifies the landing gate access passcode.
+ * Verifies the landing gate access passcode without exposing plain-text credentials.
  */
 export function verifyPasscode(input: string): boolean {
   const normalized = input.trim();
