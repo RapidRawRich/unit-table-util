@@ -1,6 +1,7 @@
 import { decodeQuestionRecord } from '../lib/codec.ts';
 import type { QuestionRecord, SubjectId, SubjectMetadata } from '../lib/types.ts';
 
+import { ENCODED_QUESTION_BANK } from './encodedBank.ts';
 import { ENCODED_SUBJECT1_LOOPS } from './subject1_loops.ts';
 import { ENCODED_SUBJECT2_MEASUREMENT } from './subject2_measurement.ts';
 import { ENCODED_SUBJECT3_CHEMISTRY } from './subject3_chemistry.ts';
@@ -22,6 +23,22 @@ export const SUBJECT_METADATA: SubjectMetadata[] = [
       { letter: 'S3', name: 'Physical Properties & Chemistry', percent: 15, questionCount: 200 },
       { letter: 'S4', name: 'Process Analyzers', percent: 17, questionCount: 200 },
       { letter: 'S5', name: 'Process Control', percent: 20, questionCount: 200 },
+    ],
+  },
+  {
+    id: 'tq_superstar',
+    code: 'STAR',
+    title: 'TQ Superstar: Curated 100-Question Master Exam',
+    shortTitle: '⭐ TQ Superstar',
+    weightPercent: 100,
+    totalQuestions: 100,
+    ilmNumber: 'Classic TQ Master Bank',
+    topics: [
+      { letter: 'Sec 1', name: 'Electronic Loops (Analog, SIS, Fieldbus)', percent: 14, questionCount: 14 },
+      { letter: 'Sec 2', name: 'Measurement (Flow, Level, DP, Temp, Density)', percent: 29, questionCount: 29 },
+      { letter: 'Sec 3', name: 'Physical Properties & Industrial Chemistry', percent: 18, questionCount: 18 },
+      { letter: 'Sec 4', name: 'Process Analyzers (Sample, GC, pH, Gas)', percent: 17, questionCount: 17 },
+      { letter: 'Sec 5', name: 'Process Control & Controller Tuning', percent: 22, questionCount: 22 },
     ],
   },
   {
@@ -127,6 +144,9 @@ export function getSubjectQuestions(subjectId: SubjectId): QuestionRecord[] {
   let decoded: QuestionRecord[];
 
   switch (subjectId) {
+    case 'tq_superstar':
+      decoded = ENCODED_QUESTION_BANK.map(decodeQuestionRecord);
+      break;
     case 's1_loops':
       decoded = ENCODED_SUBJECT1_LOOPS.map(decodeQuestionRecord);
       break;

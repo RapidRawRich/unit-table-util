@@ -9,6 +9,7 @@ import {
   createRetakeSession,
 } from '../src/lib/quizEngine.ts';
 import { parseAndRenderMath } from '../src/lib/mathFormat.ts';
+import { getSubjectQuestions } from '../src/data/questionBanks.ts';
 
 describe('quizEngine: modes, 5-subject proportional sampling, LaTeX markup, and retake re-randomization', () => {
   const bank = getDecodedBank();
@@ -205,5 +206,40 @@ describe('quizEngine: modes, 5-subject proportional sampling, LaTeX markup, and 
       assert.equal(item.options.filter((o) => o.isCorrect).length, 1);
     }
   });
+
+  it('provides TQ Superstar option with all classic 100 questions, Front/Back 50, and 6 diagram figures', () => {
+    const starQuestions = getSubjectQuestions('tq_superstar');
+    assert.equal(starQuestions.length, 100);
+    assert.equal(starQuestions[0].id, 1);
+    assert.equal(starQuestions[99].id, 100);
+
+    // Ironman 100 mode:
+    const starIronman = createQuizSession(starQuestions, 'ironman', { optionCount: 4 }, 'tq_superstar');
+    assert.equal(starIronman.items.length, 100);
+    assert.equal(starIronman.modeLabel, 'TQ Superstar Ironman 100 — Master Exam Simulation');
+
+    // Front-50 mode:
+    const starFront = createQuizSession(starQuestions, 'half-1', { optionCount: 4 }, 'tq_superstar');
+    assert.equal(starFront.items.length, 50);
+    assert.equal(starFront.items[0].question.id, 1);
+    assert.equal(starFront.items[49].question.id, 50);
+    assert.equal(starFront.modeLabel, 'TQ Superstar Front-50 (Questions 1–50)');
+
+    // Back-50 mode:
+    const starBack = createQuizSession(starQuestions, 'half-2', { optionCount: 4 }, 'tq_superstar');
+    assert.equal(starBack.items.length, 50);
+    assert.equal(starBack.items[0].question.id, 51);
+    assert.equal(starBack.items[49].question.id, 100);
+    assert.equal(starBack.modeLabel, 'TQ Superstar Back-50 (Questions 51–100)');
+
+    // Diagrams mode:
+    const starDiagrams = createQuizSession(starQuestions, 'diagrams', { optionCount: 4 }, 'tq_superstar');
+    assert.equal(starDiagrams.items.length, 6);
+    assert.equal(starDiagrams.modeLabel, 'TQ Superstar Schematics & Diagrams Drill (6 Authentic Diagrams)');
+    for (const item of starDiagrams.items) {
+      assert.ok(item.question.image, 'Diagram mode question must have an image');
+    }
+  });
 });
+
 

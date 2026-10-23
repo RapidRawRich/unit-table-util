@@ -11,6 +11,7 @@ import {
   Image as ImageIcon,
   Award,
   BookOpen,
+  Star,
 } from 'lucide-react';
 import type { SubjectId, TestMode } from '../lib/types.ts';
 import type { CreateSessionConfig } from '../lib/quizEngine.ts';
@@ -101,6 +102,66 @@ export function ModeSelector({ onStartMode, onLock }: ModeSelectorProps) {
           description:
             'In-depth study run through the final 500 questions covering Industrial Chemistry, Process Analyzers, and Process Control.',
           icon: <SplitSquareVertical className="w-5 h-5 text-emerald-400" aria-hidden="true" />,
+        },
+      ];
+    }
+
+    if (subj === 'tq_superstar') {
+      return [
+        {
+          mode: 'ironman',
+          title: 'TQ Superstar Ironman 100',
+          subtitle: 'The Curated 100-Question Master Simulation',
+          badge: '100 Qs • CLASSIC',
+          description:
+            'The complete, acclaimed 100-question master TQ simulation covering all core instrumentation topics (Questions 1–100) with 900 calibrated distractors, formula derivations, and full immediate feedback.',
+          icon: <Flame className="w-5 h-5 text-amber-400" aria-hidden="true" />,
+          accentClass: 'md:col-span-2 border-amber-500/60 bg-gradient-to-br from-slate-900/95 via-amber-950/20 to-slate-900 shadow-amber-500/10 shadow-lg',
+        },
+        {
+          mode: 'half-1',
+          title: 'Superstar Front-50',
+          subtitle: 'Questions 1 to 50 • Loops & Core Measurement',
+          badge: 'Q1–Q50',
+          description:
+            'Targeted run through the first 50 questions of the master bank covering analog/discrete loops, fieldbus, transmitter calibrations, and RTD/thermocouple circuits.',
+          icon: <SplitSquareVertical className="w-5 h-5 text-sky-400" aria-hidden="true" />,
+        },
+        {
+          mode: 'half-2',
+          title: 'Superstar Back-50',
+          subtitle: 'Questions 51 to 100 • Chemistry, Analyzers & Control',
+          badge: 'Q51–Q100',
+          description:
+            'Targeted run through the second half covering stoichiometric reactions (including ethane combustion), GC/pH analyzers, and advanced PID loop tuning.',
+          icon: <SplitSquareVertical className="w-5 h-5 text-emerald-400" aria-hidden="true" />,
+        },
+        {
+          mode: 'random-25',
+          title: 'Superstar Quick Sprint — 25 Questions',
+          subtitle: 'Proportional 5-Subject Sample • 25 Questions',
+          badge: '25 SPRINT',
+          description:
+            'Fast-paced 25-question drill sampled proportionally across the classic master bank with immediate diagnostic feedback.',
+          icon: <Shuffle className="w-5 h-5 text-amber-300" aria-hidden="true" />,
+        },
+        {
+          mode: 'random-50',
+          title: 'Superstar Rapid Drill — 50 Questions',
+          subtitle: 'Proportional 5-Subject Sample • 50 Questions',
+          badge: '50 DRILL',
+          description:
+            'Comprehensive 50-question endurance drill sampled proportionally across all 5 sections of the master bank.',
+          icon: <Shuffle className="w-5 h-5 text-teal-300" aria-hidden="true" />,
+        },
+        {
+          mode: 'diagrams',
+          title: 'Superstar Schematics & Diagrams Drill',
+          subtitle: '6 Authentic Reference Figures & Schematics',
+          badge: '6 DIAGRAMS',
+          description:
+            'Dedicated visual mastery drill focusing on the 6 authentic reference schematics, P&IDs, and instrument wiring drawings.',
+          icon: <ImageIcon className="w-5 h-5 text-cyan-400" aria-hidden="true" />,
         },
       ];
     }
@@ -201,6 +262,7 @@ export function ModeSelector({ onStartMode, onLock }: ModeSelectorProps) {
           >
             {SUBJECT_METADATA.map((meta) => {
               const isActive = activeSubject === meta.id;
+              const isSuperstar = meta.id === 'tq_superstar';
               return (
                 <button
                   key={meta.id}
@@ -208,18 +270,26 @@ export function ModeSelector({ onStartMode, onLock }: ModeSelectorProps) {
                   onClick={() => setActiveSubject(meta.id)}
                   className={`px-3 py-2 rounded-t-md text-xs font-mono font-medium whitespace-nowrap transition-all cursor-pointer flex items-center gap-2 border-b-2 ${
                     isActive
-                      ? 'bg-slate-800/90 text-amber-300 border-amber-400 shadow-sm'
+                      ? isSuperstar
+                        ? 'bg-amber-500/20 text-amber-200 border-amber-400 shadow-sm font-bold'
+                        : 'bg-slate-800/90 text-amber-300 border-amber-400 shadow-sm'
+                      : isSuperstar
+                      ? 'text-amber-300/90 hover:text-amber-200 hover:bg-amber-500/10 border-transparent font-medium'
                       : 'text-slate-400 hover:text-slate-200 hover:bg-slate-900 border-transparent'
                   }`}
                 >
                   <span
                     className={`px-1.5 py-0.5 text-[10px] rounded font-bold ${
                       isActive
-                        ? 'bg-amber-400/20 text-amber-300 border border-amber-400/30'
+                        ? isSuperstar
+                          ? 'bg-amber-400 text-slate-950 font-black'
+                          : 'bg-amber-400/20 text-amber-300 border border-amber-400/30'
+                        : isSuperstar
+                        ? 'bg-amber-500/25 text-amber-300 border border-amber-500/40'
                         : 'bg-slate-800 text-slate-400 border border-slate-700'
                     }`}
                   >
-                    {meta.id === 'all' ? 'ALL' : `${meta.weightPercent}%`}
+                    {isSuperstar ? '⭐ 100 Qs' : meta.id === 'all' ? 'ALL' : `${meta.weightPercent}%`}
                   </span>
                   <span>{meta.shortTitle}</span>
                 </button>
@@ -238,11 +308,23 @@ export function ModeSelector({ onStartMode, onLock }: ModeSelectorProps) {
           <div className="flex flex-wrap items-start justify-between gap-4">
             <div className="space-y-1">
               <div className="flex items-center gap-2">
-                <BookOpen className="w-4 h-4 text-amber-400" aria-hidden="true" />
-                <span className="text-xs font-mono uppercase tracking-wider text-amber-400 font-semibold">
-                  Official Curriculum Subject
-                </span>
-                <span className="text-xs font-mono text-slate-400">• {currentMeta.ilmNumber}</span>
+                {activeSubject === 'tq_superstar' ? (
+                  <>
+                    <Star className="w-4 h-4 text-amber-400 fill-amber-400" aria-hidden="true" />
+                    <span className="text-xs font-mono uppercase tracking-wider text-amber-300 font-bold">
+                      Curated Master Examination
+                    </span>
+                    <span className="text-xs font-mono text-slate-400">• {currentMeta.ilmNumber}</span>
+                  </>
+                ) : (
+                  <>
+                    <BookOpen className="w-4 h-4 text-amber-400" aria-hidden="true" />
+                    <span className="text-xs font-mono uppercase tracking-wider text-amber-400 font-semibold">
+                      Official Curriculum Subject
+                    </span>
+                    <span className="text-xs font-mono text-slate-400">• {currentMeta.ilmNumber}</span>
+                  </>
+                )}
               </div>
               <h2
                 id="subject-overview-heading"
@@ -254,7 +336,9 @@ export function ModeSelector({ onStartMode, onLock }: ModeSelectorProps) {
 
             <div className="flex flex-wrap items-center gap-2">
               <span className="px-3 py-1.5 text-xs font-mono font-bold bg-amber-500/15 text-amber-300 border border-amber-500/30 rounded-md">
-                Official Exam Weight: {currentMeta.weightPercent}%
+                {activeSubject === 'tq_superstar'
+                  ? 'Classic TQ Master Edition'
+                  : `Official Exam Weight: ${currentMeta.weightPercent}%`}
               </span>
               <span className="px-3 py-1.5 text-xs font-mono text-slate-300 bg-slate-800 border border-slate-700 rounded-md">
                 {currentMeta.totalQuestions} Questions Available
@@ -334,6 +418,43 @@ export function ModeSelector({ onStartMode, onLock }: ModeSelectorProps) {
             </div>
           </div>
         </section>
+
+        {/* TQ Superstar Hero Callout when viewing All Subjects */}
+        {activeSubject === 'all' && (
+          <div
+            onClick={() => setActiveSubject('tq_superstar')}
+            className="bg-gradient-to-r from-amber-950/40 via-slate-900 to-slate-900 border border-amber-500/40 hover:border-amber-400 rounded-lg p-4 sm:p-5 cursor-pointer transition-all flex flex-wrap items-center justify-between gap-4 group shadow-md"
+          >
+            <div className="flex items-center gap-3.5">
+              <div className="p-2.5 bg-amber-500/20 border border-amber-500/40 rounded-md text-amber-300 group-hover:scale-105 transition-transform shadow-sm">
+                <Star className="w-5 h-5 fill-amber-400 text-amber-400" aria-hidden="true" />
+              </div>
+              <div>
+                <div className="flex items-center gap-2">
+                  <h4 className="text-sm font-bold text-amber-200">
+                    TQ Superstar Option (Curated 100-Question Master Exam)
+                  </h4>
+                  <span className="px-2 py-0.5 text-[10px] font-mono bg-amber-500/20 text-amber-300 border border-amber-500/40 rounded font-bold">
+                    RECOMMENDED
+                  </span>
+                </div>
+                <p className="text-xs text-slate-300 mt-1 max-w-2xl leading-relaxed">
+                  Looking for the complete, curated 100-question master TQ simulation with Ironman 100, Front-50, Back-50, and 6 reference diagrams? Switch directly to the verified TQ Superstar bank.
+                </p>
+              </div>
+            </div>
+            <button
+              type="button"
+              onClick={(e) => {
+                e.stopPropagation();
+                setActiveSubject('tq_superstar');
+              }}
+              className="bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-xs font-mono uppercase tracking-wider px-4 py-2 rounded transition-colors cursor-pointer shadow"
+            >
+              Switch to TQ Superstar →
+            </button>
+          </div>
+        )}
 
         {/* Mode Selection Grid */}
         <section aria-labelledby="modes-heading" className="space-y-4">

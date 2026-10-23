@@ -2,6 +2,13 @@
 
 All notable changes to this project are documented in this file.
 
+## [1.3.0] - 2026-10-22
+
+### Added
+- **TQ Superstar Option**: Added dedicated subject tab and quick-launch callout card for the acclaimed curated 100-question master TQ simulation (Questions 1–100, 900 distractors, 6 authentic reference diagrams). Features Ironman 100, Front-50 (Q1–Q50), Back-50 (Q51–Q100), Quick Sprint 25, Rapid Drill 50, and Schematics & Diagrams Drill.
+- **1,000-Question INST 2022 Curriculum Bank**: Added full 200-question banks across all 5 Alberta Apprenticeship curriculum subjects (Electronic Loops, Measurement, Physical Chemistry, Process Analyzers, Process Control) with 9 calibrated distractors per question and Formula Sheet 2017 LaTeX derivations.
+- **Subject Tabs & Proportional Topic Sampling**: Multi-subject navigation with official curriculum weighting badges (22%, 26%, 15%, 17%, 20%) and topic chips.
+
 ## [1.2.0] - 2026-10-22
 
 ### Changed

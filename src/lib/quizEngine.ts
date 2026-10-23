@@ -95,6 +95,25 @@ export interface CreateSessionConfig {
 }
 
 export function getModeLabel(mode: TestMode, subjectMeta?: SubjectMetadata): string {
+  if (subjectMeta?.id === 'tq_superstar') {
+    switch (mode) {
+      case 'ironman':
+        return 'TQ Superstar Ironman 100 — Master Exam Simulation';
+      case 'half-1':
+        return 'TQ Superstar Front-50 (Questions 1–50)';
+      case 'half-2':
+        return 'TQ Superstar Back-50 (Questions 51–100)';
+      case 'random-25':
+        return 'TQ Superstar Quick Sprint (25 Questions)';
+      case 'random-50':
+        return 'TQ Superstar Rapid Drill (50 Questions)';
+      case 'diagrams':
+        return 'TQ Superstar Schematics & Diagrams Drill (6 Authentic Diagrams)';
+      case 'retake':
+        return 'Retake Missed Questions (Re-Randomized Distractors)';
+    }
+  }
+
   const prefix = subjectMeta && subjectMeta.id !== 'all' ? `[${subjectMeta.shortTitle}] ` : '';
   switch (mode) {
     case 'ironman':
@@ -207,8 +226,8 @@ export function createQuizSession(
   let selectedQuestions: QuestionRecord[];
   const subjectMeta = SUBJECT_METADATA_MAP[subjectId];
 
-  if (bank.length === 100) {
-    // 100-Question Legacy Bank
+  if (bank.length === 100 || subjectId === 'tq_superstar') {
+    // 100-Question TQ Superstar / Master Bank
     switch (mode) {
       case 'ironman':
         selectedQuestions = [...bank];

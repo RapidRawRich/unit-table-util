@@ -22,6 +22,7 @@ export interface QuestionRecord {
 
 export type SubjectId =
   | 'all'
+  | 'tq_superstar'
   | 's1_loops'
   | 's2_measurement'
   | 's3_chemistry'
