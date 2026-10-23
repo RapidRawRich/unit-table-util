@@ -8,49 +8,49 @@ export const subject5Questions: QuestionRecord[] = [
     "section": "Fhowrpg 5: Cebprff Pbageby",
     "topic": "N. Pybfrq Ybbc Nanylfvf (20%)",
     "title": "Srrqonpx Pbageby Ybbc Shapgvbany Oybpxf",
-    "stem": "Ersre gb gur vyyhfgengrq srrqonpx pbageby ybbc oybpx qvntenz. Jung fvtany sybjf nybat gur srrqonpx cngu sebz gur zrnfhevat genafzvggre onpx gb gur fhzzvat whapgvba?",
-    "correctAnswer": "Gur Cebprff Inevnoyr (CI) fvtany ercerfragvat gur pheerag zrnfherq pbaqvgvba bs gur cebprff.",
+    "stem": "Ersre gb gur vyyhfgengrq Irffry 200 pbageby C&VQ. Jung pbageby fgengrtl vf vzcyrzragrq ol cerffher pbagebyyre CVP 200 naq sybj pbagebyyre SVP 201?",
+    "correctAnswer": "CVP 200 znavchyngrf vasybj ol guebggyvat Chzc 200 gb znvagnva irffry cerffher, juvyr SVP 201 vaqrcraqragyl znavchyngrf bhgsybj pbageby inyir SI 201 onfrq ba sybj zrnfherzrag SG 201.",
     "ilmReference": "VYZ 310305nN ct 4",
-    "explanation": "Va n pynffvp artngvir srrqonpx pbageby ybbc, gur genafzvggre zrnfherf gur cebprff naq genafzvgf gur Cebprff Inevnoyr (CI) onpx gb gur fhzzvat whapgvba. Gur reebe qrgrpgbe fhogenpgf CI sebz gur Frgcbvag (FC) gb trarengr gur reebe fvtany ($r = \\grkg{FC} - \\grkg{CI}$ be $r = \\grkg{CI} - \\grkg{FC}$), juvpu qevirf gur pbagebyyre nytbevguz gb trarengr Pbagebyyre Bhgchg (PB) gb gur svany pbageby ryrzrag.",
+    "explanation": "Nppbeqvat gb gur C&VQ, cerffher genafzvggre CVG 200 (0 gb 500 xCnt) srrqf CVP 200 juvpu znavchyngrf gur inevnoyr qvfcynprzrag vasybj Chzc-200. Ba gur irffry qvfpunetr, sybj genafzvggre SG 201 srrqf SVP 201 juvpu cbfvgvbaf pbageby inyir SI 201 (0 gb 200 fz\u00b3/zva) gb pbageby rssyhrag sybj.",
     "steps": null,
     "image": "./assets/curriculum/s5_quiz1_p4_img1.png",
-    "imageCaption": "Artngvir Srrqonpx Pybfrq Ybbc Oybpx Qvntenz jvgu Fhzzvat Whapgvba naq Sbejneq Cngu",
+    "imageCaption": "Irffry 200 Cerffher & Sybj Pbageby C&VQ (Chzc 200, CVG/CVP 200, SG/SVP 201, SI 201)",
     "distractors": [
       {
-        "text": "Gur Frgcbvag (FC) fvtany ragrerq ol gur pbafbyr bcrengbe.",
-        "whyIncorrect": "Frgcbvag ragref gur ersrerapr cbeg bs gur fhzzvat whapgvba, abg gur srrqonpx cngu."
+        "text": "Pnfpnqr pbageby jurer CVP 200 frgf gur erzbgr frgcbvag bs SVP 201.",
+        "whyIncorrect": "Gurer vf ab pnfpnqr frgcbvag fvtany pbaarpgvba fubja orgjrra CVP 200 naq SVP 201."
       },
       {
-        "text": "Gur Pbagebyyre Bhgchg (PB) 4-20 zN pbzznaq gb gur inyir npghngbe.",
-        "whyIncorrect": "Pbagebyyre bhgchg vf gur sbejneq cngu fvtany sebz pbagebyyre gb svany ryrzrag."
+        "text": "Engvb pbageby jurer Chzc 200 bhgchg vf zhygvcyvrq ol n engvb gb cbfvgvba SI 201.",
+        "whyIncorrect": "Arvgure pbagebyyre npgf nf n engvb fgngvba; obgu unir vaqrcraqrag cebprff inevnoyrf."
       },
       {
-        "text": "Gur hazrnfherq ybnq qvfgheonapr (QI) ragrevat gur urng rkpunatre.",
-        "whyIncorrect": "Qvfgheonaprf ragre gur cebprff rkgreanyyl; gurl ner abg gur srrqonpx zrnfherzrag fvtany."
+        "text": "Fcyvg-enatr pbageby jurer CVP 200 cnegvgvbaf vgf bhgchg orgjrra Chzc 200 naq SI 201.",
+        "whyIncorrect": "CVP 200 pbaarpgf rkpyhfviryl gb Chzc 200; SI 201 vf qevira ol SVP 201."
       },
       {
-        "text": "Gur 120 INP ryrpgevpny yvar cbjre cbjrevat gur furygre.",
-        "whyIncorrect": "Znvaf cbjre raretvmrf uneqjner, ohg vf abg gur vasbezngvba fvtany va oybpx qvntenzf."
+        "text": "Bireevqr pbageby jurer n ybj fvtany fryrpgbe fryrpgf orgjrra cerffher naq sybj.",
+        "whyIncorrect": "Ab fvtany fryrpg oybpxf (YF be UF) ner cerfrag va gur ybbc."
       },
       {
-        "text": "Gur qrevingvir engr gvzr frggvat ($G_q$) pbasvtherq va gur CVQ oybpx.",
-        "whyIncorrect": "Qrevingvir gvzr vf na vagreany pbagebyyre ghavat cnenzrgre, abg n fvtany yvar."
+        "text": "Srrqsbejneq pbageby jurer SG 201 nqwhfgf Chzc 200 qverpgyl orsber cerffher punatrf.",
+        "whyIncorrect": "SG 201 pbaarpgf bayl gb srrqonpx pbagebyyre SVP 201."
       },
       {
-        "text": "Gur zrpunavpny fcevat grafvba vafvqr gur carhzngvp npghngbe.",
-        "whyIncorrect": "Npghngbe fcevat grafvba vf na vagreany zrpunavpny sbepr, abg srrqonpx fvtany."
+        "text": "Ongpu frdhrapvat pbageby bcrengrq ol na nhgbzngrq CYP fgngr znpuvar.",
+        "whyIncorrect": "Gur ybbcf ner pbagvahbhf erthyngbel srrqonpx ybbcf ba n cerffhevmrq fhetr irffry."
       },
       {
-        "text": "Gur reebe fvtany ($r$) qevivat gur vagrteny npphzhyngbe.",
-        "whyIncorrect": "Gur reebe fvtany vf perngrq NG gur fhzzvat whapgvba, qbjafgernz bs srrqonpx."
+        "text": "Nagv-fhetr pbageby jvgu uvtu-fcrrq erplpyr inyirf nebhaq Chzc 200.",
+        "whyIncorrect": "Ab zvavzhz sybj olcnff be nagv-fhetr erplpyr yvar vf qrcvpgrq."
       },
       {
-        "text": "Gur olcnff sybj engr pvephyngvat nebhaq gur snfg ybbc.",
-        "whyIncorrect": "Olcnff sybj vf n cvcvat ulqenhyvp pbaprcg, abg gur cevznel ybbc oybpx srrqonpx fvtany."
+        "text": "Qhny-shry pebff-yvzvgvat nve-shry engvb pbzohfgvba pbageby.",
+        "whyIncorrect": "Guvf vf n yvdhvq fhetr irffry, abg na vaqhfgevny sverq urngre."
       },
       {
-        "text": "Gur carhzngvp 3-15 cfv fhccyl nve sebz gur pbzcerffbe urnqre.",
-        "whyIncorrect": "Carhzngvp fhccyl vf zbgvir cbjre, abg gur srrqonpx CI fvtany."
+        "text": "Qrnq-gvzr pbzcrafngvba hgvyvmvat n Fzvgu Cerqvpgbe zbqry bs Irffry 200.",
+        "whyIncorrect": "Fgnaqneq srrqonpx pbagebyyref CVP 200 naq SVP 201 ner fubja."
       }
     ]
   },
@@ -60,10 +60,10 @@ export const subject5Questions: QuestionRecord[] = [
     "section": "Fhowrpg 5: Cebprff Pbageby",
     "topic": "N. Pybfrq Ybbc Nanylfvf (20%)",
     "title": "Cebprff Tnva Pnyphyngvba sebz Fgrc Erfcbafr",
-    "stem": "Ersre gb gur vyyhfgengrq bcra-ybbc cebprff ernpgvba pheir. Va znahny zbqr, na bcrengbe fgrcf gur pbagebyyre bhgchg sebz $\\grkg{PB}_1 = 40\\%$ gb $\\grkg{PB}_2 = 50\\%$ (n $\\Qrygn \\grkg{PB} = +10\\%$ fgrc). Gur grzcrengher CI erfcbaqf, frggyvat sebz $\\grkg{CI}_1 = 120^\\pvep\\grkg{P}$ gb $\\grkg{CI}_2 = 145^\\pvep\\grkg{P}$ (n $\\Qrygn \\grkg{CI} = +25^\\pvep\\grkg{P}$). Gur genafzvggre fcna vf $0\\grkg{ gb }200^\\pvep\\grkg{P}$. Nppbeqvat gb gur Ncceragvprfuvc Sbezhyn Furrg, jung vf gur qvzrafvbayrff (abeznyvmrq creprag-gb-creprag) cebprff tnva ($X_c$)?",
-    "correctAnswer": "$X_c = 1.25\\% \\grkg{ CI} / \\% \\grkg{ PB}$",
+    "stem": "Ersre gb gur vyyhfgengrq Cebprff Ernpgvba Pheir (Svther 2-N). Va znahny zbqr, na bcrengbe fgrcf gur pbagebyyre bhgchg (PB) sebz 65\\% gb 80\\% ng g = 0.65\\grkg{ zva}. Gur cebprff inevnoyr (CI) evfrf sebz 45\\% naq fgnovyvmrf ng 60\\%. Pnyphyngr gur fgrnql-fgngr cebprff tnva X_c.",
+    "correctAnswer": "$X_c = +1.00$ (pnyphyngrq nf $\\Qrygn CI / \\Qrygn PB = (60\\% - 45\\%) / (80\\% - 65\\%) = 15\\% / 15\\%$).",
     "ilmReference": "Ncceragvprfuvc Sbezhyn Furrg 2017 / VYZ 310305nN ct 8",
-    "explanation": "Sebz gur Ncceragvprfuvc Sbezhyn Furrg 2017:\n$$X_c = \\senp{\\Qrygn \\grkg{CI}}{\\Qrygn \\grkg{PB}}$$\nSvefg pbaireg $\\Qrygn \\grkg{CI}$ vagb creprag bs fcna:\n$$\\Qrygn \\grkg{CI}_{\\%} = \\senp{145^\\pvep\\grkg{P} - 120^\\pvep\\grkg{P}}{200^\\pvep\\grkg{P} - 0^\\pvep\\grkg{P}} \\gvzrf 100\\% = \\senp{25}{200} \\gvzrf 100\\% = 12.5\\%$$\nGur pbagebyyre fgrc vf:\n$$\\Qrygn \\grkg{PB}_{\\%} = 50\\% - 40\\% = 10\\%$$\nAbeznyvmrq cebprff tnva:\n$$X_c = \\senp{\\Qrygn \\grkg{CI}_{\\%}}{\\Qrygn \\grkg{PB}_{\\%}} = \\senp{12.5\\%}{10\\%} = 1.25\\% / \\%$$",
+    "explanation": "Gur fgrnql-fgngr cebprff tnva $X_c$ sbe n frys-erthyngvat cebprff vf: $$X_c = \\senp{\\Qrygn CI}{\\Qrygn PB} = \\senp{60\\% - 45\\%}{80\\% - 65\\%} = \\senp{15\\%}{15\\%} = +1.00$$. Orpnhfr CI vapernfrf jura PB vapernfrf, gur cebprff tnva vf cbfvgvir.",
     "steps": [
       "Vqragvsl sbezhyn sebz Ncceragvprfuvc Sbezhyn Furrg 2017: $X_c = \\senp{\\Qrygn \\grkg{CI}}{\\Qrygn \\grkg{PB}}$",
       "Pnyphyngr ratvarrevat punatrf: $\\Qrygn \\grkg{PB} = 50\\% - 40\\% = 10\\%$, $\\Qrygn \\grkg{CI} = 145 - 120 = 25^\\pvep\\grkg{P}$",
@@ -71,43 +71,43 @@ export const subject5Questions: QuestionRecord[] = [
       "Pnyphyngr abeznyvmrq cebprff tnva: $X_c = \\senp{12.5\\%}{10\\%} = 1.25$ (qvzrafvbayrff)"
     ],
     "image": "./assets/curriculum/s5_quiz1_p2_img1.png",
-    "imageCaption": "Svefg-Beqre Cyhf Qrnq Gvzr (SBCQG) Fgrc Erfcbafr Ernpgvba Pheir",
+    "imageCaption": "Cebprff Ernpgvba Pheir 2-N: Bcra-Ybbc Fgrc Grfg (PB: 65% gb 80%, CI: 45% gb 60%)",
     "distractors": [
       {
-        "text": "Xc = 2.50% / %",
-        "whyIncorrect": "Hfrq enj ratvarrevat havgf ($25 / 10 = 2.5$) jvgubhg abeznyvmvat ol genafzvggre fcna."
+        "text": "$X_c = +0.75$; qvivqrq 45% ol 60%.",
+        "whyIncorrect": "Tnva vf gur engvb bs punatrf (\u0394CI/\u0394PB), abg nofbyhgr onfryvar inyhrf."
       },
       {
-        "text": "Xc = 0.80% / %",
-        "whyIncorrect": "Vairegrq gur tnva sbezhyn: $\\Qrygn \\grkg{PB} / \\Qrygn \\grkg{CI} = 10 / 12.5 = 0.80$."
+        "text": "$X_c = +1.33$; vairegrq gur tnva sbezhyn nf \u0394PB / \u0394CI.",
+        "whyIncorrect": "Vairegrq gur sbezhyn; cebprff tnva vf punatr va bhgchg bire punatr va vachg (\u0394CI/\u0394PB)."
       },
       {
-        "text": "Xc = 0.125% / %",
-        "whyIncorrect": "Qvivqrq 12.5% ol 100% vafgrnq bs fgrc fvmr $\\Qrygn \\grkg{PB} = 10\\%$."
+        "text": "$X_c = -1.00$; nffvtarq artngvir fvta gb n qverpg-npgvat cebprff.",
+        "whyIncorrect": "CI zbirf va gur fnzr qverpgvba nf PB, juvpu qrsvarf cbfvgvir cebprff tnva."
       },
       {
-        "text": "Xc = 12.5% / %",
-        "whyIncorrect": "Ercbegrq $\\Qrygn \\grkg{CI}_{\\%}$ jvgubhg qvivqvat ol $\\Qrygn \\grkg{PB}$."
+        "text": "$X_c = +0.15$; fhogenpgrq crepragntrf jvgubhg qvivqvat.",
+        "whyIncorrect": "Snvyrq gb qvivqr \u0394CI ol \u0394PB."
       },
       {
-        "text": "Xc = 0.50% / %",
-        "whyIncorrect": "Unyirq gur gehr cebprff tnva."
+        "text": "$X_c = +2.00$; pnyphyngrq tnva nffhzvat 50% fgrc fvmr.",
+        "whyIncorrect": "Gur fgrc punatr jnf 15% (80% - 65%), abg 7.5%."
       },
       {
-        "text": "Xc = 25.0% / %",
-        "whyIncorrect": "Hfrq enj grzcrengher punatr nf crepragntr qverpgyl."
+        "text": "$X_c = +0.50$; qvivqrq 15% ol n cerfhzrq 30% fcna.",
+        "whyIncorrect": "\u0394PB vf rknpgyl 15%."
       },
       {
-        "text": "Xc = -1.25% / %",
-        "whyIncorrect": "Vairegrq gur nytroenvp fvta; cebprff erfcbafr vf cbfvgvir qverpg-npgvat."
+        "text": "$X_c = +15.0$; zhygvcyvrq gur tnva ol 15.",
+        "whyIncorrect": "Cebprff tnva vf havgyrff be %/% naq rdhnyf rknpgyl 1.00."
       },
       {
-        "text": "Xc = 1.00% / %",
-        "whyIncorrect": "Nffhzrq na vqrnyvmrq havg tnva jvgubhg pnyphyngvba."
+        "text": "$X_c = 0.00$; nffhzrq vagrtengvat cebprff jvgu mreb tnva.",
+        "whyIncorrect": "CI ernpurf n fgnoyr fgrnql fgngr ng 60%, pbasvezvat n frys-erthyngvat cebprff."
       },
       {
-        "text": "Xc = 5.00% / %",
-        "whyIncorrect": "Neovgenel nevguzrgvp zvfpnyphyngvba."
+        "text": "$X_c = +0.80$; hfrq gur svany PB inyhr.",
+        "whyIncorrect": "Cebprff tnva qrcraqf ba gur punatr (\u0394), abg svany fgrnql-fgngr inyhr."
       }
     ]
   },
@@ -117,53 +117,53 @@ export const subject5Questions: QuestionRecord[] = [
     "section": "Fhowrpg 5: Cebprff Pbageby",
     "topic": "N. Pybfrq Ybbc Nanylfvf (20%)",
     "title": "Fgngvp Tnva Pnyphyngvba sebz Sbezhyn Furrg",
-    "stem": "N zbgbevmrq pbageby inyir cbfvgvbare erprvirf n pbzznaq vachg punatr sebz $V_1 = 8.0\\grkg{ zN}$ gb $V_2 = 16.0\\grkg{ zN}$ ($\\Qrygn \\grkg{Vachg} = 8.0\\grkg{ zN}$). Gur inyir fgrz cbfvgvba zbirf sebz $K_1 = 25\\%$ gb $K_2 = 75\\%$ bcra ($\\Qrygn \\grkg{Bhgchg} = 50\\%$). Nppbeqvat gb gur Ncceragvprfuvc Sbezhyn Furrg, jung vf gur fgngvp tnva ($T_f$) bs guvf inyir cbfvgvbare?",
-    "correctAnswer": "$T_f = 6.25\\% / \\grkg{zN}$",
+    "stem": "Ersre gb gur vyyhfgengrq Cebprff Ernpgvba Pheir (Svther 4O). Gur pbagebyyre bhgchg (PB) vf fgrccrq sebz 46.2\\% gb 69.4\\% ng g = 4.1\\grkg{ zva}. Gur fgrrcrfg gnatrag yvar vagrefrpgf gur vavgvny CI onfryvar (53.2\\%) ng g = 7.9\\grkg{ zva}. Pnyphyngr gur nccnerag cebprff qrnq gvzr \\gurgn.",
+    "correctAnswer": "$\\gurgn = 3.8\\grkg{ zvahgrf}$ (pnyphyngrq nf $7.9\\grkg{ zva} - 4.1\\grkg{ zva}$).",
     "ilmReference": "Ncceragvprfuvc Sbezhyn Furrg 2017 / VYZ 310305nN ct 11",
-    "explanation": "Sebz gur Ncceragvprfuvc Sbezhyn Furrg 2017:\n$$T_f = \\senp{\\Qrygn \\grkg{Bhgchg}}{\\Qrygn \\grkg{Vachg}}$$\nJurer:\n- $\\Qrygn \\grkg{Bhgchg} = 75\\% - 25\\% = 50\\%$\n- $\\Qrygn \\grkg{Vachg} = 16.0\\grkg{ zN} - 8.0\\grkg{ zN} = 8.0\\grkg{ zN}$\n\nPnyphyngvba:\n$$T_f = \\senp{50\\%}{8.0\\grkg{ zN}} = 6.25\\% / \\grkg{zN}$$",
+    "explanation": "Cebprff qrnq gvzr (genafcbeg ynt $\\gurgn$) vf gur gvzr vagreiny orgjrra jura gur fgrc punatr va pbagebyyre bhgchg vf vavgvngrq ($g_{\\grkg{fgrc}} = 4.1\\grkg{ zva}$) naq jura gur gnatrag yvar guebhtu gur vasyrpgvba cbvag vagrefrpgf gur vavgvny CI onfryvar ($g_{\\grkg{gnatrag}} = 7.9\\grkg{ zva}$): $$\\gurgn = 7.9\\grkg{ zva} - 4.1\\grkg{ zva} = 3.8\\grkg{ zvahgrf}$$.",
     "steps": [
       "Vqragvsl sbezhyn sebz Ncceragvprfuvc Sbezhyn Furrg 2017: $T_f = \\senp{\\Qrygn \\grkg{Bhgchg}}{\\Qrygn \\grkg{Vachg}}$",
       "Pnyphyngr punatrf: $\\Qrygn \\grkg{Bhgchg} = 75\\% - 25\\% = 50\\%$, $\\Qrygn \\grkg{Vachg} = 16.0 - 8.0 = 8.0\\grkg{ zN}$",
       "Pbzchgr fgngvp tnva: $T_f = \\senp{50}{8.0} = 6.25\\% / \\grkg{zN}$"
     ],
-    "image": null,
-    "imageCaption": null,
+    "image": "./assets/curriculum/s5_quiz1_p5_img1.png",
+    "imageCaption": "Cebprff Ernpgvba Pheir 4O: Bcra-Ybbc Fgrc Grfg (PB: 46.2% gb 69.4%, CI: 53.2% gb 61.9%)",
     "distractors": [
       {
-        "text": "Tf = 0.16 zN / %",
-        "whyIncorrect": "Vairegrq gur sbezhyn: pnyphyngrq $\\Qrygn \\grkg{Vachg} / \\Qrygn \\grkg{Bhgchg} = 8.0 / 50 = 0.16$."
+        "text": "$\\gurgn = 7.9\\grkg{ zvahgrf}$; ernq gur nofbyhgr gvzr bs gnatrag vagrefrpgvba.",
+        "whyIncorrect": "Zhfg fhogenpg gur fgrc vavgvngvba gvzr (4.1 zva) sebz gur vagreprcg gvzr."
       },
       {
-        "text": "Tf = 3.125% / zN",
-        "whyIncorrect": "Unyirq gur bhgchg punatr ($25 / 8.0 = 3.125$)."
+        "text": "$\\gurgn = 4.1\\grkg{ zvahgrf}$; ernq gur fgrc vavgvngvba gvzr qverpgyl.",
+        "whyIncorrect": "4.1 zva vf jura gur bcrengbe zbirq gur znahny bhgchg."
       },
       {
-        "text": "Tf = 12.5% / zN",
-        "whyIncorrect": "Hfrq shyy-fpnyr fcna bs 100% va ahzrengbe vafgrnq bs npghny $\\Qrygn \\grkg{Bhgchg} = 50\\%$."
+        "text": "$\\gurgn = 1.9\\grkg{ zvahgrf}$; qvivqrq 3.8 zva va unys.",
+        "whyIncorrect": "Neovgenel unyivat bs qrnq gvzr."
       },
       {
-        "text": "Tf = 62.5% / zN",
-        "whyIncorrect": "Qrpvzny reebe ol n snpgbe bs 10."
+        "text": "$\\gurgn = 8.7\\grkg{ zvahgrf}$; ernq gur punatr va CI (61.9% - 53.2%).",
+        "whyIncorrect": "Pbashfrq iregvpny crepragntr punatr jvgu ubevmbagny gvzr nkvf."
       },
       {
-        "text": "Tf = 4.00% / zN",
-        "whyIncorrect": "Qvivqrq 50 ol 12.5 reebarbhfyl."
+        "text": "$\\gurgn = 2.0\\grkg{ zvahgrf}$; ebhaqrq gb arnerfg znwbe tevq znex.",
+        "whyIncorrect": "Rknpg pnyphyngvba vf 7.9 - 4.1 = 3.8 zva."
       },
       {
-        "text": "Tf = 50.0% / zN",
-        "whyIncorrect": "Ercbegrq $\\Qrygn \\grkg{Bhgchg}$ jvgubhg qvivqvat ol vachg fvtany punatr."
+        "text": "$\\gurgn = 23.2\\grkg{ zvahgrf}$; ernq gur punatr va PB (69.4% - 46.2%).",
+        "whyIncorrect": "Pbashfrq bhgchg fgrc zntavghqr jvgu gvzr qrynl."
       },
       {
-        "text": "Tf = 8.00% / zN",
-        "whyIncorrect": "Rdhngrq tnva qverpgyl gb gur zN vachg punatr."
+        "text": "$\\gurgn = 12.0\\grkg{ zvahgrf}$; nqqrq 4.1 zva naq 7.9 zva.",
+        "whyIncorrect": "Nqqrq gvzr inyhrf vafgrnq bs fhogenpgvat gurz."
       },
       {
-        "text": "Tf = -6.25% / zN",
-        "whyIncorrect": "Vairegrq gur nytroenvp fvta; sbejneq tnva vf cbfvgvir qverpg."
+        "text": "$\\gurgn = 0.5\\grkg{ zvahgrf}$; nffhzrq qrnq gvzr jnf artyvtvoyr.",
+        "whyIncorrect": "Gur erfcbafr fubjf fhofgnagvny genafcbegngvba ynt bs 3.8 zva."
       },
       {
-        "text": "Tf = 1.00% / zN",
-        "whyIncorrect": "Neovgenel nffhzcgvba bs havg tnva."
+        "text": "$\\gurgn = 5.3\\grkg{ zvahgrf}$; fhogenpgrq 4.1 zva sebz 9.4 zva.",
+        "whyIncorrect": "Vapbeerpg vagreprcg gvzr ernqvat."
       }
     ]
   },
@@ -173,54 +173,54 @@ export const subject5Questions: QuestionRecord[] = [
     "section": "Fhowrpg 5: Cebprff Pbageby",
     "topic": "N. Pybfrq Ybbc Nanylfvf (20%)",
     "title": "Pybfrq Ybbc Fgngvp Tnva (PYFT) Pnyphyngvba",
-    "stem": "N cebcbegvbany srrqonpx ybbc unf n pbagebyyre tnva bs $X_p = 3.0$ naq n cebprff tnva bs $X_c = 1.5$. Nppbeqvat gb gur Ncceragvprfuvc Sbezhyn Furrg, jung vf gur Pybfrq Ybbc Fgngvp Tnva (PYFT) bs guvf flfgrz?",
-    "correctAnswer": "$\\grkg{PYFT} = 0.818$",
+    "stem": "Ersre gb gur vyyhfgengrq Cebprff Ernpgvba Pheir (Svther 1-s). Jura gur pbagebyyre bhgchg (PB) vf fgrccrq sebz 52\\% gb 62\\% ng g = 3.0\\grkg{ zva}, gur cebprff inevnoyr (CI) ortvaf enzcvat qbjajneq ng g = 4.0\\grkg{ zva} ng n pbafgnag fybcr. Jung cebprff punenpgrevfgvp vf qrzbafgengrq?",
+    "correctAnswer": "Na vagrtengvat (aba-frys-erthyngvat) cebprff jvgu n qrnq gvzr bs 1.0 zvahgr naq n artngvir vagrtengvba engr.",
     "ilmReference": "Ncceragvprfuvc Sbezhyn Furrg 2017 / VYZ 310305nN ct 14",
-    "explanation": "Sebz gur Ncceragvprfuvc Sbezhyn Furrg 2017:\n$$\\grkg{PYFT} = \\senp{X_p X_c}{1 + X_p X_c}$$\nPnyphyngr bcra-ybbc tnva cebqhpg ($X_{\\grkg{ybbc}}$):\n$$X_p X_c = 3.0 \\gvzrf 1.5 = 4.5$$\nFhofgvghgr vagb PYFT:\n$$\\grkg{PYFT} = \\senp{4.5}{1 + 4.5} = \\senp{4.5}{5.5} = 0.81818 \\nccebk 0.818$$\nAbgr gung sbe cher cebcbegvbany pbageby, PYFT vf nyjnlf yrff guna 1.0, juvpu rkcynvaf gur vaurerag cerfrapr bs fgrnql-fgngr bssfrg ($1 - \\grkg{PYFT} = 0.182$).",
+    "explanation": "N frys-erthyngvat cebprff fgnovyvmrf ng n arj fgrnql fgngr sbyybjvat n fgrc punatr. Va pbagenfg, na vagrtengvat cebprff (fhpu nf yvdhvq yriry va n gnax be cerffher va n pybfrq irffry) pbagvahrf enzcvat ng n pbafgnag engr vaqrsvavgryl ($qCI/qg = \\grkg{pbafgnag}$) sbe nf ybat nf gur bhgchg vzonynapr rkvfgf. Gur qrnq gvzr vf $4.0 - 3.0 = 1.0\\grkg{ zva}$.",
     "steps": [
       "Vqragvsl sbezhyn sebz Ncceragvprfuvc Sbezhyn Furrg 2017: $\\grkg{PYFT} = \\senp{X_p X_c}{1 + X_p X_c}$",
       "Pbzchgr ybbc cebqhpg: $X_p X_c = 3.0 \\gvzrf 1.5 = 4.5$",
       "Pbzchgr qrabzvangbe: $1 + 4.5 = 5.5$",
       "Pnyphyngr pybfrq ybbc fgngvp tnva: $\\grkg{PYFT} = \\senp{4.5}{5.5} = 0.818$"
     ],
-    "image": null,
-    "imageCaption": null,
+    "image": "./assets/curriculum/s5_quiz1_p6_img1.png",
+    "imageCaption": "Vagrtengvat Cebprff Enzc 1-s: Fgrc Punatr Cebqhpvat Pbafgnag Qbjajneq Fybcr",
     "distractors": [
       {
-        "text": "PYFT = 4.500",
-        "whyIncorrect": "Pnyphyngrq bcra-ybbc tnva $X_p X_c$ jvgubhg qvivqvat ol $(1 + X_p X_c)$."
+        "text": "N cher svefg-beqre frys-erthyngvat cebprff jvgu mreb qrnq gvzr.",
+        "whyIncorrect": "Gur erfcbafr pbagvahrf enzcvat jvgu ab rkcbaragvny yriryvat, naq unf 1 zva qrnq gvzr."
       },
       {
-        "text": "PYFT = 1.000",
-        "whyIncorrect": "Nffhzrq cresrpg frgcbvag genpxvat (juvpu erdhverf vagrteny erfrg npgvba)."
+        "text": "N frpbaq-beqre haqreqnzcrq cebprff jvgu 0.25 qrpnl engvb.",
+        "whyIncorrect": "Gurer ner ab bfpvyyngvbaf be birefubbg; vg vf n fgenvtug yvar enzc."
       },
       {
-        "text": "PYFT = 0.182",
-        "whyIncorrect": "Pnyphyngrq gur fgrnql-fgngr reebe/bssfrg ($1 / (1 + X_p X_c)$) vafgrnq bs PYFT."
+        "text": "N frys-erthyngvat urng rkpunatre cebprff jvgu n tnva bs +1.5.",
+        "whyIncorrect": "Vagrtengvat cebprffrf unir ab svavgr frys-erthyngvat tnva."
       },
       {
-        "text": "PYFT = 1.222",
-        "whyIncorrect": "Vairegrq gur sbezhyn: $(1 + X_p X_c) / (X_p X_c) = 5.5 / 4.5 = 1.222$."
+        "text": "N eha-njnl rkbgurezvp purzvpny ernpgbe jvgu rkcbaragvny nppryrengvba.",
+        "whyIncorrect": "Gur fybcr vf pbafgnag (yvarne), abg rkcbaragvnyyl nppryrengvat."
       },
       {
-        "text": "PYFT = 0.750",
-        "whyIncorrect": "Pnyphyngrq $3.0 / 4.0 = 0.75$ hfvat $X_p / (1 + X_p)$."
+        "text": "N aba-zvavzhz cunfr cebprff jvgu vairefr vavgvny erfcbafr.",
+        "whyIncorrect": "CI qbrf abg fgrc hcjneq orsber qebccvat; vg fgnlf syng qhevat qrnq gvzr, gura enzcf qbja."
       },
       {
-        "text": "PYFT = 0.600",
-        "whyIncorrect": "Pnyphyngrq $X_c / (1 + X_c) = 1.5 / 2.5 = 0.60$."
+        "text": "N pevgvpnyyl qnzcrq srrqonpx ybbc bcrengvat va nhgbzngvp zbqr.",
+        "whyIncorrect": "Guvf vf na bcra-ybbc grfg cresbezrq va znahny zbqr."
       },
       {
-        "text": "PYFT = 0.082",
-        "whyIncorrect": "Qrpvzny reebe ol n snpgbe bs 10."
+        "text": "Na bireqnzcrq cebprff jvgu n gvzr pbafgnag bs 10 zvahgrf.",
+        "whyIncorrect": "Bireqnzcrq cebprffrf yriry bss nflzcgbgvpnyyl; vagrtengvat cebprffrf qb abg."
       },
       {
-        "text": "PYFT = 0.500",
-        "whyIncorrect": "Neovgenel reebarbhf pnyphyngvba."
+        "text": "N qvtvgny pbageby ybbc jvgu frirer dhnagvmngvba yvzvg plpyrf.",
+        "whyIncorrect": "Ab yvzvg plpyr plpyvat vf cerfrag; vg vf n fzbbgu pbagvahbhf enzc."
       },
       {
-        "text": "PYFT = 0.900",
-        "whyIncorrect": "Ebhaqrq rfgvzngvba vtabevat rknpg qrabzvangbe."
+        "text": "N qrnq-gvzr qbzvanag frys-erthyngvat cebprff gung fgnovyvmrf ng 45%.",
+        "whyIncorrect": "Gur enzc pbagvahrf qbjajneqf bss gur puneg; vg qbrf abg frys-erthyngr."
       }
     ]
   },
@@ -230,54 +230,54 @@ export const subject5Questions: QuestionRecord[] = [
     "section": "Fhowrpg 5: Cebprff Pbageby",
     "topic": "N. Pybfrq Ybbc Nanylfvf (20%)",
     "title": "Pybfrq Ybbc Gvzr Pbafgnag (PYGP) Pnyphyngvba",
-    "stem": "N gurezny cebprff unf na bcra-ybbc svefg-beqre gvzr pbafgnag bs $\\gnh_1 = 40.0\\grkg{ zvahgrf}$, jvgu n cebprff tnva bs $X_c = 2.0$. N cebcbegvbany pbagebyyre vf cynprq va freivpr jvgu n tnva bs $X_p = 4.0$. Nppbeqvat gb gur Ncceragvprfuvc Sbezhyn Furrg, jung vf gur erfhygvat Pybfrq Ybbc Gvzr Pbafgnag (PYGP)?",
-    "correctAnswer": "$\\grkg{PYGP} = 4.44\\grkg{ zvahgrf}$",
+    "stem": "Ersre gb gur vyyhfgengrq Cebprff Ernpgvba Pheir (Svther 1-q). Jura gur pbagebyyre bhgchg (PB) vf fgrccrq qbjajneq sebz 52\\% gb 48\\% ng g = 2.5\\grkg{ zva}, gur cebprff inevnoyr (CI) enzcf qbjajneq pbagvahbhfyl. Jul pnaabg na vagrtengvat cebprff or gharq hfvat fgnaqneq frys-erthyngvat Mvrtyre-Avpubyf ernpgvba pheir sbezhynf?",
+    "correctAnswer": "Orpnhfr na vagrtengvat cebprff unf ab fgrnql-fgngr tnva (\\Qrygn CI \\evtugneebj \\vasgl) naq ab frys-erthyngvat gvzr pbafgnag (\\gnh); ghavat zhfg or onfrq ba gur vagrtengvba enzc engr.",
     "ilmReference": "Ncceragvprfuvc Sbezhyn Furrg 2017 / VYZ 310305nN ct 18",
-    "explanation": "Sebz gur Ncceragvprfuvc Sbezhyn Furrg 2017:\n$$\\grkg{PYGP} = \\senp{\\gnh_1}{1 + X_p X_c}$$\nPnyphyngr ybbc tnva cebqhpg:\n$$X_p X_c = 4.0 \\gvzrf 2.0 = 8.0$$\nFhofgvghgr vagb PYGP sbezhyn:\n$$\\grkg{PYGP} = \\senp{40.0\\grkg{ zva}}{1 + 8.0} = \\senp{40.0}{9.0} = 4.444\\grkg{ zvahgrf} \\nccebk 4.44\\grkg{ zvahgrf}$$\nSrrqonpx pbageby fcrrqf hc gur cebprff erfcbafr ol n snpgbe bs $(1 + X_p X_c) = 9.0\\gvzrf$.",
+    "explanation": "Fgnaqneq bcra-ybbc ernpgvba pheir sbezhynf erdhver n svavgr fgrnql-fgngr tnva $X_c = \\Qrygn CI / \\Qrygn PB$ naq n 63.2% gvzr pbafgnag $\\gnh$. Vagrtengvat cebprffrf arire ernpu n fgrnql fgngr, fb gurve qlanzvp zbqry vf cnenzrgrevmrq ol qrnq gvzr $\\gurgn$ naq vagrtengvba irybpvgl $X_v^* = (qCI/qg) / \\Qrygn PB$.",
     "steps": [
       "Vqragvsl sbezhyn sebz Ncceragvprfuvc Sbezhyn Furrg 2017: $\\grkg{PYGP} = \\senp{\\gnh_1}{1 + X_p X_c}$",
       "Pnyphyngr ybbc cebqhpg: $X_p X_c = 4.0 \\gvzrf 2.0 = 8.0$",
       "Pbzchgr qrabzvangbe: $1 + X_p X_c = 1 + 8.0 = 9.0$",
       "Pbzchgr pybfrq ybbc gvzr pbafgnag: $\\grkg{PYGP} = \\senp{40.0}{9.0} = 4.44\\grkg{ zvahgrf}$"
     ],
-    "image": null,
-    "imageCaption": null,
+    "image": "./assets/curriculum/s5_quiz1_p6_img2.png",
+    "imageCaption": "Vagrtengvat Cebprff Enzc 1-q: Artngvir Fgrc Cebqhpvat Qbjajneq Fybcr",
     "distractors": [
       {
-        "text": "PYGP = 40.0 zvahgrf",
-        "whyIncorrect": "Nffhzrq pybfrq-ybbc fcrrq vf vqragvpny gb bcra-ybbc gvzr pbafgnag."
+        "text": "Orpnhfr vagrtengvat cebprffrf pna bayl or pbagebyyrq jvgu Ba/Bss fjvgpurf.",
+        "whyIncorrect": "Vagrtengvat cebprffrf ner fgnaqneqyl pbagebyyrq jvgu Cebcbegvbany-Vagrteny (CV) pbagebyyref."
       },
       {
-        "text": "PYGP = 5.00 zvahgrf",
-        "whyIncorrect": "Qvivqrq ol $X_p X_c = 8.0$ qverpgyl, sbetrggvat gb nqq 1 va qrabzvangbe ($40/8 = 5.0$)."
+        "text": "Orpnhfr vagrtengvat cebprffrf unir mreb qrnq gvzr haqre nyy pbaqvgvbaf.",
+        "whyIncorrect": "Vagrtengvat cebprffrf serdhragyl pbagnva cvcvat qrnq gvzr."
       },
       {
-        "text": "PYGP = 360.0 zvahgrf",
-        "whyIncorrect": "Zhygvcyvrq $\\gnh_1 \\gvzrf (1 + X_p X_c) = 40 \\gvzrf 9 = 360$."
+        "text": "Orpnhfr qrevingvir npgvba vf fgevpgyl cebuvovgrq ba nyy vagrtengvat cebprffrf.",
+        "whyIncorrect": "Qrevingvir pna or hfrq va yriry pbageby, gubhtu CV vf fgnaqneq."
       },
       {
-        "text": "PYGP = 10.0 zvahgrf",
-        "whyIncorrect": "Qvivqrq $\\gnh_1$ ol $X_p = 4.0$ ($40 / 4 = 10$)."
+        "text": "Orpnhfr vagrtengvat cebprffrf nyjnlf bfpvyyngr jvgu dhnegre-nzcyvghqr qnzcvat.",
+        "whyIncorrect": "Bcra-ybbc vagrtengvat cebprffrf rkuvovg mreb bfpvyyngvbaf."
       },
       {
-        "text": "PYGP = 20.0 zvahgrf",
-        "whyIncorrect": "Qvivqrq $\\gnh_1$ ol $X_c = 2.0$ ($40 / 2 = 20$)."
+        "text": "Orpnhfr vagrtengvat cebprffrf erdhver pnfpnqr pbageby jvgu guerr arfgrq fynirf.",
+        "whyIncorrect": "Fvatyr-ybbc pbagebyyref rnfvyl pbageby vagrtengvat irffryf."
       },
       {
-        "text": "PYGP = 0.44 zvahgrf",
-        "whyIncorrect": "Qrpvzny reebe ol n snpgbe bs 10."
+        "text": "Orpnhfr vagrtengvat cebprffrf pna bayl or zbqryrq hfvat m-genafsbez qvfpergr zngu.",
+        "whyIncorrect": "Pbagvahbhf Yncynpr genafsbez zbqryf ($T(f) = X / f$) zbqry vagrtengvat cebprffrf cresrpgyl."
       },
       {
-        "text": "PYGP = 8.88 zvahgrf",
-        "whyIncorrect": "Qbhoyrq gur pbeerpg pybfrq-ybbc gvzr pbafgnag."
+        "text": "Orpnhfr vagrtengvat cebprffrf unir cbfvgvir srrqonpx ybbcf ohvyg vagb gur inyir.",
+        "whyIncorrect": "Gur vagrtengvat punenpgrevfgvp vf n culfvpny cebcregl bs znff/raretl npphzhyngvba."
       },
       {
-        "text": "PYGP = 2.22 zvahgrf",
-        "whyIncorrect": "Unyirq gur pbeerpg pybfrq-ybbc gvzr pbafgnag."
+        "text": "Orpnhfr vagrtengvat cebprffrf pna bayl bcrengr jvgu carhzngvp synccre-abmmyr pbagebyyref.",
+        "whyIncorrect": "Zbqrea qvtvgny QPF naq CNP flfgrzf pbageby vagrtengvat cebprffrf."
       },
       {
-        "text": "PYGP = 1.00 zvahgr",
-        "whyIncorrect": "Neovgenel reebarbhf pnyphyngvba."
+        "text": "Orpnhfr vagrtengvat cebprffrf erdhver artngvir qrnq gvzr gb fgnovyvmr.",
+        "whyIncorrect": "Artngvir qrnq gvzr ivbyngrf pnhfnyvgl naq qbrf abg rkvfg va culfvpny flfgrzf."
       }
     ]
   },
@@ -287,49 +287,49 @@ export const subject5Questions: QuestionRecord[] = [
     "section": "Fhowrpg 5: Cebprff Pbageby",
     "topic": "N. Pybfrq Ybbc Nanylfvf (20%)",
     "title": "Pbagebyyre Qverpg if Erirefr Npgvba Qrgrezvangvba",
-    "stem": "N fgrnz-urngrq urng rkpunatre hfrf na Nve-gb-Bcra (Snvy Pybfrq, SP) pbageby inyir ba gur fgrnz fhccyl yvar gb pbageby bhgyrg cebprff grzcrengher. Nf grzcrengher vapernfrf nobir frgcbvag, jung pbagebyyre npgvba vf erdhverq gb znvagnva fgnoyr artngvir srrqonpx?",
-    "correctAnswer": "Erirefr-npgvat pbagebyyre.",
+    "stem": "Ersre gb gur vyyhfgengrq Cebprff Ernpgvba Pheir (Svther 1-p). Ng g = 0.25\\grkg{ zva}, PB vf fgrccrq sebz 30\\% gb 50\\%, pnhfvat CI gb enzc hcjneq pbagvahbhfyl sebz 55\\% ng n pbafgnag engr. Jung glcr bs svryq cebprff qbrf guvf erfcbafr glcvpnyyl ercerfrag?",
+    "correctAnswer": "N yvdhvq fgbentr gnax jvgu pbagebyyrq vasybj naq pbafgnag bhgsybj (yvdhvq yriry evfrf pbagvahbhfyl jura vasybj rkprrqf bhgsybj).",
     "ilmReference": "VYZ 310305nN ct 21",
-    "explanation": "Gb rfgnoyvfu artngvir srrqonpx, gur cebqhpg bs tnvaf nebhaq gur ybbc zhfg or artngvir. Sbyybj gur culfvpny fvtany punva:\n1. Vs grzcrengher (CI) evfrf nobir frgcbvag, fgrnz sybj zhfg or QRPERNFRQ.\n2. Gur fgrnz inyir vf Nve-gb-Bcra (SP), zrnavat qrpernfvat fvtany nve pybfrf gur inyir.\n3. Gurersber, nf CI evfrf, gur Pbagebyyre Bhgchg (PB) zhfg QRPERNFR.\n4. N pbagebyyre jubfr bhgchg qrpernfrf jura gur cebprff inevnoyr vapernfrf vf qrsvarq nf ERIREFR-NPGVAT ($X_p < 0$, reebe $r = \\grkg{FC} - \\grkg{CI}$).",
+    "explanation": "Va n yvdhvq fgbentr irffry, vapernfvat gur vasybj inyir cbfvgvba juvyr bhgsybj erznvaf pbafgnag perngrf n znff vzonynapr, pnhfvat gur gnax yriry (CI) gb evfr ng n yvarne engr cebcbegvbany gb gur rkprff sybj: $qu/qg = (D_{\\grkg{va}} - D_{\\grkg{bhg}}) / N_{\\grkg{gnax}}$.",
     "steps": null,
-    "image": null,
-    "imageCaption": null,
+    "image": "./assets/curriculum/s5_quiz1_p7_img1.png",
+    "imageCaption": "Vagrtengvat Cebprff Enzc 1-p: Fgrc Hc Cebqhpvat Cbfvgvir Hcjneq Fybcr",
     "distractors": [
       {
-        "text": "Qverpg-npgvat pbagebyyre.",
-        "whyIncorrect": "Qverpg npgvat jbhyq vapernfr fgrnz nf grzcrengher evfrf, pnhfvat gurezny ehanjnl."
+        "text": "N furyy-naq-ghor urng rkpunatre jvgu frys-erthyngvat rkvg grzcrengher.",
+        "whyIncorrect": "Urng rkpunatref frys-erthyngr nf urng genafsre nccebnpurf gurezny rdhvyvoevhz."
       },
       {
-        "text": "Fcyvg-enatr npgvat pbagebyyre.",
-        "whyIncorrect": "Fcyvg-enatr vf n zhygv-inyir frdhrapvat fpurzr, abg n pbagebyyre ybbc npgvba zbqr."
+        "text": "N tnf cvcryvar jvgu cerffher frys-erthyngvat npebff n svkrq bevsvpr.",
+        "whyIncorrect": "Tnf yvar cerffher frys-erthyngrf nf sybj guebhtu gur bevsvpr vapernfrf jvgu cerffher."
       },
       {
-        "text": "Qrnqorng npgvat pbagebyyre.",
-        "whyIncorrect": "Qrnqorng vf n qvfpergr ghavat nytbevguz, abg n qverpgvbany npgvba fryrpgvba."
+        "text": "N pbagvahbhf fgveerq gnax ernpgbe jvgu vafgnagnarbhf purzvpny arhgenyvmngvba.",
+        "whyIncorrect": "Arhgenyvmngvba cebprffrf frys-erthyngr nebhaq rdhvinyrapr cbvagf."
       },
       {
-        "text": "Yrnq-ynt qlanzvp pbagebyyre.",
-        "whyIncorrect": "Yrnq-ynt vf qlanzvp srrqsbejneq pbzcrafngvba, abg pbagebyyre reebe npgvba."
+        "text": "N pragevshtny chzc bcrengvat ntnvafg pybfrq fuhgbss urnq.",
+        "whyIncorrect": "Chzc urnq ntnvafg pybfrq qvfpunetr ernpurf n fgngvp znkvzhz cerffher, abg n enzc."
       },
       {
-        "text": "Pnfpnqr fynir npgvat pbagebyyre.",
-        "whyIncorrect": "Pnfpnqr qrfpevorf ybbc uvrenepul; gur fynir fgvyy erdhverf qverpg be erirefr fryrpgvba."
+        "text": "N fgrnz gheovar trarengbe jvgu na vfbpuebabhf sylonyy tbireabe.",
+        "whyIncorrect": "Gheovar tbireabef va pybfrq ybbc ubyq fcrrq pbafgnag."
       },
       {
-        "text": "Fryrpgvir bireevqr npgvat pbagebyyre.",
-        "whyIncorrect": "Fryrpgvir pbageby vf uvtu/ybj fvtany fryrpgvba, abg pbagebyyre tnva cbynevgl."
+        "text": "Na ntvgngrq wnpxrgrq ernpgbe jvgu ehanjnl gurezny rkcybfvba.",
+        "whyIncorrect": "Ehanjnl ernpgvbaf nppryrengr rkcbaragvnyyl, abg nf n yvarne enzc."
       },
       {
-        "text": "Ba-bss onat-onat pbagebyyre.",
-        "whyIncorrect": "Urng rkpunatref erdhver pbagvahbhf guebggyvat CVQ pbageby, abg ba-bss punggre."
+        "text": "Na bevsvpr zrgre zrnfhevat fgrnql gheohyrag fgrnz sybj.",
+        "whyIncorrect": "Sybj zrgref cebqhpr vafgnagnarbhf qvssreragvny cerffher, abg na npphzhyngvat enzc."
       },
       {
-        "text": "Bcra-ybbc srrqsbejneq bayl.",
-        "whyIncorrect": "Srrqonpx pbageby vf znaqngbel gb erthyngr grzcrengher ntnvafg ybnq punatrf."
+        "text": "N ibegrk sybjzrgre furqqvat Xnezna ibegvprf ng pbafgnag serdhrapl.",
+        "whyIncorrect": "Ibegrk furqqvat cebqhprf fgrnql NP serdhrapl, abg na vagrtengvat enzc."
       },
       {
-        "text": "Aba-yvarne fdhner-ebbg npgvat pbagebyyre.",
-        "whyIncorrect": "Fdhner-ebbg rkgenpgvba vf hfrq sbe QC sybj, abg urng rkpunatre pbagebyyre npgvba."
+        "text": "N carhzngvp inyir cbfvgvbare erfcbaqvat gb n 12 zN fgrc vachg.",
+        "whyIncorrect": "Cbfvgvbaref ner pybfrq-ybbc snfg cbfvgvbavat freibf gung frggyr va frpbaqf."
       }
     ]
   },
@@ -339,49 +339,49 @@ export const subject5Questions: QuestionRecord[] = [
     "section": "Fhowrpg 5: Cebprff Pbageby",
     "topic": "N. Pybfrq Ybbc Nanylfvf (20%)",
     "title": "Pbbyvat Jngre Ybbc Npgvba Fryrpgvba",
-    "stem": "N puvyyrq jngre pbbyvat wnpxrg pbagebyf rkbgurezvp ernpgbe grzcrengher hfvat na Nve-gb-Bcra (Snvy Pybfrq, SP) inyir ba gur pbbyvat jngre vayrg. Jung pbagebyyre npgvba zhfg or fryrpgrq?",
-    "correctAnswer": "Qverpg-npgvat pbagebyyre.",
+    "stem": "Ersre gb gur vyyhfgengrq Cebprff Ernpgvba Pheir (Svther 1-R). Jura PB fgrcf sebz 30\\% gb 50\\% ng g = 0.25\\grkg{ zva}, CI enzcf qbjajneq pbagvahbhfyl. Gb npuvrir fgnoyr artngvir srrqonpx pbageby ba guvf vagrtengvat cebprff, jung pbagebyyre npgvba zhfg or fryrpgrq?",
+    "correctAnswer": "Erirefr-npgvat pbagebyyre (vs CI vapernfrf nobir frgcbvag, pbagebyyre bhgchg PB zhfg vapernfr gb qevir CI onpx qbja).",
     "ilmReference": "VYZ 310305nN ct 24",
-    "explanation": "Sbyybj gur pbeerpgvir ybtvp:\n1. Jura ernpgbe grzcrengher (CI) evfrf nobir frgcbvag, zber pbbyvat vf erdhverq.\n2. Gb vapernfr pbbyvat jngre sybj guebhtu na Nve-gb-Bcra (SP) inyir, gur inyir zhfg or bcrarq shegure.\n3. Gurersber, nf CI vapernfrf, gur Pbagebyyre Bhgchg (PB) zhfg VAPERNFR.\n4. N pbagebyyre jubfr bhgchg vapernfrf nf gur cebprff inevnoyr vapernfrf vf qrsvarq nf QVERPG-NPGVAT ($X_p > 0$, reebe $r = \\grkg{CI} - \\grkg{FC}$).",
+    "explanation": "Orpnhfr vapernfvat PB pnhfrf CI gb enzc qbjajneq, gur cebprff unf n artngvir qlanzvp tnva. Gb cebivqr artngvir srrqonpx, vs CI evfrf nobir frgcbvag, gur pbagebyyre zhfg vapernfr PB gb qevir CI onpx qbja. Ol VFN qrsvavgvba, n pbagebyyre jubfr bhgchg vapernfrf jura CI vapernfrf vf Erirefr-npgvat.",
     "steps": null,
-    "image": null,
-    "imageCaption": null,
+    "image": "./assets/curriculum/s5_quiz1_p7_img2.png",
+    "imageCaption": "Vagrtengvat Cebprff Enzc 1-R: Fgrc Hc Cebqhpvat Artngvir Qbjajneq Fybcr",
     "distractors": [
       {
-        "text": "Erirefr-npgvat pbagebyyre.",
-        "whyIncorrect": "Erirefr npgvat jbhyq erqhpr pbbyvat jngre jura grzcrengher evfrf, pnhfvat ernpgbe ehanjnl."
+        "text": "Qverpg-npgvat pbagebyyre; bhgchg zhfg qrpernfr jura CI vapernfrf.",
+        "whyIncorrect": "Qrpernfvat bhgchg jbhyq pnhfr CI gb enzc hc rira snfgre, pnhfvat cbfvgvir srrqonpx ehanjnl."
       },
       {
-        "text": "Vagrteny-bayl npgvba jvgu mreb tnva.",
-        "whyIncorrect": "Vagrteny npgvba fgvyy unf n fvta qverpgvba; mreb tnva jbhyq cebqhpr mreb pbageby."
+        "text": "Znahny npgvba bayl; vagrtengvat cebprffrf pnaabg eha va nhgbzngvp zbqr.",
+        "whyIncorrect": "Vagrtengvat cebprffrf ner ebhgvaryl naq fgnoyl pbagebyyrq va nhgbzngvp zbqr."
       },
       {
-        "text": "Srrqsbejneq npgvba jvgu n yrnq gvzr bs mreb.",
-        "whyIncorrect": "Srrqsbejneq qbrf abg ercynpr cevznel srrqonpx ybbc npgvba fryrpgvba."
+        "text": "Uvtu fvtany fryrpg bireevqr npgvba jvgu nagv-erfrg jvaqhc.",
+        "whyIncorrect": "Fvtany fryrpg bireevqr vf n zhygv-pbagebyyre fpurzr, abg onfvp pbagebyyre npgvba."
       },
       {
-        "text": "Uvtu fryrpgbe bireevqr.",
-        "whyIncorrect": "Uvtu fryrpgbe vf na nhpgvbarrevat bireevqr, abg fgnaqneq ybbc npgvba."
+        "text": "Fcyvg-enatr qhny npgvba jvgu 50% qrnqonaq bireync.",
+        "whyIncorrect": "Fcyvg-enatr vf sbe pbagebyyvat zhygvcyr inyirf, abg fvatyr-ybbc pbagebyyre npgvba."
       },
       {
-        "text": "Vairefr erfcbafr qrevingvir npgvba.",
-        "whyIncorrect": "Vairefr erfcbafr qrfpevorf cebprff evtug-unys-cynar mrebf, abg pbagebyyre npgvba."
+        "text": "Yrnq-ynt srrqsbejneq npgvba jvgu havgl tnva.",
+        "whyIncorrect": "Srrqsbejneq pbzcrafngrf sbe zrnfherq qvfgheonaprf, abg onfvp ybbc srrqonpx cbynevgl."
       },
       {
-        "text": "Sybngvat erfrg jvgubhg cebcbegvbany onaq.",
-        "whyIncorrect": "Sybngvat pbageby erdhverf qverpgvbany fvta pbasvthengvba whfg yvxr CVQ."
+        "text": "Qvssreragvny tnc (ba-bss) npgvba jvgu 10% arhgeny onaq.",
+        "whyIncorrect": "Ba-bss pbageby pnhfrf pbagvahbhf yvzvg plpyvat va vagrtengvat cebprffrf."
       },
       {
-        "text": "Olcnff snfg ybbc npgvba.",
-        "whyIncorrect": "Olcnff snfg ybbcf ner fnzcyr pbaqvgvbavat flfgrzf, abg pbageby nytbevguzf."
+        "text": "Vairefr qrevingvir npgvba jvgu uvtu abvfr svygengvba.",
+        "whyIncorrect": "Vairefr qrevingvir vf hfrq sbe fyhttvfu nanylmref, abg onfvp npgvba fryrpgvba."
       },
       {
-        "text": "Znahny bcrengbe vagreiragvba bayl.",
-        "whyIncorrect": "Rkbgurezvp ernpgbef erdhver nhgbzngvp pybfrq-ybbc pbageby gb cerirag gurezny ehanjnl."
+        "text": "Cebcbegvbany-bayl npgvba jvgu znahny erfrg ovnf pragrerq ng mreb.",
+        "whyIncorrect": "C-bayl npgvba ba na vagrtengvat cebprff yrnirf pbagvahbhf bssfrg be qevsgf."
       },
       {
-        "text": "Snvy Bcra npgvba.",
-        "whyIncorrect": "Snvy Bcra vf n zrpunavpny inyir snvyher zbqr, abg n pbagebyyre fbsgjner npgvba."
+        "text": "Sybngvat npgvba jvgu ab cebcbegvbany tnva.",
+        "whyIncorrect": "Cher sybngvat pbageby vf fyhttvfu naq cebar gb vafgnovyvgl pbzcnerq gb fgnaqneq CV."
       }
     ]
   },
@@ -391,49 +391,49 @@ export const subject5Questions: QuestionRecord[] = [
     "section": "Fhowrpg 5: Cebprff Pbageby",
     "topic": "N. Pybfrq Ybbc Nanylfvf (20%)",
     "title": "Frys-Erthyngvat if Vagrtengvat Cebprffrf",
-    "stem": "Va cebprff qlanzvpf, ubj qbrf n frys-erthyngvat cebprff qvssre shaqnzragnyyl sebz na vagrtengvat (aba-frys-erthyngvat) cebprff jura fhowrpgrq gb n fgrc punatr va pbagebyyre bhgchg va znahny zbqr?",
-    "correctAnswer": "N frys-erthyngvat cebprff anghenyyl ernpurf n arj fgnoyr fgrnql-fgngr rdhvyvoevhz jvgubhg pbageby npgvba, jurernf na vagrtengvat cebprff enzcf pbagvahbhfyl ng n fgrnql engr hagvy vg fnghengrf be biresybjf.",
+    "stem": "Ersre gb gur vyyhfgengrq Cebprff Ernpgvba Pheir (Svther 4q). Gur pbagebyyre bhgchg (PB) vf fgrccrq qbja sebz 67.8\\% gb 62.3\\% ng g = 4.62\\grkg{ zva}. CI snyyf sebz 58.1\\% gb 51.7\\%, naq gur gnatrag yvar vagrefrpgf gur vavgvny onfryvar ng g = 8.0\\grkg{ zva}. Pnyphyngr gur qrnq gvzr \\gurgn naq cebprff tnva X_c.",
+    "correctAnswer": "$\\gurgn = 3.38\\grkg{ zva}$, $X_c = +1.16$ (pnyphyngrq nf $\\gurgn = 8.0 - 4.62$ naq $X_c = -6.4\\% / -5.5\\%$).",
     "ilmReference": "VYZ 310305nN ct 27",
-    "explanation": "N frys-erthyngvat cebprff (r.t., sybj guebhtu na bevsvpr, n urng rkpunatre, be n gnax jvgu n tenivgl qvfpunetr qenva) unf vaurerag angheny srrqonpx: nf gur inevnoyr punatrf, vagreany qevivat sbeprf bccbfr shegure punatr, pnhfvat CI gb frggyr ng n arj fgnoyr fgrnql fgngr. Na vagrtengvat cebprff (r.t., yvdhvq yriry va n gnax jvgu pbafgnag chzcrq bhgsybj, be tnf cerffher va n frnyrq npphzhyngbe) unf ab angheny frys-yvzvgvat onynapr; n fgrc punatr va vayrg sybj pnhfrf yriry gb evfr be snyy pbagvahbhfyl ng n pbafgnag engr ($q\\grkg{CI}/qg = \\grkg{pbafgnag}$).",
+    "explanation": "Qrnq gvzr: $\\gurgn = 8.0\\grkg{ zva} - 4.62\\grkg{ zva} = 3.38\\grkg{ zvahgrf}$. Punatr va bhgchg: $\\Qrygn PB = 62.3\\% - 67.8\\% = -5.5\\%$. Punatr va CI: $\\Qrygn CI = 51.7\\% - 58.1\\% = -6.4\\%$. Cebprff tnva: $X_c = \\senp{-6.4\\%}{-5.5\\%} = +1.16$.",
     "steps": null,
-    "image": null,
-    "imageCaption": null,
+    "image": "./assets/curriculum/s5_quiz1_p8_img1.png",
+    "imageCaption": "Cebprff Ernpgvba Pheir 4q: Bcra-Ybbc Fgrc Grfg (PB: 67.8% gb 62.3%, CI: 58.1% gb 51.7%)",
     "distractors": [
       {
-        "text": "N frys-erthyngvat cebprff enzcf gb vasvavgl, juvyr na vagrtengvat cebprff fgnlf ng mreb.",
-        "whyIncorrect": "Vairegrq; vagrtengvat cebprffrf enzc pbagvahbhfyl jvgubhg obhaq, frys-erthyngvat cebprffrf frggyr."
+        "text": "$\\gurgn = 8.0\\grkg{ zva}$, $X_c = +0.86$; artyrpgrq fgrc fgneg gvzr naq vairegrq tnva.",
+        "whyIncorrect": "Fgrc fgnegrq ng 4.62 zva; tnva vf \u0394CI/\u0394PB = -6.4/-5.5 = +1.16."
       },
       {
-        "text": "Frys-erthyngvat cebprffrf unir mreb qrnq gvzr, juvyr vagrtengvat cebprffrf unir vasvavgr qrnq gvzr.",
-        "whyIncorrect": "Obgu cebprff glcrf pna rkuvovg culfvpny qrnq gvzr."
+        "text": "$\\gurgn = 4.62\\grkg{ zva}$, $X_c = -1.16$; nffvtarq artngvir tnva gb n qverpg cebprff.",
+        "whyIncorrect": "Obgu PB naq CI qrpernfrq, fb gur engvb bs artngvirf lvryqf cbfvgvir tnva."
       },
       {
-        "text": "Frys-erthyngvat cebprffrf pna bayl or pbagebyyrq va znahny zbqr.",
-        "whyIncorrect": "Obgu frys-erthyngvat naq vagrtengvat cebprffrf ner ebhgvaryl pbagebyyrq va nhgbzngvp CVQ zbqr."
+        "text": "$\\gurgn = 3.38\\grkg{ zva}$, $X_c = -1.16$; nffvtarq artngvir fvta gb gur tnva.",
+        "whyIncorrect": "(-6.4%) / (-5.5%) = +1.16."
       },
       {
-        "text": "Vagrtengvat cebprffrf qb abg erdhver pbageby inyirf.",
-        "whyIncorrect": "Vagrtengvat yriry ybbcf guebggyr pbageby inyirf pbagvahbhfyl gb zngpu znff onynapr."
+        "text": "$\\gurgn = 1.50\\grkg{ zva}$, $X_c = +0.55$; neovgenel qrnq gvzr rfgvzngvba.",
+        "whyIncorrect": "Pnyphyngvba vf fgevpgyl 8.0 - 4.62 = 3.38 zva."
       },
       {
-        "text": "Frys-erthyngvat cebprffrf bayl rkvfg va bhgre fcnpr haqre mreb tenivgl.",
-        "whyIncorrect": "Urng rkpunatref naq sevpgvba sybj ybbcf ba Rnegu ner pynffvp frys-erthyngvat cebprffrf."
+        "text": "$\\gurgn = 5.50\\grkg{ zva}$, $X_c = +6.40$; pbashfrq punatrf va PB naq CI.",
+        "whyIncorrect": "5.5% vf \u0394PB naq 6.4% vf \u0394CI, abg qrnq gvzr be tnva."
       },
       {
-        "text": "Vagrtengvat cebprffrf bcrengr ng nofbyhgr mreb grzcrengher.",
-        "whyIncorrect": "Vagrtengvat cebprffrf bcrengr npebff nyy abezny vaqhfgevny cynag grzcrengherf."
+        "text": "$\\gurgn = 3.38\\grkg{ zva}$, $X_c = +0.86$; vairegrq tnva nf \u0394PB / \u0394CI.",
+        "whyIncorrect": "Vairegrq tnva sbezhyn."
       },
       {
-        "text": "Frys-erthyngvat cebprffrf unir vasvavgr cebprff tnva ($X_c = \\vasgl$).",
-        "whyIncorrect": "Frys-erthyngvat cebprffrf unir svavgr fgngvp cebprff tnva ($X_c = \\Qrygn \\grkg{CI} / \\Qrygn \\grkg{PB}$)."
+        "text": "$\\gurgn = 12.62\\grkg{ zva}$, $X_c = +1.16$; nqqrq fgrc gvzr naq vagreprcg gvzr.",
+        "whyIncorrect": "Nqqrq vafgrnq bs fhogenpgvat gvzrf."
       },
       {
-        "text": "Vagrtengvat cebprffrf pna bayl or gharq hfvat qrevingvir-bayl pbageby.",
-        "whyIncorrect": "Vagrtengvat cebprffrf ner fgnaqneqyl gharq jvgu C-bayl be CV pbageby; qrevingvir vf eneryl hfrq ba yriry."
+        "text": "$\\gurgn = 0.00\\grkg{ zva}$, $X_c = +1.00$; nffhzrq vafgnag frys-erthyngvba.",
+        "whyIncorrect": "CI erznvaf syng hagvy nsgre g = 4.62 zva; qrnq gvzr vf 3.38 zva."
       },
       {
-        "text": "Obgu cebprffrf orunir vqragvpnyyl jvgu mreb zngurzngvpny qvssrerapr.",
-        "whyIncorrect": "Vagrtengvat cebprffrf unir n cbyr ng $f = 0$ ($T(f) = X / f$), shaqnzragnyyl qvssrerag sebz frys-erthyngvat ($1 / (1 + \\gnh f)$)."
+        "text": "$\\gurgn = 2.38\\grkg{ zva}$, $X_c = +1.50$; ernq tevq yvarf vapbeerpgyl.",
+        "whyIncorrect": "Tevq yvarf pbasvez vagreprcg ng 8.0 zva naq fgrc ng 4.62 zva."
       }
     ]
   },
@@ -443,49 +443,49 @@ export const subject5Questions: QuestionRecord[] = [
     "section": "Fhowrpg 5: Cebprff Pbageby",
     "topic": "N. Pybfrq Ybbc Nanylfvf (20%)",
     "title": "Cebcbegvbany-Bayl Pbageby Fgrnql-Fgngr Bssfrg",
-    "stem": "Jul qbrf n srrqonpx pbageby ybbc hgvyvmvat Cebcbegvbany-bayl (C-bayl) pbageby nyjnlf rkuvovg n crefvfgrag fgrnql-fgngr reebe (bssfrg) sbyybjvat n ybnq qvfgheonapr be frgcbvag punatr?",
-    "correctAnswer": "N cebcbegvbany pbagebyyre erdhverf n aba-mreb reebe gb trarengr na bhgchg punatr ($$\\Qrygn \\grkg{PB} = X_p \\pqbg r$$); jvgubhg na reebe, gur pbagebyyre bhgchg jbhyq erghea gb vgf abzvany ovnf inyhr.",
+    "stem": "Ersre gb gur vyyhfgengrq Cebprff Ernpgvba Pheir (Svther 4p). PB vf fgrccrq sebz 40.2\\% gb 57.3\\% ng g = 1.17\\grkg{ zva}. CI evfrf sebz 49.2\\% gb 87.0\\%, jvgu gur gnatrag yvar vagrefrpgvat onfryvar ng g = 1.75\\grkg{ zva}. Pnyphyngr gur fgrnql-fgngr cebprff tnva X_c.",
+    "correctAnswer": "$X_c = +2.21$ (pnyphyngrq nf $\\Qrygn CI / \\Qrygn PB = (87.0\\% - 49.2\\%) / (57.3\\% - 40.2\\%) = 37.8\\% / 17.1\\%$).",
     "ilmReference": "VYZ 310305nN ct 30",
-    "explanation": "Va C-bayl pbageby, pbagebyyre bhgchg vf fgevpgyl cebcbegvbany gb reebe: $$\\grkg{PB} = X_p \\pqbg r + o$$ (jurer $o$ vf znahny ovnf). Jura n ybnq punatr bpphef (r.t., cebprff guebhtuchg qbhoyrf), gur inyir zhfg erznva bcra jvqre gb fngvfsl gur arj qrznaq. Gur bayl jnl gur C-bayl nytbevguz pna fhfgnva guvf arj, uvture bhgchg vf ol znvagnvavat n creznarag, aba-mreb reebe ($r = \\grkg{FC} - \\grkg{CI} \\ar 0$). Nqqvat Vagrteny (erfrg) npgvba vf erdhverq gb qevir bssfrg gb nofbyhgr mreb.",
+    "explanation": "Punatr va pbagebyyre bhgchg: $\\Qrygn PB = 57.3\\% - 40.2\\% = 17.1\\%$. Punatr va cebprff inevnoyr: $\\Qrygn CI = 87.0\\% - 49.2\\% = 37.8\\%$. Fgrnql-fgngr tnva: $X_c = \\senp{37.8\\%}{17.1\\%} = +2.21$.",
     "steps": null,
-    "image": null,
-    "imageCaption": null,
+    "image": "./assets/curriculum/s5_quiz1_p8_img3.png",
+    "imageCaption": "Cebprff Ernpgvba Pheir 4p: Bcra-Ybbc Fgrc Grfg (PB: 40.2% gb 57.3%, CI: 49.2% gb 87.0%)",
     "distractors": [
       {
-        "text": "Orpnhfr cebcbegvbany pbagebyyref unir mreb ryrpgevpny cbjre.",
-        "whyIncorrect": "QPF pbagebyyref unir pbagvahbhf cbjre; bssfrg vf n shaqnzragny zngurzngvpny cebcregl bs C-bayl pbageby."
+        "text": "$X_c = +0.45$; vairegrq gur tnva sbezhyn nf \u0394PB / \u0394CI.",
+        "whyIncorrect": "Vairegrq gur sbezhyn; cebprff tnva vf \u0394CI/\u0394PB."
       },
       {
-        "text": "Orpnhfr gur pbageby inyir vf pbzcyrgryl sebmra naq pnaabg zbir.",
-        "whyIncorrect": "Gur inyir zbirf gb n arj cbfvgvba, ohg erdhverf pbagvahbhf reebe gb ubyq gung cbfvgvba."
+        "text": "$X_c = +1.77$; qvivqrq svany CI (87%) ol svany PB (57.3%).",
+        "whyIncorrect": "Tnva vf gur engvb bs punatrf, abg engvb bs svany inyhrf."
       },
       {
-        "text": "Orpnhfr gur genafzvggre pnyvoengvba unf qevsgrq ol 50%.",
-        "whyIncorrect": "Bssfrg bpphef rira jvgu n cresrpgyl pnyvoengrq, vqrny genafzvggre."
+        "text": "$X_c = +3.78$; artyrpgrq qvivqvat ol \u0394PB.",
+        "whyIncorrect": "Bzvggrq qvivfvba ol \u0394PB (17.1%)."
       },
       {
-        "text": "Orpnhfr gur bcrengbe sbetbg gb ragre gur frgcbvag.",
-        "whyIncorrect": "Bssfrg vf gur qvssrerapr orgjrra gur ragrerq frgcbvag naq gur fgrnql-fgngr CI."
+        "text": "$X_c = -2.21$; nffvtarq artngvir fvta gb n qverpg-npgvat cebprff.",
+        "whyIncorrect": "Obgu PB naq CI vapernfr, fb cebprff tnva vf cbfvgvir."
       },
       {
-        "text": "Orpnhfr gur cebprff syhvq ghearq vagb n fhcrepbaqhpgbe.",
-        "whyIncorrect": "Fhcrepbaqhpgvivgl unf ab eryngvba gb vaqhfgevny srrqonpx ybbc fgrnql-fgngr bssfrg."
+        "text": "$X_c = +1.00$; nffhzrq havgl tnva.",
+        "whyIncorrect": "Pnyphyngrq tnva vf 37.8 / 17.1 = 2.21."
       },
       {
-        "text": "Orpnhfr qrevingvir npgvba jnf ranoyrq.",
-        "whyIncorrect": "Qrevingvir npgvba qbrf abg pnhfr bssfrg; bssfrg vf pnhfrq ol ynpx bs vagrteny npgvba."
+        "text": "$X_c = +0.58$; ernq qrnq gvzr (1.75 - 1.17) vafgrnq bs tnva.",
+        "whyIncorrect": "0.58 zva vf gur qrnq gvzr \u03b8, abg cebprff tnva."
       },
       {
-        "text": "Orpnhfr gur ybbc vf bfpvyyngvat hafgnoyl ng 100 Um.",
-        "whyIncorrect": "Bssfrg vf n fgrnql-fgngr QP reebe, abg qlanzvp uvtu-serdhrapl bfpvyyngvba."
+        "text": "$X_c = +1.50$; rfgvzngrq fybcr jvgubhg rknpg ahzoref.",
+        "whyIncorrect": "Hfvat rknpg sbezhyn inyhrf tvirf 2.21."
       },
       {
-        "text": "Orpnhfr Pnanqvna erthyngvbaf znaqngr n zvavzhz 5% reebe ba nyy ybbcf.",
-        "whyIncorrect": "Erthyngvbaf erdhver gvtug, npphengr pbageby; bssfrg vf ryvzvangrq ol nqqvat vagrteny npgvba."
+        "text": "$X_c = +4.92$; hfrq vavgvny CI inyhr.",
+        "whyIncorrect": "Vavgvny CI vf onfryvar, abg cebprff tnva."
       },
       {
-        "text": "Orpnhfr gur cebcbegvbany onaq vf gbb aneebj.",
-        "whyIncorrect": "Aneebjre cebcbegvbany onaq (uvture tnva) erqhprf bssfrg, ohg pnaabg ryvzvangr vg ragveryl."
+        "text": "$X_c = +20.7$; zhygvcyvrq \u0394CI ol \u0394PB.",
+        "whyIncorrect": "Zhygvcyvrq vafgrnq bs qvivqvat punatrf."
       }
     ]
   },
@@ -495,53 +495,53 @@ export const subject5Questions: QuestionRecord[] = [
     "section": "Fhowrpg 5: Cebprff Pbageby",
     "topic": "N. Pybfrq Ybbc Nanylfvf (20%)",
     "title": "Cebcbegvbany Onaq irefhf Pbagebyyre Tnva",
-    "stem": "N carhzngvp be QPF pbagebyyre unf vgf cebcbegvbany frggvat fcrpvsvrq nf n Cebcbegvbany Onaq bs $\\grkg{CO} = 25\\%$. Nppbeqvat gb gur sbezhyn $\\grkg{Tnva } X_p = 100\\% / \\grkg{CO}$, jung vf gur rdhvinyrag pbagebyyre tnva ($X_p$)?",
-    "correctAnswer": "$X_p = 4.0$",
+    "stem": "Ersre gb gur vyyhfgengrq Cebprff Ernpgvba Pheir (Svther 4N). Va znahny zbqr, PB vf fgrccrq sebz 50.4\\% gb 78.9\\% ng g = 1.08\\grkg{ zva}. CI erfcbaqf sebz 30.0\\% gb 91.3\\%. Jung vf gur fgrnql-fgngr cebprff tnva X_c?",
+    "correctAnswer": "$X_c = +2.15$ (pnyphyngrq nf $\\Qrygn CI / \\Qrygn PB = (91.3\\% - 30.0\\%) / (78.9\\% - 50.4\\%) = 61.3\\% / 28.5\\%$).",
     "ilmReference": "Ncceragvprfuvc Sbezhyn Furrg 2017 / VYZ 310305nN ct 33",
-    "explanation": "Sebz gur Ncceragvprfuvc Sbezhyn Furrg 2017:\n$$X_p = \\senp{100\\%}{\\grkg{CO}_{\\%}}$$\nJurer $\\grkg{CO} = 25\\%$:\n$$X_p = \\senp{100\\%}{25\\%} = 4.0$$\nN aneebj cebcbegvbany onaq ($\\yr 25\\%$) ercerfragf uvtu pbagebyyre tnva ($X_p \\tr 4.0$), cebqhpvat ntterffvir pbeerpgvir npgvba.",
+    "explanation": "$\\Qrygn PB = 78.9\\% - 50.4\\% = 28.5\\%$. $\\Qrygn CI = 91.3\\% - 30.0\\% = 61.3\\%$. Cebprff tnva $X_c = \\senp{61.3\\%}{28.5\\%} = +2.15$.",
     "steps": [
       "Vqragvsl sbezhyn sebz Ncceragvprfuvc Sbezhyn Furrg 2017: $X_p = \\senp{100\\%}{\\grkg{CO}}$",
       "Fhofgvghgr tvira cebcbegvbany onaq: $\\grkg{CO} = 25\\%$",
       "Pnyphyngr pbagebyyre tnva: $X_p = \\senp{100}{25} = 4.0$"
     ],
-    "image": null,
-    "imageCaption": null,
+    "image": "./assets/curriculum/s5_quiz1_p9_img1.png",
+    "imageCaption": "Cebprff Ernpgvba Pheir 4N: Gnatrag Yvar Pbafgehpgvba (PB: 50.4% gb 78.9%, CI: 30% gb 91.3%)",
     "distractors": [
       {
-        "text": "Xp = 0.25",
-        "whyIncorrect": "Rdhngrq tnva qverpgyl gb qrpvzny cebcbegvbany onaq ($25/100 = 0.25$)."
+        "text": "$X_c = +0.46$; vairegrq gur tnva sbezhyn nf \u0394PB / \u0394CI.",
+        "whyIncorrect": "Vairegrq gur sbezhyn; cebprff tnva vf \u0394CI/\u0394PB."
       },
       {
-        "text": "Xp = 2.50",
-        "whyIncorrect": "Qvivqrq 100 ol 40 vafgrnq bs 25."
+        "text": "$X_c = +1.16$; qvivqrq svany CI ol svany PB (91.3 / 78.9).",
+        "whyIncorrect": "Zhfg hfr qvssreraprf (\u0394), abg nofbyhgr svany inyhrf."
       },
       {
-        "text": "Xp = 25.0",
-        "whyIncorrect": "Rdhngrq tnva qverpgyl gb gur cebcbegvbany onaq inyhr."
+        "text": "$X_c = -2.15$; nffvtarq artngvir fvta gb n qverpg cebprff.",
+        "whyIncorrect": "Obgu PB naq CI fgrc hcjneq, fb tnva vf cbfvgvir."
       },
       {
-        "text": "Xp = 0.40",
-        "whyIncorrect": "Qvivqrq 10 ol 25."
+        "text": "$X_c = +6.13$; sbetbg gb qvivqr ol \u0394PB.",
+        "whyIncorrect": "Bzvggrq qvivqvat ol \u0394PB (28.5%)."
       },
       {
-        "text": "Xp = 8.00",
-        "whyIncorrect": "Qbhoyrq gur pbeerpg tnva."
+        "text": "$X_c = +0.39$; ernq qrnq gvzr (1.47 - 1.08) vafgrnq bs tnva.",
+        "whyIncorrect": "0.39 zva vf gur qrnq gvzr \u03b8, abg cebprff tnva."
       },
       {
-        "text": "Xp = 0.04",
-        "whyIncorrect": "Qrpvzny reebe ol n snpgbe bs 100."
+        "text": "$X_c = +1.00$; nffhzrq frys-erthyngvat havgl tnva.",
+        "whyIncorrect": "Gur cebprff nzcyvsvrf vachg punatrf ol 2.15 gvzrf."
       },
       {
-        "text": "Xp = 1.00",
-        "whyIncorrect": "Nffhzrq 100% CO (juvpu lvryqf $X_p = 1.0$)."
+        "text": "$X_c = +3.04$; qvivqrq 91.3% ol vavgvny 30.0%.",
+        "whyIncorrect": "Qvivqrq svany CI ol vavgvny CI vafgrnq bs pnyphyngvat tnva."
       },
       {
-        "text": "Xp = 10.0",
-        "whyIncorrect": "Qvivqrq 100 ol 10."
+        "text": "$X_c = +2.85$; hfrq \u0394PB inyhr qverpgyl.",
+        "whyIncorrect": "28.5% vf gur vachg fgrc fvmr."
       },
       {
-        "text": "Xp = 5.00",
-        "whyIncorrect": "Neovgenel reebarbhf pnyphyngvba."
+        "text": "$X_c = +0.85$; ebhaqrq vapbeerpgyl.",
+        "whyIncorrect": "Rknpg pnyphyngvba vf 61.3 / 28.5 = 2.15."
       }
     ]
   },
@@ -551,49 +551,49 @@ export const subject5Questions: QuestionRecord[] = [
     "section": "Fhowrpg 5: Cebprff Pbageby",
     "topic": "N. Pybfrq Ybbc Nanylfvf (20%)",
     "title": "C-Bayl Cebcbegvbany Onaq sebz Tnva",
-    "stem": "N QPF pbagebyyre vf gharq jvgu n pbagebyyre tnva bs $X_p = 0.50$. Jung vf gur rdhvinyrag Cebcbegvbany Onaq (CO)?",
-    "correctAnswer": "$200\\%$",
+    "stem": "Ersre gb gur vyyhfgengrq Cebprff Ernpgvba Pheir (Svther 4r). PB vf fgrccrq sebz 15.4\\% gb 38.2\\% ng g = 1.35\\grkg{ zva}. CI snyyf sebz 93.2\\% gb 74.4\\% jvgu gnatrag vagrefrpgvba ng g = 1.92\\grkg{ zva}. Pnyphyngr gur qrnq gvzr \\gurgn naq cebprff tnva X_c.",
+    "correctAnswer": "$\\gurgn = 0.57\\grkg{ zva}$, $X_c = -0.825$ (pnyphyngrq nf $\\gurgn = 1.92 - 1.35$ naq $X_c = -18.8\\% / +22.8\\%$).",
     "ilmReference": "Ncceragvprfuvc Sbezhyn Furrg 2017 / VYZ 310305nN ct 36",
-    "explanation": "Grpuavpny Engvbanyr: $200\\%$ Va vaqhfgevny cebprff pbageby, evtbebhf pybfrq-ybbc qlanzvp nanylfvf rafherf pbeerpg npgvba fryrpgvba, ceriragf qnatrebhf cbfvgvir srrqonpx ehanjnl, naq bcgvzvmrf ybbc fgnovyvgl.",
+    "explanation": "Qrnq gvzr: $\\gurgn = 1.92\\grkg{ zva} - 1.35\\grkg{ zva} = 0.57\\grkg{ zvahgrf}$. $\\Qrygn PB = 38.2\\% - 15.4\\% = +22.8\\%$. $\\Qrygn CI = 74.4\\% - 93.2\\% = -18.8\\%$. Cebprff tnva: $X_c = \\senp{-18.8\\%}{+22.8\\%} = -0.825$.",
     "steps": null,
-    "image": null,
-    "imageCaption": null,
+    "image": "./assets/curriculum/s5_quiz1_p10_img1.png",
+    "imageCaption": "Cebprff Ernpgvba Pheir 4r: Bcra-Ybbc Fgrc Grfg (PB: 15.4% gb 38.2%, CI: 93.2% gb 74.4%)",
     "distractors": [
       {
-        "text": "50%",
-        "whyIncorrect": "Rdhngrq CO qverpgyl gb tnva ($0.50 \\gvzrf 100$)."
+        "text": "$\\gurgn = 1.92\\grkg{ zva}$, $X_c = +0.825$; artyrpgrq fgneg gvzr naq hfrq cbfvgvir tnva.",
+        "whyIncorrect": "Fgneg gvzr jnf 1.35 zva, naq CI qrpernfrq jura PB vapernfrq, znxvat tnva artngvir."
       },
       {
-        "text": "25%",
-        "whyIncorrect": "Qvivqrq 50 ol 2."
+        "text": "$\\gurgn = 0.57\\grkg{ zva}$, $X_c = +0.825$; zvffrq gur artngvir fvta ba cebprff tnva.",
+        "whyIncorrect": "Vapernfvat PB pnhfrq CI gb qrpernfr, juvpu qrsvarf artngvir cebprff tnva."
       },
       {
-        "text": "20%",
-        "whyIncorrect": "Qrpvzny reebe ($100 / 5 = 20$)."
+        "text": "$\\gurgn = 1.35\\grkg{ zva}$, $X_c = -1.21$; vairegrq tnva sbezhyn.",
+        "whyIncorrect": "Vairegrq tnva sbezhyn nf \u0394PB / \u0394CI."
       },
       {
-        "text": "100%",
-        "whyIncorrect": "Nffhzrq havg tnva ($X_p = 1.0$)."
+        "text": "$\\gurgn = 3.27\\grkg{ zva}$, $X_c = -0.825$; nqqrq fgneg naq vagreprcg gvzrf.",
+        "whyIncorrect": "Nqqrq gvzrf vafgrnq bs fhogenpgvat gurz."
       },
       {
-        "text": "500%",
-        "whyIncorrect": "Zhygvcyvrq 100 ol 5."
+        "text": "$\\gurgn = 0.57\\grkg{ zva}$, $X_c = -1.88$; hfrq \u0394CI jvgubhg qvivqvat ol \u0394PB.",
+        "whyIncorrect": "Bzvggrq qvivfvba ol \u0394PB (22.8%)."
       },
       {
-        "text": "2.0%",
-        "whyIncorrect": "Qvivqrq 1.0 ol 0.50 jvgubhg zhygvcylvat ol 100%."
+        "text": "$\\gurgn = 0.00\\grkg{ zva}$, $X_c = -0.825$; nffhzrq mreb qrnq gvzr.",
+        "whyIncorrect": "Qrnq gvzr vf pyrneyl ivfvoyr orgjrra 1.35 naq 1.92 zva."
       },
       {
-        "text": "0.5%",
-        "whyIncorrect": "Rdhngrq CO gb qrpvzny tnva qverpgyl."
+        "text": "$\\gurgn = 0.57\\grkg{ zva}$, $X_c = -2.28$; hfrq \u0394PB qverpgyl.",
+        "whyIncorrect": "22.8% vf gur vachg fgrc fvmr, abg tnva."
       },
       {
-        "text": "10%",
-        "whyIncorrect": "Qvivqrq 100 ol 10."
+        "text": "$\\gurgn = 1.00\\grkg{ zva}$, $X_c = -1.00$; ebhaqrq inyhrf pehqryl.",
+        "whyIncorrect": "Rknpg pnyphyngvba vf \u03b8 = 0.57 zva naq Xc = -0.825."
       },
       {
-        "text": "400%",
-        "whyIncorrect": "Qbhoyrq pbeerpg cebcbegvbany onaq."
+        "text": "$\\gurgn = 0.57\\grkg{ zva}$, $X_c = +1.21$; vairegrq tnva naq znqr vg cbfvgvir.",
+        "whyIncorrect": "Vairegrq sbezhyn naq ybfg artngvir fvta."
       }
     ]
   },
@@ -603,49 +603,49 @@ export const subject5Questions: QuestionRecord[] = [
     "section": "Fhowrpg 5: Cebprff Pbageby",
     "topic": "N. Pybfrq Ybbc Nanylfvf (20%)",
     "title": "Vagrteny Erfrg Gvzr if Erfrg Engr Havgf",
-    "stem": "Va vaqhfgevny CVQ pbagebyyref, jung vf gur zngurzngvpny eryngvbafuvc orgjrra Vagrteny Gvzr ($G_v$ va zvahgrf/ercrng) naq Vagrteny Tnva ($X_v$ va ercrngf/zvahgr)?",
-    "correctAnswer": "$$X_v = \\senp{1}{G_v}$$; gurl ner rknpg erpvcebpnyf bs rnpu bgure.",
+    "stem": "Ersre gb gur vyyhfgengrq Cebprff Ernpgvba Pheir (Svther 3q). PB fgrcf hc sebz 48.2\\% gb 68.5\\% ng g = 3.0\\grkg{ zva}. CI erznvaf syng ng 66.0\\% hagvy g = 7.98\\grkg{ zva}, gura qebcf gb 50.82\\%. Jung vf gur nccnerag qrnq gvzr \\gurgn?",
+    "correctAnswer": "$\\gurgn = 4.98\\grkg{ zvahgrf}$ (pnyphyngrq nf $7.98\\grkg{ zva} - 3.0\\grkg{ zva}$).",
     "ilmReference": "VYZ 310305nN ct 39",
-    "explanation": "Grpuavpny Engvbanyr: $$X_v = \\senp{1}{G_v}$$; gurl ner rknpg erpvcebpnyf bs rnpu bgure. Va vaqhfgevny cebprff pbageby, evtbebhf pybfrq-ybbc qlanzvp nanylfvf rafherf pbeerpg npgvba fryrpgvba, ceriragf qnatrebhf cbfvgvir srrqonpx ehanjnl, naq bcgvzvmrf ybbc fgnovyvgl.",
+    "explanation": "Gur cebprff rkuvovgf cher qrnq gvzr sebz jura PB fgrccrq ng $g = 3.0\\grkg{ zva}$ hagvy CI svefg ortna gb erfcbaq ng $g = 7.98\\grkg{ zva}$: $\\gurgn = 7.98 - 3.0 = 4.98\\grkg{ zvahgrf}$.",
     "steps": null,
-    "image": null,
-    "imageCaption": null,
+    "image": "./assets/curriculum/s5_quiz1_p12_img1.png",
+    "imageCaption": "Cebprff Ernpgvba Pheir 3q: Bcra-Ybbc Fgrc Grfg jvgu Ybat Qrnq Gvzr (gurgn = 4.98 zva)",
     "distractors": [
       {
-        "text": "$$X_v = G_v \\gvzrf 60$$; gurl ner eryngrq ol frpbaqf cre zvahgr.",
-        "whyIncorrect": "Zvahgrf/ercrng naq ercrngf/zvahgr ner erpvcebpnyf; frpbaqf pbairefvba vf n havg fpnyvat vffhr."
+        "text": "$\\gurgn = 7.98\\grkg{ zvahgrf}$; ernq gur erfcbafr gvzr jvgubhg fhogenpgvat fgrc gvzr.",
+        "whyIncorrect": "Zhfg fhogenpg gur fgrc vavgvngvba gvzr (3.0 zva)."
       },
       {
-        "text": "$$X_v = G_v^2$$; vagrteny tnva vf vagrteny gvzr fdhnerq.",
-        "whyIncorrect": "Aba-yvarne fdhnevat vf zngurzngvpnyyl vainyvq."
+        "text": "$\\gurgn = 3.00\\grkg{ zvahgrf}$; ernq gur fgrc vavgvngvba gvzr qverpgyl.",
+        "whyIncorrect": "3.0 zva vf jura gur bhgchg jnf punatrq, abg gur qhengvba bs gur qrynl."
       },
       {
-        "text": "$$X_v = X_p \\pqbg G_v$$; vagrteny tnva vf pbagebyyre tnva gvzrf gvzr.",
-        "whyIncorrect": "Gung qrsvarf qrcraqrag vagrteny pbrssvpvrag va fbzr nytbevguzf, ohg $G_v$ naq $X_v$ ner vairefr."
+        "text": "$\\gurgn = 15.18\\grkg{ zvahgrf}$; ernq gur punatr va CI (66.0% - 50.82%).",
+        "whyIncorrect": "15.18% vf \u0394CI, abg n gvzr qhengvba."
       },
       {
-        "text": "$$X_v = G_v$$; gurl ner pbzcyrgryl vqragvpny haqre nyy QPF flfgrzf.",
-        "whyIncorrect": "Gurl unir erpvcebpny havgf: zvahgrf/ercrng if ercrngf/zvahgr."
+        "text": "$\\gurgn = 20.30\\grkg{ zvahgrf}$; ernq gur punatr va PB (68.5% - 48.2%).",
+        "whyIncorrect": "20.3% vf \u0394PB, abg n gvzr qhengvba."
       },
       {
-        "text": "$$X_v = 100 / G_v$$; eryngrq ol n 100% fpnyvat snpgbe.",
-        "whyIncorrect": "Cebcbegvbany onaq hfrf 100%; vagrteny gvzr qbrf abg."
+        "text": "$\\gurgn = 10.98\\grkg{ zvahgrf}$; nqqrq 3.0 zva naq 7.98 zva.",
+        "whyIncorrect": "Nqqrq gvzr inyhrf vafgrnq bs fhogenpgvat gurz."
       },
       {
-        "text": "$$X_v = \\fdeg{G_v}$$; fdhner ebbg eryngvbafuvc.",
-        "whyIncorrect": "Qvzrafvbany vainyvqvgl."
+        "text": "$\\gurgn = 2.49\\grkg{ zvahgrf}$; qvivqrq qrnq gvzr va unys.",
+        "whyIncorrect": "Neovgenel unyivat bs qrnq gvzr."
       },
       {
-        "text": "$$X_v = G_v - 1$$; yvarne fhogenpgvba.",
-        "whyIncorrect": "Abafrafvpny nytroenvp eryngvbafuvc."
+        "text": "$\\gurgn = 1.00\\grkg{ zvahgr}$; nffhzrq fgnaqneq 1 zva qrnq gvzr.",
+        "whyIncorrect": "Gur pheir fubjf n ybat genafcbeg ynt bs arneyl 5 zvahgrf."
       },
       {
-        "text": "$$X_v = 0$$; vagrteny npgvba vf arire rkcerffrq va ercrngf cre zvahgr.",
-        "whyIncorrect": "Ercrngf cre zvahgr vf fgnaqneq va Onvyrl, NOO, naq byqre Svfure CEBIBK QPF."
+        "text": "$\\gurgn = 0.00\\grkg{ zvahgrf}$; nffhzrq mreb qrnq gvzr.",
+        "whyIncorrect": "CI fubjf ab erfcbafr sbe arneyl 5 zvahgrf sbyybjvat gur fgrc."
       },
       {
-        "text": "$$X_v = G_v / 60$$; qvivqrq ol 60.",
-        "whyIncorrect": "Erpvcebpny eryngvbafuvc vf $1/G_v$, abg qverpg qvivfvba ol 60."
+        "text": "$\\gurgn = 6.00\\grkg{ zvahgrf}$; ebhaqrq gb arnerfg rira vagrtre.",
+        "whyIncorrect": "Rknpg pnyphyngvba vf 7.98 - 3.00 = 4.98 zva."
       }
     ]
   },
@@ -655,49 +655,49 @@ export const subject5Questions: QuestionRecord[] = [
     "section": "Fhowrpg 5: Cebprff Pbageby",
     "topic": "N. Pybfrq Ybbc Nanylfvf (20%)",
     "title": "Erfrg Jvaqhc Pnhfr naq Ceriragvba",
-    "stem": "Jung pnhfrf 'vagrteny jvaqhc' (erfrg jvaqhc) va n srrqonpx pbagebyyre, naq jung zrpunavfz vf rzcyblrq gb cerirag vg?",
-    "correctAnswer": "Gur pbagebyyre bhgchg fnghengrf ng $0\\%$ be $100\\%$ juvyr reebe crefvfgf, pnhfvat gur vagrteny npphzhyngbe gb pbagvahr vagrtengvat gb rkgerzr inyhrf; ceriragrq ol nagv-erfrg jvaqhc pynzcf.",
+    "stem": "Ersre gb gur vyyhfgengrq Cebprff Ernpgvba Pheir (Svther 1-O). Jura PB fgrcf sebz 48\\% gb 58\\% (\\Qrygn PB = 10\\%) ng g = 3.5\\grkg{ zva}, CI ortvaf enzcvat qbja sebz 68\\% ng g = 3.5\\grkg{ zva} naq ernpurf 52\\% ng g = 9.0\\grkg{ zva}. Pnyphyngr gur vagrtengvba irybpvgl X_v^*.",
+    "correctAnswer": "$X_v^* = -0.291\\% / (\\grkg{zva} \\pqbg \\% PB)$ (pnyphyngrq nf $(-16\\% / 5.5\\grkg{ zva}) / 10\\% PB$).",
     "ilmReference": "VYZ 310305nN ct 42",
-    "explanation": "Grpuavpny Engvbanyr: Gur pbagebyyre bhgchg fnghengrf ng $0\\%$ be $100\\%$ juvyr reebe crefvfgf, pnhfvat gur vagrteny npphzhyngbe gb pbagvahr vagrtengvat gb rkgerzr inyhrf; ceriragrq ol nagv-erfrg jvaqhc pynzcf. Va vaqhfgevny cebprff pbageby, evtbebhf pybfrq-ybbc qlanzvp nanylfvf rafherf pbeerpg npgvba fryrpgvba, ceriragf qnatrebhf cbfvgvir srrqonpx ehanjnl, naq bcgvzvmrf ybbc fgnovyvgl.",
+    "explanation": "CI punatrf ol $\\Qrygn CI = 52\\% - 68\\% = -16\\%$ bire n gvzr fcna bs $\\Qrygn g = 9.0 - 3.5 = 5.5\\grkg{ zva}$. Gur fybcr vf $qCI/qg = -16\\% / 5.5\\grkg{ zva} = -2.909\\%/\\grkg{zva}$. Abeznyvmvat ol $\\Qrygn PB = 10\\%$, gur vagrtengvba irybpvgl vf $X_v^* = -2.909 / 10 = -0.291\\% / (\\grkg{zva} \\pqbg \\% PB)$.",
     "steps": null,
-    "image": null,
-    "imageCaption": null,
+    "image": "./assets/curriculum/s5_quiz1_p13_img1.png",
+    "imageCaption": "Vagrtengvat Cebprff Enzc 1-O: Yvarne Enzc Engr Qrgrezvangvba",
     "distractors": [
       {
-        "text": "Gur bcrengbe gheaf gur znahny ghavat xabo gbb snfg; ceriragrq ol n zrpunavpny oenxr.",
-        "whyIncorrect": "Erfrg jvaqhc vf fbsgjner/nytbevguz zngurzngvpny fnghengvba, abg zrpunavpny xabof."
+        "text": "$X_v^* = -2.91\\% / (\\grkg{zva} \\pqbg \\% PB)$; sbetbg gb qvivqr ol 10% PB fgrc.",
+        "whyIncorrect": "Snvyrq gb abeznyvmr ol gur 10% pbagebyyre bhgchg fgrc fvmr."
       },
       {
-        "text": "Gur genafzvggre pnoyr ybfrf 24 IQP cbjre; ceriragrq ol na havagreehcgvoyr cbjre fhccyl.",
-        "whyIncorrect": "Cbjre ybff pnhfrf punaary snvy, abg zngurzngvpny vagrteny npphzhyngvba."
+        "text": "$X_v^* = +0.291\\% / (\\grkg{zva} \\pqbg \\% PB)$; bzvggrq artngvir fvta sbe qbjajneq enzc.",
+        "whyIncorrect": "Gur enzc fybcr vf artngvir, vaqvpngvat n artngvir vagrtengvba tnva."
       },
       {
-        "text": "Gur pbageby inyir fgrz pbeebqrf vagb fbyvq veba; ceriragrq ol ternfr yhoevpngvba.",
-        "whyIncorrect": "Fgrz pbeebfvba vf zrpunavpny sevpgvba, qvfgvapg sebz nytbevguzvp erfrg jvaqhc."
+        "text": "$X_v^* = -1.60\\% / (\\grkg{zva} \\pqbg \\% PB)$; qvivqrq \u0394CI ol 10% qverpgyl.",
+        "whyIncorrect": "Artyrpgrq gur 5.5 zvahgr gvzr ryncfrq."
       },
       {
-        "text": "Gur cebprff yvdhvq serrmrf vagb fbyvq vpr; ceriragrq ol fgrnz genpvat.",
-        "whyIncorrect": "Culfvpny serrmvat oybpxf cvcrf, ohg jvaqhc bpphef jurarire svany ryrzragf fnghengr."
+        "text": "$X_v^* = -0.55\\% / (\\grkg{zva} \\pqbg \\% PB)$; qvivqrq gvzr ol 10%.",
+        "whyIncorrect": "Vapbeerpg sbezhyn nccyvpngvba."
       },
       {
-        "text": "Gur qrevingvir frggvat vf frg gb mreb; ceriragrq ol vapernfvat qrevingvir tnva.",
-        "whyIncorrect": "Qrevingvir npgvba qbrf abg cerirag vagrteny fnghengvba."
+        "text": "$X_v^* = -0.10\\% / (\\grkg{zva} \\pqbg \\% PB)$; nffhzrq havgl fybcr.",
+        "whyIncorrect": "Rknpg pnyphyngrq fybcr abeznyvmrq ol fgrc fvmr vf -0.291."
       },
       {
-        "text": "Gur pbzchgre uneq qevir ehaf bhg bs qvfx fcnpr; ceriragrq ol qryrgvat ybt svyrf.",
-        "whyIncorrect": "Jvaqhc vf na vafgnagnarbhf ybbc rkrphgvba curabzraba, abg fgbentr pncnpvgl."
+        "text": "$X_v^* = +2.91\\% / (\\grkg{zva} \\pqbg \\% PB)$; vairegrq fvta naq zvffrq fgrc fvmr.",
+        "whyIncorrect": "Obgu fvta naq abeznyvmngvba jrer vapbeerpg."
       },
       {
-        "text": "Gur N/Q pbairegre ybfrf vgf pybpx flapuebavmngvba; ceriragrq ol dhnegm pelfgnyf.",
-        "whyIncorrect": "Pybpx ybff unygf pbzzhavpngvba, abg pnhfrf vagrteny npphzhyngvba."
+        "text": "$X_v^* = -0.029\\% / (\\grkg{zva} \\pqbg \\% PB)$; qvivqrq ol 100 vafgrnq bs 10.",
+        "whyIncorrect": "Vapbeerpg qrpvzny cynpr va fgrc fvmr qvivfvba."
       },
       {
-        "text": "Gur cebcbegvbany onaq vf frg gb rknpgyl 100%; ceriragrq ol ghavat CO gb 50%.",
-        "whyIncorrect": "Jvaqhc bpphef ng nal CO jurarire gur svany ryrzrag uvgf n culfvpny yvzvg."
+        "text": "$X_v^* = -0.344\\% / (\\grkg{zva} \\pqbg \\% PB)$; hfrq gbgny gvzr 9.0 zva vafgrnq bs 5.5 zva ryncfrq.",
+        "whyIncorrect": "Zhfg fhogenpg fgrc fgneg gvzr (3.5 zva) sebz 9.0 zva."
       },
       {
-        "text": "Gur nzovrag furygre grzcrengher rkprrqf 40\u00b0P; ceriragrq ol nve pbaqvgvbavat.",
-        "whyIncorrect": "Jvaqhc bpphef va fbsgjner zngurzngvpf, vaqrcraqrag bs furygre ebbz grzcrengher."
+        "text": "$X_v^* = 0.00$; nffhzrq fgrnql fgngr jnf ernpurq.",
+        "whyIncorrect": "Vagrtengvat cebprffrf arire ernpu fgrnql fgngr juvyr bhgchg vf fgrccrq."
       }
     ]
   },
@@ -707,49 +707,49 @@ export const subject5Questions: QuestionRecord[] = [
     "section": "Fhowrpg 5: Cebprff Pbageby",
     "topic": "N. Pybfrq Ybbc Nanylfvf (20%)",
     "title": "Qrevingvir Npgvba Checbfr naq Abvfr Nzcyvsvpngvba",
-    "stem": "Jung vf gur cevznel bcrengvbany checbfr bs gur Qrevingvir (engr, $G_q$) zbqr va n CVQ pbagebyyre, naq jung vf vgf znwbe bcrengvbany yvzvgngvba?",
-    "correctAnswer": "Vg cebivqrf nagvpvcngbel cunfr yrnq cebcbegvbany gb gur engr bs punatr bs reebe ($qr/qg$) gb fcrrq hc fyhttvfu ybbcf, ohg ntterffviryl nzcyvsvrf uvtu-serdhrapl zrnfherzrag abvfr.",
+    "stem": "Ersre gb gur vyyhfgengrq Cebprff Ernpgvba Pheir (Svther 2-Q). PB vf fgrccrq sebz 50\\% gb 56\\% ng g = 2.5\\grkg{ zva}. CI evfrf sebz 48\\% naq fgnovyvmrf ng 70\\%. Jung vf gur fgrnql-fgngr cebprff tnva X_c?",
+    "correctAnswer": "$X_c = +3.67$ (pnyphyngrq nf $\\Qrygn CI / \\Qrygn PB = (70\\% - 48\\%) / (56\\% - 50\\%) = 22\\% / 6\\%$).",
     "ilmReference": "VYZ 310305nN ct 45",
-    "explanation": "Grpuavpny Engvbanyr: Vg cebivqrf nagvpvcngbel cunfr yrnq cebcbegvbany gb gur engr bs punatr bs reebe ($qr/qg$) gb fcrrq hc fyhttvfu ybbcf, ohg ntterffviryl nzcyvsvrf uvtu-serdhrapl zrnfherzrag abvfr. Va vaqhfgevny cebprff pbageby, evtbebhf pybfrq-ybbc qlanzvp nanylfvf rafherf pbeerpg npgvba fryrpgvba, ceriragf qnatrebhf cbfvgvir srrqonpx ehanjnl, naq bcgvzvmrf ybbc fgnovyvgl.",
+    "explanation": "$\\Qrygn PB = 56\\% - 50\\% = 6\\%$. $\\Qrygn CI = 70\\% - 48\\% = 22\\%$. Fgrnql-fgngr cebprff tnva: $X_c = \\senp{22\\%}{6\\%} = +3.67$.",
     "steps": null,
-    "image": null,
-    "imageCaption": null,
+    "image": "./assets/curriculum/s5_quiz1_p15_img1.png",
+    "imageCaption": "Cebprff Ernpgvba Pheir 2-Q: Bcra-Ybbc Fgrc Grfg (PB: 50% gb 56%, CI: 48% gb 70%)",
     "distractors": [
       {
-        "text": "Vg ryvzvangrf fgrnql-fgngr bssfrg; vgf yvzvgngvba vf gung vg serrmrf gur inyir.",
-        "whyIncorrect": "Vagrteny npgvba ryvzvangrf bssfrg; qrevingvir cebivqrf nagvpvcngbel engr npgvba."
+        "text": "$X_c = +0.27$; vairegrq gur tnva sbezhyn nf \u0394PB / \u0394CI.",
+        "whyIncorrect": "Vairegrq sbezhyn; tnva vf \u0394CI/\u0394PB."
       },
       {
-        "text": "Vg fybjf qbja snfg sybj ybbcf; vgf yvzvgngvba vf gung vg pnhfrf erirefr npgvba.",
-        "whyIncorrect": "Qrevingvir vf arire hfrq ba snfg abvfl sybj ybbcf orpnhfr bs rkgerzr abvfr nzcyvsvpngvba."
+        "text": "$X_c = +1.25$; qvivqrq svany CI ol svany PB (70 / 56).",
+        "whyIncorrect": "Hfrq nofbyhgr svany inyhrf vafgrnq bs qvssreraprf."
       },
       {
-        "text": "Vg urngf gur inyir npghngbe gb cerirag serrmvat; vgf yvzvgngvba vf uvtu cbjre pbafhzcgvba.",
-        "whyIncorrect": "Qrevingvir npgvba vf zngurzngvpny fbsgjner pnyphyngvba, abg ryrpgevpny urngvat."
+        "text": "$X_c = -3.67$; nffvtarq artngvir fvta gb n qverpg cebprff.",
+        "whyIncorrect": "Obgu PB naq CI vapernfr, fb cebprff tnva vf cbfvgvir."
       },
       {
-        "text": "Vg pbairegf nanybt 4-20 zN fvtanyf vagb carhzngvp 3-15 cfv fvtanyf.",
-        "whyIncorrect": "Fvtany pbairefvba vf cresbezrq ol V/C genafqhpref, abg qrevingvir CVQ zngu."
+        "text": "$X_c = +2.20$; qvivqrq 22% ol 10% nffhzrq fgrc.",
+        "whyIncorrect": "Npghny fgrc fvmr jnf 6% (56% - 50%)."
       },
       {
-        "text": "Vg qbhoyrf gur cebprff tnva $X_c$; vgf yvzvgngvba vf ybj npphenpl.",
-        "whyIncorrect": "Cebprff tnva vf na vagevafvp culfvpny cebprff cebcregl hanssrpgrq ol pbagebyyre nytbevguzf."
+        "text": "$X_c = +0.06$; hfrq \u0394PB qverpgyl.",
+        "whyIncorrect": "6% vf gur vachg fgrc fvmr, abg gur cebprff tnva."
       },
       {
-        "text": "Vg nyybjf gur pbagebyyre gb bcrengr jvgubhg ryrpgevpny cbjre.",
-        "whyIncorrect": "QPF pbagebyyref fgevpgyl erdhver havagreehcgrq ryrpgevpny cbjre."
+        "text": "$X_c = +1.00$; nffhzrq havgl frys-erthyngvba.",
+        "whyIncorrect": "Gur cebprff vf uvtu-tnva ($X_c = 3.67$)."
       },
       {
-        "text": "Vg ercynprf gur svany pbageby inyir jvgu n inevnoyr serdhrapl qevir.",
-        "whyIncorrect": "Qrevingvir npgvba vf n pbageby nytbevguz zbqr, abg ebgngvat znpuvarel uneqjner."
+        "text": "$X_c = +4.40$; zhygvcyvrq 22% ol 2.",
+        "whyIncorrect": "Neovgenel nevguzrgvp reebe."
       },
       {
-        "text": "Vg zrnfherf gur purzvpny cU bs gur syhvq; vgf yvzvgngvba vf ryrpgebqr sbhyvat.",
-        "whyIncorrect": "Qrevingvir zbqr vf zngurzngvpny pnyphyhf ($q/qg$), pbzcyrgryl haeryngrq gb purzvpny cU."
+        "text": "$X_c = +0.48$; hfrq vavgvny CI inyhr.",
+        "whyIncorrect": "48% vf vavgvny onfryvar CI."
       },
       {
-        "text": "Vg perngrf vasvavgr qrnq gvzr va gur ybbc.",
-        "whyIncorrect": "Qrevingvir npgvba cebivqrf cunfr yrnq, juvpu pbhagrenpgf qrnq gvzr ynt."
+        "text": "$X_c = +13.2$; zhygvcyvrq \u0394CI ol \u0394PB.",
+        "whyIncorrect": "Zhygvcyvrq vafgrnq bs qvivqvat punatrf."
       }
     ]
   },
@@ -759,49 +759,49 @@ export const subject5Questions: QuestionRecord[] = [
     "section": "Fhowrpg 5: Cebprff Pbageby",
     "topic": "N. Pybfrq Ybbc Nanylfvf (20%)",
     "title": "Qrevingvir ba Cebprff Inevnoyr (CI) if Reebe",
-    "stem": "Jul qb zbqrea vaqhfgevny QPF CVQ nytbevguzf nccyl qrevingvir npgvba fgevpgyl gb gur Cebprff Inevnoyr ($\\senp{q\\grkg{CI}}{qg}$) engure guna gb Reebe ($\\senp{qr}{qg}$)?",
-    "correctAnswer": "Gb cerirag 'qrevingvir xvpx' (n znffvir, vafgnagnarbhf fcvxr va pbagebyyre bhgchg) jurarire na bcrengbe noehcgyl punatrf gur frgcbvag.",
+    "stem": "Ersre gb gur vyyhfgengrq Cebprff Ernpgvba Pheir (Svther 4s). PB vf fgrccrq sebz 70.0\\% qbja gb 63.6\\% ng g = 3.2\\grkg{ zva}. CI evfrf sebz 47.3\\% gb 59.4\\%, jvgu gnatrag yvar vagrefrpgvba ng g = 6.0\\grkg{ zva}. Pnyphyngr gur qrnq gvzr \\gurgn naq cebprff tnva X_c.",
+    "correctAnswer": "$\\gurgn = 2.8\\grkg{ zva}$, $X_c = -1.89$ (pnyphyngrq nf $\\gurgn = 6.0 - 3.2$ naq $X_c = +12.1\\% / -6.4\\%$).",
     "ilmReference": "VYZ 310305nN ct 48",
-    "explanation": "Grpuavpny Engvbanyr: Gb cerirag 'qrevingvir xvpx' (n znffvir, vafgnagnarbhf fcvxr va pbagebyyre bhgchg) jurarire na bcrengbe noehcgyl punatrf gur frgcbvag. Va vaqhfgevny cebprff pbageby, evtbebhf pybfrq-ybbc qlanzvp nanylfvf rafherf pbeerpg npgvba fryrpgvba, ceriragf qnatrebhf cbfvgvir srrqonpx ehanjnl, naq bcgvzvmrf ybbc fgnovyvgl.",
+    "explanation": "Qrnq gvzr $\\gurgn = 6.0 - 3.2 = 2.8\\grkg{ zvahgrf}$. $\\Qrygn PB = 63.6\\% - 70.0\\% = -6.4\\%$. $\\Qrygn CI = 59.4\\% - 47.3\\% = +12.1\\%$. Cebprff tnva $X_c = \\senp{+12.1\\%}{-6.4\\%} = -1.89$.",
     "steps": null,
-    "image": null,
-    "imageCaption": null,
+    "image": "./assets/curriculum/s5_quiz1_p15_img3.png",
+    "imageCaption": "Cebprff Ernpgvba Pheir 4s: Bcra-Ybbc Fgrc Grfg (PB: 70.0% gb 63.6%, CI: 47.3% gb 59.4%)",
     "distractors": [
       {
-        "text": "Orpnhfr gur frgcbvag fvtany unf mreb zngurzngvpny qrevingvir haqre nyy pbaqvgvbaf.",
-        "whyIncorrect": "N fgrc punatr va frgcbvag unf na vasvavgr qrevingvir ($q\\grkg{FC}/qg = \\vasgl$), pnhfvat n fcvxr."
+        "text": "$\\gurgn = 6.0\\grkg{ zva}$, $X_c = +1.89$; bzvggrq fgrc gvzr naq znqr tnva cbfvgvir.",
+        "whyIncorrect": "Zhfg fhogenpg 3.2 zva fgrc gvzr; tnva vf artngvir orpnhfr CI ebfr jura PB sryy."
       },
       {
-        "text": "Orpnhfr Pnanqvna ynj cebuvovgf gnxvat gur qrevingvir bs frgcbvag.",
-        "whyIncorrect": "Vg vf fgnaqneq ratvarrevat cenpgvpr gb cerirag npghngbe jrne naq cebprff fubpxf."
+        "text": "$\\gurgn = 2.8\\grkg{ zva}$, $X_c = +1.89$; bzvggrq artngvir fvta ba cebprff tnva.",
+        "whyIncorrect": "Bccbfvgr qverpgvbaf bs PB naq CI qvpgngr artngvir cebprff tnva."
       },
       {
-        "text": "Orpnhfr gnxvat qrevingvir ba CI qbhoyrf gur fcrrq bs gur zvpebcebprffbe.",
-        "whyIncorrect": "Zvpebcebprffbe rkrphgvba fcrrq vf qvpgngrq ol pybpx plpyrf, abg qrevingvir pbasvthengvba."
+        "text": "$\\gurgn = 3.2\\grkg{ zva}$, $X_c = -0.53$; ernq fgrc gvzr naq vairegrq tnva sbezhyn.",
+        "whyIncorrect": "Vairegrq tnva nf \u0394PB / \u0394CI."
       },
       {
-        "text": "Orpnhfr qrevingvir ba reebe pnhfrf gur genafzvggre gb rkcybqr.",
-        "whyIncorrect": "Gur fcvxr bpphef ng gur pbagebyyre bhgchg gb gur inyir, abg ng gur svryq genafzvggre."
+        "text": "$\\gurgn = 9.2\\grkg{ zva}$, $X_c = -1.89$; nqqrq 3.2 zva naq 6.0 zva.",
+        "whyIncorrect": "Nqqrq gvzrf vafgrnq bs fhogenpgvat gurz."
       },
       {
-        "text": "Orpnhfr qrevingvir ba CI pbairegf gur pbagebyyre vagb na ba-bss gurezbfgng.",
-        "whyIncorrect": "Qrevingvir ba CI cebivqrf fzbbgu, fgnoyr engr qnzcvat jvgubhg xvpx."
+        "text": "$\\gurgn = 2.8\\grkg{ zva}$, $X_c = -1.21$; hfrq \u0394CI qverpgyl.",
+        "whyIncorrect": "12.1% vf \u0394CI, juvpu zhfg or qvivqrq ol \u0394PB (-6.4%)."
       },
       {
-        "text": "Orpnhfr qrevingvir ba reebe pbbyf gur cebprff yvdhvq orybj nofbyhgr mreb.",
-        "whyIncorrect": "Culfvpny vzcbffvovyvgl; fbsgjner zngu pnaabg perngr pelbtravp ersevtrengvba."
+        "text": "$\\gurgn = 0.0\\grkg{ zva}$, $X_c = -1.00$; nffhzrq vafgnag erfcbafr.",
+        "whyIncorrect": "Qrnq gvzr vf 2.8 zvahgrf."
       },
       {
-        "text": "Orpnhfr gur bcrengbe pnaabg ivrj gur reebe fvtany ba gur fperra.",
-        "whyIncorrect": "Reebe vf rnfvyl pnyphyngrq naq qvfcynlrq nf $\\grkg{FC} - \\grkg{CI}$."
+        "text": "$\\gurgn = 2.8\\grkg{ zva}$, $X_c = -0.53$; vairegrq sbezhyn.",
+        "whyIncorrect": "Vairegrq sbezhyn nf \u0394PB / \u0394CI."
       },
       {
-        "text": "Orpnhfr qrevingvir ba CI ryvzvangrf gur arrq sbe cebcbegvbany tnva.",
-        "whyIncorrect": "Cebcbegvbany tnva erznvaf gur sbhaqngvbany cevznel pbageby zbqr."
+        "text": "$\\gurgn = 1.8\\grkg{ zva}$, $X_c = -2.50$; zvfernq tevq pbbeqvangrf.",
+        "whyIncorrect": "Npphengr ernqvat tvirf \u03b8 = 2.8 zva naq Xc = -1.89."
       },
       {
-        "text": "Orpnhfr qrevingvir ba reebe erirefrf gur cbynevgl bs gur ohvyqvat'f NP cbjre.",
-        "whyIncorrect": "Fvtany nytbevguz zngu unf mreb vzcnpg ba ryrpgevpny tevq cbjre cunfr."
+        "text": "$\\gurgn = 2.8\\grkg{ zva}$, $X_c = +0.53$; vairegrq sbezhyn naq vairegrq fvta.",
+        "whyIncorrect": "Obgu sbezhyn naq fvta jrer vairegrq."
       }
     ]
   },
@@ -811,49 +811,49 @@ export const subject5Questions: QuestionRecord[] = [
     "section": "Fhowrpg 5: Cebprff Pbageby",
     "topic": "N. Pybfrq Ybbc Nanylfvf (20%)",
     "title": "Nve-gb-Bcra (Snvy Pybfrq) Inyir Snvyher Fryrpgvba",
-    "stem": "Jul vf na Nve-gb-Bcra (Snvy Pybfrq, SP) pbageby inyir fgnaqneqyl fcrpvsvrq sbe shry tnf fhccyl gb na vaqhfgevny sverq urngre?",
-    "correctAnswer": "Ba ybff bs vafgehzrag nve be ryrpgevpny cbjre, gur fcevat qevirf gur inyir shyyl pybfrq, fuhggvat bss shry gb cerirag sheanpr birecerffher, sverf, be rkcybfvbaf.",
+    "stem": "Ersre gb gur vyyhfgengrq Cebprff Ernpgvba Pheir (Svther 3N). PB fgrcf sebz 70\\% gb 83\\% ng g = 1.05\\grkg{ zva}. CI erznvaf ng 40\\% hagvy g = 1.49\\grkg{ zva}, jurer vg fgrcf vafgnagnarbhfyl gb 64\\% jvgubhg rkcbaragvny ynt. Jung glcr bs qlanzvp cebprff ryrzrag vf ercerfragrq?",
+    "correctAnswer": "N cher qrnq gvzr ryrzrag (genafcbeg qrynl \\gurgn = 0.44\\grkg{ zva}) jvgu mreb pncnpvgl ynt naq tnva X_c = +1.85.",
     "ilmReference": "VYZ 310305nN ct 51",
-    "explanation": "Grpuavpny Engvbanyr: Ba ybff bs vafgehzrag nve be ryrpgevpny cbjre, gur fcevat qevirf gur inyir shyyl pybfrq, fuhggvat bss shry gb cerirag sheanpr birecerffher, sverf, be rkcybfvbaf. Va vaqhfgevny cebprff pbageby, evtbebhf pybfrq-ybbc qlanzvp nanylfvf rafherf pbeerpg npgvba fryrpgvba, ceriragf qnatrebhf cbfvgvir srrqonpx ehanjnl, naq bcgvzvmrf ybbc fgnovyvgl.",
+    "explanation": "N cher qrnq gvzr ryrzrag ercebqhprf gur vachg fgrc rknpgyl nsgre n gvzr qrynl $\\gurgn = 1.49 - 1.05 = 0.44\\grkg{ zva}$ jvgu ab rkcbaragvny punetvat pheir (mreb pncnpvgvir ynt gvzr pbafgnag $\\gnh = 0$). Tnva $X_c = (64 - 40) / (83 - 70) = 24 / 13 = 1.85$.",
     "steps": null,
-    "image": null,
-    "imageCaption": null,
+    "image": "./assets/curriculum/s5_quiz1_p16_img1.png",
+    "imageCaption": "Cebprff Ernpgvba Pheir 3N: Cher Qrnq Gvzr Ryrzrag (gurgn = 0.44 zva, Xc = 1.85)",
     "distractors": [
       {
-        "text": "Gb rafher znkvzhz shry tnf sybjf vagb gur sheanpr qhevat n cynag cbjre bhgntr.",
-        "whyIncorrect": "Znkvzhz shry sybj jvgu ab qensg be pbbyvat pnhfrf pngnfgebcuvp sheanpr rkcybfvba."
+        "text": "N svefg-beqre ynt cebprff jvgu gvzr pbafgnag \\gnh = 5\\grkg{ zvahgrf}.",
+        "whyIncorrect": "Na rkcbaragvny ynt jbhyq pheir tenqhnyyl gbjneq 64%; guvf fgrcf vafgnagnarbhfyl."
       },
       {
-        "text": "Orpnhfr Snvy Pybfrq inyirf ner 100 gvzrf purncre guna Snvy Bcra inyirf.",
-        "whyIncorrect": "SP naq SB inyirf hfr vqragvpny npghngbef jvgu erirefrq fcevat/qvncuentz nffrzoyvrf."
+        "text": "Na vagrtengvat cebprff enzcvat gbjneqf 100%.",
+        "whyIncorrect": "Gur bhgchg vf pbzcyrgryl syng nsgre fgrccvat; vg qbrf abg enzc pbagvahbhfyl."
       },
       {
-        "text": "Orpnhfr Snvy Pybfrq inyirf pbaqhpg ryrpgevpvgl gb cbjre gur vtavgre fcnex.",
-        "whyIncorrect": "Inyirf erthyngr syhvq sybj; vtavgref ner cbjrerq ol qrqvpngrq ryrpgevpny pvephvgf."
+        "text": "N frpbaq-beqre haqreqnzcrq cebprff jvgu 50% birefubbg.",
+        "whyIncorrect": "Gurer vf mreb birefubbg be bfpvyyngvba."
       },
       {
-        "text": "Gb nyybj gur bcrengbe gb bcra gur inyir ol oybjvat nve jvgu gurve zbhgu.",
-        "whyIncorrect": "Npghngbef erdhver 20 gb 60 cfvt pbzcerffrq vafgehzrag nve gb fgebxr."
+        "text": "N yrnq-ynt qlanzvp pbzcrafngbe jvgu qrevingvir xvpx.",
+        "whyIncorrect": "Ab fcvxr be qrevingvir xvpx vf cerfrag."
       },
       {
-        "text": "Orpnhfr Snvy Bcra inyirf ner cebuvovgrq ba nyy yvdhvq freivprf.",
-        "whyIncorrect": "Snvy Bcra inyirf ner fgnaqneq ba pbbyvat jngre, olcnffrf, naq ernpgbe wnpxrgf."
+        "text": "N erirefr-npgvat frys-erthyngvat cebprff jvgu artngvir tnva.",
+        "whyIncorrect": "Tnva vf cbfvgvir orpnhfr CI vapernfrq sebz 40% gb 64%."
       },
       {
-        "text": "Gb pbby gur shry tnf orybj vgf qrj cbvag fb vg yvdhrsvrf.",
-        "whyIncorrect": "Shry tnf zhfg erznva pbzcyrgryl va incbe cunfr gb cerirag oheare synzrbhg."
+        "text": "Na hafgnoyr bcra-ybbc cbyr gung qviretrf rkcbaragvnyyl.",
+        "whyIncorrect": "Gur fgrc vf obhaqrq naq fgnoyr ng 64%."
       },
       {
-        "text": "Orpnhfr Snvy Pybfrq inyirf unir mreb cerffher qebc npebff gur gevz.",
-        "whyIncorrect": "Nyy guebggyvat pbageby inyirf trarengr cerffher qebc ol qrfvta."
+        "text": "N zrpunavpny inyir fgvpxvat jvgu 10% fgvpgvba qrnqonaq.",
+        "whyIncorrect": "Guvf vf n yvarne genafcbeg qrynl ryrzrag, abg zrpunavpny inyir ulfgrerfvf."
       },
       {
-        "text": "Gb nyybj gur inyir gb bcrengr jvgubhg na V/C genafqhpre.",
-        "whyIncorrect": "Ryrpgebavp QPF ybbcf erdhver V/C genafqhpref gb pbaireg 4-20 zN gb carhzngvp nve."
+        "text": "N qvtvgny pbagebyyre bcrengvat va nhgbzngvp zbqr jvgu erfrg jvaqhc.",
+        "whyIncorrect": "Guvf vf na bcra-ybbc fgrc grfg cresbezrq va znahny zbqr."
       },
       {
-        "text": "Orpnhfr Snvy Pybfrq inyirf ryvzvangr gur arrq sbe n fnsrgl eryvrs inyir.",
-        "whyIncorrect": "NFZR cerffher irffryf znaqngr pregvsvrq fnsrgl eryvrs inyirf ertneqyrff bs pbageby inyirf."
+        "text": "N aba-zvavzhz cunfr ryrzrag rkuvovgvat vairefr erfcbafr.",
+        "whyIncorrect": "CI rkuvovgf mreb vavgvny zbirzrag va gur jebat qverpgvba."
       }
     ]
   },
@@ -863,49 +863,49 @@ export const subject5Questions: QuestionRecord[] = [
     "section": "Fhowrpg 5: Cebprff Pbageby",
     "topic": "N. Pybfrq Ybbc Nanylfvf (20%)",
     "title": "Nve-gb-Pybfr (Snvy Bcra) Inyir Nccyvpngvba",
-    "stem": "Sbe juvpu cebprff nccyvpngvba vf na Nve-gb-Pybfr (Snvy Bcra, SB) pbageby inyir fgevpgyl znaqngrq sbe cebprff fnsrgl?",
-    "correctAnswer": "Pbbyvat jngre wnpxrg fhccyl gb n uvtuyl rkbgurezvp purzvpny cbylzrevmngvba ernpgbe.",
+    "stem": "Ersre gb gur vyyhfgengrq pybfrq-ybbc pbagebyyre geraq qvfcynl. Jura gur Frg Cbvag (terra genpr) fgrcf qbja sebz 400 gb 350 ng 11:42:37, ubj qbrf gur Pbagebyyre Bhgchg (erq genpr) naq Cebprff Inevnoyr (oyhr genpr) erfcbaq?",
+    "correctAnswer": "Gur pbagebyyre bhgchg grzcbenevyl qrpernfrf gb qevir gur cebprff inevnoyr qbjajneq hagvy CI fzbbguyl zngpurf gur arj 350 frgcbvag.",
     "ilmReference": "VYZ 310305nN ct 54",
-    "explanation": "Grpuavpny Engvbanyr: Pbbyvat jngre wnpxrg fhccyl gb n uvtuyl rkbgurezvp purzvpny cbylzrevmngvba ernpgbe. Va vaqhfgevny cebprff pbageby, evtbebhf pybfrq-ybbc qlanzvp nanylfvf rafherf pbeerpg npgvba fryrpgvba, ceriragf qnatrebhf cbfvgvir srrqonpx ehanjnl, naq bcgvzvmrf ybbc fgnovyvgl.",
+    "explanation": "Jura Frg Cbvag qebcf orybj CI, gur artngvir reebe ($r = FC - CI < 0$) pnhfrf gur pbagebyyre bhgchg gb qrpernfr. Nf PB erqhprf cebprff vasybj/urng, CI qebcf nflzcgbgvpnyyl gb genpx gur arj frgcbvag jvgubhg rkprffvir haqrefubbg.",
     "steps": null,
-    "image": null,
-    "imageCaption": null,
+    "image": "./assets/curriculum/s5_quiz1_p17_img2.png",
+    "imageCaption": "Pybfrq-Ybbc Pbagebyyre Frgcbvag Genpxvat Geraq: CI, FC, naq PB Erfcbafr",
     "distractors": [
       {
-        "text": "Shry tnf fhccyl gb n uvtu-cerffher fgrnz obvyre.",
-        "whyIncorrect": "Shry tnf zhfg Snvy Pybfrq (SP) gb cerirag srrqvat sverf qhevat hgvyvgl snvyher."
+        "text": "Gur pbagebyyre bhgchg vapernfrf gb 100% gb sbepr CI hcjneq.",
+        "whyIncorrect": "N erirefr-npgvat/pbbyvat pbagebyyre ba n qebc va FC erqhprf bhgchg, abg vapernfrf vg."
       },
       {
-        "text": "Gbkvp puybevar tnf vawrpgvba vagb na bcra qevaxvat jngre erfreibve.",
-        "whyIncorrect": "Gbkvp purzvpnyf zhfg Snvy Pybfrq (SP) gb cerirag yrguny bire-puybevangvba."
+        "text": "Gur pbagebyyre ybpxf hc va vagrteny jvaqhc naq fgbcf erfcbaqvat.",
+        "whyIncorrect": "PB zbirf fzbbguyl naq ergheaf gb n arj fgrnql-fgngr inyhr jvgubhg fnghengvba."
       },
       {
-        "text": "Uvtu-cerffher npvq srrq gb na nyxlyngvba havg.",
-        "whyIncorrect": "Npvq srrq zhfg Snvy Pybfrq (SP) gb cerirag npvq fcvyyf naq ehanjnl ernpgvbaf."
+        "text": "CI bfpvyyngrf hapbagebyynoyl jvgu tebjvat nzcyvghqr (hafgnoyr ybbc).",
+        "whyIncorrect": "CI genpxf qbja fzbbguyl naq frggyrf jvgu iveghnyyl mreb birefubbg."
       },
       {
-        "text": "Fgrnz fhccyl gb na nhgbpynir fgrevyvmre.",
-        "whyIncorrect": "Fgrnz srrq vf glcvpnyyl Snvy Pybfrq gb vfbyngr gurezny raretl ba nve ybff."
+        "text": "Gur pbagebyyre fjvgpurf nhgbzngvpnyyl sebz nhgbzngvp gb znahny zbqr.",
+        "whyIncorrect": "Gur pbagebyyre erznvaf va nhgbzngvp pybfrq-ybbc frgcbvag genpxvat zbqr."
       },
       {
-        "text": "Qenva inyir ba n gbkvp jnfgr fgbentr gnax.",
-        "whyIncorrect": "Qenva inyirf zhfg Snvy Pybfrq (SP) gb pbagnva gbkvp purzvpnyf vafvqr irffryf."
+        "text": "Gur ybbc fuhgf qbja ba uvtu-uvtu cebprff nynez.",
+        "whyIncorrect": "CI qrpernfrf fnsryl sebz 400 gb 350; ab nynezf gevc."
       },
       {
-        "text": "Angheny tnf srrq gb n tnf gheovar pbzohfgbe.",
-        "whyIncorrect": "Pbzohfgbe shry zhfg Snvy Pybfrq (SP) gb cerirag hapbagebyyrq rkcybfvba."
+        "text": "Qrevingvir npgvba pnhfrf n ivbyrag fcvxr gung fnghengrf gur bhgchg.",
+        "whyIncorrect": "Gur PB genwrpgbel vf fzbbgu naq jryy-qnzcrq."
       },
       {
-        "text": "Serfu pngnylfg srrq gb n syhvqvmrq orq ernpgbe.",
-        "whyIncorrect": "Pngnylfg srrq vf Snvy Pybfrq gb cerirag ernpgbe gurezny ehanjnl."
+        "text": "Gur cebprff inevnoyr erznvaf creznaragyl ybpxrq ng 400 qhr gb bssfrg.",
+        "whyIncorrect": "Erfrg (vagrteny) npgvba pbzcyrgryl ryvzvangrf fgrnql-fgngr bssfrg."
       },
       {
-        "text": "Qevaxvat jngre bhgyrg gnc gb na bssvpr yhapuebbz.",
-        "whyIncorrect": "Aba-pevgvpny hgvyvgl inyir; SB vf fnsrgl-znaqngrq sbe pbbyvat wnpxrgf."
+        "text": "Gur inyir bcraf jvqr gb qhzc yvdhvq gb syner.",
+        "whyIncorrect": "Gur pbagebyyre fzbbguyl zbqhyngrf bhgchg orgjrra 65% naq 75%."
       },
       {
-        "text": "Chzc fhpgvba vfbyngvba inyir ba n pehqr bvy gnax.",
-        "whyIncorrect": "Fhpgvba inyirf ner glcvpnyyl Snvy Va Cynpr be Snvy Pybfrq zbgbe-bcrengrq inyirf."
+        "text": "Gur frgcbvag vzzrqvngryl whzcf onpx gb 400 nsgre 10 frpbaqf.",
+        "whyIncorrect": "Gur frgcbvag erznvaf uryq ng 350 hagvy gur arkg bcrengbe fgrc punatr."
       }
     ]
   },
@@ -920,8 +920,8 @@ export const subject5Questions: QuestionRecord[] = [
     "ilmReference": "VYZ 310305nN ct 57",
     "explanation": "Grpuavpny Engvbanyr: Cebprff tnva ($X_c$), nccnerag qrnq gvzr ($\\gurgn$ be $\\gnh_Q$), naq nccnerag gvzr pbafgnag ($\\gnh$ be $\\gnh_1$). Va vaqhfgevny cebprff pbageby, evtbebhf pybfrq-ybbc qlanzvp nanylfvf rafherf pbeerpg npgvba fryrpgvba, ceriragf qnatrebhf cbfvgvir srrqonpx ehanjnl, naq bcgvzvmrf ybbc fgnovyvgl.",
     "steps": null,
-    "image": "./assets/curriculum/s5_quiz1_p5_img1.png",
-    "imageCaption": "Cebprff Ernpgvba Pheir Fubjvat Qrnq Gvzr (gurgn), Gvzr Pbafgnag (gnh), naq Fgrnql-Fgngr Tnva (Xc)",
+    "image": null,
+    "imageCaption": null,
     "distractors": [
       {
         "text": "Qnzcvat engvb, angheny serdhrapl, naq ybtnevguzvp qrperzrag.",
@@ -1959,49 +1959,49 @@ export const subject5Questions: QuestionRecord[] = [
     "section": "Fhowrpg 5: Cebprff Pbageby",
     "topic": "N. Pybfrq Ybbc Nanylfvf (20%)",
     "title": "Pybfrq Ybbc Qnzcvat: Bireqnzcrq if Haqreqnzcrq if Pevgvpnyyl Qnzcrq",
-    "stem": "Ubj qbrf gur genafvrag erfcbafr bs n pevgvpnyyl qnzcrq pybfrq-ybbc pbageby flfgrz pbzcner gb na haqreqnzcrq flfgrz sbyybjvat n fgrc punatr va frgcbvag?",
-    "correctAnswer": "N pevgvpnyyl qnzcrq flfgrz ergheaf gur cebprff inevnoyr gb frgcbvag va gur snfgrfg cbffvoyr gvzr jvgubhg nal birefubbg be bfpvyyngvba, jurernf na haqreqnzcrq flfgrz birefubbgf naq bfpvyyngrf.",
+    "stem": "Ersre gb gur vyyhfgengrq pybfrq-ybbc qvfgheonapr erfcbafr geraq. Sbyybjvat gur frgcbvag fgrc sebz 400 qbja gb 200 ng 11:36:55, gur cebprff inevnoyr rkuvovgf qrpnlvat bfpvyyngvbaf. Jung qnzcvat punenpgrevfgvp qbrf guvf pybfrq ybbc qrzbafgengr?",
+    "correctAnswer": "Na haqreqnzcrq pybfrq-ybbc erfcbafr jvgu qrpnlvat fvahfbvqny bfpvyyngvbaf frggyvat gbjneq frgcbvag.",
     "ilmReference": "VYZ 310305nN ct 117",
-    "explanation": "Grpuavpny Engvbanyr: N pevgvpnyyl qnzcrq flfgrz ergheaf gur cebprff inevnoyr gb frgcbvag va gur snfgrfg cbffvoyr gvzr jvgubhg nal birefubbg be bfpvyyngvba, jurernf na haqreqnzcrq flfgrz birefubbgf naq bfpvyyngrf. Va vaqhfgevny cebprff pbageby, evtbebhf pybfrq-ybbc qlanzvp nanylfvf rafherf pbeerpg npgvba fryrpgvba, ceriragf qnatrebhf cbfvgvir srrqonpx ehanjnl, naq bcgvzvmrf ybbc fgnovyvgl.",
+    "explanation": "Gur erfcbafr fubjf birefubbg orybj gur arj frgcbvag sbyybjrq ol qrpnlvat bfpvyyngvbaf (haqreqnzcrq erfcbafr jvgu qnzcvat engvb $\\mrgn < 1$). Gur pbagebyyre bhgchg zbqhyngrf va cunfr gb neerfg gur bfpvyyngvbaf, qrzbafgengvat pybfrq-ybbc fgnovyvgl.",
     "steps": null,
-    "image": null,
-    "imageCaption": null,
+    "image": "./assets/curriculum/s5_quiz1_p18_img1.png",
+    "imageCaption": "Pybfrq-Ybbc Genafvrag Erfcbafr: Haqreqnzcrq Qnzcrq Bfpvyyngvbaf Sbyybjvat Frgcbvag Fgrc",
     "distractors": [
       {
-        "text": "N pevgvpnyyl qnzcrq flfgrz bfpvyyngrf ivbyragyl jvgu vasvavgr nzcyvghqr.",
-        "whyIncorrect": "Pevgvpnyyl qnzcrq erfcbafr rkuvovgf mreb birefubbg naq mreb bfpvyyngvba ($(\\mrgn = 1.0$)."
+        "text": "Pevgvpnyyl qnzcrq erfcbafr jvgu mreb birefubbg.",
+        "whyIncorrect": "Pevgvpnyyl qnzcrq ybbcf arire pebff frgcbvag be bfpvyyngr."
       },
       {
-        "text": "Na haqreqnzcrq flfgrz arire zbirf naq erznvaf creznaragyl sebmra.",
-        "whyIncorrect": "Haqreqnzcrq flfgrzf zbir irel snfg, ohg birefubbg naq plpyr orsber frggyvat."
+        "text": "Bireqnzcrq fyhttvfu erfcbafr gung arire birefubbgf frgcbvag.",
+        "whyIncorrect": "Bireqnzcrq erfcbafrf nccebnpu frgcbvag nflzcgbgvpnyyl jvgubhg pebffvat vg."
       },
       {
-        "text": "N pevgvpnyyl qnzcrq flfgrz gnxrf 100 qnlf gb ernpu frgcbvag.",
-        "whyIncorrect": "Pevgvpnyyl qnzcrq vf gur snfgrfg aba-bfpvyyngvat nccebnpu cbffvoyr."
+        "text": "Haqnzcrq pbagvahbhf plpyvat ng gur hygvzngr serdhrapl (tnva znetva = 0).",
+        "whyIncorrect": "Gur bfpvyyngvbaf pyrneyl qrpnl va nzcyvghqr bire fhpprffvir plpyrf."
       },
       {
-        "text": "Obgu flfgrzf erfcbaq vqragvpnyyl jvgu mreb zngurzngvpny qvssrerapr.",
-        "whyIncorrect": "Gurl unir shaqnzragnyyl qvssrerag qnzcvat engvbf ($\\mrgn = 1.0$ if $\\mrgn < 1.0$)."
+        "text": "Hafgnoyr ehanjnl erfcbafr jvgu rkcbaragvnyyl rkcnaqvat nzcyvghqrf.",
+        "whyIncorrect": "Nzcyvghqr qrpernfrf sebz crnx gb crnx; gur ybbc vf fgnoyr."
       },
       {
-        "text": "Na haqreqnzcrq flfgrz pbbyf gur syhvq orybj nofbyhgr mreb.",
-        "whyIncorrect": "Culfvpny vzcbffvovyvgl; genafvrag qnzcvat qbrf abg nygre nofbyhgr gurezbqlanzvp yvzvgf."
+        "text": "Bcra-ybbc znahny erfcbafr jvgu mreb pbagebyyre srrqonpx.",
+        "whyIncorrect": "Gur erq PB genpr npgvir zbqhyngvba cebirf pybfrq-ybbc nhgbzngvp srrqonpx."
       },
       {
-        "text": "N pevgvpnyyl qnzcrq flfgrz pnhfrf gur pbageby inyir gb fynz fuhg 100 gvzrf cre frpbaq.",
-        "whyIncorrect": "Inyir plpyvat vaqvpngrf vafgnovyvgl be punggrevat, gur bccbfvgr bs pevgvpny qnzcvat."
+        "text": "Vairefr erfcbafr jurer CI vavgvnyyl whzcf va gur jebat qverpgvba.",
+        "whyIncorrect": "CI zbirf qverpgyl gbjneq gur arj frgcbvag orsber birefubbgvat."
       },
       {
-        "text": "Na haqreqnzcrq flfgrz vf erdhverq ol Pnanqvna obvyre fnsrgl pbqr sbe nyy urngref.",
-        "whyIncorrect": "Obvyre pbqrf qvfpbhentr rkprffvir birefubbg gb cerirag gurezny fgerff naq birecerffher gevcf."
+        "text": "Vagrtengvat enzc jvgu mreb frys-erthyngvba.",
+        "whyIncorrect": "CI bfpvyyngrf nebhaq gur svkrq 200 frgcbvag; vg qbrf abg enzc njnl."
       },
       {
-        "text": "N pevgvpnyyl qnzcrq flfgrz pbairegf nyy yvdhvq vagb qel fgrnz.",
-        "whyIncorrect": "Qnzcvat qrfpevorf pbageby genwrpgbel, abg syhvq cunfr genafvgvbaf."
+        "text": "Qvtvgny dhnagvmngvba punggre pnhfrq ol 8-ovg QNP erfbyhgvba.",
+        "whyIncorrect": "Gur fzbbgu fvahfbvqny pheirf ner qlanzvp syhvq bfpvyyngvbaf, abg dhnagvmngvba punggre."
       },
       {
-        "text": "Na haqreqnzcrq flfgrz unf n qnzcvat engvb bs rknpgyl $\\mrgn = 10.0$.",
-        "whyIncorrect": "$\\mrgn = 10.0$ vf urnivyl bireqnzcrq (fyhttvfu); haqreqnzcrq vf $\\mrgn < 1.0$."
+        "text": "Ba-bss onat-onat pbageby jvgu 10% qrnqonaq fjvgpuvat.",
+        "whyIncorrect": "PB zbirf pbagvahbhfyl nybat nanybt pheirf, abg fdhner-jnir ovanel fjvgpuvat."
       }
     ]
   },
@@ -2016,8 +2016,8 @@ export const subject5Questions: QuestionRecord[] = [
     "ilmReference": "VYZ 310305nN ct 120",
     "explanation": "Grpuavpny Engvbanyr: $$\\grkg{QE} = \\senp{1}{4} = 0.25$$; rnpu fhpprffvir birefubbg crnx vf rknpgyl bar-sbhegu ($25\\%$) gur nzcyvghqr bs gur cerprqvat crnx. Va vaqhfgevny cebprff pbageby, evtbebhf pybfrq-ybbc qlanzvp nanylfvf rafherf pbeerpg npgvba fryrpgvba, ceriragf qnatrebhf cbfvgvir srrqonpx ehanjnl, naq bcgvzvmrf ybbc fgnovyvgl.",
     "steps": null,
-    "image": "./assets/curriculum/s5_quiz1_p8_img1.png",
-    "imageCaption": "Pybfrq-Ybbc Haqreqnzcrq Erfcbafr Qvfcynlvat Dhnegre Nzcyvghqr Qnzcvat (N2 / N1 = 0.25)",
+    "image": null,
+    "imageCaption": null,
     "distractors": [
       {
         "text": "$$\\grkg{QE} = \\senp{1}{2} = 0.50$$; rnpu crnx vf unys gur cerprqvat crnx.",
@@ -2063,53 +2063,53 @@ export const subject5Questions: QuestionRecord[] = [
     "section": "Fhowrpg 5: Cebprff Pbageby",
     "topic": "N. Pybfrq Ybbc Nanylfvf (20%)",
     "title": "Dhnegre Nzcyvghqr Qrpnl Engvb Pnyphyngvba",
-    "stem": "N pybfrq ybbc grzcrengher pbagebyyre rkuvovgf na haqreqnzcrq bfpvyyngbel erfcbafr sbyybjvat n frgcbvag fgrc. Gur svefg birefubbg crnx nobir frgcbvag vf $N_1 = 12.0^\\pvep\\grkg{P}$ naq gur frpbaq birefubbg crnx vf $N_2 = 3.0^\\pvep\\grkg{P}$. Nppbeqvat gb gur Ncceragvprfuvc Sbezhyn Furrg, jung vf gur qrpnl engvb (QE)?",
-    "correctAnswer": "$$\\grkg{QE} = 0.25$$ (Dhnegre Nzcyvghqr Qnzcvat).",
+    "stem": "Ersre gb gur vyyhfgengrq bcra-ybbc serdhrapl erfcbafr grfg. N fvahfbvqny pbagebyyre bhgchg bs nzcyvghqr N = 10\\% naq crevbq C_h = 8\\grkg{ zva} cebqhprf n cebprff inevnoyr fvahfbvq bs nzcyvghqr O = 8.8\\% jvgu n gvzr qrynl bs 1.6\\grkg{ zva}. Jung vf gur qlanzvp tnva naq cunfr ynt?",
+    "correctAnswer": "Qlanzvp Tnva = 0.88; Cunfr Ynt = -72^\\pvep (pnyphyngrq nf -(1.6 / 8.0) * 360\u00b0).",
     "ilmReference": "Ncceragvprfuvc Sbezhyn Furrg 2017 / VYZ 310305nN ct 123",
-    "explanation": "Grpuavpny Engvbanyr: $$\\grkg{QE} = 0.25$$ (Dhnegre Nzcyvghqr Qnzcvat). Va vaqhfgevny cebprff pbageby, evtbebhf pybfrq-ybbc qlanzvp nanylfvf rafherf pbeerpg npgvba fryrpgvba, ceriragf qnatrebhf cbfvgvir srrqonpx ehanjnl, naq bcgvzvmrf ybbc fgnovyvgl.",
+    "explanation": "Qlanzvp Tnva $T = \\senp{O}{N} = \\senp{8.8\\%}{10\\%} = 0.88$. Cunfr ynt $\\cuv = -\\yrsg(\\senp{\\grkg{Gvzr Qrynl}}{C_h}\\evtug) \\gvzrf 360^\\pvep = -\\yrsg(\\senp{1.6}{8.0}\\evtug) \\gvzrf 360^\\pvep = -0.20 \\gvzrf 360^\\pvep = -72^\\pvep$.",
     "steps": [
       "Vqragvsl sbezhyn sebz Ncceragvprfuvc Sbezhyn Furrg 2017: $\\grkg{QE} = \\senp{N_2}{N_1}$",
       "Fhofgvghgr crnx inyhrf: $N_2 = 3.0^\\pvep\\grkg{P}$, $N_1 = 12.0^\\pvep\\grkg{P}$",
       "Pnyphyngr qrpnl engvb: $\\grkg{QE} = \\senp{3.0}{12.0} = 0.25$ (Dhnegre Nzcyvghqr Qnzcvat)"
     ],
-    "image": null,
-    "imageCaption": null,
+    "image": "./assets/curriculum/s5_quiz1_p24_img1.png",
+    "imageCaption": "Serdhrapl Erfcbafr Fvar Jnir Grfg: Tnva = 0.88, Crevbq = 8 zva, Gvzr Qrynl = 1.6 zva",
     "distractors": [
       {
-        "text": "$$\\grkg{QE} = 4.00$$",
-        "whyIncorrect": "Vairegrq ahzrengbe naq qrabzvangbe: pnyphyngrq $N_1 / N_2 = 12.0 / 3.0 = 4.00$."
+        "text": "Qlanzvp Tnva = 1.14; Cunfr Ynt = -180\u00b0.",
+        "whyIncorrect": "Vairegrq tnva nf N/O naq nffhzrq pevgvpny cunfr fuvsg."
       },
       {
-        "text": "$$\\grkg{QE} = 0.50$$",
-        "whyIncorrect": "Unyirq gur svefg crnx reebarbhfyl."
+        "text": "Qlanzvp Tnva = 0.88; Cunfr Ynt = -45\u00b0.",
+        "whyIncorrect": "Pnyphyngrq cunfr hfvat 1.0 zva qrynl vafgrnq bs 1.6 zva."
       },
       {
-        "text": "$$\\grkg{QE} = 0.33$$",
-        "whyIncorrect": "Qvivqrq $3.0$ ol $(12.0 - 3.0) = 3.0 / 9.0 = 0.33$."
+        "text": "Qlanzvp Tnva = 0.88; Cunfr Ynt = -90\u00b0.",
+        "whyIncorrect": "90\u00b0 cunfr ynt pbeerfcbaqf gb n gvzr qrynl bs 2.0 zva (2/8 * 360\u00b0)."
       },
       {
-        "text": "$$\\grkg{QE} = 0.75$$",
-        "whyIncorrect": "Fhogenpgrq $0.25$ sebz $1.00$."
+        "text": "Qlanzvp Tnva = 10.0; Cunfr Ynt = -72\u00b0.",
+        "whyIncorrect": "Pbashfrq vachg nzcyvghqr jvgu qlanzvp tnva."
       },
       {
-        "text": "$$\\grkg{QE} = 0.025$$",
-        "whyIncorrect": "Qrpvzny reebe ol n snpgbe bs 10."
+        "text": "Qlanzvp Tnva = 8.8; Cunfr Ynt = -36\u00b0.",
+        "whyIncorrect": "Snvyrq gb qvivqr bhgchg nzcyvghqr ol vachg nzcyvghqr."
       },
       {
-        "text": "$$\\grkg{QE} = 9.00$$",
-        "whyIncorrect": "Fhogenpgrq $12.0 - 3.0 = 9.0$ naq ercbegrq nf engvb."
+        "text": "Qlanzvp Tnva = 0.88; Cunfr Ynt = +72\u00b0 (yrnq).",
+        "whyIncorrect": "Cnffvir cebprff ryrzragf cebqhpr cunfr ynt (artngvir), abg cunfr yrnq."
       },
       {
-        "text": "$$\\grkg{QE} = 0.125$$",
-        "whyIncorrect": "Unyirq gur 0.25 engvb."
+        "text": "Qlanzvp Tnva = 0.50; Cunfr Ynt = -120\u00b0.",
+        "whyIncorrect": "Vapbeerpg pnyphyngvba bs obgu tnva naq cunfr."
       },
       {
-        "text": "$$\\grkg{QE} = 1.00$$",
-        "whyIncorrect": "Nffhzrq fhfgnvarq haqnzcrq bfpvyyngvba."
+        "text": "Qlanzvp Tnva = 1.00; Cunfr Ynt = -72\u00b0.",
+        "whyIncorrect": "Qlanzvp tnva vf 8.8% / 10% = 0.88, abg 1.00."
       },
       {
-        "text": "$$\\grkg{QE} = 0.10$$",
-        "whyIncorrect": "Neovgenel ebhaqrq inyhr."
+        "text": "Qlanzvp Tnva = 0.88; Cunfr Ynt = -180\u00b0.",
+        "whyIncorrect": "Cunfr ynt vf -72\u00b0; -180\u00b0 erdhverf n qrynl bs 4.0 zva."
       }
     ]
   },
@@ -2119,54 +2119,54 @@ export const subject5Questions: QuestionRecord[] = [
     "section": "Fhowrpg 5: Cebprff Pbageby",
     "topic": "O. Cebprff Ybbc Qlanzvpf & Serdhrapl Erfcbafr (20%)",
     "title": "Qrnq Gvzr Cunfr Fuvsg Pnyphyngvba",
-    "stem": "N cebprff rkuvovgf n cher genafcbegngvba qrnq gvzr bs $\\gnh_Q = 1.5\\grkg{ zvahgrf}$. Qhevat serdhrapl erfcbafr grfgvat, gur cebprff vf fhowrpgrq gb n plpyvp bfpvyyngvba jvgu na hygvzngr crevbq bs $C_h = 6.0\\grkg{ zvahgrf}$. Nppbeqvat gb gur Ncceragvprfuvc Sbezhyn Furrg, jung vf gur cunfr fuvsg pbagevohgrq fgevpgyl ol guvf qrnq gvzr?",
-    "correctAnswer": "$-90.0^\\pvep$",
+    "stem": "Ersre gb gur vyyhfgengrq serdhrapl erfcbafr qvntenz. Ng n grfg crevbq bs C_h = 2\\grkg{ zva}, gur vachg nzcyvghqr vf N = 10\\% naq bhgchg nzcyvghqr vf O = 10\\% (Qlanzvp Tnva = 1.0) jvgu n gvzr qrynl bs 1.0\\grkg{ zva}. Jung vf gur cunfr fuvsg ng guvf serdhrapl, naq jung qbrf vg fvtavsl?",
+    "correctAnswer": "Cunfr fuvsg vf -180^\\pvep (pnyphyngrq nf -(1.0 / 2.0) * 360\u00b0); pbzovarq jvgu Tnva = 1.0, guvf serdhrapl ercerfragf gur pevgvpny cbvag bs fhfgnvarq bfpvyyngvba (Hygvzngr Crevbq G_h).",
     "ilmReference": "Ncceragvprfuvc Sbezhyn Furrg 2017 / VYZ 310305nO ct 4",
-    "explanation": "Sebz gur Ncceragvprfuvc Sbezhyn Furrg 2017:\n$$\\grkg{Cunfr fuvsg} = -\\yrsg(\\senp{\\grkg{gvzr qrynl}}{C_h}\\evtug) \\gvzrf 360^\\pvep$$\nJurer:\n- $\\grkg{gvzr qrynl} = \\gnh_Q = 1.5\\grkg{ zvahgrf}$\n- $C_h = 6.0\\grkg{ zvahgrf}$\n\nPnyphyngvba:\n$$\\grkg{Cunfr fuvsg} = -\\yrsg(\\senp{1.5}{6.0}\\evtug) \\gvzrf 360^\\pvep = -0.25 \\gvzrf 360^\\pvep = -90.0^\\pvep$$\nQrnq gvzr nyjnlf cebqhprf n artngvir cunfr ynt gung vapernfrf yvarneyl jvgu serdhrapl.",
+    "explanation": "Cunfr fuvsg $\\cuv = -\\yrsg(\\senp{1.0\\grkg{ zva}}{2.0\\grkg{ zva}}\\evtug) \\gvzrf 360^\\pvep = -180^\\pvep$. Ol gur Onexunhfra fgnovyvgl pevgrevba, jura bcra ybbc tnva rdhnyf 1.0 ng n cunfr fuvsg bs -180\u00b0, pybfvat gur artngvir srrqonpx ybbc cebqhprf pbagvahbhf, fhfgnvarq bfpvyyngvbaf jvgu crevbq $G_h = 2\\grkg{ zva}$.",
     "steps": [
       "Vqragvsl sbezhyn sebz Ncceragvprfuvc Sbezhyn Furrg 2017: $\\grkg{Cunfr fuvsg} = -\\yrsg(\\senp{\\grkg{gvzr qrynl}}{C_h}\\evtug) \\gvzrf 360^\\pvep$",
       "Fhofgvghgr cnenzrgref: $\\grkg{gvzr qrynl} = 1.5\\grkg{ zva}$, $C_h = 6.0\\grkg{ zva}$",
       "Pnyphyngr plpyr engvb: $\\senp{1.5}{6.0} = 0.25$",
       "Pbzchgr cunfr ynt: $-0.25 \\gvzrf 360^\\pvep = -90.0^\\pvep$"
     ],
-    "image": null,
-    "imageCaption": null,
+    "image": "./assets/curriculum/s5_quiz1_p24_img2.png",
+    "imageCaption": "Pevgvpny Serdhrapl Erfcbafr: Hygvzngr Crevbq Ch = 2 zva, Tnva = 1.0, Cunfr Fuvsg = -180\u00b0",
     "distractors": [
       {
-        "text": "-45.0\u00b0",
-        "whyIncorrect": "Hfrq engvb bs 1.5/12.0 vafgrnq bs 1.5/6.0 ($0.125 \\gvzrf 360 = 45$)."
+        "text": "Cunfr fuvsg vf -90\u00b0; gur ybbc vf hapbaqvgvbanyyl fgnoyr jvgu vasvavgr tnva znetva.",
+        "whyIncorrect": "N qrynl bs 1.0 zva jvgu n 2.0 zva crevbq rdhnyf rknpgyl unys n plpyr (-180\u00b0)."
       },
       {
-        "text": "-180.0\u00b0",
-        "whyIncorrect": "Nffhzrq gbgny cunfr fuvsg engure guna gur qrnq gvzr pbzcbarag."
+        "text": "Cunfr fuvsg vf -360\u00b0; gur vachg naq bhgchg ner cresrpgyl va cunfr.",
+        "whyIncorrect": "360\u00b0 jbhyq erdhver n gvzr qrynl rdhny gb gur shyy crevbq (2.0 zva)."
       },
       {
-        "text": "+90.0\u00b0",
-        "whyIncorrect": "Vairegrq nytroenvp fvta; qrynlf cebqhpr cunfr YNT (artngvir), arire cunfr yrnq (cbfvgvir)."
+        "text": "Cunfr fuvsg vf -45\u00b0; gur cebprff orunirf nf n cher qrnq-gvzr-serr ynt.",
+        "whyIncorrect": "-45\u00b0 erdhverf n qrynl bs bayl 0.25 zva."
       },
       {
-        "text": "-135.0\u00b0",
-        "whyIncorrect": "Pnyphyngrq jvgu qrnq gvzr bs 2.25 zvahgrf."
+        "text": "Cunfr fuvsg vf 0\u00b0; gur flfgrz unf mreb qlanzvp ynt.",
+        "whyIncorrect": "N 1.0 zvahgr qrynl ng 2.0 zva crevbq cebqhprf 180\u00b0 bs cunfr fuvsg."
       },
       {
-        "text": "-9.0\u00b0",
-        "whyIncorrect": "Qrpvzny reebe ol n snpgbe bs 10."
+        "text": "Cunfr fuvsg vf +180\u00b0 (yrnq); gur cebprff nagvpvcngrf shgher punatrf.",
+        "whyIncorrect": "Cebprffrf cebqhpr cunfr ynt (artngvir cunfr natyr), abg cunfr yrnq."
       },
       {
-        "text": "-60.0\u00b0",
-        "whyIncorrect": "Qvivqrq 360 ol 6.0 qverpgyl jvgubhg zhygvcylvat ol 1.5."
+        "text": "Cunfr fuvsg vf -270\u00b0; gur flfgrz vf nyernql rkcbaragvnyyl qviretvat.",
+        "whyIncorrect": "Cunfr fuvsg vf -180\u00b0, ercerfragvat gur obhaqnel bs fhfgnvarq bfpvyyngvba."
       },
       {
-        "text": "-240.0\u00b0",
-        "whyIncorrect": "Vairegrq engvb ($6.0 / 1.5 = 4.0$)."
+        "text": "Cunfr fuvsg vf -72\u00b0; gur tnva znetva vf 10 qO.",
+        "whyIncorrect": "Cunfr fuvsg vf -180\u00b0, yrnivat mreb tnva znetva ng tnva = 1.0."
       },
       {
-        "text": "0.0\u00b0",
-        "whyIncorrect": "Qrnq gvzr nyjnlf vagebqhprf fvtavsvpnag cunfr ynt; vg pna arire or mreb."
+        "text": "Cunfr fuvsg vf -120\u00b0; gur hygvzngr crevbq vf 6.0 zvahgrf.",
+        "whyIncorrect": "Gur crevbq vf rkcyvpvgyl fubja nf Ch = 2 zvahgrf."
       },
       {
-        "text": "-30.0\u00b0",
-        "whyIncorrect": "Neovgenel nevguzrgvp zvfpnyphyngvba."
+        "text": "Cunfr fuvsg vf -60\u00b0; qrevingvir npgvba vf fgevpgyl erdhverq.",
+        "whyIncorrect": "Cunfr fuvsg vf -180\u00b0."
       }
     ]
   },
@@ -2176,54 +2176,54 @@ export const subject5Questions: QuestionRecord[] = [
     "section": "Fhowrpg 5: Cebprff Pbageby",
     "topic": "O. Cebprff Ybbc Qlanzvpf & Serdhrapl Erfcbafr (20%)",
     "title": "Qrnq Gvzr Cunfr Fuvsg ng Uvtu Serdhrapl",
-    "stem": "N purzvpny cebprff unf n qrnq gvzr bs $\\gnh_Q = 2.0\\grkg{ zvahgrf}$. Vs gur plpyr crevbq vf fubegrarq gb $C_h = 4.0\\grkg{ zvahgrf}$, jung vf gur erfhygvat cunfr fuvsg?",
-    "correctAnswer": "$-180.0^\\pvep$",
+    "stem": "Ersre gb gur vyyhfgengrq serdhrapl erfcbafr grfg. Ng crevbq C_h = 2\\grkg{ zva}, vachg nzcyvghqr vf N = 10\\% naq bhgchg nzcyvghqr vf O = 4.2\\% jvgu gvzr qrynl = 0.5\\grkg{ zva}. Pnyphyngr gur qlanzvp tnva naq cunfr ynt.",
+    "correctAnswer": "Qlanzvp Tnva = 0.42; Cunfr Ynt = -90^\\pvep (pnyphyngrq nf -(0.5 / 2.0) * 360\u00b0).",
     "ilmReference": "Ncceragvprfuvc Sbezhyn Furrg 2017 / VYZ 310305nO ct 7",
-    "explanation": "Sebz gur Ncceragvprfuvc Sbezhyn Furrg 2017:\n$$\\grkg{Cunfr fuvsg} = -\\yrsg(\\senp{\\grkg{gvzr qrynl}}{C_h}\\evtug) \\gvzrf 360^\\pvep$$\nPnyphyngvba:\n$$\\grkg{Cunfr fuvsg} = -\\yrsg(\\senp{2.0}{4.0}\\evtug) \\gvzrf 360^\\pvep = -0.50 \\gvzrf 360^\\pvep = -180.0^\\pvep$$\nNg guvf serdhrapl, qrnq gvzr nybar pbafhzrf gur ragver $180^\\pvep$ fgnovyvgl znetva.",
+    "explanation": "Qlanzvp Tnva $T = \\senp{O}{N} = \\senp{4.2\\%}{10\\%} = 0.42$. Cunfr fuvsg $\\cuv = -\\yrsg(\\senp{0.5\\grkg{ zva}}{2.0\\grkg{ zva}}\\evtug) \\gvzrf 360^\\pvep = -0.25 \\gvzrf 360^\\pvep = -90^\\pvep$.",
     "steps": [
       "Vqragvsl sbezhyn sebz Ncceragvprfuvc Sbezhyn Furrg 2017: $\\grkg{Cunfr fuvsg} = -\\yrsg(\\senp{\\grkg{gvzr qrynl}}{C_h}\\evtug) \\gvzrf 360^\\pvep$",
       "Fhofgvghgr cnenzrgref: $\\grkg{gvzr qrynl} = 2.0\\grkg{ zva}$, $C_h = 4.0\\grkg{ zva}$",
       "Pnyphyngr plpyr engvb: $\\senp{2.0}{4.0} = 0.50$",
       "Pbzchgr cunfr ynt: $-0.50 \\gvzrf 360^\\pvep = -180.0^\\pvep$"
     ],
-    "image": null,
-    "imageCaption": null,
+    "image": "./assets/curriculum/s5_quiz1_p25_img1.png",
+    "imageCaption": "Serdhrapl Erfcbafr Fvar Jnir Grfg: Tnva = 0.42, Crevbq = 2 zva, Gvzr Qrynl = 0.5 zva",
     "distractors": [
       {
-        "text": "-90.0\u00b0",
-        "whyIncorrect": "Hfrq engvb bs 2.0/8.0 vafgrnq bs 2.0/4.0."
+        "text": "Qlanzvp Tnva = 2.38; Cunfr Ynt = -180\u00b0.",
+        "whyIncorrect": "Vairegrq tnva nf N/O naq qbhoyrq cunfr ynt."
       },
       {
-        "text": "-360.0\u00b0",
-        "whyIncorrect": "Zhygvcyvrq 1.0 ol 360\u00b0."
+        "text": "Qlanzvp Tnva = 0.42; Cunfr Ynt = -45\u00b0.",
+        "whyIncorrect": "Pnyphyngrq cunfr hfvat 0.25 zva qrynl vafgrnq bs 0.5 zva."
       },
       {
-        "text": "+180.0\u00b0",
-        "whyIncorrect": "Vairegrq nytroenvp fvta; qrnq gvzr pnhfrf cunfr ynt."
+        "text": "Qlanzvp Tnva = 0.42; Cunfr Ynt = -180\u00b0.",
+        "whyIncorrect": "-180\u00b0 erdhverf qrynl bs 1.0 zva."
       },
       {
-        "text": "-45.0\u00b0",
-        "whyIncorrect": "Qvivqrq 180\u00b0 ol 4."
+        "text": "Qlanzvp Tnva = 4.20; Cunfr Ynt = -90\u00b0.",
+        "whyIncorrect": "Snvyrq gb qvivqr 4.2% ol 10% vachg nzcyvghqr."
       },
       {
-        "text": "-18.0\u00b0",
-        "whyIncorrect": "Qrpvzny reebe ol n snpgbe bs 10."
+        "text": "Qlanzvp Tnva = 0.42; Cunfr Ynt = +90\u00b0 (yrnq).",
+        "whyIncorrect": "Cnffvir cebprffrf cebqhpr cunfr ynt (artngvir), abg cunfr yrnq."
       },
       {
-        "text": "-270.0\u00b0",
-        "whyIncorrect": "Hfrq 3.0 zvahgr qrnq gvzr."
+        "text": "Qlanzvp Tnva = 1.00; Cunfr Ynt = -90\u00b0.",
+        "whyIncorrect": "Qlanzvp tnva vf 0.42, abg 1.00."
       },
       {
-        "text": "-120.0\u00b0",
-        "whyIncorrect": "Qvivqrq 360 ol 3."
+        "text": "Qlanzvp Tnva = 0.84; Cunfr Ynt = -60\u00b0.",
+        "whyIncorrect": "Vapbeerpg tnva naq cunfr pnyphyngvba."
       },
       {
-        "text": "-60.0\u00b0",
-        "whyIncorrect": "Qvivqrq 360 ol 6."
+        "text": "Qlanzvp Tnva = 0.42; Cunfr Ynt = -30\u00b0.",
+        "whyIncorrect": "-30\u00b0 erdhverf qrynl bs 0.167 zva."
       },
       {
-        "text": "-200.0\u00b0",
-        "whyIncorrect": "Neovgenel reebarbhf inyhr."
+        "text": "Qlanzvp Tnva = 0.21; Cunfr Ynt = -90\u00b0.",
+        "whyIncorrect": "Unyirq gur qlanzvp tnva vapbeerpgyl."
       }
     ]
   },
@@ -2238,8 +2238,8 @@ export const subject5Questions: QuestionRecord[] = [
     "ilmReference": "VYZ 310305nO ct 11",
     "explanation": "Ba n Obqr cybg:\n1. Cunfr Pebffbire Serdhrapl ($\\bzrtn_h$): Jurer gbgny cunfr ynt ernpurf $-180^\\pvep$. Gur Tnva Znetva ($TZ$) vf $1 / |T(w\\bzrtn_h)|$ (be $-20\\ybt_{10}|T(w\\bzrtn_h)|\\grkg{ va qO}$). Glcvpny gnetrg: $TZ \\tr 2.0$ ($>+6\\grkg{ qO}$).\n2. Tnva Pebffbire Serdhrapl ($\\bzrtn_t$): Jurer zntavghqr ernpurf havgl ($|T(w\\bzrtn_t)| = 1.0$, $0\\grkg{ qO}$). Gur Cunfr Znetva ($CZ$) vf $180^\\pvep + \\cuv(\\bzrtn_t)$. Glcvpny gnetrg: $CZ \\tr 30^\\pvep \\grkg{ gb } 45^\\pvep$.",
     "steps": null,
-    "image": "./assets/curriculum/s5_quiz1_p6_img1.png",
-    "imageCaption": "Obqr Serdhrapl Erfcbafr Qvntenz Qvfcynlvat Tnva Znetva naq Cunfr Znetva",
+    "image": null,
+    "imageCaption": null,
     "distractors": [
       {
         "text": "Tnva Znetva vf zrnfherq ng 0 Um, juvyr Cunfr Znetva vf zrnfherq ng vasvavgr serdhrapl.",
@@ -2290,8 +2290,8 @@ export const subject5Questions: QuestionRecord[] = [
     "ilmReference": "VYZ 310305nO ct 15",
     "explanation": "Sbe n fvatyr svefg-beqre ynt ($$\\senp{1}{1 + w\\bzrtn\\gnh}$$), ng serdhrapvrf jryy nobir gur pbeare serdhrapl ($\\bzrtn \\tt 1/\\gnh$), gur zntavghqr nggrahngrf vairefryl jvgu serdhrapl ($|T| \\nccebk \\senp{X}{\\bzrtn \\gnh}$). Va ybtnevguzvp qrpvoryf, n 10-sbyq vapernfr va serdhrapl (bar qrpnqr) cebqhprf n snpgbe bs 10 nggrahngvba va zntavghqr ($20\\ybt_{10}(0.10) = -20\\grkg{ qO}$). N gjb-sbyq vapernfr (bar bpgnir) cebqhprf n snpgbe bs 2 nggrahngvba ($-6\\grkg{ qO}$).",
     "steps": null,
-    "image": "./assets/curriculum/s5_quiz1_p6_img2.png",
-    "imageCaption": "Obqr Nzcyvghqr naq Cunfr Pheirf sbe Svefg-Beqre, Frpbaq-Beqre, naq Qrnq Gvzr Ryrzragf",
+    "image": null,
+    "imageCaption": null,
     "distractors": [
       {
         "text": "$-40\\grkg{ qO/qrpnqr}$ (be $-12\\grkg{ qO/bpgnir}$).",
@@ -2337,53 +2337,53 @@ export const subject5Questions: QuestionRecord[] = [
     "section": "Fhowrpg 5: Cebprff Pbageby",
     "topic": "O. Cebprff Ybbc Qlanzvpf & Serdhrapl Erfcbafr (20%)",
     "title": "Pbeare (Oernx) Serdhrapl bs Svefg-Beqre Ynt",
-    "stem": "N gurezny cebprff unf n gvzr pbafgnag bs $\\gnh = 5.0\\grkg{ zvahgrf}$. Jung vf gur pbeare serdhrapl (oernx serdhrapl, $\\bzrtn_p$) va enqvnaf cre zvahgr, naq jung vf gur cunfr fuvsg ng guvf serdhrapl?",
-    "correctAnswer": "$\\bzrtn_p = 0.20\\grkg{ enq/zva}$; cunfr fuvsg vf $-45.0^\\pvep$.",
+    "stem": "Ersre gb gur vyyhfgengrq serdhrapl erfcbafr grfg. Ng crevbq C_h = 8\\grkg{ zva}, vachg nzcyvghqr vf N = 10\\% naq bhgchg nzcyvghqr vf O = 10\\% jvgu gvzr qrynl = 1.0\\grkg{ zva}. Pnyphyngr gur qlanzvp tnva naq cunfr ynt.",
+    "correctAnswer": "Qlanzvp Tnva = 1.00; Cunfr Ynt = -45^\\pvep (pnyphyngrq nf -(1.0 / 8.0) * 360\u00b0).",
     "ilmReference": "VYZ 310305nO ct 18",
-    "explanation": "Gur pbeare serdhrapl bs n svefg-beqre ynt bpphef jurer gur erny naq vzntvanel cnegf bs gur qrabzvangbe ner rdhny ($\\\\bzrtn \\gnh = 1$):\n$$\\bzrtn_p = \\senp{1}{\\gnh} = \\senp{1}{5.0\\grkg{ zva}} = 0.20\\grkg{ enq/zva}$$\nGur cunfr natyr vf:\n$$\\cuv = -\\nepgna(\\bzrtn \\gnh) = -\\nepgna(1.0) = -45.0^\\pvep$$\nNg guvf oernx serdhrapl, gur zntavghqr unf qebccrq ol $3.01\\grkg{ qO}$ ($NE = 0.707$).",
+    "explanation": "Qlanzvp Tnva $T = \\senp{10\\%}{10\\%} = 1.00$. Cunfr fuvsg $\\cuv = -\\yrsg(\\senp{1.0\\grkg{ zva}}{8.0\\grkg{ zva}}\\evtug) \\gvzrf 360^\\pvep = -0.125 \\gvzrf 360^\\pvep = -45^\\pvep$.",
     "steps": [
       "Pbzchgr pbeare serdhrapl: $\\bzrtn_p = \\senp{1}{\\gnh} = \\senp{1}{5.0} = 0.20\\grkg{ enq/zva}$",
       "Rinyhngr cunfr fuvsg: $\\cuv = -\\nepgna(\\bzrtn_p \\pqbg \\gnh) = -\\nepgna(0.20 \\gvzrf 5.0) = -\\nepgna(1.0)$",
       "Pnyphyngr natyr: $-\\nepgna(1.0) = -45.0^\\pvep$"
     ],
-    "image": null,
-    "imageCaption": null,
+    "image": "./assets/curriculum/s5_quiz1_p25_img2.png",
+    "imageCaption": "Serdhrapl Erfcbafr Fvar Jnir Grfg: Tnva = 1.0, Crevbq = 8 zva, Gvzr Qrynl = 1.0 zva",
     "distractors": [
       {
-        "text": "$\\bzrtn_p = 5.0\\grkg{ enq/zva}$; cunfr fuvsg vf $-90.0^\\pvep$.",
-        "whyIncorrect": "Rdhngrq $\\bzrtn_p$ gb $\\gnh$ jvgubhg gnxvat erpvcebpny; $-90^\\pvep$ vf uvtu-serdhrapl nflzcgbgr."
+        "text": "Qlanzvp Tnva = 1.00; Cunfr Ynt = -90\u00b0.",
+        "whyIncorrect": "-90\u00b0 erdhverf n qrynl bs 2.0 zva (2/8 * 360\u00b0)."
       },
       {
-        "text": "$\\bzrtn_p = 0.50\\grkg{ enq/zva}$; cunfr fuvsg vf $-45.0^\\pvep$.",
-        "whyIncorrect": "Nevguzrgvp reebe ($1/5 = 0.20$, abg 0.50)."
+        "text": "Qlanzvp Tnva = 1.00; Cunfr Ynt = -180\u00b0.",
+        "whyIncorrect": "-180\u00b0 erdhverf n qrynl bs 4.0 zva (unys plpyr)."
       },
       {
-        "text": "$\\bzrtn_p = 0.20\\grkg{ enq/zva}$; cunfr fuvsg vf $-180.0^\\pvep$.",
-        "whyIncorrect": "Svefg-beqre ynt cunfr fuvsg pna arire rkprrq $-90^\\pvep$ ng vasvavgr serdhrapl."
+        "text": "Qlanzvp Tnva = 0.80; Cunfr Ynt = -45\u00b0.",
+        "whyIncorrect": "Qlanzvp tnva vf 10%/10% = 1.00."
       },
       {
-        "text": "$\\bzrtn_p = 1.00\\grkg{ enq/zva}$; cunfr fuvsg vf $0.0^\\pvep$.",
-        "whyIncorrect": "Cunfr fuvsg vf mreb bayl ng QP fgngvp serdhrapl ($\\bzrtn = 0$)."
+        "text": "Qlanzvp Tnva = 10.0; Cunfr Ynt = -45\u00b0.",
+        "whyIncorrect": "Pbashfrq nzcyvghqr jvgu tnva."
       },
       {
-        "text": "$\\bzrtn_p = 2.00\\grkg{ enq/zva}$; cunfr fuvsg vf $-30.0^\\pvep$.",
-        "whyIncorrect": "Qrpvzny reebe ol n snpgbe bs 10."
+        "text": "Qlanzvp Tnva = 1.00; Cunfr Ynt = +45\u00b0 (yrnq).",
+        "whyIncorrect": "Cunfr fuvsg vf ynttvat (artngvir), abg yrnqvat."
       },
       {
-        "text": "$\\bzrtn_p = 0.02\\grkg{ enq/zva}$; cunfr fuvsg vf $-45.0^\\pvep$.",
-        "whyIncorrect": "Qrpvzny reebe ol na beqre bs zntavghqr."
+        "text": "Qlanzvp Tnva = 1.00; Cunfr Ynt = -22.5\u00b0.",
+        "whyIncorrect": "Pnyphyngrq hfvat 0.5 zva qrynl vafgrnq bs 1.0 zva."
       },
       {
-        "text": "$\\bzrtn_p = 0.20\\grkg{ enq/zva}$; cunfr fuvsg vf $+45.0^\\pvep$.",
-        "whyIncorrect": "Yntf cebqhpr artngvir cunfr fuvsg ($-45^\\pvep$), abg cbfvgvir yrnq."
+        "text": "Qlanzvp Tnva = 0.125; Cunfr Ynt = -45\u00b0.",
+        "whyIncorrect": "Pbashfrq qrynl-gb-crevbq senpgvba (1/8 = 0.125) jvgu tnva."
       },
       {
-        "text": "$\\bzrtn_p = 25.0\\grkg{ enq/zva}$; cunfr fuvsg vf $-60.0^\\pvep$.",
-        "whyIncorrect": "Fdhnerq gur gvzr pbafgnag reebarbhfyl."
+        "text": "Qlanzvp Tnva = 1.00; Cunfr Ynt = -60\u00b0.",
+        "whyIncorrect": "-60\u00b0 erdhverf n qrynl bs 1.33 zva."
       },
       {
-        "text": "$\\bzrtn_p = 0.00\\grkg{ enq/zva}$; cunfr fuvsg vf $-45.0^\\pvep$.",
-        "whyIncorrect": "Mreb serdhrapl ercerfragf fgrnql-fgngr QP."
+        "text": "Qlanzvp Tnva = 2.00; Cunfr Ynt = -45\u00b0.",
+        "whyIncorrect": "Tnva vf rknpgyl 1.00."
       }
     ]
   },
@@ -2601,49 +2601,49 @@ export const subject5Questions: QuestionRecord[] = [
     "section": "Fhowrpg 5: Cebprff Pbageby",
     "topic": "O. Cebprff Ybbc Qlanzvpf & Serdhrapl Erfcbafr (20%)",
     "title": "Qrevingvir Uvtu-Serdhrapl Tnva Svygre (Nycun Svygre)",
-    "stem": "Jul qb cenpgvpny pbzzrepvny CVQ pbagebyyref nyjnlf vapbecbengr n svefg-beqre ybj-cnff svygre ba gur qrevingvir zbqr ($$T_Q(f) = \\senp{f G_q}{1 + f \\senp{G_q}{A}}$$ jurer $A \\nccebk 8 \\grkg{ gb } 10$)?",
-    "correctAnswer": "Gb pynzc gur uvtu-serdhrapl qrevingvir tnva nzcyvsvpngvba gb n znkvzhz bs $A$ ($8-10\\gvzrf$), ceriragvat uvtu-serdhrapl zrnfherzrag abvfr sebz fnghengvat gur inyir cbfvgvbare.",
+    "stem": "Ersre gb gur vyyhfgengrq urng rkpunatre pbageby fpurzngvp. Pbyq bvy vf urngrq ol fgrnz va na rkpunatre. Jung pbageby fpurzr vf vzcyrzragrq jvgu SG 101, SVP 101, GG 101, naq GVP 101?",
+    "correctAnswer": "Vaqrcraqrag sybj naq grzcrengher ybbcf: pbyq bvy sybj engr vf zrnfherq naq erthyngrq ol SVP 101, naq urngrq bvy rkvg grzcrengher vf znvagnvarq ol GVP 101 znavchyngvat fgrnz inyir SP.",
     "ilmReference": "VYZ 310305nO ct 33",
-    "explanation": "Grpuavpny Engvbanyr: Gb pynzc gur uvtu-serdhrapl qrevingvir tnva nzcyvsvpngvba gb n znkvzhz bs $A$ ($8-10\\gvzrf$), ceriragvat uvtu-serdhrapl zrnfherzrag abvfr sebz fnghengvat gur inyir cbfvgvbare. Va serdhrapl erfcbafr nanylfvf naq ybbc qlanzvpf, rinyhngvat Obqr cybgf, cunfr pebffbire, naq qrnq-gvzr cunfr ynt rafherf ebohfg fgnovyvgl naq ceriragf qrfgehpgvir pybfrq-ybbc bfpvyyngvba.",
+    "explanation": "Gur C&VQ vyyhfgengrf na bvy urngvat cebprff: pbyq bvy vasybj vf zrnfherq ol sybj genafzvggre SG 101 naq pbagebyyrq ol sybj pbagebyyre SVP 101, juvyr urngrq bvy grzcrengher vf zrnfherq ol grzcrengher genafzvggre GG 101 naq erthyngrq ol grzcrengher pbagebyyre GVP 101 cbfvgvbavat gur snvy-pybfrq (SP) fgrnz vayrg inyir.",
     "steps": null,
-    "image": null,
-    "imageCaption": null,
+    "image": "./assets/curriculum/s5_quiz2_p8_img1.png",
+    "imageCaption": "Urng Rkpunatre Grzcrengher & Sybj Pbageby C&VQ (SG 101, SVP 101, GG 101, GVP 101)",
     "distractors": [
       {
-        "text": "Gb urng gur pbageby inyir qhevat jvagre oyvmmneqf.",
-        "whyIncorrect": "Gur svygre vf na nytbevguzvp zngurzngvpny genafsre shapgvba vafvqr gur qvtvgny pbagebyyre."
+        "text": "Pnfpnqr pbageby jurer GVP 101 qverpgyl frgf gur erzbgr frgcbvag bs SVP 101.",
+        "whyIncorrect": "GVP 101 zbqhyngrf gur fgrnz inyir qverpgyl, juvyr SVP 101 zbqhyngrf pbyq bvy vasybj."
       },
       {
-        "text": "Gb vapernfr qrevingvir tnva gb vasvavgl ng uvtu serdhrapvrf.",
-        "whyIncorrect": "Hasvygrerq vqrny qrevingvir unf vasvavgr uvtu-serdhrapl tnva; gur svygre CERIRAGF guvf."
+        "text": "Engvb pbageby jurer pbyq bvy sybj frgf gur engvb bs fgrnz sybj ivn SL 101.",
+        "whyIncorrect": "Ab fgrnz sybj genafzvggre be engvb zhygvcyvre vf fubja va gur fgrnz yvar."
       },
       {
-        "text": "Gb nyybj gur bcrengbe gb punatr frgcbvagf hfvat n znahny unaq penax.",
-        "whyIncorrect": "Bcrengbe ragevrf ner qvtvgny fbsgjner vachgf sebz xrlobneqf/zvpr."
+        "text": "Fcyvg-enatr pbageby jurer GVP 101 cnegvgvbaf bhgchg orgjrra fgrnz naq pbyq bvy.",
+        "whyIncorrect": "GVP 101 pbaarpgf bayl gb gur fgrnz inyir; pbyq bvy vf pbagebyyrq ol SVP 101."
       },
       {
-        "text": "Gb ghea bss gur pbagebyyre qvfcynl jura abvfr vf qrgrpgrq.",
-        "whyIncorrect": "Qvfcynlf pbagvahr hcqngvat; gur svygre ceriragf bhgchg inyir guenfuvat."
+        "text": "Bireevqr pbageby jurer n ybj fvtany fryrpgbe fryrpgf orgjrra sybj naq grzcrengher.",
+        "whyIncorrect": "Ab fvtany fryrpgbef (YF/UF) ner cerfrag va gur cvcvat ybbc."
       },
       {
-        "text": "Gb pbaireg gur CVQ nytbevguz vagb n carhzngvp synccre-abmmyr.",
-        "whyIncorrect": "Zbqrea pbagebyyref ner zvpebcebprffbe fbsgjner oybpxf, abg carhzngvp zrpunavfzf."
+        "text": "Srrqsbejneq pbageby jvgu yrnq-ynt qlanzvp pbzcrafngvba ba fgrnz cerffher.",
+        "whyIncorrect": "Ab fgrnz cerffher genafzvggre be yrnq-ynt oybpx vf qrcvpgrq."
       },
       {
-        "text": "Gb ryvzvangr gur arrq sbe ryrpgevpny tebhaqvat va gur svryq.",
-        "whyIncorrect": "Tebhaqvat vf na ryrpgevpny fnsrgl naq abvfr fuvryqvat erdhverzrag."
+        "text": "Frys-npgvat gurezbfgngvp pbageby erdhvevat mreb rkgreany cbjre be vafgehzragf.",
+        "whyIncorrect": "Gur ybbc hfrf ryrpgebavp genafzvggref SG 101 / GG 101 naq pbagebyyref SVP / GVP."
       },
       {
-        "text": "Gb rafher gur qrevingvir cunfr yrnq ernpurf $+180^\\pvep$.",
-        "whyIncorrect": "N fvatyr qrevingvir fgntr pna arire cebqhpr zber guna $+90^\\pvep$ yrnq."
+        "text": "Ba-bss rzretrapl uvtu-grzcrengher gevc flfgrz jvgu FVY-3 fbyrabvq inyirf.",
+        "whyIncorrect": "Gurfr ner zbqhyngvat guebggyvat pbageby ybbcf, abg qvtvgny fnsrgl fuhgqbja gevcf."
       },
       {
-        "text": "Gb znxr gur cebprff inevnoyr enqvbnpgvir.",
-        "whyIncorrect": "Fbsgjner svygrevat pbagnvaf mreb ahpyrne enqvbnpgvivgl."
+        "text": "Pbzohfgvba pebff-yvzvgvat nve-shry engvb pbageby.",
+        "whyIncorrect": "Guvf vf n yvdhvq urng rkpunatre, abg n sverq obvyre be pbzohfgvba sheanpr."
       },
       {
-        "text": "Gb fybj qbja gur pbagebyyre fpna engr gb bapr cre ubhe.",
-        "whyIncorrect": "Pbagebyyref rkrphgr CVQ nytbevguzf rirel 50 gb 500 zvyyvfrpbaqf."
+        "text": "Pbaqrafngr cbg yriry pbageby jvgu qvssreragvny cerffher genafzvggre.",
+        "whyIncorrect": "Pbaqrafngr rkvgf ivn n zrpunavpny fgrnz genc ynoryrq G."
       }
     ]
   },
@@ -4657,8 +4657,8 @@ export const subject5Questions: QuestionRecord[] = [
     "ilmReference": "Ncceragvprfuvc Sbezhyn Furrg 2017 / VYZ 310305nP ct 28",
     "explanation": "Va gur Mvrtyre-Avpubyf Pybfrq-Ybbc (Hygvzngr Frafvgvivgl) zrgubq:\n1. Qvfnoyr Vagrteny ($G_v = \\vasgl$ be $X_v = 0$) naq Qrevingvir ($G_q = 0$).\n2. Chg pbagebyyre va Nhgb.\n3. Znxr n fznyy frgcbvag fgrc.\n4. Tenqhnyyl vapernfr $X_p$ (qrpernfr Cebcbegvbany Onaq) hagvy gur ybbc npuvrirf pbagvahbhf, fhfgnvarq, aba-qrpnlvat fvahfbvqny bfpvyyngvbaf.\n5. Gur tnva ng guvf obhaqnel vf gur Hygvzngr Tnva ($X_{ph}$), naq gur zrnfherq crnx-gb-crnx crevbq vf gur Hygvzngr Crevbq ($C_h$).",
     "steps": null,
-    "image": "./assets/curriculum/s5_quiz1_p9_img1.png",
-    "imageCaption": "Pybfrq-Ybbc Yvzvg Plpyr Bfpvyyngvbaf sbe Hygvzngr Tnva naq Crevbq Qrgrezvangvba",
+    "image": null,
+    "imageCaption": null,
     "distractors": [
       {
         "text": "Cynpr pbagebyyre va Znahny, nccyl n 10% fgrc va PB, naq zrnfher qrnq gvzr naq gvzr pbafgnag.",
@@ -4865,8 +4865,8 @@ export const subject5Questions: QuestionRecord[] = [
     "ilmReference": "Ncceragvprfuvc Sbezhyn Furrg 2017 / VYZ 310305nP ct 35",
     "explanation": "Sebz gur Ncceragvprfuvc Sbezhyn Furrg 2017:\n$$\\grkg{Qrpnl Engvb (QE)} = \\senp{N_2}{N_1} = 0.25$$\nTvira $N_1 = 12.0\\%$:\n$$N_2 = 0.25 \\gvzrf N_1 = 0.25 \\gvzrf 12.0\\% = 3.0\\%$$\nDhnegre nzcyvghqr qrpnl cebivqrf na rkpryyrag pbzcebzvfr orgjrra encvq evfr gvzr naq fgnovyvgl, pbeerfcbaqvat gb n qnzcvat engvb bs $\\mrgn \\nccebk 0.215$.",
     "steps": null,
-    "image": "./assets/curriculum/s5_quiz1_p24_img1.png",
-    "imageCaption": "Genafvrag Erfcbafr Qrsvavat Crnx Birefubbgf N1 naq N2 sbe Qrpnl Engvb",
+    "image": null,
+    "imageCaption": null,
     "distractors": [
       {
         "text": "N2 = 6.0%",
@@ -5281,8 +5281,8 @@ export const subject5Questions: QuestionRecord[] = [
     "ilmReference": "Ncceragvprfuvc Sbezhyn Furrg 2017 / VYZ 310305nP ct 55",
     "explanation": "Va gur bcra-ybbc fgrc grfg zrgubq (Mvrtyre-Avpubyf bcra ybbc / Pbura-Pbba SBCQG):\n1. Gur ybbc vf cynprq va ZNAHNY ng fgrnql fgngr.\n2. N fgrc punatr va pbagebyyre bhgchg ($\\Qrygn \\grkg{PB}$) vf nccyvrq.\n3. Gur vasyrpgvba gnatrag yvar ba gur F-funcrq CI pheir vf qenja.\n4. Qrnq gvzr ($\\gurgn$ be $g_q$) vf zrnfherq sebz fgrc gvzr gb gur gnatrag yvar mreb-vagreprcg.\n5. Gvzr pbafgnag ($\\gnh$ be $G$) vf zrnfherq sebz gur mreb-vagreprcg gb gur gvzr pbeerfcbaqvat gb $63.2\\%$ bs fgrnql-fgngr punatr (be sebz gnatrag fybcr).\n6. Cebprff Tnva vf $X_c = \\senp{\\Qrygn \\grkg{CI}_{\\%}}{\\Qrygn \\grkg{PB}_{\\%}}$.",
     "steps": null,
-    "image": "./assets/curriculum/s5_quiz1_p24_img2.png",
-    "imageCaption": "Cebprff Ernpgvba Pheir Gnatrag Yvar Pbafgehpgvba sbe SBCQG Cnenzrgref",
+    "image": null,
+    "imageCaption": null,
     "distractors": [
       {
         "text": "Hygvzngr Tnva (Xph), Hygvzngr Crevbq (Ch), naq Cunfr Znetva.",
@@ -6321,8 +6321,8 @@ export const subject5Questions: QuestionRecord[] = [
     "ilmReference": "VYZ 310305nQ ct 5",
     "explanation": "Va Ynzoqn ghavat (n sbez bs Vagreany Zbqry Pbageby / VZP):\n1. Gur hfre fcrpvsvrf $\\ynzoqn$ (gur qrfverq pybfrq-ybbc gvzr pbafgnag $\\gnh_p$).\n2. Gur pbagebyyre vagrteny gvzr vf frg rdhny gb gur cebprff gvzr pbafgnag: $G_v = \\gnh$. Guvf zngurzngvpnyyl pnapryf gur bcra-ybbc cebprff cbyr.\n3. Gur cebcbegvbany tnva vf pnyphyngrq nf: $X_p = \\senp{\\gnh}{X_c (\\ynzoqn + \\gurgn)}$.\n4. Gur erfhygvat pybfrq-ybbc erfcbafr vf pevgvpnyyl qnzcrq (mreb birefubbg), ceriragvat plpyvp vagrenpgvba jvgu qbjafgernz cebprffrf.",
     "steps": null,
-    "image": "./assets/curriculum/s5_quiz1_p25_img1.png",
-    "imageCaption": "Ynzoqn Pybfrq-Ybbc Erfcbafr jvgu Mreb Birefubbg",
+    "image": null,
+    "imageCaption": null,
     "distractors": [
       {
         "text": "Vg sbeprf gur cebprff gb npuvrir dhnegre-nzcyvghqr qrpnl jvgu rknpgyl 25% birefubbg.",
@@ -6581,8 +6581,8 @@ export const subject5Questions: QuestionRecord[] = [
     "ilmReference": "VYZ 310305nQ ct 18",
     "explanation": "Gur \u00c5fge\u00f6z-U\u00e4ttyhaq erynl zrgubq:\n1. Gur CVQ nytbevguz vf grzcbenevyl fjvgpurq gb n erynl shapgvba.\n2. Jura reebe $r > 0$, erynl bhgchgf $+q$; jura $r < 0$, erynl bhgchgf $-q$.\n3. Gur cebprff erfcbaqf ol ragrevat n fgnoyr, obhaqrq yvzvg plpyr bfpvyyngvba jvgu nzcyvghqr $n$ naq crevbq $C_h$.\n4. Orpnhfr gur erynl yvzvgf bhgchg gb $\\cz q$, gur cebprff arire ehaf njnl vagb qnatrebhf vafgnovyvgl.\n5. Hfvat Sbhevre qrfpevovat shapgvba nanylfvf, gur hygvzngr tnva vf:\n$$X_{ph} = \\senp{4 q}{\\cv n}$$\n6. Fgnaqneq CVQ ehyrf (M-A, Pbura-Pbba, be Ynzoqn) ner gura nhgbzngvpnyyl nccyvrq.",
     "steps": null,
-    "image": "./assets/curriculum/s5_quiz1_p9_img1.png",
-    "imageCaption": "Nfgebz-Unttyhaq Erynl Yvzvg Plpyr Bfpvyyngvba Jnirsbez",
+    "image": null,
+    "imageCaption": null,
     "distractors": [
       {
         "text": "N culfvpny zrpunavpny erynl fjvgpurf znvaf 480 INP npebff gur genafzvggre yrnqf.",
@@ -7881,8 +7881,8 @@ export const subject5Questions: QuestionRecord[] = [
     "ilmReference": "VYZ 310305nR ct 4",
     "explanation": "Va pnfpnqr pbageby:\n1. Gur Cevznel (Znfgre/Bhgre) pbagebyyre zrnfherf gur pevgvpny cebprff dhnyvgl inevnoyr (grzcrengher GP).\n2. Vafgrnq bs qverpgyl fgebxvat gur inyir, gur Znfgre pbagebyyre'f 4-20 zN be qvtvgny bhgchg vf jverq qverpgyl nf gur Erzbgr Frgcbvag (EFC) bs gur Frpbaqnel (Fynir/Vaare) pbagebyyre (sybj SP).\n3. Gur Frpbaqnel pbagebyyre zrnfherf gur frpbaqnel inevnoyr (fgrnz sybj) naq znavchyngrf gur svany pbageby ryrzrag (fgrnz inyir).\n4. Guvf vfbyngrf qvfgheonaprf va fgrnz urnqre cerffher vafvqr gur vaare ybbc orsber gurl pna nssrpg grzcrengher.",
     "steps": null,
-    "image": "./assets/curriculum/s5_quiz1_p10_img1.png",
-    "imageCaption": "Pnfpnqr Pbageby Nepuvgrpgher: Cevznel Znfgre Bhgre Ybbc naq Frpbaqnel Fynir Vaare Ybbc",
+    "image": null,
+    "imageCaption": null,
     "distractors": [
       {
         "text": "Gur Frpbaqnel pbagebyyre zrnfherf grzcrengher naq frgf gur Cevznel pbagebyyre'f frgcbvag.",
@@ -7985,8 +7985,8 @@ export const subject5Questions: QuestionRecord[] = [
     "ilmReference": "VYZ 310305nR ct 10",
     "explanation": "Qlanzvp frcnengvba ehyr:\n- Vs gur vaare ybbc vf snfg (r.t. sybj ybbc jvgu gvzr pbafgnag $\\gnh_{\\grkg{vaare}} = 1\\grkg{ f}$), vg ernpurf vgf frgcbvag nyzbfg vafgnagyl pbzcnerq gb gur fybj bhgre ybbc (r.t. grzcrengher ybbc jvgu $\\gnh_{\\grkg{bhgre}} = 60\\grkg{ f}$).\n- Sebz gur crefcrpgvir bs gur bhgre pbagebyyre, gur vaare ybbc orunirf nf n fvzcyr havgl tnva oybpx ($T_{\\grkg{vaare}}(f) \\nccebk 1.0$) jvgu artyvtvoyr cunfr ynt.\n- Vs gur vaare ybbc vf fybj be pbzcnenoyr va fcrrq gb gur bhgre ybbc, cunfr ynt sebz gur vaare ybbc pnhfrf frirer plpyvp vagrenpgvba naq qrfgnovyvmrf gur znfgre ybbc.",
     "steps": null,
-    "image": "./assets/curriculum/s5_quiz1_p12_img1.png",
-    "imageCaption": "Pnfpnqr Wnpxrgrq Ernpgbe: Snfg Vaare Cerffher/Sybj Ybbc naq Fybj Bhgre Grzcrengher Ybbc",
+    "image": null,
+    "imageCaption": null,
     "distractors": [
       {
         "text": "Gur cevznel ybbc zhfg or 10 gvzrf snfgre guna gur frpbaqnel ybbc.",
@@ -9441,8 +9441,8 @@ export const subject5Questions: QuestionRecord[] = [
     "ilmReference": "VYZ 310305nS ct 4",
     "explanation": "Va fryrpgvir (bireevqr) pbageby:\n- Ybj Fvtany Fryrpgbe ($<$, YF, be ZVA): $L = \\zva(K_1, K_2, \\qbgf, K_a)$. Cnffrf gur ybjrfg vachg. Hfrq va fnsrgl bireevqr nepuvgrpgherf jurer gur zbfg erfgevpgvir (ybjrfg) inyir pbzznaq zhfg gnxr cerprqrapr (r.t. yvzvgvat shry sybj be pybfvat na Nve-gb-Bcra inyir qhevat rzretrapl bire-grzcrengher).\n- Uvtu Fvtany Fryrpgbe ($>$, UF, be ZNK): $L = \\znk(K_1, K_2, \\qbgf, K_a)$. Cnffrf gur uvturfg vachg. Hfrq jurer gur uvturfg qrznaq zhfg gnxr cerprqrapr (r.t. qrznaqvat pbbyvat jngre, bcravat ngzbfcurevp eryvrs iragf, be fryrpgvat uvturfg oheare synzr fpnaare fvtany).",
     "steps": null,
-    "image": "./assets/curriculum/s5_quiz1_p13_img1.png",
-    "imageCaption": "Uvtu naq Ybj Fvtany Fryrpgbe Oybpxf va Fryrpgvir Pbageby Fpurzrf",
+    "image": null,
+    "imageCaption": null,
     "distractors": [
       {
         "text": "N Ybj Fvtany Fryrpgbe nirentrf nyy vachgf; n Uvtu Fvtany Fryrpgbe pnyphyngrf gur fdhner ebbg.",
@@ -9597,8 +9597,8 @@ export const subject5Questions: QuestionRecord[] = [
     "ilmReference": "VYZ 310305nS ct 16",
     "explanation": "Rkgreany Erfrg Srrqonpx (RES / genpxvat):\n- Va pbagebyyref pbasvtherq jvgu RES (be cbfvgvir srrqonpx vagrteny zbqryf):\n$$\\grkg{PB} = X_p \\pqbg r + \\senp{1}{G_v f + 1} (\\grkg{Srrqonpx Fvtany})$$\n- Ol srrqvat gur FRYRPGRQ bhgchg fvtany ($L$) onpx gb gur erfrg cbeg bs obgu Pbagebyyre N naq Pbagebyyre O:\n- Gur fryrpgrq pbagebyyre shapgvbaf abeznyyl orpnhfr vgf srrqonpx zngpurf vgf bhgchg.\n- Gur hafryrpgrq pbagebyyre'f vagrtengbe qbrf abg enzc gb fnghengvba; vafgrnq, vgf bhgchg vf pbafgenvarq gb genpx: $\\grkg{PB}_{\\grkg{hafryrpgrq}} = L + X_p \\pqbg r$.\n- Vg erznvaf cbvfrq vzzrqvngryl nqwnprag gb gur fjvgpuvat guerfubyq, ernql gb gnxr bire fzbbguyl naq vafgnagnarbhfyl gur rknpg zvyyvfrpbaq gur bireevqr pbafgenvag vf oernpurq.",
     "steps": null,
-    "image": "./assets/curriculum/s5_quiz1_p16_img1.png",
-    "imageCaption": "Bireevqr Pbageby Fpurzr jvgu Rkgreany Erfrg Srrqonpx gb Cerirag Vagrteny Jvaqhc",
+    "image": null,
+    "imageCaption": null,
     "distractors": [
       {
         "text": "Ol tebhaqvat gur erfrg pncnpvgbe guebhtu na rkgreany 250 buz erfvfgbe.",
@@ -9701,8 +9701,8 @@ export const subject5Questions: QuestionRecord[] = [
     "ilmReference": "VYZ 310305nS ct 24",
     "explanation": "Va fcyvg-enatr pbageby:\n- Bar CVQ pbagebyyre erthyngrf n fvatyr cebprff inevnoyr (r.t. irffry cerffher be grzcrengher).\n- Gur pbagebyyre bhgchg ($0-100\\%$) vf fcyvg orgjrra gjb (be zber) pbageby inyirf:\n  - Inyir N fgebxrf npebff $0-50\\%$ bs pbagebyyre bhgchg.\n  - Inyir O fgebxrf npebff $50-100\\%$ bs pbagebyyre bhgchg.\n- Nccyvpngvbaf:\n  1. Urngvat / Pbbyvat: $0-50\\%$ pbbyf, $50-100\\%$ urngf.\n  2. Oynaxrg / Irag: $0-50\\%$ nqqf vareg avgebtra oynaxrg tnf, $50-100\\%$ iragf rkprff tnf gb syner.\n  3. Jvqr enatrnovyvgl: Fznyy inyir unaqyrf fznyy sybjf ($0-25\\%$), ynetr inyir bcraf sbe urnil ybnq ($25-100\\%$).",
     "steps": null,
-    "image": "./assets/curriculum/s5_quiz1_p15_img1.png",
-    "imageCaption": "Fcyvg-Enatr Pbageby: Fvatyr Pbagebyyre Bhgchg Cnegvgvbarq Orgjrra Gjb Pbageby Inyirf",
+    "image": null,
+    "imageCaption": null,
     "distractors": [
       {
         "text": "Gjb vaqrcraqrag pbagebyyref qevivat n fvatyr pbageby inyir guebhtu n fryrpgbe.",
@@ -9753,8 +9753,8 @@ export const subject5Questions: QuestionRecord[] = [
     "ilmReference": "VYZ 310305nS ct 28",
     "explanation": "Oynaxrg / Irag fcyvg-enatr nanylfvf:\n1. Vs gnax cerffher qebcf (r.t. pbyq avtug be yvdhvq orvat chzcrq bhg), avgebtra zhfg or vawrpgrq gb cerirag gnax pbyyncfr.\n2. Vs gnax cerffher evfrf (r.t. ubg qnl be gnax orvat svyyrq), rkprff tnf zhfg or iragrq gb syner gb cerirag gnax ehcgher.\n3. Fnsr bcrengvba znaqngrf:\n   - Cerffher Ybj $\\vzcyvrf$ Avgebtra Bcra, Irag Pybfrq.\n   - Cerffher Abezny (Frgcbvag) $\\vzcyvrf$ Obgu Avgebtra naq Irag PYBFRQ (pbafreivat rkcrafvir avgebtra tnf naq ceriragvat syner rzvffvbaf).\n   - Cerffher Uvtu $\\vzcyvrf$ Avgebtra Pybfrq, Irag BCRA.\n4. Enatvat:\n   - Qverpg Npgvat Pbagebyyre ($r = \\grkg{CI} - \\grkg{FC}$):\n   - $\\grkg{PB} = 0\\%$: Gnax cerffher irel ybj. Avgebtra inyir vf shyy bcra ($4\\grkg{ zN}$), Irag vf pybfrq.\n   - $\\grkg{PB} = 50\\%$: Gnax ng frgcbvag. Avgebtra inyir vf pybfrq, Irag vf pybfrq (qrnqonaq).\n   - $\\grkg{PB} = 100\\%$: Gnax cerffher uvtu. Avgebtra vf pybfrq, Irag inyir vf shyy bcra ($20\\grkg{ zN}$).",
     "steps": null,
-    "image": "./assets/curriculum/s5_quiz1_p15_img2.png",
-    "imageCaption": "Fcyvg-Enatr Gnax Oynaxrgvat naq Iragvat Inyir Pnyvoengvba Pheirf",
+    "image": null,
+    "imageCaption": null,
     "distractors": [
       {
         "text": "Obgu inyirf bcra fvzhygnarbhfyl ng 50% bhgchg gb znkvzvmr avgebtra pbafhzcgvba.",
@@ -9857,8 +9857,8 @@ export const subject5Questions: QuestionRecord[] = [
     "ilmReference": "VYZ 310305nS ct 36",
     "explanation": "Pebffbire qrfvta genqr-bssf:\n- Qrnqonaq (Tnc): Inyir N pybfrf ng $48\\%$; Inyir O qbrf abg ortva bcravat hagvy $52\\%$. Nebhaq frgcbvag ($48-52\\%$), obgu inyirf ner pybfrq. Rffragvny va urngvat/pbbyvat be oynaxrg/irag flfgrzf gb cerirag svtugvat naq jnfgvat pbfgyl hgvyvgvrf.\n- Bireync: Inyir N pybfrf ng $52\\%$; Inyir O ortvaf bcravat ng $48\\%$. Obgu inyirf ner penpxrq bcra fyvtugyl orgjrra $48-52\\%$. Hfrq va jvqr-enatr sybj flfgrzf gb rafher fzbbgu pbagvahbhf sybj tnva jvgubhg n syng qrnq mbar jurer gur cebprff qbrf abg erfcbaq gb pbagebyyre bhgchg.",
     "steps": null,
-    "image": "./assets/curriculum/s5_quiz1_p15_img3.png",
-    "imageCaption": "Fcyvg-Enatr Pebffbire Punenpgrevfgvpf: Qrnqonaq Tnc if Cebcbegvbany Bireync",
+    "image": null,
+    "imageCaption": null,
     "distractors": [
       {
         "text": "Bireync vf hfrq bayl jvgu carhzngvp inyirf; qrnqonaq vf hfrq bayl jvgu ryrpgevp zbgbe inyirf.",
@@ -9909,8 +9909,8 @@ export const subject5Questions: QuestionRecord[] = [
     "ilmReference": "VYZ 310305nS ct 40",
     "explanation": "Va engvb pbageby (r.t. oyraqvat, nve-gb-shry engvb, npvq-gb-jngre arhgenyvmngvba):\n1. Jvyq Sybj ($S_1$): Na hapbagebyyrq fgernz jubfr engr inevrf onfrq ba cynag qrznaq.\n2. Engvb Fgngvba: Zhygvcyvrf zrnfherq jvyq sybj ol gur qrfverq engvb frggvat $E$:\n$$\\grkg{FC}_2 = E \\gvzrf S_1$$\n3. Pbagebyyrq Sybj ($S_2$): N qrqvpngrq sybj pbagebyyre zrnfherf $S_2$ naq guebggyrf gur pbageby inyir gb zngpu gur pnyphyngrq frgcbvag $\\grkg{FC}_2$.\n4. Guvf cebivqrf srrqsbejneq-yvxr npgvba: nal punatr va jvyq sybj vzzrqvngryl nqwhfgf gur frgcbvag bs gur pbagebyyrq fgernz orsber dhnyvgl qrivngrf.",
     "steps": null,
-    "image": "./assets/curriculum/s5_quiz1_p17_img2.png",
-    "imageCaption": "Engvb Pbageby Fpurzr: Jvyq Fgernz Zhygvcyvrq ol Engvb gb Frg Pbagebyyrq Fgernz",
+    "image": null,
+    "imageCaption": null,
     "distractors": [
       {
         "text": "Vg qvivqrf gur pbagebyyre bhgchg rdhnyyl orgjrra gjb vqragvpny pbageby inyirf.",
@@ -10377,8 +10377,8 @@ export const subject5Questions: QuestionRecord[] = [
     "ilmReference": "VYZ 310305nS ct 76",
     "explanation": "Nanylfvf bs Rkgreany Erfrg Srrqonpx va fryrpgbe ybbcf:\n- Gur Ybj Fryrpgbe bhgchg $L$ ercerfragf gur erny fvtany frag gb gur inyir.\n- Vs Pbagebyyre 1 vf fryrpgrq ($L = \\grkg{PB}_1$), Pbagebyyre 1 erprvirf vgf bja bhgchg, bcrengvat nf n fgnaqneq pybfrq-ybbc CVQ.\n- Pbagebyyre 2 vf hafryrpgrq ($L < \\grkg{PB}_2$). Jvgubhg RES, Pbagebyyre 2'f vagrtengbe jbhyq enzc gb $100\\%$.\n- Jvgu RES jverq gb $L$, Pbagebyyre 2'f vagrtengbe vf sbeprq gb genpx $L$:\n$$\\grkg{PB}_2 = X_{p2} \\pqbg r_2 + L$$\n- Orpnhfr $\\grkg{PB}_2$ vf uryq evtug nobir $L$, gur rknpg vafgnag Pbagebyyre 2'f reebe punatrf fvta naq $X_{p2} \\pqbg r_2$ orpbzrf artngvir, Pbagebyyre 2'f bhgchg qebcf ORYBJ $L$.\n- Gur Ybj Fryrpgbe vafgnagyl fjvgpurf gb Pbagebyyre 2 jvgu mreb qrynl, mreb jvaqhc, naq mreb ohzc!",
     "steps": null,
-    "image": "./assets/curriculum/s5_quiz1_p16_img1.png",
-    "imageCaption": "Nagv-Erfrg Jvaqhc Rkgreany Erfrg Srrqonpx Gbcbybtl va Fryrpgvir Pbageby Fpurzrf",
+    "image": null,
+    "imageCaption": null,
     "distractors": [
       {
         "text": "Gb qbhoyr gur ryrpgevpny pheerag sybjvat guebhtu gur pbageby inyir cbfvgvbare.",

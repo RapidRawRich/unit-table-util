@@ -228,49 +228,49 @@ export const ENCODED_SUBJECT2_MEASUREMENT: QuestionRecord[] = [
     "section": "Fhowrpg 2: Zrnfherzrag",
     "topic": "N. Npphenpl naq Ercrngnovyvgl (11%)",
     "title": "Ulfgrerfvf naq Qrnqonaq Qvfgvapgvba",
-    "stem": "Ubj qbrf vafgehzrag ulfgrerfvf qvssre sebz qrnqonaq?",
-    "correctAnswer": "Ulfgrerfvf cebqhprf qvssrerag hcfpnyr if qbjafpnyr ernqvatf ng gur fnzr cbvag; qrnqonaq vf gur znkvzhz vachg punatr gb juvpu gur vafgehzrag qbrf abg erfcbaq ng nyy.",
+    "stem": "Ersre gb gur vyyhfgengrq gurezbpbhcyr pnyvoengvba frghc. N grpuavpvna cynprf n gurezbpbhcyr ersrerapr whapgvba vagb na vpr ongu (0^\\pvep\\grkg{P}) naq zrnfherf 1.019\\grkg{ zI} ba n qvtvgny zhygvzrgre. Jung vf gur shaqnzragny bcrengvbany checbfr bs znvagnvavat na vpr ongu ng 0^\\pvep\\grkg{P} qhevat ynobengbel gurezbpbhcyr pnyvoengvba?",
+    "correctAnswer": "Vg rfgnoyvfurf n fgnoyr, xabja 0^\\pvep\\grkg{P} ersrerapr (pbyq) whapgvba grzcrengher, nyybjvat qverpg qrgrezvangvba bs zrnfhevat whapgvba grzcrengher sebz fgnaqneq gurezbpbhcyr RZS gnoyrf jvgubhg erdhvevat ryrpgebavp pbyq whapgvba pbzcrafngvba.",
     "ilmReference": "VYZ 310302n ct 4",
-    "explanation": "Grpuavpny engvbanyr: Ulfgrerfvf cebqhprf qvssrerag hcfpnyr if qbjafpnyr ernqvatf ng gur fnzr cbvag; qrnqonaq vf gur znkvzhz vachg punatr gb juvpu gur vafgehzrag qbrf abg erfcbaq ng nyy.",
+    "explanation": "Fgnaqneq gurezbpbhcyr ersrerapr gnoyrf (AVFG/NFGZ) ner pnyvoengrq jvgu gur ersrerapr (pbyq) whapgvba znvagnvarq fgevpgyl ng 0\u00b0P (32\u00b0S). Vzzrefvat gur ersrerapr whapgvba va n cher vpr/jngre rdhvyvoevhz ongu thnenagrrf rknpgyl 0\u00b0P (0.000 zI ersrerapr RZS), fb gur zvyyvibyg ernqvat ba gur ibygzrgre qverpgyl pbeerfcbaqf gb gur ubg whapgvba grzcrengher va gur gurezbpbhcyr gnoyr.",
     "steps": null,
-    "image": null,
-    "imageCaption": null,
+    "image": "./assets/curriculum/s2_wk_a_p12_img1.png",
+    "imageCaption": "Gurezbpbhcyr Vpr Ongu Ersrerapr Whapgvba Pnyvoengvba Frghc",
     "distractors": [
       {
-        "text": "Ercrngnovyvgl erdhverf zhygvcyr qvssrerag bcrengbef bire frireny zbaguf.",
-        "whyIncorrect": "Gung qrsvarf ercebqhpvovyvgl."
+        "text": "Vg pbbyf gur ibygzrgre'f vagreany nzcyvsvre gb ryvzvangr nzovrag Wbuafba-Aldhvfg gurezny abvfr.",
+        "whyIncorrect": "Gur vpr ongu pbbyf gur gurezbpbhcyr ersrerapr whapgvba, abg gur ibygzrgre."
       },
       {
-        "text": "Ulfgrerfvf naq qrnqonaq ner zngurzngvpnyyl vqragvpny.",
-        "whyIncorrect": "Ulfgrerfvf vaibyirf qverpgvba-qrcraqrag cnguf; qrnqonaq vf na vafrafvgvivgl mbar."
+        "text": "Vg cebivqrf pelbtravp fhcrepbaqhpgbe pbaqvgvbaf gb erqhpr gurezbpbhcyr jver erfvfgnapr gb mreb.",
+        "whyIncorrect": "0\u00b0P vf sne nobir pelbtravp fhcrepbaqhpgbe grzcrengherf."
       },
       {
-        "text": "Creprag bs fcna reebe qrpernfrf nf ernqvat qebcf gbjneqf mreb.",
-        "whyIncorrect": "Nofbyhgr reebe erznvaf pbafgnag, fb eryngvir reebe fxlebpxrgf gbjneqf vasvavgl."
+        "text": "Vg pbaqrafrf ngzbfcurevp uhzvqvgl nebhaq gur cebor gb cerirag tnyinavp bkvqngvba.",
+        "whyIncorrect": "Pbaqrafngvba qbrf abg cerirag bkvqngvba; gur ongu frgf n gurezny ersrerapr."
       },
       {
-        "text": "Mreb fhccerffvba vzcebirf vafgehzrag npphenpl ol 500%.",
-        "whyIncorrect": "Uvtu fhccerffvba qrtenqrf npphenpl naq vapernfrf gurezny mreb qevsg."
+        "text": "Vg vapernfrf gur Frrorpx pbrssvpvrag bs gur whapgvba ol n snpgbe bs 10 sbe uvture frafvgvivgl.",
+        "whyIncorrect": "Frrorpx pbrssvpvrag vf na vagevafvp zngrevny cebcregl vaqrcraqrag bs ersrerapr grzcrengher."
       },
       {
-        "text": "Pnyvoengvba bayl erdhverf n fvatyr grfg cbvag ng 50%.",
-        "whyIncorrect": "N 1-cbvag grfg pnaabg irevsl fcna be yvarnevgl."
+        "text": "Vg fgrcf qbja gur 120 Inp cbjre fhccyl ibygntr gb fgnaqneq gurezbpbhcyr zvyyvibyg yriryf.",
+        "whyIncorrect": "Gurezbpbhcyrf trarengr gurve bja gurezbryrpgevp ibygntr jvgubhg rkgreany cbjre."
       },
       {
-        "text": "Ercrngnovyvgl reebe vf nyjnlf terngre guna birenyy npphenpl.",
-        "whyIncorrect": "Ercrngnovyvgl vf n pbzcbarag bs npphenpl naq vf nyjnlf fznyyre guna gbgny npphenpl."
+        "text": "Vg tebhaqf ryrpgebfgngvp punetrf npphzhyngrq ba gur fgnvayrff fgrry gurezbjryy furngu.",
+        "whyIncorrect": "Gur vpr ongu cebivqrf gurezny ersrerapr, abg na ryrpgevpny tebhaq."
       },
       {
-        "text": "Qrnqonaq bayl bpphef va qvtvgny zvpebcebprffbef.",
-        "whyIncorrect": "Qrnqonaq vf cevznevyl pnhfrq ol zrpunavpny onpxynfu naq sevpgvba."
+        "text": "Vg pnyvoengrf gur vagreany onggrel bs gur qvtvgny zhygvzrgre ntnvafg gur serrmvat cbvag bs jngre.",
+        "whyIncorrect": "Zhygvzrgref ner pnyvoengrq ryrpgebavpnyyl, abg ol vpr onguf."
       },
       {
-        "text": "EFF reebe pnyphyngvba vf fgevpgyl cebuvovgrq ol PFN.",
-        "whyIncorrect": "EFF vf gur erpbtavmrq vagreangvbany fgnaqneq sbe hapbeeryngrq reebe cebcntngvba."
+        "text": "Vg pbairegf gur abayvarne gurezbpbhcyr zvyyvibyg pheir vagb n fgevpgyl yvarne erfvfgnapr bhgchg.",
+        "whyIncorrect": "Gurezbpbhcyrf erznva aba-yvarne ibygntr fbheprf; gurl qb abg orpbzr EGQf."
       },
       {
-        "text": "Npphenpl vf qrsvarq nf cerpvfvba cyhf ngzbfcurevp cerffher.",
-        "whyIncorrect": "Abafrafvpny qrsvavgvba."
+        "text": "Vg npgf nf n urng fvax gb cerirag gur qvtvgny zhygvzrgre sebz bireurngvat qhevat ybat grfg ehaf.",
+        "whyIncorrect": "Gur zhygvzrgre qbrf abg trarengr fvtavsvpnag urng naq vf abg vzzrefrq va gur ongu."
       }
     ]
   },
@@ -1689,8 +1689,8 @@ export const ENCODED_SUBJECT2_MEASUREMENT: QuestionRecord[] = [
     "ilmReference": "VYZ 310302p ct 6 (Ncceragvprfuvc Sbezhyn Furrg 2017 ct 7)",
     "explanation": "Grpuavpny engvbanyr: $-3150\\grkg{ zzU}_2\\grkg{B}$ ($-30.89\\grkg{ xCn}$)",
     "steps": null,
-    "image": "./assets/curriculum/s2_wk_a_p12_img1.png",
-    "imageCaption": "Pybfrq Irffry Ulqebfgngvp Yriry Zrnfherzrag jvgu Ersrerapr Yrt",
+    "image": null,
+    "imageCaption": null,
     "distractors": [
       {
         "text": "Qrygn C ng rzcgl vf +3150 zzU2B.",
@@ -1741,8 +1741,8 @@ export const ENCODED_SUBJECT2_MEASUREMENT: QuestionRecord[] = [
     "ilmReference": "VYZ 310302p ct 7",
     "explanation": "Grpuavpny engvbanyr: $-450\\grkg{ zzU}_2\\grkg{B}$ ($-4.41\\grkg{ xCn}$)",
     "steps": null,
-    "image": "./assets/curriculum/s2_wk_a_p12_img1.png",
-    "imageCaption": "Pybfrq Irffry Ulqebfgngvp Yriry Zrnfherzrag jvgu Ersrerapr Yrt",
+    "image": null,
+    "imageCaption": null,
     "distractors": [
       {
         "text": "Qrygn C ng rzcgl vf +3150 zzU2B.",
@@ -1793,8 +1793,8 @@ export const ENCODED_SUBJECT2_MEASUREMENT: QuestionRecord[] = [
     "ilmReference": "VYZ 310302p ct 8",
     "explanation": "Grpuavpny engvbanyr: $2700\\grkg{ zzU}_2\\grkg{B}$ ($26.48\\grkg{ xCn}$), pnyphyngrq nf $\\grkg{HEI} - \\grkg{YEI} = -450 - (-3150)$.",
     "steps": null,
-    "image": "./assets/curriculum/s2_wk_a_p12_img1.png",
-    "imageCaption": "Pybfrq Irffry Ulqebfgngvp Yriry Zrnfherzrag jvgu Ersrerapr Yrt",
+    "image": null,
+    "imageCaption": null,
     "distractors": [
       {
         "text": "Qrygn C ng rzcgl vf +3150 zzU2B.",
@@ -1845,8 +1845,8 @@ export const ENCODED_SUBJECT2_MEASUREMENT: QuestionRecord[] = [
     "ilmReference": "VYZ 310302p ct 5",
     "explanation": "Grpuavpny engvbanyr: Gur ybj-cerffher fvqr frrf gur shyy yvdhvq ulqebfgngvp urnq bs gur jrg yrt, juvyr gur uvtu-cerffher fvqr frrf bayl incbe fcnpr cerffher.",
     "steps": null,
-    "image": "./assets/curriculum/s2_wk_a_p12_img1.png",
-    "imageCaption": "Pybfrq Irffry Ulqebfgngvp Yriry Zrnfherzrag jvgu Ersrerapr Yrt",
+    "image": null,
+    "imageCaption": null,
     "distractors": [
       {
         "text": "Qrygn C ng rzcgl vf +3150 zzU2B.",
@@ -1897,8 +1897,8 @@ export const ENCODED_SUBJECT2_MEASUREMENT: QuestionRecord[] = [
     "ilmReference": "VYZ 310302p ct 14",
     "explanation": "Grpuavpny engvbanyr: Hardhny fbyne urngvat be nzovrag grzcrengher syhpghngvbaf rkcnaqvat gur svyy syhvq va hardhny yratgu pncvyynel ghorf.",
     "steps": null,
-    "image": "./assets/curriculum/s2_wk_a_p12_img1.png",
-    "imageCaption": "Pybfrq Irffry Ulqebfgngvp Yriry Zrnfherzrag jvgu Ersrerapr Yrt",
+    "image": null,
+    "imageCaption": null,
     "distractors": [
       {
         "text": "Qrygn C ng rzcgl vf +3150 zzU2B.",
@@ -1949,8 +1949,8 @@ export const ENCODED_SUBJECT2_MEASUREMENT: QuestionRecord[] = [
     "ilmReference": "VYZ 310302p ct 10",
     "explanation": "Grpuavpny engvbanyr: Pbaqrafngr qebcyrgf npphzhyngr va gur qel yrt, perngvat na reengvp ulqebfgngvp yvdhvq pbyhza gung snyfryl qrcerffrf gur yriry ernqvat.",
     "steps": null,
-    "image": "./assets/curriculum/s2_wk_a_p12_img1.png",
-    "imageCaption": "Pybfrq Irffry Ulqebfgngvp Yriry Zrnfherzrag jvgu Ersrerapr Yrt",
+    "image": null,
+    "imageCaption": null,
     "distractors": [
       {
         "text": "Qrygn C ng rzcgl vf +3150 zzU2B.",
@@ -2001,8 +2001,8 @@ export const ENCODED_SUBJECT2_MEASUREMENT: QuestionRecord[] = [
     "ilmReference": "VYZ 310302p ct 18",
     "explanation": "Grpuavpny engvbanyr: Pybfr ybj-cerffher oybpx inyir -> Bcra pragre rdhnyvmvat inyir -> Pybfr uvtu-cerffher oybpx inyir.",
     "steps": null,
-    "image": "./assets/curriculum/s2_wk_a_p12_img1.png",
-    "imageCaption": "Pybfrq Irffry Ulqebfgngvp Yriry Zrnfherzrag jvgu Ersrerapr Yrt",
+    "image": null,
+    "imageCaption": null,
     "distractors": [
       {
         "text": "Qrygn C ng rzcgl vf +3150 zzU2B.",
@@ -2053,8 +2053,8 @@ export const ENCODED_SUBJECT2_MEASUREMENT: QuestionRecord[] = [
     "ilmReference": "VYZ 310302p ct 22",
     "explanation": "Grpuavpny engvbanyr: Gur ulqebfgngvp cerffher bs gur yvdhvq pbyhza nobir gur obggbz qvc ghor bhgyrg ($C = \\eub t u$).",
     "steps": null,
-    "image": "./assets/curriculum/s2_wk_a_p12_img1.png",
-    "imageCaption": "Pybfrq Irffry Ulqebfgngvp Yriry Zrnfherzrag jvgu Ersrerapr Yrt",
+    "image": null,
+    "imageCaption": null,
     "distractors": [
       {
         "text": "Qrygn C ng rzcgl vf +3150 zzU2B.",
@@ -2105,8 +2105,8 @@ export const ENCODED_SUBJECT2_MEASUREMENT: QuestionRecord[] = [
     "ilmReference": "VYZ 310302p ct 12",
     "explanation": "Grpuavpny engvbanyr: Gb fzbbgu bhg encvq ulqebfgngvp jnir fhetrf pnhfrq ol ebgngvat vzcryyre oynqrf jvgubhg fuvsgvat gur nirentr yriry ernqvat.",
     "steps": null,
-    "image": "./assets/curriculum/s2_wk_a_p12_img1.png",
-    "imageCaption": "Pybfrq Irffry Ulqebfgngvp Yriry Zrnfherzrag jvgu Ersrerapr Yrt",
+    "image": null,
+    "imageCaption": null,
     "distractors": [
       {
         "text": "Qrygn C ng rzcgl vf +3150 zzU2B.",
@@ -2157,8 +2157,8 @@ export const ENCODED_SUBJECT2_MEASUREMENT: QuestionRecord[] = [
     "ilmReference": "VYZ 310302p ct 16",
     "explanation": "Grpuavpny engvbanyr: Ryvzvangvba bs ybat bvy-svyyrq pncvyynevrf erzbirf nzovrag grzcrengher urnq reebef naq ryvzvangrf pncvyynel ynt gvzr.",
     "steps": null,
-    "image": "./assets/curriculum/s2_wk_a_p12_img1.png",
-    "imageCaption": "Pybfrq Irffry Ulqebfgngvp Yriry Zrnfherzrag jvgu Ersrerapr Yrt",
+    "image": null,
+    "imageCaption": null,
     "distractors": [
       {
         "text": "Qrygn C ng rzcgl vf +3150 zzU2B.",
@@ -5138,49 +5138,49 @@ export const ENCODED_SUBJECT2_MEASUREMENT: QuestionRecord[] = [
     "section": "Fhowrpg 2: Zrnfherzrag",
     "topic": "W. Qvssreragvny Cerffher Ryrzragf (5%)",
     "title": "Bevsvpr Cyngr Fdhner Ebbg Ynj",
-    "stem": "Va n qvssreragvny cerffher bevsvpr sybjzrgre, vs gur cebprff sybj engr qbhoyrf ($200\\%$ bs bevtvany sybj), ubj qbrf gur zrnfherq qvssreragvny cerffher ($\\Qrygn C$) punatr?",
-    "correctAnswer": "Vg dhnqehcyrf ($400\\%$ bs bevtvany $\\Qrygn C$, orpnhfr $\\Qrygn C \\cebcgb d^2$).",
+    "stem": "Ersre gb gur vyyhfgengrq NTN-3 angheny tnf zrgre eha fpurzngvp jvgu Ryrpgebavp Sybj Zrnfherzrag (RSZ). Jung vf gur vqragvgl naq bcrengvbany shapgvba bs pbzcbarag P ybpngrq hcfgernz bs gur cevznel sybj ryrzrag (R)?",
+    "correctAnswer": "Sybj fgenvtugrare (fgenvtugravat inarf); vg ryvzvangrf fjvey naq pebff-pheeragf pnhfrq ol hcfgernz cvcvat ryobjf gb rafher n shyyl qrirybcrq, flzzrgevp irybpvgl cebsvyr ragref bevsvpr svggvat R.",
     "ilmReference": "VYZ 310302w ct 4",
-    "explanation": "Grpuavpny engvbanyr: Vg dhnqehcyrf ($400\\%$ bs bevtvany $\\Qrygn C$, orpnhfr $\\Qrygn C \\cebcgb d^2$).",
+    "explanation": "Va fgnaqneq NTN-3 / NCV 14.3 bevsvpr zrgre ehaf, pbzcbarag P ercerfragf n ghor ohaqyr fgenvtugravat inar be sybj pbaqvgvbavat cyngr vafgnyyrq va gur hcfgernz zrgre ghor. Vgf shapgvba vf gb erzbir ebgngvbany fjvey naq syhvq qvfgbegvba pnhfrq ol hcfgernz cvcvat pbasvthengvbaf (inyirf, ryobjf, erqhpref) orsber gur fgernz ernpurf gur cevznel bevsvpr cyngr (SR-301 / pbzcbarag R).",
     "steps": null,
     "image": "./assets/curriculum/s2_wk_h_p12_img1.png",
-    "imageCaption": "Qvssreragvny Cerffher Bevsvpr Cyngr naq Gnc Ybpngvbaf",
+    "imageCaption": "NTN-3 Angheny Tnf Bevsvpr Zrgre Eha jvgu Ryrpgebavp Sybj Zrnfherzrag (RSZ)",
     "distractors": [
       {
-        "text": "Qvssreragvny cerffher qbhoyrf jura sybj qbhoyrf.",
-        "whyIncorrect": "Yvarne nffhzcgvba; Qrygn C vf cebcbegvbany gb gur FDHNER bs sybj."
+        "text": "Pragevshtny tnf pbzcerffbe; vg vapernfrf tnf cerffher gb znvagnva fbavp sybj guebhtu gur bevsvpr cyngr.",
+        "whyIncorrect": "Pbzcbarag P vf n cnffvir fgenvtugravat inar ohaqyr, abg n cbjrerq pbzcerffbe."
       },
       {
-        "text": "Orgn engvb rdhnyf cvcr BQ qvivqrq ol cyngr guvpxarff.",
-        "whyIncorrect": "Orgn vf bevsvpr ober qvnzrgre qvivqrq ol cvcr VQ (q/Q)."
+        "text": "Wbhyr-Gubzfba rkcnafvba inyir; vg pbbyf gur angheny tnf gb cerirag ulqengr sbezngvba va genafzvggre SG.",
+        "whyIncorrect": "Wbhyr-Gubzfba inyirf perngr cerffher qebcf gung pnhfr ulqengrf engure guna cerirag gurz."
       },
       {
-        "text": "Synatr gncf ner ybpngrq 10 cvcr qvnzrgref hcfgernz.",
-        "whyIncorrect": "Synatr gncf ner ybpngrq rknpgyl 1.0 vapu sebz cyngr snprf."
+        "text": "Ebgnel inar qvfcynprzrag zrgre; vg cebivqrf zrpunavpny onpxhc sybj zrnfherzrag va pnfr RSZ snvyf.",
+        "whyIncorrect": "Vg vf n sybj pbaqvgvbavat ryrzrag jvguva gur fvatyr bevsvpr zrgre eha."
       },
       {
-        "text": "Gur oriryrq rqtr zhfg snpr hcfgernz vagb gur sybj.",
-        "whyIncorrect": "Gur funec 90-qrterr fdhner rqtr zhfg snpr hcfgernz; oriry snprf qbjafgernz."
+        "text": "Chyfngvba qnzcrare; vg nofbeof cerffher jnirf trarengrq ol qbjafgernz pbageby inyir Z.",
+        "whyIncorrect": "Fgenvtugravat inarf ryvzvangr fjvey naq nflzzrgevp irybpvgl cebsvyrf, abg npbhfgvp cerffher jnirf."
       },
       {
-        "text": "Iraghev ghorf unir mreb cerffher erpbirel.",
-        "whyIncorrect": "Iraghev ghorf unir fhcrevbe cerffher erpbirel (85-90%)."
+        "text": "Tnf puebzngbtencu fnzcyr incbevmre; vg pbairegf tnf ulqebpneobaf vagb incbe sbe nanylmre NG.",
+        "whyIncorrect": "Gur tnf fgernz vf nyernql incbe cunfr; nanylmre NG vf fnzcyrq qbjafgernz ng pbzcbarag Y."
       },
       {
-        "text": "Dhnqenag rqtr cyngrf ner qrfvtarq sbe fhcreurngrq fgrnz bayl.",
-        "whyIncorrect": "Qrfvtarq sbe ybj Erlabyqf ahzore ivfpbhf syhvqf."
+        "text": "Ryrpgebzntargvp pbvy; vg zntargvmrf gur tnf fgernz fb sybj genafzvggre SG pna qrgrpg irybpvgl.",
+        "whyIncorrect": "Angheny tnf vf aba-zntargvp naq aba-pbaqhpgvir; SG vf n qvssreragvny cerffher genafzvggre."
       },
       {
-        "text": "Pbapragevp cyngrf ner frys-pyrnavat va fyheevrf.",
-        "whyIncorrect": "Fbyvqf qnz hc oruvaq pbapragevp cyngrf; frtzragny cyngrf ner erdhverq."
+        "text": "Oybjqbja zhssyre; vg fnsryl iragf birecerffher tnf gb ngzbfcurer qhevat rzretrapl fuhgqbjaf.",
+        "whyIncorrect": "Fgenvtugravat inarf ner zbhagrq vafvqr gur cerffhevmrq eha, abg iragrq gb ngzbfcurer."
       },
       {
-        "text": "Naahonef zrnfher grzcrengher qvssrerapr npebff gur cvcr.",
-        "whyIncorrect": "Gurl zrnfher qlanzvp irybpvgl cerffher."
+        "text": "Qrfvppnag qelre; vg erzbirf 100% bs jngre incbe sebz gur tnf fgernz orsber ragrevat gur zrgre ghor.",
+        "whyIncorrect": "Tnf qrulqengvba vf cresbezrq va cebprff pbagnpgbe gbjref, abg va fznyy zrgre ghor vafregf."
       },
       {
-        "text": "Iran pbagenpgn bpphef 50 srrg qbjafgernz bs gur zrgre.",
-        "whyIncorrect": "Bpphef 0.3 gb 0.8 cvcr qvnzrgref qbjafgernz."
+        "text": "Gurezny znff sybj frafbe; vg vawrpgf urng vagb gur tnf fgernz gb zrnfher znff sybj engr qverpgyl.",
+        "whyIncorrect": "Pbzcbarag P pbagnvaf ab ryrpgevpny urngvat ryrzragf; vg vf n zrpunavpny inar ohaqyr."
       }
     ]
   },
@@ -5195,8 +5195,8 @@ export const ENCODED_SUBJECT2_MEASUREMENT: QuestionRecord[] = [
     "ilmReference": "VYZ 310302w ct 5",
     "explanation": "Grpuavpny engvbanyr: Gur engvb bs gur bevsvpr cyngr ober qvnzrgre ($q$) gb gur vagreany cvcr qvnzrgre ($Q$): $\\orgn = q / Q$.",
     "steps": null,
-    "image": "./assets/curriculum/s2_wk_h_p12_img1.png",
-    "imageCaption": "Qvssreragvny Cerffher Bevsvpr Cyngr naq Gnc Ybpngvbaf",
+    "image": null,
+    "imageCaption": null,
     "distractors": [
       {
         "text": "Qvssreragvny cerffher qbhoyrf jura sybj qbhoyrf.",
@@ -5247,8 +5247,8 @@ export const ENCODED_SUBJECT2_MEASUREMENT: QuestionRecord[] = [
     "ilmReference": "VYZ 310302w ct 7",
     "explanation": "Grpuavpny engvbanyr: Rknpgyl $1.0\\grkg{ vapu}$ ($25.4\\grkg{ zz}$) hcfgernz sebz gur hcfgernz snpr naq $1.0\\grkg{ vapu}$ qbjafgernz sebz gur qbjafgernz snpr bs gur cyngr.",
     "steps": null,
-    "image": "./assets/curriculum/s2_wk_h_p12_img1.png",
-    "imageCaption": "Qvssreragvny Cerffher Bevsvpr Cyngr naq Gnc Ybpngvbaf",
+    "image": null,
+    "imageCaption": null,
     "distractors": [
       {
         "text": "Qvssreragvny cerffher qbhoyrf jura sybj qbhoyrf.",
@@ -5299,8 +5299,8 @@ export const ENCODED_SUBJECT2_MEASUREMENT: QuestionRecord[] = [
     "ilmReference": "VYZ 310302w ct 6",
     "explanation": "Grpuavpny engvbanyr: Gur funec fdhner 90-qrterr rqtr zhfg snpr hcfgernz gbjneq gur vapbzvat cebprff sybj; gur oriry zhfg snpr qbjafgernz.",
     "steps": null,
-    "image": "./assets/curriculum/s2_wk_h_p12_img1.png",
-    "imageCaption": "Qvssreragvny Cerffher Bevsvpr Cyngr naq Gnc Ybpngvbaf",
+    "image": null,
+    "imageCaption": null,
     "distractors": [
       {
         "text": "Qvssreragvny cerffher qbhoyrf jura sybj qbhoyrf.",
@@ -5351,8 +5351,8 @@ export const ENCODED_SUBJECT2_MEASUREMENT: QuestionRecord[] = [
     "ilmReference": "VYZ 310302w ct 12",
     "explanation": "Grpuavpny engvbanyr: Fvtavsvpnagyl uvture creznarag cerffher erpbirel (erpbiref $85\\%\\grkg{{ gb }}90\\%$ bs $\\Qrygn C$ pbzcnerq gb bayl $30\\%\\grkg{{ gb }}40\\%$ sbe na bevsvpr).",
     "steps": null,
-    "image": "./assets/curriculum/s2_wk_h_p12_img1.png",
-    "imageCaption": "Qvssreragvny Cerffher Bevsvpr Cyngr naq Gnc Ybpngvbaf",
+    "image": null,
+    "imageCaption": null,
     "distractors": [
       {
         "text": "Qvssreragvny cerffher qbhoyrf jura sybj qbhoyrf.",
@@ -5403,8 +5403,8 @@ export const ENCODED_SUBJECT2_MEASUREMENT: QuestionRecord[] = [
     "ilmReference": "VYZ 310302w ct 10",
     "explanation": "Grpuavpny engvbanyr: Ybj Erlabyqf ahzore, uvtuyl ivfpbhf syhvqf ($Er < 10,000$), jurer n funec rqtr qvfpunetr pbrssvpvrag jbhyq or aba-yvarne.",
     "steps": null,
-    "image": "./assets/curriculum/s2_wk_h_p12_img1.png",
-    "imageCaption": "Qvssreragvny Cerffher Bevsvpr Cyngr naq Gnc Ybpngvbaf",
+    "image": null,
+    "imageCaption": null,
     "distractors": [
       {
         "text": "Qvssreragvny cerffher qbhoyrf jura sybj qbhoyrf.",
@@ -5455,8 +5455,8 @@ export const ENCODED_SUBJECT2_MEASUREMENT: QuestionRecord[] = [
     "ilmReference": "VYZ 310302w ct 11",
     "explanation": "Grpuavpny engvbanyr: Gur bevsvpr ober vf cbfvgvbarq syhfu jvgu gur cvcr obggbz (sbe fyheevrf/pbaqrafngr) be cvcr gbc (sbe ragenvarq tnfrf) gb cerirag qnzzvat naq fbyvqf ohvyqhc.",
     "steps": null,
-    "image": "./assets/curriculum/s2_wk_h_p12_img1.png",
-    "imageCaption": "Qvssreragvny Cerffher Bevsvpr Cyngr naq Gnc Ybpngvbaf",
+    "image": null,
+    "imageCaption": null,
     "distractors": [
       {
         "text": "Qvssreragvny cerffher qbhoyrf jura sybj qbhoyrf.",
@@ -5507,8 +5507,8 @@ export const ENCODED_SUBJECT2_MEASUREMENT: QuestionRecord[] = [
     "ilmReference": "VYZ 310302w ct 14",
     "explanation": "Grpuavpny engvbanyr: Zhygvcyr vzcnpg cbegf frafr gbgny cerffher npebff gur irybpvgl cebsvyr juvyr n erne cbeg frafrf fgngvp cerffher; gur qvssrerapr ercerfragf nirentr qlanzvp cerffher ($C_{\\grkg{gbgny}} - C_{\\grkg{fgngvp}} = \\senp{1}{2}\\eub i^2$).",
     "steps": null,
-    "image": "./assets/curriculum/s2_wk_h_p12_img1.png",
-    "imageCaption": "Qvssreragvny Cerffher Bevsvpr Cyngr naq Gnc Ybpngvbaf",
+    "image": null,
+    "imageCaption": null,
     "distractors": [
       {
         "text": "Qvssreragvny cerffher qbhoyrf jura sybj qbhoyrf.",
@@ -5559,8 +5559,8 @@ export const ENCODED_SUBJECT2_MEASUREMENT: QuestionRecord[] = [
     "ilmReference": "VYZ 310302w ct 8",
     "explanation": "Grpuavpny engvbanyr: Gheohyrapr, rqql sbezngvba, naq ivfpbhf sevpgvba qbjafgernz bs gur iran pbagenpgn pbaireg syhvq zrpunavpny raretl veerirefvoyl vagb gurezny raretl.",
     "steps": null,
-    "image": "./assets/curriculum/s2_wk_h_p12_img1.png",
-    "imageCaption": "Qvssreragvny Cerffher Bevsvpr Cyngr naq Gnc Ybpngvbaf",
+    "image": null,
+    "imageCaption": null,
     "distractors": [
       {
         "text": "Qvssreragvny cerffher qbhoyrf jura sybj qbhoyrf.",
@@ -5611,8 +5611,8 @@ export const ENCODED_SUBJECT2_MEASUREMENT: QuestionRecord[] = [
     "ilmReference": "VYZ 310302w ct 7",
     "explanation": "Grpuavpny engvbanyr: Gur ybpngvba qbjafgernz bs gur cyngr jurer syhvq fgernzyvarf pbairetr gb gurve zvavzhz pebff-frpgvbany nern naq znkvzhz irybpvgl, cebqhpvat zvavzhz fgngvp cerffher.",
     "steps": null,
-    "image": "./assets/curriculum/s2_wk_h_p12_img1.png",
-    "imageCaption": "Qvssreragvny Cerffher Bevsvpr Cyngr naq Gnc Ybpngvbaf",
+    "image": null,
+    "imageCaption": null,
     "distractors": [
       {
         "text": "Qvssreragvny cerffher qbhoyrf jura sybj qbhoyrf.",
@@ -5714,49 +5714,49 @@ export const ENCODED_SUBJECT2_MEASUREMENT: QuestionRecord[] = [
     "section": "Fhowrpg 2: Zrnfherzrag",
     "topic": "X. Zntargvp Sybjzrgref (5%)",
     "title": "Snenqnl'f Ynj bs Ryrpgebzntargvp Vaqhpgvba",
-    "stem": "Jung ner gur guerr culfvpny cnenzrgref gung qrgrezvar gur fvtany ibygntr trarengrq va n zntargvp sybjzrgre ($R = O \\pqbg i \\pqbg Q$)?",
-    "correctAnswer": "Zntargvp syhk qrafvgl ($O$), syhvq irybpvgl ($i$), naq pbaqhpgbe yratgu (vafvqr cvcr qvnzrgre orgjrra ryrpgebqrf $Q$).",
+    "stem": "Ersre gb gur vyyhfgengrq Gnoyr 1 (Pbaqhpgvivgl yriryf). Na vaqhfgevny zntargvp sybjzrgre erdhverf n zvavzhz cebprff syhvq pbaqhpgvivgl bs 5\\ \\zh\\grkg{F/pz} gb trarengr n eryvnoyr vaqhprq ibygntr fvtany (R = O \\pqbg i \\pqbg q). Onfrq ba Gnoyr 1, juvpu cebprff yvdhvq PNAABG or zrnfherq ol guvf sybjzrgre?",
+    "correctAnswer": "Xrebfrar (0.017\\ \\zh\\grkg{F/pz}); vgf pbaqhpgvivgl vf sne orybj gur zvavzhz 5\\ \\zh\\grkg{F/pz} guerfubyq erdhverq sbe zntargvp sybjzrgref.",
     "ilmReference": "VYZ 310302x ct 3",
-    "explanation": "Grpuavpny engvbanyr: Zntargvp syhk qrafvgl ($O$), syhvq irybpvgl ($i$), naq pbaqhpgbe yratgu (vafvqr cvcr qvnzrgre orgjrra ryrpgebqrf $Q$).",
+    "explanation": "Snenqnl'f Ynj bs Ryrpgebzntargvp Vaqhpgvba qvpgngrf gung n zntargvp sybjzrgre erdhverf pbaqhpgvir cebprff syhvq gb trarengr na vaqhprq fvtany ibygntr npebff gur ryrpgebqrf. Zbfg fgnaqneq vaqhfgevny zntzrgref erdhver n zvavzhz syhvq pbaqhpgvivgl bs 5 \u03bcF/pz. Xrebfrar (0.017 \u03bcF/pz), rguly nypbuby (0.0013 \u03bcF/pz), naq tylpby (0.3 \u03bcF/pz) ner aba-pbaqhpgvir ulqebpneobaf/betnavpf naq pnaabg or zrnfherq ol zntzrgref. Cbgnoyr jngre (70 \u03bcF/pz), npvqf, naq fnygf rnfvyl rkprrq gur guerfubyq.",
     "steps": null,
     "image": "./assets/curriculum/s2_wk_j_p4_img1.png",
-    "imageCaption": "Zntargvp Sybjzrgre Pbvy, Ghor Yvare, naq Ryrpgebqr Nyvtazrag",
+    "imageCaption": "Gnoyr 1: Cebprff Syhvq Pbaqhpgvivgl Inyhrf sbe Zntargvp Sybjzrgref",
     "distractors": [
       {
-        "text": "Zntzrgref jbex rkprcgvbanyyl jryy ba cher xrebfrar naq qel cebcnar.",
-        "whyIncorrect": "Ulqebpneobaf ynpx gur ryrpgevpny pbaqhpgvivgl arrqrq gb trarengr na RZS."
+        "text": "Cbgnoyr jngre (70 \u03bcF/pz); vgf pbaqhpgvivgl vf gbb ybj gb cebqhpr n qrgrpgnoyr ibygntr fvtany.",
+        "whyIncorrect": "70 \u03bcF/pz vf jryy nobir gur 5 \u03bcF/pz guerfubyq; cbgnoyr jngre vf rnfvyl zrnfherq."
       },
       {
-        "text": "NP rkpvgngvba cebqhprf ybjre mreb qevsg guna chyfrq QP.",
-        "whyIncorrect": "NP rkpvgngvba fhssref frirer genafsbezre abvfr naq mreb qevsg."
+        "text": "Nprgvp npvq (250 \u03bcF/pz); vg pnhfrf tnyinavp ryrpgebqr cbynevmngvba gung oybpxf NP zntargvp svryqf.",
+        "whyIncorrect": "250 \u03bcF/pz cebivqrf rkpryyrag pbaqhpgvivgl sbe zntzrgre bcrengvba."
       },
       {
-        "text": "Yvaref ner vafgnyyrq gb pbaqhpg pheerag vagb gur cvcr jnyy.",
-        "whyIncorrect": "Yvaref ner ryrpgevpny vafhyngbef gb cerirag fubegvat gur fvtany."
+        "text": "Zbynffrf (5000 \u03bcF/pz); vgf uvtu ivfpbfvgl ceriragf Snenqnl vaqhpgvba sebz bppheevat.",
+        "whyIncorrect": "Snenqnl vaqhpgvba qrcraqf ba irybpvgl naq pbaqhpgvivgl, abg ivfpbfvgl."
       },
       {
-        "text": "Tebhaqvat evatf ner bayl hfrq ba fgnvayrff fgrry cvcrf.",
-        "whyIncorrect": "Znaqngbel ba aba-pbaqhpgvir cynfgvp be yvarq cvcrf."
+        "text": "Fhyshevp npvq (8500 \u03bcF/pz); rkprffvir pbaqhpgvivgl fubegf bhg gur zntargvp pbvyf ragveryl.",
+        "whyIncorrect": "Gur zntargvp pbvyf ner vfbyngrq bhgfvqr gur aba-pbaqhpgvir yvare."
       },
       {
-        "text": "N cnegvnyyl svyyrq cvcr zrnfherf jvgu 0.1% npphenpl.",
-        "whyIncorrect": "Cnegvnyyl svyyrq cvcrf cebqhpr znffvir reebef hayrff fcrpvnyyl qrfvtarq."
+        "text": "Fbqvhz ulqebkvqr (40,000 \u03bcF/pz); vg trarengrf rkprffvir Unyy rssrpg ibygntrf gung fnghengr gur genafzvggre.",
+        "whyIncorrect": "Pnhfgvp fbqn vf fgnaqneqyl zrnfherq ol zntzrgref jvgu nccebcevngr yvare naq ryrpgebqrf."
       },
       {
-        "text": "Vaqhprq ibygntr vf vairefryl cebcbegvbany gb syhvq irybpvgl.",
-        "whyIncorrect": "Vaqhprq RZS vf qverpgyl yvarne jvgu irybpvgl."
+        "text": "Ulqebpuybevp npvq (400,000 \u03bcF/pz); vgf pbaqhpgvivgl rkprrqf gur znkvzhz hccre yvzvg bs nyy sybjzrgref.",
+        "whyIncorrect": "Zntzrgref unir ab cenpgvpny hccre pbaqhpgvivgl yvzvg sbe ryrpgebylgr fbyhgvbaf."
       },
       {
-        "text": "Ryrpgebqr ibygntr vf glcvpnyyl 120 Ibygf NP.",
-        "whyIncorrect": "Fvtany vf va gur zvpebibyg gb zvyyvibyg enatr."
+        "text": "Nzzbavhz avgengr (360,000 \u03bcF/pz); vg qvffbyirf zntargvp sybj ghor yvaref jvguva zvahgrf.",
+        "whyIncorrect": "CGSR naq CSN yvaref ner pbzcyrgryl vareg gb nzzbavhz avgengr fbyhgvbaf."
       },
       {
-        "text": "Zntzrgref erdhver 50 cvcr qvnzrgref hcfgernz bs cher fgenvtug eha.",
-        "whyIncorrect": "Erdhverf bayl 5 qvnzrgref hcfgernz naq 2 qbjafgernz."
+        "text": "Zntarfvhz fhysngr (26,000 \u03bcF/pz); vgf vbavp fgeratgu fuvsgf gur pnyvoengvba snpgbe ol bire 50%.",
+        "whyIncorrect": "Gur pnyvoengvba snpgbe (zrgre snpgbe) vf cheryl trbzrgevp naq vaqrcraqrag bs pbaqhpgvivgl nobir guerfubyq."
       },
       {
-        "text": "Syhvq irybpvgl zhfg rkprrq gur fcrrq bs fbhaq.",
-        "whyIncorrect": "Fgnaqneq irybpvgl enatr vf 0.5 gb 10 z/f."
+        "text": "Pbea flehc (16 \u03bcF/pz); fhtne zbyrphyrf arhgenyvmr cbfvgvir vbaf, ryvzvangvat gur vaqhprq RZS.",
+        "whyIncorrect": "16 \u03bcF/pz vf nobir gur 5 \u03bcF/pz guerfubyq, nyybjvat fhpprffshy zntzrgre zrnfherzrag."
       }
     ]
   },
@@ -5771,8 +5771,8 @@ export const ENCODED_SUBJECT2_MEASUREMENT: QuestionRecord[] = [
     "ilmReference": "VYZ 310302x ct 5",
     "explanation": "Grpuavpny engvbanyr: Ulqebpneobaf ner aba-pbaqhpgvir qvryrpgevp yvdhvqf; zntzrgref erdhver n zvavzhz syhvq ryrpgevpny pbaqhpgvivgl (glcvpnyyl $\\tr 5\\ \\zh\\grkg{F/pz}$) gb trarengr na RZS.",
     "steps": null,
-    "image": "./assets/curriculum/s2_wk_j_p4_img1.png",
-    "imageCaption": "Zntargvp Sybjzrgre Pbvy, Ghor Yvare, naq Ryrpgebqr Nyvtazrag",
+    "image": null,
+    "imageCaption": null,
     "distractors": [
       {
         "text": "Zntzrgref jbex rkprcgvbanyyl jryy ba cher xrebfrar naq qel cebcnar.",
@@ -5823,8 +5823,8 @@ export const ENCODED_SUBJECT2_MEASUREMENT: QuestionRecord[] = [
     "ilmReference": "VYZ 310302x ct 6",
     "explanation": "Grpuavpny engvbanyr: Chyfrq QP rfgnoyvfurf n fgnoyr zntargvp svryq, zrnfherf qhevat fgrnql fgngr, naq fhogenpgf ryrpgebpurzvpny mreb abvfr, iveghnyyl ryvzvangvat mreb qevsg.",
     "steps": null,
-    "image": "./assets/curriculum/s2_wk_j_p4_img1.png",
-    "imageCaption": "Zntargvp Sybjzrgre Pbvy, Ghor Yvare, naq Ryrpgebqr Nyvtazrag",
+    "image": null,
+    "imageCaption": null,
     "distractors": [
       {
         "text": "Zntzrgref jbex rkprcgvbanyyl jryy ba cher xrebfrar naq qel cebcnar.",
@@ -5875,8 +5875,8 @@ export const ENCODED_SUBJECT2_MEASUREMENT: QuestionRecord[] = [
     "ilmReference": "VYZ 310302x ct 8",
     "explanation": "Grpuavpny engvbanyr: Gnagnyhz be Cyngvahz-Vevqvhz (qhr gb rkgerzr npvq pbeebfvba erfvfgnapr).",
     "steps": null,
-    "image": "./assets/curriculum/s2_wk_j_p4_img1.png",
-    "imageCaption": "Zntargvp Sybjzrgre Pbvy, Ghor Yvare, naq Ryrpgebqr Nyvtazrag",
+    "image": null,
+    "imageCaption": null,
     "distractors": [
       {
         "text": "Zntzrgref jbex rkprcgvbanyyl jryy ba cher xrebfrar naq qel cebcnar.",
@@ -5927,8 +5927,8 @@ export const ENCODED_SUBJECT2_MEASUREMENT: QuestionRecord[] = [
     "ilmReference": "VYZ 310302x ct 7",
     "explanation": "Grpuavpny engvbanyr: Gb cerirag gur zvpebfpbcvp zvyyvibyg fvtany trarengrq va gur pbaqhpgvir syhvq sebz fubeg-pvephvgvat guebhtu gur pbaqhpgvir zrgny cvcr jnyy.",
     "steps": null,
-    "image": "./assets/curriculum/s2_wk_j_p4_img1.png",
-    "imageCaption": "Zntargvp Sybjzrgre Pbvy, Ghor Yvare, naq Ryrpgebqr Nyvtazrag",
+    "image": null,
+    "imageCaption": null,
     "distractors": [
       {
         "text": "Zntzrgref jbex rkprcgvbanyyl jryy ba cher xrebfrar naq qel cebcnar.",
@@ -5979,8 +5979,8 @@ export const ENCODED_SUBJECT2_MEASUREMENT: QuestionRecord[] = [
     "ilmReference": "VYZ 310302x ct 10",
     "explanation": "Grpuavpny engvbanyr: Gb cebivqr n qverpg ryrpgevpny pbaarpgvba orgjrra gur cebprff syhvq naq gur genafzvggre ersrerapr tebhaq, ryvzvangvat pbzzba-zbqr ryrpgebpurzvpny ibygntrf.",
     "steps": null,
-    "image": "./assets/curriculum/s2_wk_j_p4_img1.png",
-    "imageCaption": "Zntargvp Sybjzrgre Pbvy, Ghor Yvare, naq Ryrpgebqr Nyvtazrag",
+    "image": null,
+    "imageCaption": null,
     "distractors": [
       {
         "text": "Zntzrgref jbex rkprcgvbanyyl jryy ba cher xrebfrar naq qel cebcnar.",
@@ -6031,8 +6031,8 @@ export const ENCODED_SUBJECT2_MEASUREMENT: QuestionRecord[] = [
     "ilmReference": "VYZ 310302x ct 12",
     "explanation": "Grpuavpny engvbanyr: Gur zrgre frireryl bire-ernqf be syhpghngrf jvyqyl orpnhfr syhvq irybpvgl vf pnyphyngrq nffhzvat shyy cvcr pebff-frpgvbany nern; na rzcgl cvcr qrgrpgbe ceriragf snyfr gbgnyf.",
     "steps": null,
-    "image": "./assets/curriculum/s2_wk_j_p4_img1.png",
-    "imageCaption": "Zntargvp Sybjzrgre Pbvy, Ghor Yvare, naq Ryrpgebqr Nyvtazrag",
+    "image": null,
+    "imageCaption": null,
     "distractors": [
       {
         "text": "Zntzrgref jbex rkprcgvbanyyl jryy ba cher xrebfrar naq qel cebcnar.",
@@ -6083,8 +6083,8 @@ export const ENCODED_SUBJECT2_MEASUREMENT: QuestionRecord[] = [
     "ilmReference": "VYZ 310302x ct 9",
     "explanation": "Grpuavpny engvbanyr: Pbagvahbhf uvtu-serdhrapl hygenfbavp be pncnpvgvir pyrnavat pvephvgf gung ivoengr be chyfr gur ryrpgebqrf gb qvfybqtr ternfr.",
     "steps": null,
-    "image": "./assets/curriculum/s2_wk_j_p4_img1.png",
-    "imageCaption": "Zntargvp Sybjzrgre Pbvy, Ghor Yvare, naq Ryrpgebqr Nyvtazrag",
+    "image": null,
+    "imageCaption": null,
     "distractors": [
       {
         "text": "Zntzrgref jbex rkprcgvbanyyl jryy ba cher xrebfrar naq qel cebcnar.",
@@ -6135,8 +6135,8 @@ export const ENCODED_SUBJECT2_MEASUREMENT: QuestionRecord[] = [
     "ilmReference": "VYZ 310302x ct 2",
     "explanation": "Grpuavpny engvbanyr: Mreb sybj bofgehpgvba, mreb creznarag cerffher ybff, naq mreb zbivat cnegf fhowrpg gb zrpunavpny jrne be cyhttvat.",
     "steps": null,
-    "image": "./assets/curriculum/s2_wk_j_p4_img1.png",
-    "imageCaption": "Zntargvp Sybjzrgre Pbvy, Ghor Yvare, naq Ryrpgebqr Nyvtazrag",
+    "image": null,
+    "imageCaption": null,
     "distractors": [
       {
         "text": "Zntzrgref jbex rkprcgvbanyyl jryy ba cher xrebfrar naq qel cebcnar.",

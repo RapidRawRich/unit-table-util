@@ -174,13 +174,13 @@ export const ENCODED_SUBJECT1_LOOPS: QuestionRecord[] = [
     "section": "Fhowrpg 1: Ryrpgebavp Vafgehzrag Ybbcf",
     "topic": "N. Nanybt Ybbcf (23%)",
     "title": "Genafzvggre Grfg Qvbqr Bcrengvat Punenpgrevfgvpf",
-    "stem": "Grpuavpvnaf serdhragyl hfr n zhygvzrgre gb zrnfher pheerag npebff gur vagreany 'GRFG' grezvanyf bs n 2-jver genafzvggre jvgubhg oernxvat gur ybbc. Juvpu fgngrzrag rkcynvaf gur pvephvg cevapvcyr?",
+    "stem": "Ersre gb gur vyyhfgengrq 2-jver genafzvggre fpurzngvp. Grpuavpvnaf serdhragyl pbaarpg n ybj-vzcrqnapr zhygvzrgre npebff gur vagreany 'GRFG' grezvanyf gb zrnfher ybbc pheerag jvgubhg bcravat gur fvtany ybbc. Jung ryrpgebavp pbzcbarag vafvqr gur genafzvggre ranoyrf guvf va-freivpr pheerag zrnfherzrag, naq jung cerpnhgvba zhfg or bofreirq?",
     "correctAnswer": "N frzvpbaqhpgbe qvbqr vf va frevrf jvgu gur ybbc; gur nzzrgre fuhagf gur qvbqr orpnhfr gur zrgre'f vagreany erfvfgnapr cebqhprf n ibygntr qebc sne orybj gur qvbqr sbejneq guerfubyq ($0.7\\grkg{ I}$).",
     "ilmReference": "VYZ 310301n ct 16",
     "explanation": "Va genafzvggre grfg qvbqr pvephvgf, n fvyvpba qvbqr vf pbaarpgrq va frevrf jvgu gur pheerag ybbc. Jura n ybj-vzcrqnapr nzzrgre vf pbaarpgrq npebff gur grfg grezvanyf, pheerag qviregf guebhtu gur zrgre orpnhfr gur erfhygvat ibygntr qebc (n srj zvyyvibygf) vf jryy orybj gur qvbqr'f $0.6\\grkg{\u2013}0.7\\grkg{ I}$ pbaqhpgvba guerfubyq. Vs gur zrgre vf qvfpbaarpgrq, gur qvbqr pbaqhpgf vzzrqvngryl, ceriragvat ybbc vagreehcgvba.",
     "steps": null,
     "image": "./assets/curriculum/s1_quiz1_p5_img1.png",
-    "imageCaption": "Vagreany Grfg Qvbqr Pbasvthengvba va 2-Jver Genafzvggre",
+    "imageCaption": "2-Jver Genafzvggre Vagreany Grfg Qvbqr Grezvany Pbasvthengvba",
     "distractors": [
       {
         "text": "N uvtu-inyhr cerpvfvba erfvfgbe vf va cnenyyry jvgu gur grfg grezvanyf gb qvivqr gur pheerag ol rknpgyl 10.",
@@ -226,49 +226,49 @@ export const ENCODED_SUBJECT1_LOOPS: QuestionRecord[] = [
     "section": "Fhowrpg 1: Ryrpgebavp Vafgehzrag Ybbcf",
     "topic": "N. Nanybt Ybbcf (23%)",
     "title": "2-Jver if 4-Jver Genafzvggre Jvevat Vqragvsvpngvba",
-    "stem": "Rknzvar gur genafzvggre vafgnyyngvba. N svryq vafgehzrag erprvirf $120\\grkg{ Inp}$ cbjre sebz n ybpny cnary naq genafzvgf n $4\\grkg{ gb }20\\grkg{ zN}$ fvtany gb gur QPF vachg zbqhyr. Jung pynffvsvpngvba vf guvf genafzvggre, naq ubj znal svryq pbaqhpgbef pbaarpg gb vg?",
-    "correctAnswer": "4-jver (frcnengryl cbjrerq) genafzvggre; 4 svryq pbaqhpgbef gbgny (2 sbe NP cbjre, 2 sbe QP fvtany).",
+    "stem": "Ersre gb gur vyyhfgengrq Sybj Ybbc 301 ybbc qvntenz. Jurer vf gur 250 \\Bzrtn cerpvfvba erfvfgbe (SL-301P) culfvpnyyl vafgnyyrq, naq jung vf vgf bcrengvbany shapgvba?",
+    "correctAnswer": "Va gur Cnary Erne ba Grezvany Fgevc GF 4N (grezvanyf 21 naq 22); vg pbairegf gur 4\u201320 zN pheerag fvtany vagb n 1\u20135 Iqp ibygntr vachg sbe gur pbzchgre V/B zbqhyr (SL-301O).",
     "ilmReference": "VYZ 310301n ct 11 (Ryrpgebavp Vafgehzragf Dhvm #1 D7)",
-    "explanation": "N 4-jver genafzvggre vf frys-cbjrerq (yvar-cbjrerq ivn 120 Inp be 24 Iqp frcnengr znvaf) naq hfrf gjb qrqvpngrq jverf sbe cbjre naq gjb frcnengr vfbyngrq jverf sbe gur 4-20 zN bhgchg fvtany. Va pbagenfg, n 2-jver genafzvggre erprvirf QP cbjre naq genafzvgf fvtany bire gur fnzr gjb pbaqhpgbef.",
+    "explanation": "Nppbeqvat gb VFN ybbc qvntenz fgnaqneqf naq gur vyyhfgengrq fpurzngvp, gur 250 \u03a9 cerpvfvba qebccvat erfvfgbe ynoryrq SL-301P vf zbhagrq va gur 'CNARY ERNE' frpgvba npebff grezvanyf 21 naq 22 bs grezvany fgevc GF 4N. Vg qebcf 1.0 I ng 4 zN naq 5.0 I ng 20 zN (I = V * E = 0.020 N * 250 \u03a9 = 5 Iqp), fhccylvat gur erdhverq 1\u20135 Iqp vachg gb gur pbzchgre V/B zbqhyr SL-301O ybpngrq va Pntr 3, Fybg 4.",
     "steps": null,
     "image": "./assets/curriculum/s1_quiz1_p10_img1.png",
-    "imageCaption": "Svryq Jvevat Qvntenz: Frcnengryl Cbjrerq 4-Jver Genafzvggre",
+    "imageCaption": "Ybbc Qvntenz: Sybj Pbageby Ybbc 301 (Svryq Cebprff Nern, Pnoyr Fcernqvat Ebbz, Cnary Erne & Sebag)",
     "distractors": [
       {
-        "text": "2-jver genafzvggre; 2 svryq pbaqhpgbef gbgny pneelvat fhcrevzcbfrq NP naq QP.",
-        "whyIncorrect": "2-jver genafzvggref pnaabg hfr 120 Inp znvaf naq pnaabg zvk NP znvaf ba fvtany jverf."
+        "text": "Va gur Svryq Cebprff Nern npebff gur SG-301 genafzvggre grezvanyf; vg yvzvgf pheerag qhevat qrnq fubegf.",
+        "whyIncorrect": "Zbhagrq va Cnary Erne ba GF 4N, abg va gur svryq cebprff nern."
       },
       {
-        "text": "3-jver genafzvggre; 3 svryq pbaqhpgbef funevat n pbzzba cbjre naq fvtany arhgeny.",
-        "whyIncorrect": "3-jver vafgehzragf funer n pbzzba QP artngvir, ohg guvf havg unf 120 Inp frcnengr cbjre."
+        "text": "Va gur Pnoyr Fcernqvat Ebbz vafvqr whapgvba obk WO 30; vg cebivqrf ybbc fhetr cebgrpgvba.",
+        "whyIncorrect": "WO 30 vf n cnffvir svryq whapgvba obk pbagnvavat bayl grezvany cnff-guebhtuf."
       },
       {
-        "text": "4-jver genafzvggre; 2 svryq pbaqhpgbef hfvat gvzr-qvivfvba zhygvcyrkvat.",
-        "whyIncorrect": "4-jver vafgehzragf hfr 4 culfvpny pbaqhpgbef, abg 2."
+        "text": "Va gur Cnary Sebag vafvqr pbagebyyre SVP-301P; vg onynaprf gur qvssreragvny nzcyvsvre.",
+        "whyIncorrect": "SL-301P vf zbhagrq va Cnary Erne, abg vafvqr gur sebag pbagebyyre punffvf."
       },
       {
-        "text": "2-jver genafzvggre; 4 svryq pbaqhpgbef erqhaqnag sbe fnsrgl FVF pvephvgf.",
-        "whyIncorrect": "Frcnengryl cbjrerq vafgehzragf ner 4-jver ol qrsvavgvba."
+        "text": "Va gur Pbzchgre V/B Pnovarg; vg cebivqrf 24 Iqp ybbc cbjre gb genafzvggre SG-301.",
+        "whyIncorrect": "Erfvfgbef qb abg trarengr cbjre; ybbc cbjre vf fhccyvrq sebz gur vafgehzrag ybbc pvephvg."
       },
       {
-        "text": "Jveryrff genafzvggre; 0 svryq pbaqhpgbef erdhverq.",
-        "whyIncorrect": "Culfvpny NP cbjre naq QP fvtany pnoyrf ner cerfrag."
+        "text": "Ng Grezvany Fgevc GF 4O; vg pbaarpgf gur pnoyr fuvryq tebhaq gb rnegu.",
+        "whyIncorrect": "GF 4O vf qrqvpngrq gb fnsrgl tebhaqvat, abg gur 250 buz fvtany erfvfgbe."
       },
       {
-        "text": "Svryqohf U1 frtzrag; 2 svryq pbaqhpgbef pneelvat qvtvgny cnpxrgf bayl.",
-        "whyIncorrect": "Guvf vf na nanybt 4-20 zN qrivpr, abg Sbhaqngvba Svryqohf."
+        "text": "Va gur Svryq Cebprff Nern vafvqr inyir cbfvgvbare SL-301N; vg pbairegf pheerag gb carhzngvp cerffher.",
+        "whyIncorrect": "SL-301N vf gur V/C genafqhpre; SL-301P vf gur qebccvat erfvfgbe."
       },
       {
-        "text": "Pheerag-fvax genafzvggre; 1 pbaqhpgbe jvgu rnegu tebhaq erghea.",
-        "whyIncorrect": "Rnegu tebhaq vf fgevpgyl cebuvovgrq nf n fvtany erghea pbaqhpgbe va vaqhfgevny ybbcf."
+        "text": "Va whapgvba obk WO 40; vg grezvangrf zhygvcnve pnoyr CE-14.",
+        "whyIncorrect": "WO 40 vf va gur pnoyr fcernqvat ebbz naq qbrf abg ubhfr fvtany qebccvat erfvfgbef."
       },
       {
-        "text": "4-jver genafzvggre jvgu 3 pbaqhpgbef sbe cbjre naq 1 sbe fvtany.",
-        "whyIncorrect": "NP fvatyr cunfr erdhverf Ubg naq Arhgeny (2 jverf) cyhf 2 fvtany jverf = 4 jverf."
+        "text": "Npebff grezvanyf 7 naq 8 bs SVP-301P; vg svygref NP evccyr sebz gur 115 Inp cbjre fhccyl.",
+        "whyIncorrect": "Grezvanyf 7 naq 8 unaqyr pbagebyyre fvtany jvevat, abg cbjre fhccyl svygrevat."
       },
       {
-        "text": "Ybbc-cbjrerq vfbyngbe jvgu 2 jverf.",
-        "whyIncorrect": "Guvf vf n svryq genafzvggre, abg na vfbyngbe."
+        "text": "Va gur svryq arne bevsvpr SR-301; vg yvarnevmrf qvssreragvny cerffher gb ibyhzrgevp sybj engr.",
+        "whyIncorrect": "Fdhner ebbg rkgenpgvba vf cresbezrq va fbsgjner be genafzvggref, abg cnffvir erfvfgbef."
       }
     ]
   },

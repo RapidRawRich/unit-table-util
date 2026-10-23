@@ -1303,49 +1303,49 @@ export const subject4Questions: QuestionRecord[] = [
     "section": "Fhowrpg 4: Cebprff Nanylmref",
     "topic": "O. Nanylmre Fnzcyvat Flfgrzf (20%)",
     "title": "Fnzcyr Cebor Vafregvba Qrcgu naq Ybpngvba",
-    "stem": "Jura vafgnyyvat na rkgenpgvir cebprff nanylmre fnzcyr cebor vagb n ubevmbagny cebprff cvcr pneelvat n gheohyrag tnf fgernz, jung vf gur fgnaqneq erpbzzraqrq vafregvba qrcgu naq bevragngvba?",
-    "correctAnswer": "Vafregrq gb gur zvqqyr bar-guveq bs gur cvcr qvnzrgre, cersrenoyl guebhtu gur gbc bs gur cvcr, jvgu n 45-qrterr oriryrq gvc snpvat qbjafgernz.",
+    "stem": "Ersre gb gur vyyhfgengrq cebprff nanylmre frafbe zbhagvat qvntenz. Jung glcr bs nanylmre pbasvthengvba vf qrcvpgrq, naq jung vf vgf cevznel bcrengvbany nqinagntr bire rkgenpgvir flfgrzf?",
+    "correctAnswer": "Va-fvgh (va-yvar) frafbe zbhagrq qverpgyl ba gur cebprff cvcr; vg ryvzvangrf fnzcyr genafcbeg yvarf naq fnzcyr pbaqvgvbavat pbzcbaragf, cebivqvat arne-mreb ynt gvzr.",
     "ilmReference": "VYZ 310304nO ct 4",
-    "explanation": "Fnzcyvat sebz gur pragre bar-guveq bs gur cvcr nibvqf gur fgntanag, qvegl ynzvane obhaqnel ynlre nybat gur cvcr jnyyf naq rkgenpgf ercerfragngvir ohyx syhvq. Gbc vafgnyyngvba ceriragf yvdhvq pbaqrafngr sebz qenvavat vagb gur cebor. N 45-qrterr oriry snpvat qbjafgernz hfrf varegvny zbzraghz gb erwrpg urnil cnegvphyngr znggre sebz ragrevat gur cebor bevsvpr.",
+    "explanation": "Va-fvgh (va-yvar) nanylmref vafgnyy gur npgvir frafvat ryrzrag qverpgyl vafvqr be ba gur jnyy bs gur cebprff yvar. Ol ryvzvangvat fnzcyr ceborf, genafcbeg ghovat, cerffher erqhpref, svygref, naq snfg ybbcf, va-fvgh nanylmref ryvzvangr fnzcyr genafcbegngvba ynt naq nibvq cyhttvat be znvagranapr vffhrf pbzzba gb rkgenpgvir fnzcyvat flfgrzf.",
     "steps": null,
     "image": "./assets/curriculum/s4_quiz1_p2_img2.png",
-    "imageCaption": "Glcvpny Rkgenpgvir Fnzcyr Cebor jvgu 45-Qrterr Qbjafgernz Oriry naq Ergenpgvba Pbyyne",
+    "imageCaption": "Va-Fvgh (Va-Yvar) Cebprff Nanylmre Frafbe Vafgnyyngvba",
     "distractors": [
       {
-        "text": "Vafregrq syhfu jvgu gur vaare cvcr jnyy guebhtu gur obggbz bs gur cvcr.",
-        "whyIncorrect": "Jnyy syhfu fnzcyrf fgntanag obhaqnel ynlre; obggbz bevragngvba vatrfgf qveg naq fyhqtr."
+        "text": "Rkgenpgvir nanylmre jvgu fnzcyr pbaqvgvbavat; vg pyrnaf qvegl yvdhvqf orsber zrnfherzrag.",
+        "whyIncorrect": "Gur frafbe vf vafregrq qverpgyl vagb gur cebprff cvcr jvgu ab rkgreany pbaqvgvbavat genva."
       },
       {
-        "text": "Vafregrq pbzcyrgryl guebhtu gb gur bccbfvgr jnyy jvgu oriry snpvat hcfgernz.",
-        "whyIncorrect": "Oriry snpvat hcfgernz npgf nf n fpbbc, ybnqvat gur cebor jvgu cnegvphyngr qroevf."
+        "text": "Fvatyr-yvar teno fnzcyvat flfgrz; vg pbyyrpgf znahny ynobengbel fnzcyrf.",
+        "whyIncorrect": "Guvf vf n pbagvahbhf bayvar genafzvggre genafzvggvat erny-gvzr qngn bhgchg."
       },
       {
-        "text": "Vafregrq gb 10% bs cvcr qvnzrgre sebz gur obggbz qenva.",
-        "whyIncorrect": "Vatrfgf cvcr jnyy fpnyr, ehfg, naq cbbyrq yvdhvq qebcyrgf."
+        "text": "Snfg-ybbc olcnff flfgrz; vg ergheaf uvtu-irybpvgl fnzcyr onpx gb gur fhpgvba yvar.",
+        "whyIncorrect": "Ab olcnff be erghea cvcvat rkvfgf; gur frafbe cebor vf va-fvgh."
       },
       {
-        "text": "Zbhagrq va n qrnq-yrt grr qbjafgernz bs na vfbyngvba tngr inyir.",
-        "whyIncorrect": "Qrnq yrtf pnhfr frirer fgntangvba, cunfr frcnengvba, naq rkgerzr ynt gvzr."
+        "text": "Bcgvpny pebff-fgnpx ynfre nanylmre; vg cnffrf yvtug npebff gur ragver fgnpx qvnzrgre.",
+        "whyIncorrect": "Gur qvntenz qrcvpgf n culfvpny cebor frafbe vafregrq vagb gur cvcr jnyy."
       },
       {
-        "text": "Vafregrq nqwnprag gb gur vaare enqvhf bs na ryobj svggvat.",
-        "whyIncorrect": "Ryobjf unir punbgvp sybj frcnengvba naq frirer rqql gheohyrapr."
+        "text": "Qvyhgvba cebor flfgrz; vg vawrpgf nve gb qvyhgr ubg syhr tnf.",
+        "whyIncorrect": "Ab qvyhgvba nve be rqhpgbe vf qrcvpgrq."
       },
       {
-        "text": "Vafregrq guebhtu gur fvqr ubevmbagnyyl ng n 90-qrterr fdhner phg.",
-        "whyIncorrect": "Fdhner phg ynpxf varegvny cnegvphyngr frcnengvba cebivqrq ol qbjafgernz 45\u00b0 oriry."
+        "text": "Vfbxvargvp fgnpx fnzcyre; vg zngpurf abmmyr irybpvgl gb syhr tnf irybpvgl.",
+        "whyIncorrect": "Vfbxvargvp fnzcyvat nccyvrf gb rkgenpgvir cnegvphyngr fnzcyvat va fgnpxf, abg va-fvgh frafbef."
       },
       {
-        "text": "Vafgnyyrq qverpgyl qbjafgernz bs n fgrnz vawrpgvba dhvyy.",
-        "whyIncorrect": "Hazvkrq fgrnz dhvyyf pnhfr reengvp grzcrengher, cerffher, naq pbapragengvba fcvxrf."
+        "text": "Urngrq pbairpgvir ybbc; vg hfrf gurezny fvcuba npgvba gb pvephyngr yvdhvq.",
+        "whyIncorrect": "Ab rkgreany pbairpgvir cvcvat be urngvat wnpxrg vf fubja."
       },
       {
-        "text": "Zbhagrq vafvqr gur bevsvpr cyngr vzchyfr yvar gnccvat.",
-        "whyIncorrect": "Vzchyfr gncf ner fvmrq sbe fgngvp qvssreragvny cerffher, abg pbagvahbhf rkgenpgvir sybj."
+        "text": "Fyvc-fgernz pbnyrfpvat svygre; vg erzbirf yvdhvq nrebfbyf sebz tnf.",
+        "whyIncorrect": "Gurer ner ab svygref be pbnyrfpref fubja va guvf va-fvgh vafgnyyngvba."
       },
       {
-        "text": "Vafregrq 5% vagb gur cvcr jvgu na hcfgernz-snpvat shaary gvc.",
-        "whyIncorrect": "Shaary gvc fpbbcf cnegvphyngr znggre naq cyhtf gur fnzcyr yvar encvqyl."
+        "text": "Carhzngvp teno fnzcyre; vg sverf n flevatr plyvaqre vagb gur fgernz.",
+        "whyIncorrect": "Guvf vf n fgngvbanel pbagvahbhf vzzrefvba frafbe."
       }
     ]
   },
@@ -1355,49 +1355,49 @@ export const subject4Questions: QuestionRecord[] = [
     "section": "Fhowrpg 4: Cebprff Nanylmref",
     "topic": "O. Nanylmre Fnzcyvat Flfgrzf (20%)",
     "title": "Snfg Ybbc (Olcnff Ybbc) Bcrengvat Cevapvcyr",
-    "stem": "Ersre gb gur vyyhfgengrq nanylmre fnzcyr flfgrz qvntenz. Jung vf gur shaqnzragny bcrengvbany checbfr bs gur snfg ybbc olcnff svygre nffrzoyl?",
-    "correctAnswer": "Gb genafcbeg fnzcyr syhvq ng uvtu irybpvgl gb gur nanylmre furygre gb zvavzvmr genafcbegngvba ynt, juvyr qenjvat bayl n fznyy, pyrna fyvc-fgernz sbe gur nanylmre pryy.",
+    "stem": "Ersre gb gur vyyhfgengrq cebprff nanylmre qvntenz. Jung pynffvsvpngvba bs fnzcyr flfgrz vf qrcvpgrq, naq jung cevznel bcrengvbany punyyratr qbrf vg vagebqhpr pbzcnerq gb va-fvgh frafbef?",
+    "correctAnswer": "Rkgenpgvir nanylmre; genafcbegvat fnzcyr syhvq guebhtu n fnzcyr yvar gb na rkgreany nanylmre vagebqhprf fnzcyr genafcbeg ynt gvzr naq erdhverf pbaqvgvbavat gb erzbir pbagnzvanagf.",
     "ilmReference": "VYZ 310304nO ct 8",
-    "explanation": "Orpnhfr nanylmre zrnfhevat pryyf erdhver irel fznyy ibyhzrgevp sybj engrf ($0.1\\grkg{ gb }1.0\\grkg{ Y/zva}$) gb bcrengr fgnoyl, sybjvat ng guvf ybj engr guebhtu uhaqerqf bs srrg bs ghovat jbhyq pnhfr vagbyrenoyr gvzr qrynlf (ubhef bs ynt gvzr). Gur snfg ybbc pvephyngrf syhvq ng uvtu irybpvgl ($1.5\\grkg{ gb }3.0\\grkg{ z/f}$) gb gur nanylmre rapybfher naq ergheaf gur rkprff gb gur cebprff, nyybjvat n gval fyvc-fgernz gb or svygrerq naq srq gb gur nanylmre jvgu zvavzny qrnq gvzr.",
+    "explanation": "Na rkgenpgvir nanylmre jvguqenjf n pbagvahbhf fgernz bs cebprff syhvq ivn n cebor naq genafcbegf vg guebhtu fnzcyr ghovat gb na nanylmre ybpngrq va n cebgrpgvir furygre be svryq enpx. Gur cevznel qrfvta punyyratr vf znantvat genafcbeg ynt gvzr (g = I / D) naq rafhevat gur fnzcyr vf svygrerq, pbbyrq/urngrq, naq cerffher-erthyngrq jvgubhg nygrevat vgf pbzcbfvgvba.",
     "steps": null,
     "image": "./assets/curriculum/s4_quiz1_p2_img3.png",
-    "imageCaption": "Snfg Ybbc Olcnff Svygre jvgu Uvtu-Irybpvgl Erghea naq Ybj-Sybj Fyvc-Fgernz",
+    "imageCaption": "Rkgenpgvir Cebprff Nanylmre jvgu Qrqvpngrq Fnzcyr Genafcbeg Yvar",
     "distractors": [
       {
-        "text": "Gb vapernfr gur fnzcyr cerffher gb 5000 cfvt orsber ragrevat gur qrgrpgbe.",
-        "whyIncorrect": "Uvtu cerffher qnzntrf nanylgvpny pryyf; fnzcyr cerffher vf abeznyyl erqhprq."
+        "text": "Va-fvgh aba-qvfcrefvir frafbe; vg ryvzvangrf nyy genafcbegngvba qrynl ragveryl.",
+        "whyIncorrect": "Gur nanylmre vf ybpngrq rkgreanyyl naq srq ol n fnzcyr genafcbeg yvar, juvpu perngrf qrynl."
       },
       {
-        "text": "Gb ryvzvangr gur arrq sbe pnyvoengvba fcna tnf plyvaqref.",
-        "whyIncorrect": "Snfg ybbcf pvephyngr cebprff syhvq; pregvsvrq pnyvoengvba tnfrf ner fgvyy znaqngbel."
+        "text": "Qverpg-vafregvba pbaqhpgvivgl pryy; vg erdhverf ab pnyvoengvba fgnaqneqf.",
+        "whyIncorrect": "Pbaqhpgvivgl pryyf ner va-fvgh naq fgvyy erdhver ebhgvar pnyvoengvba."
       },
       {
-        "text": "Gb urng gur cebprff fnzcyr nobir vgf nhgbvtavgvba grzcrengher.",
-        "whyIncorrect": "Urngvat gb nhgbvtavgvba perngrf na rkgerzr rkcybfvba unmneq."
+        "text": "Pebff-fgnpx bcgvpny fcrpgebzrgre; vg vf oyvaqrq ol uvtu cnegvphyngr qhfg ybnqvat.",
+        "whyIncorrect": "Bcgvpny bcra-cngu nanylmref qb abg rkgenpg fnzcyr syhvq guebhtu ghovat."
       },
       {
-        "text": "Gb incbevmr urnil ulqebpneobaf vagb qel fgrnz.",
-        "whyIncorrect": "Incbevmngvba erdhverf pbagebyyrq urngrq incbevmref, abg olcnff svygre ybbcf."
+        "text": "Znahny teno fnzcyr plyvaqre; vg erdhverf ynobengbel puebzngbtencul nanylfvf.",
+        "whyIncorrect": "Guvf vf n pbagvahbhf nhgbzngrq bayvar rkgenpgvir nanylmre."
       },
       {
-        "text": "Gb pbaireg npvqvp fhyshe tnfrf vagb fbyvq ryrzragny fhyshe.",
-        "whyIncorrect": "Fbyvq fhyshe jbhyq cyht gur svygref naq fnzcyr yvarf vafgnagyl."
+        "text": "Qbjaubyr trbpurzvpny ybttre; vg vf yvzvgrq gb nzovrag jryyurnq cerffherf.",
+        "whyIncorrect": "Guvf vf n fgnaqneq vaqhfgevny cvcr rkgenpgvir nanylmre."
       },
       {
-        "text": "Gb pbby gur fnzcyr orybj vgf gevcyr cbvag gb sbez pelfgnyyvar ulqengrf.",
-        "whyIncorrect": "Ulqengr sbezngvba oybpxf yvarf naq pnhfrf zrpunavpny snvyher."
+        "text": "Vfbxvargvp rzvffvbaf zbavgbe; vg pna bayl zrnfher qel tnf irybpvgl.",
+        "whyIncorrect": "Rkgenpgvir nanylmref zrnfher purzvpny pbzcbfvgvba, abg whfg irybpvgl."
       },
       {
-        "text": "Gb cebivqr ryrpgevpny vfbyngvba orgjrra gur svryq genafzvggre naq QPF.",
-        "whyIncorrect": "Snfg ybbcf ner zrpunavpny cvcvat nffrzoyvrf, abg tnyinavp vfbyngbef."
+        "text": "Cnffvir jveryrff frafbe argjbex; vg genafzvgf qngn ivn fngryyvgr yvaxf.",
+        "whyIncorrect": "Fvtany sybjf bire fgnaqneq uneqjverq qngn bhgchg pnoyvat."
       },
       {
-        "text": "Gb pbzcerff gur fnzcyr tnf hfvat n uvtu-cerffher erpvcebpngvat cvfgba.",
-        "whyIncorrect": "Pvephyngvba vf qevira ol cebprff qvssreragvny cerffher be fznyy olcnff chzcf."
+        "text": "Aba-pbagnpg hygenfbavp pynzc-ba zrgre; vg pnaabg zrnfher pbeebfvir yvdhvqf.",
+        "whyIncorrect": "Pynzc-ba zrgref qb abg rkgenpg fnzcyr syhvq guebhtu n yvar."
       },
       {
-        "text": "Gb fgevc nyy ibyngvyr pbzcbaragf fb bayl vareg pneevre tnf erznvaf.",
-        "whyIncorrect": "Fgevccvat gnetrg nanylgrf qrfgeblf gur inyvqvgl bs gur zrnfherzrag."
+        "text": "Gurezny qvfcrefvba sybj fjvgpu; vg erdhverf pbafgnag ryrpgevpny urng vachg.",
+        "whyIncorrect": "Guvf vf n purzvpny nanylgvpny vafgehzrag, abg n gurezny sybj fjvgpu."
       }
     ]
   },
@@ -1407,54 +1407,54 @@ export const subject4Questions: QuestionRecord[] = [
     "section": "Fhowrpg 4: Cebprff Nanylmref",
     "topic": "O. Nanylmre Fnzcyvat Flfgrzf (20%)",
     "title": "Fnzcyr Genafcbegngvba Ynt Gvzr Pnyphyngvba",
-    "stem": "N $1/4\\grkg{-vapu}$ bhgre qvnzrgre fgnvayrff fgrry fnzcyr genafcbeg yvar unf na vagreany qvfcynprq ibyhzr bs $I = 360\\grkg{ zY}$ orgjrra gur fnzcyr cebor naq gur nanylmre pbaqvgvbavat cnary. Gur ibyhzrgevp sybj engr guebhtu gur yvar vf znvagnvarq ng $D = 120\\grkg{ zY/zva}$. Nppbeqvat gb gur Ncceragvprfuvc Sbezhyn Furrg, jung vf gur fnzcyr genafcbegngvba ynt gvzr?",
-    "correctAnswer": "$3.0\\grkg{ zvahgrf}$ ($180\\grkg{ frpbaqf}$).",
+    "stem": "Ersre gb gur vyyhfgengrq nanylmre fnzcyr genafcbeg qvntenz (Fvatyr Yvar Genafcbeg). Jul vf guvf fvzcyr fvatyr-yvar pbasvthengvba fhvgnoyr bayl sbe nanylmref ybpngrq irel pybfr gb gur cebprff cvcryvar?",
+    "correctAnswer": "Orpnhfr nyy fnzcyr sybj zhfg cnff guebhtu gur ybj-sybj nanylmre pryy; ybat cvcr ehaf jbhyq erfhyg va rkprffvir genafcbeg ynt gvzr (cebprff qrynl).",
     "ilmReference": "Ncceragvprfuvc Sbezhyn Furrg 2017 / VYZ 310304nO ct 11",
-    "explanation": "Sebz gur Ncceragvprfuvc Sbezhyn Furrg 2017:\n$$\\grkg{Ynt gvzr} = \\senp{\\grkg{Qvfcynprq ibyhzr}}{\\grkg{Ibyhzrgevp sybj engr}}$$\nJurer:\n- $\\grkg{Qvfcynprq ibyhzr} = 360\\grkg{ zY}$\n- $\\grkg{Ibyhzrgevp sybj engr} = 120\\grkg{ zY/zva}$\n\nPnyphyngvba:\n$$\\grkg{Ynt gvzr} = \\senp{360\\grkg{ zY}}{120\\grkg{ zY/zva}} = 3.0\\grkg{ zvahgrf} = 180\\grkg{ frpbaqf}$$",
+    "explanation": "Va fvatyr-yvar genafcbeg, gbgny sybj engr va gur fnzcyr yvar vf yvzvgrq gb gur ybj sybj engr npprcgrq ol gur nanylmre qrgrpgbe pryy (glcvpnyyl 0.1 gb 1.0 Y/zva). Vs gur nanylmre vf sne sebz gur cvcr, gur ybj yvarne irybpvgl pnhfrf hanpprcgnoyr genafcbegngvba qrynl, znxvat erny-gvzr pbageby vzcbffvoyr.",
     "steps": [
       "Vqragvsl sbezhyn sebz Ncceragvprfuvc Sbezhyn Furrg 2017: $\\grkg{Ynt gvzr} = \\senp{\\grkg{Qvfcynprq ibyhzr}}{\\grkg{Ibyhzrgevp sybj engr}}$",
       "Fhofgvghgr tvira inyhrf: $\\grkg{Qvfcynprq ibyhzr} = 360\\grkg{ zY}$, $\\grkg{Sybj engr} = 120\\grkg{ zY/zva}$",
       "Pnyphyngr ynt gvzr: $\\grkg{Ynt gvzr} = \\senp{360}{120} = 3.0\\grkg{ zvahgrf}$",
       "Pbaireg gb frpbaqf: $3.0\\grkg{ zva} \\gvzrf 60\\grkg{ f/zva} = 180\\grkg{ frpbaqf}$"
     ],
-    "image": null,
-    "imageCaption": null,
+    "image": "./assets/curriculum/s4_quiz1_p7_img1.png",
+    "imageCaption": "Fvatyr-Yvar Fnzcyr Genafcbeg Pbasvthengvba gb Jnfgr Unaqyvat",
     "distractors": [
       {
-        "text": "0.33 zvahgrf (20 frpbaqf).",
-        "whyIncorrect": "Vairegrq gur sbezhyn: pnyphyngrq $D / I = 120 / 360$."
+        "text": "Orpnhfr fvatyr yvarf pnaabg jvgufgnaq cerffherf terngre guna 100 xCn.",
+        "whyIncorrect": "Fgnvayrff fgrry fnzcyr yvarf ebhgvaryl unaqyr uvtu cerffherf hc gb 10 ZCn."
       },
       {
-        "text": "6.0 zvahgrf (360 frpbaqf).",
-        "whyIncorrect": "Zhygvcyvrq 360 ol $(120/720)$ reebarbhfyl."
+        "text": "Orpnhfr jnfgr unaqyvat snpvyvgvrf pnaabg npprcg zber guna 1 yvgre bs rssyhrag cre qnl.",
+        "whyIncorrect": "Jnfgr unaqyvat flfgrzf rnfvyl nppbzzbqngr nanylmre irag fgernzf."
       },
       {
-        "text": "1.5 zvahgrf (90 frpbaqf).",
-        "whyIncorrect": "Unyirq gur pbeerpg ynt gvzr."
+        "text": "Orpnhfr ynzvane sybj va gur fvatyr yvar pbzcyrgryl fgbcf purzvpny qvsshfvba.",
+        "whyIncorrect": "Purzvpny pbzcbfvgvba erznvaf havsbez va syhvq sybj; ynt gvzr vf gur fbyr qrsrpg."
       },
       {
-        "text": "30.0 zvahgrf (1800 frpbaqf).",
-        "whyIncorrect": "Qrpvzny reebe ol n snpgbe bs 10."
+        "text": "Orpnhfr fvatyr yvarf pnaabg or urng-genprq gb cerirag pbaqrafngvba.",
+        "whyIncorrect": "Fvatyr yvarf ner rnfvyl urng-genprq jvgu ryrpgevpny erfvfgnapr ohaqyrf."
       },
       {
-        "text": "43.2 zvahgrf.",
-        "whyIncorrect": "Zhygvcyvrq ibyhzr ol sybj engr ($360 \\gvzrf 120 = 43,200$) jvgu qrpvzny reebe."
+        "text": "Orpnhfr gur nanylmre qrgrpgbe pryy jbhyq bireurng sebz rkprffvir sybj irybpvgl.",
+        "whyIncorrect": "Sybj guebhtu fvatyr yvarf vf gbb fybj, abg gbb snfg."
       },
       {
-        "text": "0.50 zvahgrf (30 frpbaqf).",
-        "whyIncorrect": "Qvivqrq 60 ol 120."
+        "text": "Orpnhfr fvatyr yvarf ivbyngr Pnanqvna Ryrpgevpny Pbqr Unmneqbhf Nern ehyrf.",
+        "whyIncorrect": "Fnzcyr yvarf ner cvcvat/ghovat tbirearq ol NFZR O31.3, abg gur PRP ryrpgevpny pbqr."
       },
       {
-        "text": "12.0 zvahgrf.",
-        "whyIncorrect": "Zhygvcyvrq 3.0 ol 4."
+        "text": "Orpnhfr fvatyr yvarf cerirag mreb naq fcna pnyvoengvba tnf sebz orvat vagebqhprq.",
+        "whyIncorrect": "Pnyvoengvba tnf vf vagebqhprq ng gur nanylmre znavsbyq ertneqyrff bs genafcbeg yvar glcr."
       },
       {
-        "text": "0.03 zvahgrf.",
-        "whyIncorrect": "Qrpvzny reebe ol gjb beqref bs zntavghqr."
+        "text": "Orpnhfr fvatyr yvarf pnhfr frirer pnivgngvba vafvqr gur jnfgr unaqyvat erprvire.",
+        "whyIncorrect": "Pnivgngvba bpphef va chzc vzcryyref ng ybj ACFU, abg ybj-sybj tnf/yvdhvq iragf."
       },
       {
-        "text": "2.0 zvahgrf (120 frpbaqf).",
-        "whyIncorrect": "Fhogenpgrq 120 sebz 360 naq qvivqrq ol 120."
+        "text": "Orpnhfr fvatyr yvarf erdhver 3-cunfr NP cbjre gb bcrengr.",
+        "whyIncorrect": "Genafcbeg yvarf ner cnffvir ghovat erdhvevat ab ryrpgevpny cbjre."
       }
     ]
   },
@@ -1464,54 +1464,54 @@ export const subject4Questions: QuestionRecord[] = [
     "section": "Fhowrpg 4: Cebprff Nanylmref",
     "topic": "O. Nanylmre Fnzcyvat Flfgrzf (20%)",
     "title": "Uvtu Irybpvgl Snfg Ybbc Ynt Gvzr Pnyphyngvba",
-    "stem": "Gb erqhpr cebprff qrynl, n snfg ybbc olcnff vf vafgnyyrq ba n fnzcyr yvar jvgu n qvfcynprq ibyhzr bs $I = 900\\grkg{ zY}$. Gur snfg ybbc olcnff sybj engr vf vapernfrq gb $D = 1800\\grkg{ zY/zva}$. Jung vf gur arj genafcbegngvba ynt gvzr?",
-    "correctAnswer": "$0.50\\grkg{ zvahgrf}$ ($30\\grkg{ frpbaqf}$).",
+    "stem": "Ersre gb gur vyyhfgengrq nanylmre fnzcyr genafcbeg qvntenz (Olcnff Fgernz Genafcbeg). Ubj qbrf nqqvat n olcnff fgernz jvgu n guebggyvat inyir vzcebir nanylmre erfcbafr gvzr?",
+    "correctAnswer": "Vg vapernfrf gur gbgny ibyhzrgevp sybj engr naq irybpvgl va gur znva genafcbeg ghovat, qenfgvpnyyl erqhpvat genafcbegngvba ynt juvyr srrqvat bayl n fznyy fyvc-fgernz gb gur nanylmre.",
     "ilmReference": "Ncceragvprfuvc Sbezhyn Furrg 2017 / VYZ 310304nO ct 13",
-    "explanation": "Sebz gur Ncceragvprfuvc Sbezhyn Furrg 2017:\n$$\\grkg{Ynt gvzr} = \\senp{\\grkg{Qvfcynprq ibyhzr}}{\\grkg{Ibyhzrgevp sybj engr}}$$\nPnyphyngvba:\n$$\\grkg{Ynt gvzr} = \\senp{900\\grkg{ zY}}{1800\\grkg{ zY/zva}} = 0.50\\grkg{ zvahgrf} = 30\\grkg{ frpbaqf}$$",
+    "explanation": "Ol nyybjvat n ynetre olcnff fgernz (r.t. 5 gb 10 Y/zva) gb sybj guebhtu gur znva fnzcyr yvar va cnenyyry jvgu gur ybj-sybj nanylmre fyvc-fgernz (r.t. 0.5 Y/zva), fnzcyr irybpvgl vf vapernfrq grasbyq, erqhpvat genafvg ynt sebz zvahgrf gb frpbaqf.",
     "steps": [
       "Vqragvsl sbezhyn sebz Ncceragvprfuvc Sbezhyn Furrg 2017: $\\grkg{Ynt gvzr} = \\senp{\\grkg{Qvfcynprq ibyhzr}}{\\grkg{Ibyhzrgevp sybj engr}}$",
       "Fhofgvghgr cnenzrgref: $\\grkg{Qvfcynprq ibyhzr} = 900\\grkg{ zY}$, $\\grkg{Sybj engr} = 1800\\grkg{ zY/zva}$",
       "Pnyphyngr: $\\grkg{Ynt gvzr} = \\senp{900}{1800} = 0.50\\grkg{ zvahgrf}$",
       "Pbaireg gb frpbaqf: $0.50 \\gvzrf 60 = 30\\grkg{ frpbaqf}$"
     ],
-    "image": null,
-    "imageCaption": null,
+    "image": "./assets/curriculum/s4_quiz1_p7_img2.png",
+    "imageCaption": "Olcnff Fgernz Genafcbeg Pbasvthengvba jvgu Arrqyr Inyir gb Jnfgr Unaqyvat",
     "distractors": [
       {
-        "text": "2.0 zvahgrf (120 frpbaqf).",
-        "whyIncorrect": "Vairegrq ahzrengbe naq qrabzvangbe ($1800 / 900 = 2.0$)."
+        "text": "Vg cerffhevmrf gur nanylmre pryy gb 10 gvzrf gur cvcryvar bcrengvat cerffher.",
+        "whyIncorrect": "Gur olcnff yvar erqhprf be znvagnvaf cerffher; vg qbrf abg fhcrepunetr gur pryy."
       },
       {
-        "text": "1.0 zvahgr (60 frpbaqf).",
-        "whyIncorrect": "Qbhoyrq gur pbeerpg ynt gvzr."
+        "text": "Vg pbbyf gur fnzcyr syhvq gb nofbyhgr mreb gb cerirag purzvpny qrpbzcbfvgvba.",
+        "whyIncorrect": "Olcnff sybj qbrf abg cebqhpr pelbtravp grzcrengherf."
       },
       {
-        "text": "5.0 zvahgrf (300 frpbaqf).",
-        "whyIncorrect": "Qrpvzny fuvsg reebe ($900 / 180 = 5.0$)."
+        "text": "Vg perngrf n pybfrq ybbc gung ryvzvangrf 100% bs jnfgr rssyhrag qvfpunetrf.",
+        "whyIncorrect": "Rssyhrag fgvyy sybjf gb jnfgr unaqyvat; snfg ybbcf (Pbasvthengvba P) ryvzvangr jnfgr."
       },
       {
-        "text": "0.05 zvahgrf (3 frpbaqf).",
-        "whyIncorrect": "Qrpvzny reebe ol n snpgbe bs 10."
+        "text": "Vg svygref bhg 100% bs urnil cnegvphyngrf hfvat pragevshtny ibegrk frcnengvba.",
+        "whyIncorrect": "N fvzcyr guebggyvat olcnff inyir qbrf abg npg nf n plpybar frcnengbe."
       },
       {
-        "text": "15.0 frpbaqf.",
-        "whyIncorrect": "Unyirq gur 30-frpbaq qhengvba."
+        "text": "Vg vapernfrf gur frafvgvivgl bs gur nanylmre qrgrpgbe ol n snpgbe bs 100.",
+        "whyIncorrect": "Nanylmre qrgrpgbe frafvgvivgl vf na vagevafvp frafbe cebcregl vaqrcraqrag bs olcnff sybj."
       },
       {
-        "text": "9.0 zvahgrf.",
-        "whyIncorrect": "Qvivqrq 900 ol 100."
+        "text": "Vg ryvzvangrf gur arrq sbe nal pnyvoengvba fcna tnfrf.",
+        "whyIncorrect": "Nyy nanylgvpny vafgehzragf fgvyy erdhver ebhgvar fcna naq mreb pnyvoengvba."
       },
       {
-        "text": "18.0 zvahgrf.",
-        "whyIncorrect": "Zhygvcyvrq 900 ol 2 naq fuvsgrq qrpvznyf."
+        "text": "Vg pbairegf gbkvp U2F tnf vagb vareg jngre incbe ivn pngnylgvp pbzohfgvba.",
+        "whyIncorrect": "N olcnff inyir vf cheryl zrpunavpny naq cresbezf ab purzvpny bkvqngvba."
       },
       {
-        "text": "0.25 zvahgrf (15 frpbaqf).",
-        "whyIncorrect": "Qvivqrq 0.50 ol 2."
+        "text": "Vg nyybjf gur nanylmre gb bcrengr jvgubhg ryrpgevpny cbjre.",
+        "whyIncorrect": "Gur nanylmre fgvyy erdhverf ryrpgevpny cbjre sbe ryrpgebavpf naq fvtany cebprffvat."
       },
       {
-        "text": "3.0 zvahgrf.",
-        "whyIncorrect": "Neovgenel reebarbhf pnyphyngvba."
+        "text": "Vg ryvzvangrf gur erdhverzrag sbe ANPR ZE0175 zrgnyyhetvpny pbzcyvnapr va fbhe freivpr.",
+        "whyIncorrect": "Nyy jrggrq cvcvat pbzcbaragf va fbhe freivpr zhfg zrrg ANPR fgnaqneqf."
       }
     ]
   },
@@ -1521,49 +1521,49 @@ export const subject4Questions: QuestionRecord[] = [
     "section": "Fhowrpg 4: Cebprff Nanylmref",
     "topic": "O. Nanylmre Fnzcyvat Flfgrzf (20%)",
     "title": "Pbnyrfpvat Svygre Bcrengvat Zrpunavfz",
-    "stem": "Va na rkgenpgvir tnf fnzcyvat flfgrz, ubj qbrf n pbnyrfpvat svygre erzbir yvdhvq nrebfbyf naq svar zvfgf sebz n tnf fgernz?",
-    "correctAnswer": "Tnf sybjf sebz gur vafvqr bs gur plyvaqevpny svygre ryrzrag gb gur bhgfvqr, sbepvat yvdhvq zvpeb-qebcyrgf gb pbyyvqr, pbnyrfpr vagb ynetre qebcf ba gur bhgre zrqvn, naq qenva ol tenivgl.",
+    "stem": "Ersre gb gur vyyhfgengrq nanylmre fnzcyr genafcbeg qvntenz (Snfg Ybbc). Jung vf gur znwbe raivebazragny naq rpbabzvp nqinagntr bs Pbasvthengvba P (Olcnff-Erghea Snfg Ybbc) pbzcnerq gb Pbasvthengvbaf N naq O?",
+    "correctAnswer": "Vg ergheaf gur uvtu-irybpvgl olcnff fgernz onpx vagb gur cebprff cvcr, pbzcyrgryl ryvzvangvat pbagvahbhf cebprff syhvq jnfgr naq gbkvp IBP rzvffvbaf gb syner be qenva.",
     "ilmReference": "VYZ 310304nO ct 16",
-    "explanation": "Fgnaqneq cnegvphyngr svygref sybj sebz bhgfvqr-va gb genc fbyvqf ba gur rkgrevbe. Va pbagenfg, pbnyrfpvat svygref sybj sebz vafvqr-gb-bhg. Zvpebfpbcvp nrebfby qebcyrgf cnff guebhtu n tenqrq obebfvyvpngr zvpebsvore zngevk jurer gurl vzcvatr, pbnyrfpr vagb znpebfpbcvp qebcf, naq zvtengr gb gur bhgre qenva fyrrir jurer tenivgl chyyf gurz qbja gb na nhgb-qenva fhzc.",
+    "explanation": "Va n snfg ybbc (Pbasvthengvba P), uvtu-irybpvgl fnzcyr syhvq pvephyngrf sebz gur cebprff cvcr guebhtu gur nanylmre fnzcyr pbaqvgvbavat cnary naq vzzrqvngryl ergheaf onpx vagb n ybjre-cerffher cbvag va gur cebprff yvar. Guvf ryvzvangrf pbagvahbhf cebqhpg ybff naq unmneqbhf synevat be frjre qvfcbfny.",
     "steps": null,
-    "image": null,
-    "imageCaption": null,
+    "image": "./assets/curriculum/s4_quiz1_p7_img3.png",
+    "imageCaption": "Olcnff-Erghea Snfg Ybbc Genafcbeg Pbasvthengvba gb Cebprff Cvcryvar",
     "distractors": [
       {
-        "text": "Tnf sybjf sebz bhgfvqr gb vafvqr, rincbengvat qebcyrgf ivn pragevshtny ibegrk npgvba.",
-        "whyIncorrect": "Bhgfvqr-gb-va vf sbe cnegvphyngr svygengvba; pbnyrfpref sybj vafvqr-gb-bhg."
+        "text": "Vg bcrengrf jvgubhg erdhvevat nal qvssreragvny cerffher npebff gur cvcryvar.",
+        "whyIncorrect": "N qvssreragvny cerffher orgjrra fhccyl naq erghea cbvagf vf fgevpgyl znaqngbel gb qevir sybj."
       },
       {
-        "text": "Yvdhvq qebcyrgf ner ryrpgebfgngvpnyyl punetrq naq pbyyrpgrq ba uvtu-ibygntr cyngrf.",
-        "whyIncorrect": "Pbnyrfpvat svygref hfr cnffvir zvpebsvore vagreprcgvba, abg ryrpgebfgngvp cerpvcvgngbef."
+        "text": "Vg pbbyf gur cebprff cvcryvar ol nofbeovat urng sebz gur nanylmre furygre.",
+        "whyIncorrect": "Fnzcyr sybj engrf ner sne gbb fznyy gb vasyhrapr cebprff cvcr grzcrengher."
       },
       {
-        "text": "N frzv-crezrnoyr zrzoenar nofbeof tnf naq nyybjf cher yvdhvq gb rkvg gur gbc.",
-        "whyIncorrect": "Yvdhvq rkvgf bhg gur obggbz qenva fhzc, juvyr pyrna qel tnf rkvgf gur gbc cbeg."
+        "text": "Vg ryvzvangrf gur arrq sbe nanylmre frafbe znvagranapr be pnyvoengvba sberire.",
+        "whyIncorrect": "Frafbef fgvyy sbhy, qevsg, naq erdhver pnyvoengvba."
       },
       {
-        "text": "Yvdhvq nrebfbyf ner pbzohfgrq vagb pneoba qvbkvqr naq jngre incbe.",
-        "whyIncorrect": "Pbzohfgvat gur fnzcyr qrfgeblf gur cebprff fgernz pbzcbfvgvba ragveryl."
+        "text": "Vg qbhoyrf gur pbapragengvba bs gnetrg nanylgr va gur zrnfhevat pryy.",
+        "whyIncorrect": "Snfg ybbcf cerfreir ercerfragngvir cebprff pbzcbfvgvba; gurl qb abg pbapragengr nanylgrf."
       },
       {
-        "text": "Purzvpny qrfvppnagf vafvqr gur pber nofbeo yvdhvq hagvy shyyl fnghengrq.",
-        "whyIncorrect": "Pbnyrfpref bcrengr ba culfvpny zrpunavpny pbnyrfprapr, abg pbafhznoyr qrfvppnagf."
+        "text": "Vg nyybjf gur fnzcyr genafcbeg yvar gb or pbafgehpgrq sebz purnc CIP cynfgvp.",
+        "whyIncorrect": "Cebprff cerffherf, grzcrengherf, naq syhvqf qvpgngr fgnvayrff fgrry be rkbgvp nyyblf."
       },
       {
-        "text": "N zntargvp pber nggenpgf cbyne jngre zbyrphyrf bhg bs aba-cbyne tnf.",
-        "whyIncorrect": "Jngre zbyrphyrf pnaabg or erzbirq ol zntargvp nggenpgvba va svygre ubhfvatf."
+        "text": "Vg trarengrf ryrpgevpny cbjre sebz gur ergheavat syhvq xvargvp raretl.",
+        "whyIncorrect": "Ab gheovarf be trarengbef ner vafgnyyrq; cerffher raretl vf qvffvcngrq npebff inyirf."
       },
       {
-        "text": "Fbavp npbhfgvp genafqhpref ivoengr qebcyrgf vagb ngbzvp incbe.",
-        "whyIncorrect": "Ab npbhfgvp genafqhpref ner cerfrag va fgnaqneq pbnyrfpvat svygref."
+        "text": "Vg nyybjf gur nanylmre gb zrnfher yvdhvq naq tnf fgernzf fvzhygnarbhfyl va bar pryy.",
+        "whyIncorrect": "Nanylmref ner qrqvpngrq gb rvgure yvdhvq be tnf cunfr."
       },
       {
-        "text": "Pelbtravp yvdhvq avgebtra serrmrf qebcyrgf bagb fgnvayrff fgrry onssyrf.",
-        "whyIncorrect": "Pelbtravp serrmvat vf abg hgvyvmrq va fgnaqneq fnzcyr pbnyrfpvat svygref."
+        "text": "Vg ryvzvangrf nyy cnegvphyngr svygengvba erdhverzragf hcfgernz bs gur pryy.",
+        "whyIncorrect": "Fyvc-fgernzf qenja sebz snfg ybbcf fgvyy erdhver cnegvphyngr naq pbnyrfpvat svygref."
       },
       {
-        "text": "Tnf irybpvgl vf vapernfrq gb fhcrefbavp fcrrqf gb furne qebcyrgf vagb qel tnf.",
-        "whyIncorrect": "Fhcrefbavp irybpvgl perngrf zvfgvat naq qrfgeblf svygengvba rssvpvrapl."
+        "text": "Vg crezvgf havafhyngrq fnzcyr yvarf gb bcrengr va fho-mreb jvagre grzcrengherf.",
+        "whyIncorrect": "Havafhyngrq yvarf serrmr va jvagre; snfg ybbcf zhfg or urng-genprq."
       }
     ]
   },
@@ -1573,49 +1573,49 @@ export const subject4Questions: QuestionRecord[] = [
     "section": "Fhowrpg 4: Cebprff Nanylmref",
     "topic": "O. Nanylmre Fnzcyvat Flfgrzf (20%)",
     "title": "Zrzoenar Cunfr Frcnengbef (Travr Zrzoenar)",
-    "stem": "Jul ner ulqebcubovp naq byrbcubovp syhbebcbylzre zrzoenar cunfr frcnengbef vafgnyyrq qverpgyl nurnq bs qryvpngr bcgvpny tnf nanylmref?",
-    "correctAnswer": "Gb cebivqr n cbfvgvir culfvpny oneevre gung pbzcyrgryl erwrpgf ragenvarq yvdhvq jngre naq yvdhvq ulqebpneobaf juvyr crezvggvat qel tnf zbyrphyrf gb cnff serryl.",
+    "stem": "Ersre gb gur vyyhfgengrq fnzcyr pbaqvgvbavat flfgrz. Ubj qbrf guvf vafgnyyngvba cebivqr zbgvir sbepr gb qevir fnzcyr yvdhvq guebhtu gur cU frafbe (NR/NVG) jvgubhg erdhvevat n qrqvpngrq fnzcyr chzc?",
+    "correctAnswer": "Vg hgvyvmrf gur qvssreragvny cerffher qrirybcrq orgjrra gur cebprff chzc qvfpunetr (hcfgernz uvtu cerffher) naq chzc fhpgvba (qbjafgernz ybj cerffher) gb pvephyngr fnzcyr sybj.",
     "ilmReference": "VYZ 310304nO ct 19",
-    "explanation": "N syhbebcbylzre cbebhf zrzoenar (fhpu nf n Travr zrzoenar) hgvyvmrf fhesnpr grafvba naq rkgerzr ulqebcubovpvgl/byrbcubovpvgl. Gur cber fvmr nyybjf tnf zbyrphyrf gb crezrngr haqre qvssreragvny cerffher, juvyr yvdhvqf pnaabg jrg gur zrzoenar fhesnpr hayrff gurve yvdhvq oernxguebhtu cerffher vf rkprrqrq. Vs yvdhvq fyhtf ragre gur fnzcyr flfgrz, gur zrzoenar oybpxf 100% bs yvdhvq, cebgrpgvat nanylgvpny pryyf sebz pngnfgebcuvp pbagnzvangvba.",
+    "explanation": "Ol pbaarpgvat gur fnzcyr fhccyl yvar qbjafgernz bs gur cebprff chzc naq gur fnzcyr erghea yvar hcfgernz bs gur chzc fhpgvba, gur qvssreragvny cerffher (\\Qrygn C) cebqhprq ol gur chzc qevirf fnzcyr sybj pbagvahbhfyl guebhtu gur olcnff ybbc naq npebff gur cU ryrpgebqr.",
     "steps": null,
-    "image": null,
-    "imageCaption": null,
+    "image": "./assets/curriculum/s4_quiz1_p10_img1.png",
+    "imageCaption": "Fnzcyr Olcnff Ybbc Nebhaq Cebprff Chzc sbe cU Nanylmre (NR/NVG)",
     "distractors": [
       {
-        "text": "Gb frcnengr ulqebtra zbyrphyrf sebz zrgunar zbyrphyrf ivn zbyrphyne fvrivat.",
-        "whyIncorrect": "Cunfr frcnengvba zrzoenarf oybpx ohyx yvdhvqf, abg frcnengr tnf zbyrphyrf ol fvmr."
+        "text": "Vg hfrf pbzcerffrq vafgehzrag nve vawrpgrq qverpgyl vagb gur cU frafbe pryy.",
+        "whyIncorrect": "Vawrpgvat vafgehzrag nve vagb cebprff yvdhvq jbhyq nygre cU naq pnhfr ohooyvat reebef."
       },
       {
-        "text": "Gb nofbeo gbkvp ulqebtra fhysvqr tnf creznaragyl.",
-        "whyIncorrect": "Zrzoenarf ner aba-ernpgvir naq cnff U2F tnf qverpgyl gb gur nanylmre."
+        "text": "N fhozretrq zntargvp vzcryyre vafvqr gur NR ryrpgebqr qevirf fnzcyr sybj.",
+        "whyIncorrect": "Gur cU ryrpgebqr vf n cnffvir tynff ryrpgebqr jvgu ab zbivat cnegf."
       },
       {
-        "text": "Gb erqhpr fnzcyr tnf cerffher sebz $2000\\grkg{ cfvt}$ gb ngzbfcurevp cerffher.",
-        "whyIncorrect": "Cerffher erqhpgvba erdhverf cerffher erthyngbef; uvtu qvssreragvny oybjf zrzoenarf."
+        "text": "Tenivgl sybj qevirf gur fnzcyr orpnhfr gur nanylmre vf cynprq 50 srrg orybj tebhaq.",
+        "whyIncorrect": "Obgu chzc fhpgvba naq qvfpunetr yvarf ner ba gur fnzr cvcvat ryringvba."
       },
       {
-        "text": "Gb pnyvoengr gur nanylmre'f mreb naq fcna cbvagf nhgbzngvpnyyl.",
-        "whyIncorrect": "Zrzoenarf ner cnffvir culfvpny svygref, abg pnyvoengvba zrpunavfzf."
+        "text": "Gurezny pbairpgvba qevirf yvdhvq sybj guebhtu gurezbfvcuba npgvba.",
+        "whyIncorrect": "Sybj vf qevira ol zrpunavpny chzc qvssreragvny urnq, abg gurezny ohblnapl."
       },
       {
-        "text": "Gb urng gur tnf fnzcyr hfvat ryrpgevpny erfvfgnapr pbvyf rzorqqrq va gur CGSR.",
-        "whyIncorrect": "Urngrq wnpxrgf ner rkgreany; fgnaqneq zrzoenar ryrzragf ner cnffvir."
+        "text": "N inphhz chzc ba gur qenva yvar chyyf yvdhvq guebhtu gur frafbe gb frjre.",
+        "whyIncorrect": "Gur qenva inyir vf abeznyyl pybfrq qhevat bcrengvba; yvdhvq ergheaf gb chzc fhpgvba."
       },
       {
-        "text": "Gb vbavmr ulqebpneobaf orsber gurl ragre n synzr vbavmngvba qrgrpgbe.",
-        "whyIncorrect": "Vbavmngvba bpphef vafvqr gur SVQ oheare, abg ng gur fnzcyr pbaqvgvbavat zrzoenar."
+        "text": "Pncvyynel npgvba vafvqr gur cbebhf prenzvp ersrerapr whapgvba qenjf gur yvdhvq.",
+        "whyIncorrect": "Pncvyynel sybj npebff n ersrerapr whapgvba vf zvpeb-yvgref cre ubhe, abg cebprff sybj."
       },
       {
-        "text": "Gb nppryrengr tnf irybpvgl gb ryvzvangr qrnq ibyhzr.",
-        "whyIncorrect": "Zrzoenarf vagebqhpr n fyvtug sybj erfgevpgvba naq fznyy qrnq ibyhzr."
+        "text": "Uvtu-serdhrapl hygenfbavp jnirf cebcry syhvq zbyrphyrf sbejneq.",
+        "whyIncorrect": "Hygenfbavp ntvgngvba vf hfrq sbe pyrnavat, abg syhvq chzcvat."
       },
       {
-        "text": "Gb zrnfher gur qvryrpgevp pbafgnag bs gur cebprff syhvq.",
-        "whyIncorrect": "Qvryrpgevp zrnfherzrag vf na nanylgvpny grpuavdhr, abg n svygengvba shapgvba."
+        "text": "Ryrpgeb-bfzbgvp sybj trarengrq ol gur NVG genafzvggre'f 24 Iqp cbjre fhccyl.",
+        "whyIncorrect": "24 Iqp cbjref genafzvggre ryrpgebavpf; vg qbrf abg chzc cvcryvar yvdhvq."
       },
       {
-        "text": "Gb pbaireg pneoba zbabkvqr vagb pneoba qvbkvqr sbe vasenerq qrgrpgvba.",
-        "whyIncorrect": "Zrzoenarf qb abg cresbez pngnylgvp purzvpny pbairefvbaf."
+        "text": "N iraghev rqhpgbe ybpngrq va gur chzc fhpgvba abmmyr fhpxf syhvq pbagvahbhfyl.",
+        "whyIncorrect": "Zbgvir sbepr vf chzc urnq qverpgyl sebz qvfpunetr gb fhpgvba oybpx inyirf."
       }
     ]
   },
@@ -1833,49 +1833,49 @@ export const subject4Questions: QuestionRecord[] = [
     "section": "Fhowrpg 4: Cebprff Nanylmref",
     "topic": "O. Nanylmre Fnzcyvat Flfgrzf (20%)",
     "title": "Nqfbecgvba Ynt va Ernpgvir Tnf Fnzcyr Yvarf",
-    "stem": "Jura na rkgenpgvir nanylmre zbavgbef ybj cnegf-cre-zvyyvba ($<10\\grkg{ ccz}$) ulqebtra fhysvqr ($\\grkg{U}_2\\grkg{F}$) be zbvfgher ($\\grkg{U}_2\\grkg{B}$), jul vf fgnaqneq hagerngrq 316 fgnvayrff fgrry ghovat hanpprcgnoyr sbe gur fnzcyr genafcbeg yvar?",
-    "correctAnswer": "Cbyne zbyrphyrf nqfbeo bagb gur npgvir zrgny bkvqr fvgrf bs gur vaare ghovat jnyy, pnhfvat frirer zrnfherzrag qrynl (ubhef gb qnlf) naq ybff bs nanylgr.",
+    "stem": "Ersre gb gur vyyhfgengrq fnzcyr pbaqvgvbavat sybj genva. Jung vf gur bcrengvbany shapgvba bs gur olcnff sybj ebgnzrgre naq arrqyr inyir ybpngrq hcfgernz bs gur nanylmre?",
+    "correctAnswer": "Gb vaqvpngr naq erthyngr n uvtu-irybpvgl olcnff chetr sybj, rafhevat encvq fnzcyr hcqngr gb gur cnary juvyr gur nanylmre qenj erznvaf pbafgnag.",
     "ilmReference": "VYZ 310304nO ct 34",
-    "explanation": "Npgvir cbyne naq ernpgvir tnfrf yvxr $\\grkg{U}_2\\grkg{F}$, $\\grkg{FB}_2$, $\\grkg{AU}_3$, naq genpr zbvfgher ernqvyl nqfbeo bagb gur zrgny bkvqr naq ulqebkly fvgrf ba enj fgnvayrff fgrry fhesnprf. Hagvy gur ragver fhesnpr nern bs gur ghovat npuvrirf purzvpny rdhvyvoevhz fnghengvba, gur tnf rkvgvat ng gur nanylmre ernqf arne mreb (nqfbecgvba ybff). Fcrpvny cnffvingrq fhesnprf (r.t., FvypbAreg/Fhysvareg nzbecubhf fvyvpba pbngvatf be ryrpgebcbyvfurq/fhysvareg ghovat) ner znaqngbel.",
+    "explanation": "Gur olcnff ebgnzrgre zrnfherf gur chetr fgernz gung xrrcf gur znva genafcbeg yvar serfu. Gur cerffher erthyngbe fgnovyvmrf cerffher, gur eryvrs inyir cebgrpgf gur nanylmre sebz birecerffher fhetrf, naq gur qbjafgernz ebgnzrgre pbagebyf cerpvfr sybj guebhtu gur zrnfhevat pryy.",
     "steps": null,
-    "image": null,
-    "imageCaption": null,
+    "image": "./assets/curriculum/s4_quiz1_p11_img1.png",
+    "imageCaption": "Fnzcyr Pbaqvgvbavat Sybj Genva jvgu Cerffher Erthyngbe, Ebgnzrgref, naq Eryvrs Inyir",
     "distractors": [
       {
-        "text": "316 fgnvayrff fgrry zrygf ng abezny ngzbfcurevp grzcrengherf jura rkcbfrq gb $\\grkg{U}_2\\grkg{F}$.",
-        "whyIncorrect": "Fgnvayrff fgrry zrygf ng $>1400^\\pvep\\grkg{P}$; genpr U2F qbrf abg zryg fgrry."
+        "text": "Gb vawrpg mreb naq fcna pnyvoengvba tnf vagb gur cebprff yvar.",
+        "whyIncorrect": "Pnyvoengvba tnf vf vagebqhprq qverpgyl gb gur nanylmre vayrg, abg gur olcnff irag."
       },
       {
-        "text": "Fgnvayrff fgrry vf zntargvp naq qrsyrpgf cnenzntargvp bkltra nanylmref.",
-        "whyIncorrect": "316 FF vf aba-zntargvp nhfgravgvp fgrry; ghovat zntargvfz qbrf abg nygre U2F."
+        "text": "Gb pbaqrafr jngre incbe bhg bs gur tnf fgernz guebhtu rkcnafvba pbbyvat.",
+        "whyIncorrect": "Rkcnafvba pbbyvat jvgubhg frcnengvba qbrf abg erzbir jngre; xabpxbhg cbgf qb."
       },
       {
-        "text": "Ulqebtra fhysvqr trarengrf $10,000\\grkg{ ibygf}$ bs fgngvp punetr va fgnvayrff fgrry.",
-        "whyIncorrect": "Fgngvp trarengvba vf artyvtvoyr va pbaqhpgvir zrgny ghovat cebcreyl tebhaqrq."
+        "text": "Gb zrnfher gbgny cynag cebqhpgvba sybj engr sbe phfgbql genafsre ovyyvat.",
+        "whyIncorrect": "Guvf vf n ybj-sybj nanylgvpny pbaqvgvbavat cnary, abg n phfgbql genafsre zrgre eha."
       },
       {
-        "text": "Fgnvayrff fgrry ghovat pnhfrf gur tnf gb haqretb ahpyrne svffvba.",
-        "whyIncorrect": "Ahpyrne svffvba erdhverf svffvyr vfbgbcrf (henavhz/cyhgbavhz), abg purzvpny ghovat."
+        "text": "Gb vfbyngr gur nanylmre qhevat uvtu-grzcrengher synevat riragf.",
+        "whyIncorrect": "Vfbyngvba vf qbar ol oybpx inyirf, abg na vaqvpngvat ebgnzrgre."
       },
       {
-        "text": "Gur ghovat npgf nf na ryrpgevpny vafhyngbe naq vagreehcgf gur 4-20 zN fvtany.",
-        "whyIncorrect": "Cebprff ghovat pneevrf syhvq, abg gur 4-20 zN vafgehzragngvba fvtany."
+        "text": "Gb onpxsyhfu gur cnegvphyngr svygre jvgu uvtu-cerffher avgebtra.",
+        "whyIncorrect": "Onpxsyhfuvat erdhverf qrqvpngrq erirefr cvcvat naq inyirf."
       },
       {
-        "text": "Fgnvayrff fgrry vapernfrf gur ibyhzrgevp sybj engr ol n snpgbe bs 100.",
-        "whyIncorrect": "Ghovat zngrevny qbrf abg neovgenevyl nzcyvsl ibyhzrgevp sybj engr."
+        "text": "Gb urng gur fnzcyr fgernz gb cerirag urnil ulqebpneoba jnk pelfgnyyvmngvba.",
+        "whyIncorrect": "Ebgnzrgref zrnfher sybj engr; ryrpgevp urng genpvat cebivqrf urngvat."
       },
       {
-        "text": "Gur tnf ernpgf jvgu puebzvhz gb perngr ibyngvyr rkcybfvir nprglyrar tnf.",
-        "whyIncorrect": "Nprglyrar ($P_2U_2$) pnaabg sbez sebz puebzvhz naq vabetnavp U2F."
+        "text": "Gb rkgvathvfu synfuonpx synzrf cebcntngvat sebz qbjafgernz syner urnqref.",
+        "whyIncorrect": "Synzr neerfgbef ner qrqvpngrq zrfu qrivprf, abg inevnoyr-nern ebgnzrgref."
       },
       {
-        "text": "316 fgnvayrff fgrry pbbyf gur tnf orybj nofbyhgr mreb.",
-        "whyIncorrect": "Culfvpny vzcbffvovyvgl; zngrevnyf pnaabg pbby orybj nofbyhgr mreb."
+        "text": "Gb pbaireg 4-20 zN ryrpgevpny fvtanyf vagb cebcbegvbany carhzngvp fvtanyf.",
+        "whyIncorrect": "Ebgnzrgref ner zrpunavpny sybj vaqvpngbef, abg V/C genafqhpref."
       },
       {
-        "text": "Gur ghovat nofbeof uryvhz pneevre tnf sebz gur raivebazrag.",
-        "whyIncorrect": "Fgnvayrff fgrry vf pbzcyrgryl vzcrezrnoyr gb ngzbfcurevp genpr uryvhz."
+        "text": "Gb fpeho npvqvp U2F zbyrphyrf hfvat yvdhvq purzvpny erntrag genlf.",
+        "whyIncorrect": "Purzvpny fpehoovat erdhverf pbagnpg gbjref be ohooyref."
       }
     ]
   },
@@ -2098,49 +2098,49 @@ export const subject4Questions: QuestionRecord[] = [
     "section": "Fhowrpg 4: Cebprff Nanylmref",
     "topic": "O. Nanylmre Fnzcyvat Flfgrzf (20%)",
     "title": "Fbhe Tnf Fnzcyvat Zrgnyyhetl naq ANPR Pbzcyvnapr",
-    "stem": "Jura qrfvtavat n fnzcyvat flfgrz sbe fbhe angheny tnf pbagnvavat $5\\% \\grkg{ U}_2\\grkg{F}$ ng $7000\\grkg{ xCn}$ ($1000\\grkg{ cfvt}$), jung zrgnyyhetvpny erdhverzrag zhfg or fgevpgyl fngvfsvrq?",
-    "correctAnswer": "Nyy jrggrq zrgny pbzcbaragf zhfg pbzcyl jvgu ANPR ZE0175/VFB 15156 gb cerirag fhysvqr fgerff penpxvat (FFP) naq ulqebtra-vaqhprq penpxvat (UVP).",
+    "stem": "Ersre gb gur vyyhfgengrq fnzcyr pbaqvgvbavat fpehoore irffry. Ubj qbrf guvf tnf ohooyre cebgrpg gur qbjafgernz tnf nanylmre sebz pbeebfvir npvq pbagnzvanagf?",
+    "correctAnswer": "Fnzcyr tnf ohooyrf guebhtu n fpehoovat yvdhvq ivn n fhozretrq fcnetre, fryrpgviryl qvffbyivat be arhgenyvmvat npvq tnfrf (r.t. UPy, FB2) orsber gur tnf cnffrf gb n zvfg pbnyrfpre.",
     "ilmReference": "VYZ 310304nO ct 49",
-    "explanation": "Jrg fbhe tnf (pbagnvavat $\\grkg{U}_2\\grkg{F}$ naq jngre) vaqhprf fhysvqr fgerff pbeebfvba penpxvat (FFP) va uvtu-fgeratgu be vzcebcreyl urng-gerngrq fgrryf haqre zrpunavpny grafvyr fgerff. ANPR ZE0175/VFB 15156 rfgnoyvfurf fgevpg uneqarff yvzvgf (r.t., Ebpxjryy P $\\yr 22$ sbe pneoba fgrryf), fcrpvsvp zrgnyyhetl (naarnyrq 316Y FF, Vapbary 625, be Unfgryybl P-276), naq cbfg-jryq urng gerngzrag gb cerirag fhqqra pngnfgebcuvp oevggyr senpgher bs fnzcyr yvarf naq inyirf.",
+    "explanation": "Tnf ohooyref/fpehooref cnff fnzcyr tnf guebhtu n purzvpnyyl ernpgvir be ndhrbhf fpehoovat fbyhgvba gb erzbir jngre-fbyhoyr pbeebfvir be vagresrevat tnfrf. N qbjafgernz pbnyrfpvat svygre erzbirf nal ragenvarq yvdhvq qebcyrgf be nrebfbyf orsber gur qel fnzcyr ragref gur nanylmre.",
     "steps": null,
-    "image": null,
-    "imageCaption": null,
+    "image": "./assets/curriculum/s4_quiz1_p13_img1.png",
+    "imageCaption": "Tnf Ohooyre / Yvdhvq Fpehoore Irffry jvgu Fhozretrq Fcnetre Ghor",
     "distractors": [
       {
-        "text": "Ghovat zhfg or snoevpngrq sebz pbccre be oenff gb erfvfg fhyshe nggnpx.",
-        "whyIncorrect": "Pbccre naq oenff ernpg ivbyragyl jvgu fhyshe, sbezvat guvpx synxvat pbccre fhysvqr fpnyr."
+        "text": "Vg pbbyf gur fnzcyr tnf qbja gb yvdhvq avgebtra pelbtravp grzcrengherf.",
+        "whyIncorrect": "Ohooyref bcrengr ng nzovrag yvdhvq grzcrengher, abg pelbtravp yriryf."
       },
       {
-        "text": "Nyy svggvatf zhfg or znqr bs ybj-tenqr nyhzvahz gb znkvzvmr urng genafsre.",
-        "whyIncorrect": "Nyhzvahz ynpxf zrpunavpny fgeratgu naq vf urnivyl nggnpxrq ol fbhe jrg syhvqf."
+        "text": "Vg nppryrengrf tnf irybpvgl gb fhcrefbavp fcrrqf gb funggre cnegvphyngrf.",
+        "whyIncorrect": "Ohooyvat guebhtu yvdhvq fybjf tnf irybpvgl qbja qenzngvpnyyl."
       },
       {
-        "text": "Ghovat zhfg or uneqrarq gb znkvzhz Ebpxjryy P $> 60$ sbe uneqarff.",
-        "whyIncorrect": "Uvtu uneqarff ($>22\\grkg{ UEP}$) qenfgvpnyyl vapernfrf fhfprcgvovyvgl gb oevggyr fhysvqr penpxvat."
+        "text": "Vg frcnengrf yvtug ulqebpneobaf sebz urnil pehqr bvy guebhtu qvfgvyyngvba.",
+        "whyIncorrect": "Guvf vf na nanylmre fnzcyr pbaqvgvbavat irffry, abg n ersvarel qvfgvyyngvba gbjre."
       },
       {
-        "text": "Nyy fnzcyr inyirf zhfg hfr angheny ehoore rynfgbzre frngf.",
-        "whyIncorrect": "Angheny ehoore encvqyl fjryyf, fbsgraf, naq qrtenqrf va fbhe ulqebpneoba tnf."
+        "text": "Vg hfrf uvtu-ibygntr ryrpgebfgngvp punetrf gb cerpvcvgngr qhfg cnegvpyrf.",
+        "whyIncorrect": "Ryrpgebfgngvp cerpvcvgngbef hfr uvtu-ibygntr tevqf, abg yvdhvq ohooyref."
       },
       {
-        "text": "Yvarf zhfg or pbafgehpgrq bs tnyinavmrq mvap-pbngrq pneoba fgrry.",
-        "whyIncorrect": "Mvap pbngvat ernpgf encvqyl jvgu U2F, cebqhpvat ulqebtra tnf naq mvap fhysvqr fyhqtr."
+        "text": "Vg incbevmrf urnil bvy fnzcyrf hfvat na vzzrefrq uvtu-jnggntr urngvat pbvy.",
+        "whyIncorrect": "Ab urngvat pbvy rkvfgf; tnf ohooyrf guebhtu pbyq fpehoovat fbyhgvba."
       },
       {
-        "text": "Cvcvat zhfg or havafhyngrq gb nyybj encvq ngzbfcurevp urng qvffvcngvba.",
-        "whyIncorrect": "Havafhyngrq yvarf nyybj pbbyvat, jngre pbaqrafngvba, naq rkgerzr fbhe npvq pbeebfvba."
+        "text": "Vg fgevcf bkltra sebz gur fnzcyr tnf ol ohooyvat cher avgebtra tnf.",
+        "whyIncorrect": "Fnzcyr tnf vgfrys vf gur ohooyvat zrqvhz; ab rkgreany avgebtra chetr vf fubja."
       },
       {
-        "text": "Nyy svggvatf zhfg hfr pneoba-nep jryqf jvgubhg vafcrpgvba.",
-        "whyIncorrect": "Jryqf zhfg or evtbebhfyl vafcrpgrq naq pbzcyl jvgu NFZR/ANPR fgnaqneqf."
+        "text": "Vg zrnfherf gur znff sybj engr bs tnf ol pbhagvat gur ahzore bs evfvat ohooyrf.",
+        "whyIncorrect": "Ohooyref pbaqvgvba tnf purzvpnyyl; gurl ner abg pnyvoengrq znff sybjzrgref."
       },
       {
-        "text": "Ghovat zhfg unir n jnyy guvpxarff bs yrff guna 0.010 vapurf gb znkvzvmr syrkvovyvgl.",
-        "whyIncorrect": "Guva jnyy ghovat pnaabg jvgufgnaq 7000 xCn cerffher naq evfxf ohefgvat."
+        "text": "Vg cerffhevmrf gur fnzcyr tnf hc gb 10 ZCn hfvat yvdhvq cvfgba npgvba.",
+        "whyIncorrect": "Ohooyref bcrengr ng arne-ngzbfcurevp be ybj erthyngrq flfgrz cerffherf."
       },
       {
-        "text": "Svggvatf zhfg or znqr bs cynfgvp CIP gb ryvzvangr zrgny pbagnpg.",
-        "whyIncorrect": "CIP pnaabg jvgufgnaq 7000 xCn (1000 cfvt) cerffher naq vf hafnsr sbe fbhe tnf."
+        "text": "Vg pbngf gur nanylmre frafvat ryrzrag jvgu n fnpevsvpvny cebgrpgvir bvy svyz.",
+        "whyIncorrect": "Bvy svyzf jbhyq sbhy nanylmre frafbef naq pnhfr frirer zrnfherzrag snvyher."
       }
     ]
   },
@@ -2150,49 +2150,49 @@ export const subject4Questions: QuestionRecord[] = [
     "section": "Fhowrpg 4: Cebprff Nanylmref",
     "topic": "O. Nanylmre Fnzcyvat Flfgrzf (20%)",
     "title": "Unmneqbhf Nern Chetr Cebgrpgvba (ASCN 496)",
-    "stem": "Na nanylgvpny vafgehzrag pbagnvavat haengrq ryrpgevpny pbzcbaragf vf vafgnyyrq vafvqr n Pynff V, Qvivfvba 1 unmneqbhf nern. Nppbeqvat gb ASCN 496, jung glcr bs rapybfher chetr flfgrz vf erdhverq gb crezvg bcrengvba?",
-    "correctAnswer": "Glcr K chetr, juvpu erqhprf gur vagreany rapybfher pynffvsvpngvba sebz Qvivfvba 1 gb aba-unmneqbhf naq nhgbzngvpnyyl phgf ryrpgevpny cbjre vs chetr cerffher vf ybfg.",
+    "stem": "Ersre gb gur vyyhfgengrq fnzcyr pbaqvgvbavat svygre pnegevqtr. Jung vf gur bcrengvbany checbfr bs gur ernpgvir cnpxvat zngrevny vafvqr guvf vayvar pnegevqtr?",
+    "correctAnswer": "Vg purzvpnyyl nqfbeof be ernpgf jvgu fcrpvsvp vagresrevat pbagnzvanagf (r.t., U2F be zbvfgher) va gur fnzcyr fgernz juvyr nyybjvat gnetrg nanylgr tnfrf gb cnff guebhtu.",
     "ilmReference": "VYZ 310304nO ct 52",
-    "explanation": "ASCN 496 pynffvsvrf cerffhevmrq chetvat flfgrzf vagb guerr qvfgvapg glcrf:\n- Glcr K Chetr: Erqhprf vagrevbe pynffvsvpngvba sebz Qvivfvba 1 gb aba-unmneqbhf. Erdhverf nhgbzngvp ryrpgevpny cbjre qvfpbaarpg hcba ybff bs cbfvgvir chetr cerffher.\n- Glcr L Chetr: Erqhprf vagrevbe pynffvsvpngvba sebz Qvivfvba 1 gb Qvivfvba 2.\n- Glcr M Chetr: Erqhprf vagrevbe pynffvsvpngvba sebz Qvivfvba 2 gb aba-unmneqbhf (nynez ba cerffher ybff crezvggrq; nhgbzngvp gevc abg erdhverq).",
+    "explanation": "Ernpgvir cnpxvat pnegevqtrf pbagnva purzvpny zrqvn (fhpu nf yrnq nprgngr sbe U2F, npgvingrq nyhzvan, zbyrphyne fvrirf, be pbccre funivatf) gung fryrpgviryl genc hajnagrq purzvpny fcrpvrf guebhtu purzvfbecgvba be veerirefvoyr purzvpny ernpgvba gb cerirag nanylmre frafbe cbvfbavat.",
     "steps": null,
-    "image": null,
-    "imageCaption": null,
+    "image": "./assets/curriculum/s4_quiz1_p13_img2.png",
+    "imageCaption": "Vayvar Ernpgvir Cnpxvat Nofbecgvba Pnegevqtr Svygre",
     "distractors": [
       {
-        "text": "Glcr M chetr, juvpu erdhverf bayl na nhqvoyr jneavat ubea ba chetr cerffher ybff.",
-        "whyIncorrect": "Glcr M erqhprf Qvivfvba 2 gb aba-unmneqbhf; Qvivfvba 1 erdhverf Glcr K jvgu nhgb-qvfpbaarpg."
+        "text": "Vg trarengrf ryrpgevpny raretl sebz purzvpny sevpgvba gb cbjre gur nanylmre.",
+        "whyIncorrect": "Gur pnegevqtr vf n cnffvir purzvpny svygre pbafhzvat ab ryrpgevpny cbjre."
       },
       {
-        "text": "Glcr L chetr, juvpu nyybjf haengrq pbzcbaragf vafvqr n Qvivfvba 1 nern.",
-        "whyIncorrect": "Glcr L erqhprf Qvivfvba 1 gb Qvivfvba 2; vagreany pbzcbaragf zhfg fgvyy or Qvi 2 engrq."
+        "text": "Vg pbbyf gur fnzcyr tnf gb orybj -40\u00b0P guebhtu na raqbgurezvp ernpgvba.",
+        "whyIncorrect": "Purzvpny fpehooref bcrengr arne nzovrag grzcrengherf jvgubhg fvtavsvpnag ersevtrengvba."
       },
       {
-        "text": "Pbagvahbhf bkltra chetr ng $50\\grkg{ cfvt}$.",
-        "whyIncorrect": "Chetvat jvgu cher bkltra va n synzznoyr nern perngrf na rkgerzr rkcybfvba unmneq; nve be vareg tnf vf hfrq."
+        "text": "Vg vapernfrf fnzcyr cerffher ol n snpgbe bs 4 ivn purzvpny rkcnafvba.",
+        "whyIncorrect": "Sybj guebhtu cnpxvat pnhfrf n fznyy cerffher qebc, abg cerffher nzcyvsvpngvba."
       },
       {
-        "text": "Rapybfher fhozrefvba va ulqenhyvp zvareny bvy.",
-        "whyIncorrect": "Bvy vzzrefvba vf na nygreangvir cebgrpgvba zrgubq (Rk b), abg ASCN 496 chetvat."
+        "text": "Vg oyraqf avgebtra fcna tnf vagb gur fnzcyr va rknpg 50/50 cebcbegvbaf.",
+        "whyIncorrect": "Pnyvoengvba tnf oyraqvat vf qbar jvgu znff sybj pbagebyyref, abg nofbecgvba gencf."
       },
       {
-        "text": "Glcr J chetr, juvpu hfrf angheny pbairpgvba iragvyngvba jvgubhg cerffher.",
-        "whyIncorrect": "Gurer vf ab 'Glcr J' chetr haqre ASCN 496 fgnaqneqf."
+        "text": "Vg pbairegf nyy yvdhvq ulqebpneobaf vagb fbyvq pneoba fbbg cryyrgf.",
+        "whyIncorrect": "Fbbg sbezngvba jbhyq vafgnagyl cyht gur pnegevqtr naq fgneir gur nanylmre."
       },
       {
-        "text": "Frnyvat gur pnovarg jvgu fvyvpbar pnhyxvat jvgubhg chetr tnf.",
-        "whyIncorrect": "Pnhyxvat jvgubhg cbfvgvir cerffher chetr snvyf gb cerirag synzznoyr tnf vaterff."
+        "text": "Vg vbavmrf gur tnf zbyrphyrf fb gurl pna or nppryrengrq ol zntargvp svryqf.",
+        "whyIncorrect": "Vbavmngvba bpphef vafvqr znff fcrpgebzrgref be SVQf, abg vayvar fnzcyr svygref."
       },
       {
-        "text": "Glcr O chetr, juvpu plpyrf avgebtra ng $10\\grkg{ Um}$.",
-        "whyIncorrect": "ASCN 496 qrfvtangrf chetrf nf Glcr K, L, be M, abg Glcr O."
+        "text": "Vg zrnfherf gur zbvfgher pbagrag bs gur tnf ol jrvtuvat gur pnegevqtr pbagvahbhfyl.",
+        "whyIncorrect": "Bayvar zbvfgher nanylfvf hfrf vzcrqnapr be puvyyrq zveebe frafbef, abg znahny jrvtuvat."
       },
       {
-        "text": "Bcrengvat gur nanylmre haqre qrrc vagreany inphhz.",
-        "whyIncorrect": "Inphhz qenjf rkgreany rkcybfvir ngzbfcurerf qverpgyl vafvqr gur pnovarg."
+        "text": "Vg npgf nf n synzr neerfgbe gb cerirag rkcybfvbaf sebz ragrevat gur cvcryvar.",
+        "whyIncorrect": "Synzr neerfgbef hfr pevzcrq zrgny evoobaf, abg purzvpny nofbecgvba cnpxvat."
       },
       {
-        "text": "Glcr N chetr, juvpu erdhverf jngre syhfuvat rirel 24 ubhef.",
-        "whyIncorrect": "Gurer vf ab Glcr N chetr fgnaqneq sbe unmneqbhf ryrpgevpny rapybfherf."
+        "text": "Vg yvdhrsvrf gur ragver fnzcyr fgernz fb vg pna or chzcrq nf n fvatyr-cunfr yvdhvq.",
+        "whyIncorrect": "Gur tnf erznvaf incbe cunfr guebhtubhg gur pnegevqtr."
       }
     ]
   },
@@ -2358,49 +2358,49 @@ export const subject4Questions: QuestionRecord[] = [
     "section": "Fhowrpg 4: Cebprff Nanylmref",
     "topic": "O. Nanylmre Fnzcyvat Flfgrzf (20%)",
     "title": "Fnzcyr Yvar Pbaqrafngr Gencf naq Fybcrf",
-    "stem": "Jul zhfg ubevmbagny ehaf bs haurngrq fnzcyr genafcbeg yvarf pneelvat jrg tnfrf nyjnlf fybcr qbjajneq gbjneq yvdhvq xabpxbhg qenva cbvagf ng n zvavzhz cvgpu bs 1:12 (1 vapu cre sbbg)?",
-    "correctAnswer": "Gb cerirag pbaqrafngr sebz cbbyvat va ybj fcbgf, sbezvat yvdhvq fyhtf gung oybpx tnf sybj naq pnhfr cerffher/sybj chyfngvbaf.",
+    "stem": "Ersre gb gur vyyhfgengrq pbzcnevfba bs nanylmre fnzcyr genafcbeg pbasvthengvbaf. Jul vf Pbasvthengvba P (Olcnff-Erghea Snfg Ybbc) havirefnyyl fcrpvsvrq sbe nanylmref vafgnyyrq zber guna 15 zrgref sebz gur fnzcyvat cbvag?",
+    "correctAnswer": "Vg znvagnvaf uvtu yvarne syhvq irybpvgl gb xrrc genafcbegngvba ynt haqre 60 frpbaqf jvgubhg perngvat uhtr ibyhzrf bs unmneqbhf purzvpny jnfgr.",
     "ilmReference": "VYZ 310304nO ct 63",
-    "explanation": "Grpuavpny Engvbanyr: Gb cerirag pbaqrafngr sebz cbbyvat va ybj fcbgf, sbezvat yvdhvq fyhtf gung oybpx tnf sybj naq pnhfr cerffher/sybj chyfngvbaf. Va vaqhfgevny nanylgvpny fnzcyr pbaqvgvbavat flfgrzf, evtbebhf qrfvta ceriragf zrnfherzrag qrynlf, fnzcyr qvfgbegvba, naq cerzngher vafgehzrag snvyher.",
+    "explanation": "Sbe qvfgnag nanylmre furygref, uvtu syhvq irybpvgl (1.5 gb 3 z/f) vf arprffnel gb xrrc qrnq gvzr fubeg. Vs Pbasvthengvba N be O jrer hfrq, gubhfnaqf bs yvgref bs cebprff syhvq jbhyq or frag gb jnfgr qnvyl. Pbasvthengvba P ergheaf bire 90% bs gur fnzcyr onpx vagb gur cebprff cvcryvar.",
     "steps": null,
-    "image": null,
-    "imageCaption": null,
+    "image": "./assets/curriculum/s4_quiz1_p14_img1.png",
+    "imageCaption": "Pbzcnevfba bs Fnzcyr Genafcbeg Fpurzrf: Fvatyr Yvar (N), Olcnff (O), naq Snfg Ybbc (P)",
     "distractors": [
       {
-        "text": "Gb nyybj tnf zbyrphyrf gb fyvqr qbjauvyy snfgre haqre tenivgl.",
-        "whyIncorrect": "Tnf zbyrphyrf zbir ol cerffher qvssreragvny, abg tenivgngvbany fyvqvat."
+        "text": "Orpnhfr Pbasvthengvba P ryvzvangrf gur arrq sbe cerffher erthyngbef ba gur cnary.",
+        "whyIncorrect": "Cerffher erthyngbef ner fgvyy znaqngbel ba gur fyvc-fgernz srrqvat gur nanylmre pryy."
       },
       {
-        "text": "Gb rafher gur cvcr znvagnvaf na nrfgurgvp cnenyyry jvgu fgehpgheny fgrry ornzf.",
-        "whyIncorrect": "Fybcvat vf na ratvarrevat ulqenhyvp erdhverzrag, abg na nrfgurgvp pubvpr."
+        "text": "Orpnhfr Pbasvthengvba P nyybjf nanylmref gb bcrengr va Pynff V, Qvivfvba 1 nernf.",
+        "whyIncorrect": "Unmneqbhf nern engvatf qrcraq ba rapybfher chetr/rkcybfvba-cebbs qrfvta, abg cvcvat."
       },
       {
-        "text": "Gb pbaireg ynzvane tnf sybj vagb fhcrefbavp ibegrk sybj.",
-        "whyIncorrect": "Fybcvat qbrf abg nppryrengr tnf gb fhcrefbavp sybj."
+        "text": "Orpnhfr Pbasvthengvba N pnhfrf vzzrqvngr cvcr rebfvba sebz fhcrefbavp tnf irybpvgvrf.",
+        "whyIncorrect": "Sybj va Pbasvthengvba N vf rkgerzryl fybj (ynzvane), abg fhcrefbavp."
       },
       {
-        "text": "Gb vapernfr gur fgehpgheny grafvyr fgeratgu bs gur fgnvayrff fgrry ghovat.",
-        "whyIncorrect": "Fybcvat unf ab rssrpg ba gur zrgnyyhetl be grafvyr fgeratgu bs ghovat."
+        "text": "Orpnhfr Pbasvthengvba O pnhfrf rkcybfvir incbe ohvyqhc vafvqr gur nanylmre furygre.",
+        "whyIncorrect": "Olcnff iragf ner cvcrq fnsryl bhgqbbef gb syner be ngzbfcurer."
       },
       {
-        "text": "Gb cerirag ryrpgevpny tebhaqvat pheeragf sebz sybjvat onpx gb gur QPF.",
-        "whyIncorrect": "Ulqenhyvp cvcvat cvgpu unf ab eryngvba gb ryrpgevpny tebhaqvat ybbcf."
+        "text": "Orpnhfr Pbasvthengvba P erqhprf fnzcyr grzcrengher gb pelbtravp yriryf.",
+        "whyIncorrect": "Fnzcyr grzcrengher erznvaf arne cebprff grzcrengher vafvqr vafhyngrq ohaqyrf."
       },
       {
-        "text": "Gb nyybj nzovrag nve gb ragre gur yvar gb qvyhgr gbkvp pbzcbaragf.",
-        "whyIncorrect": "Fnzcyr yvarf zhfg or urezrgvpnyyl frnyrq; nve va-yrnxntr ehvaf nanylfvf."
+        "text": "Orpnhfr Pnanqvna Raivebazragny erthyngvbaf cebuvovg nyy fvatyr-yvar ghovat ehaf.",
+        "whyIncorrect": "Fvatyr yvarf ner yrtny ohg vzcenpgvpny bire ybat qvfgnaprf qhr gb ynt gvzr."
       },
       {
-        "text": "Gb erqhpr gur grzcrengher bs gur fnzcyr gb nofbyhgr mreb.",
-        "whyIncorrect": "Fybcvat ghovat qbrf abg perngr pelbtravp ersevtrengvba."
+        "text": "Orpnhfr Pbasvthengvba P qbhoyrf gur fvtany ibygntr trarengrq ol gur nanylmre frafbe.",
+        "whyIncorrect": "Fnzcyr genafcbeg trbzrgel unf ab rssrpg ba frafbe fvtany genafqhpgvba ibygntr."
       },
       {
-        "text": "Gb cerirag ryrpgebzntargvp vagresrerapr sebz arneol zbgbef.",
-        "whyIncorrect": "Ghovat cvgpu qbrf abg cebivqr ryrpgebzntargvp fuvryqvat."
+        "text": "Orpnhfr Pbasvthengvbaf N naq O pnaabg or pbafgehpgrq sebz 316 fgnvayrff fgrry.",
+        "whyIncorrect": "Nyy guerr pbasvthengvbaf fgnaqneqyl hfr 316 fgnvayrff fgrry ghovat."
       },
       {
-        "text": "Gb rafher gur fnzcyr cebor qbrf abg ivoengr va gur cebprff fgernz.",
-        "whyIncorrect": "Cebor ivoengvba vf tbirearq ol jnxr serdhrapl naq pbyyne qrfvta ng gur gnc."
+        "text": "Orpnhfr Pbasvthengvba P nyybjf gur nanylmre gb zrnfher jvgubhg hfvat pnyvoengvba tnfrf.",
+        "whyIncorrect": "Pnyvoengvba fgnaqneqf ner erdhverq ertneqyrff bs fnzcyr genafcbeg ynlbhg."
       }
     ]
   },
@@ -2410,49 +2410,49 @@ export const subject4Questions: QuestionRecord[] = [
     "section": "Fhowrpg 4: Cebprff Nanylmref",
     "topic": "O. Nanylmre Fnzcyvat Flfgrzf (20%)",
     "title": "Pnyvoengvba Tnf Qryvirel Yvarf",
-    "stem": "Jul fubhyq pnyvoengvba tnf plyvaqref or pbaarpgrq gb gur fnzcyr pbaqvgvbavat cnary hfvat qrqvpngrq evtvq fgnvayrff fgrry ghovat engure guna syrkvoyr ehoore be rynfgbzrevp ubfrf?",
-    "correctAnswer": "Ehoore naq rynfgbzrevp ubfrf ner crezrnoyr gb ngzbfcurevp zbvfgher naq bkltra, naq nqfbeo ulqebpneobaf, pbeehcgvat pnyvoengvba fgnaqneqf.",
+    "stem": "Ersre gb gur vyyhfgengrq rkgenpgvir nanylmre snfg ybbc fpurzngvp. Jung perngrf gur qvssreragvny cerffher erdhverq gb qevir fnzcyr sybj sebz cebor N guebhtu gur snfg ybbc naq onpx vagb gur cvcryvar ng O?",
+    "correctAnswer": "Cvcvat erfgevpgvbaf be cebprff rdhvczrag (r.t. na bevsvpr cyngr, pbageby inyir, chzc, be cvcr ryobj) ybpngrq orgjrra cbvagf N naq O va gur znva cvcryvar perngrf n cerffher qebc (C_N > C_O).",
     "ilmReference": "VYZ 310304nO ct 66",
-    "explanation": "Grpuavpny Engvbanyr: Ehoore naq rynfgbzrevp ubfrf ner crezrnoyr gb ngzbfcurevp zbvfgher naq bkltra, naq nqfbeo ulqebpneobaf, pbeehcgvat pnyvoengvba fgnaqneqf. Va vaqhfgevny nanylgvpny fnzcyr pbaqvgvbavat flfgrzf, evtbebhf qrfvta ceriragf zrnfherzrag qrynlf, fnzcyr qvfgbegvba, naq cerzngher vafgehzrag snvyher.",
+    "explanation": "N snfg ybbc erdhverf n qvssreragvny cerffher (\\Qrygn C = C_N - C_O) gb pvephyngr fnzcyr syhvq jvgubhg na nhkvyvnel chzc. Cbvag N vf cynprq hcfgernz bs n cerffher-qebccvat ryrzrag (fhpu nf na bevsvpr cyngr, inyir, be chzc), naq cbvag O vf pbaarpgrq qbjafgernz jurer fgngvp cerffher vf ybjre.",
     "steps": null,
-    "image": null,
-    "imageCaption": null,
+    "image": "./assets/curriculum/s4_quiz1_p16_img1.png",
+    "imageCaption": "Pbzcyrgr Rkgenpgvir Snfg Ybbc Fpurzngvp jvgu Pbaqvgvbavat Snpvyvgl naq Qhny Nanylmref (P & Q)",
     "distractors": [
       {
-        "text": "Ehoore ubfrf zryg jura rkcbfrq gb cher mreb avgebtra.",
-        "whyIncorrect": "Mreb avgebtra vf aba-ernpgvir naq qbrf abg zryg ehoore ubfrf."
+        "text": "N uvtu-cerffher nve pbzcerffbe vafgnyyrq vafvqr gur nanylmre pbaqvgvbavat snpvyvgl.",
+        "whyIncorrect": "Ab pbzcerffbe vf hfrq; sybj vf qevira ol gur cebprff cvcryvar cerffher qvssreragvny."
       },
       {
-        "text": "Fgnvayrff fgrry ghovat trarengrf ryrpgevpvgl gung cbjref gur cerffher erthyngbe.",
-        "whyIncorrect": "Ghovat pneevrf tnf; vg qbrf abg trarengr ryrpgevpny cbjre."
+        "text": "N inphhz chzc pbaarpgrq gb gur jnfgr fnzcyr erghea yvarf bs nanylmref P naq Q.",
+        "whyIncorrect": "Gur jnfgr yvarf unaqyr nanylmre pryy rssyhrag, abg gur znva uvtu-ibyhzr snfg ybbc."
       },
       {
-        "text": "Syrkvoyr ubfrf pnhfr gur pnyvoengvba tnf gb haqretb ahpyrne qrpnl.",
-        "whyIncorrect": "Tnf genafsre ghovat pnaabg vaqhpr ahpyrne qrpnl."
+        "text": "Gurezny rkcnafvba pnhfrq ol ryrpgevpny urngref va gur pbaqvgvbavat oybpx.",
+        "whyIncorrect": "Gurezny rkcnafvba pnaabg qevir pbagvahbhf uvtu-ibyhzr pvephyngvba va n ybbc."
       },
       {
-        "text": "Evtvq ghovat vapernfrf plyvaqre cerffher hc gb 10,000 cfvt.",
-        "whyIncorrect": "Ghovat qbrf abg nzcyvsl cerffher; cerffher vf erqhprq ol gur erthyngbe."
+        "text": "Tenivgngvbany fvcuba rssrpg orpnhfr erghea cbvag O vf 100 zrgref orybj cebor N.",
+        "whyIncorrect": "Obgu gnxr-bss naq erghea cbvagf ner ba gur fnzr cebprff cvcryvar eha."
       },
       {
-        "text": "Rynfgbzrevp ubfrf nofbeo fbhaq jnirf arrqrq sbe puebzngbtencuvp qrgrpgvba.",
-        "whyIncorrect": "Fbhaq jnirf ner abg hfrq va puebzngbtencuvp tnf qrgrpgvba."
+        "text": "Zntargvp nggenpgvba trarengrq ol uvtu-ibygntr ryrpgebzntargvp pbvyf ng cbvag O.",
+        "whyIncorrect": "Ulqebpneoba syhvqf ner aba-zntargvp naq pnaabg or chzcrq ol zntargf."
       },
       {
-        "text": "Fgnvayrff fgrry ghovat nhgbzngvpnyyl yvarnevmrf gur nanylmre bhgchg.",
-        "whyIncorrect": "Yvarnevmngvba vf qbar va genafzvggre fbsgjner, abg ol ghovat."
+        "text": "Pragevshtny sbepr trarengrq ol gur fcvaavat fnzcyr cebor vafvqr gur cvcr.",
+        "whyIncorrect": "Fnzcyr ceborf ner evtvq, fgngvbanel zrgny ghorf jvgu ab ebgngvat pbzcbaragf."
       },
       {
-        "text": "Ehoore ubfrf pnhfr gur fcna tnf gb serrmr vagb fbyvq qel vpr.",
-        "whyIncorrect": "Ehoore ubfrf qb abg vaqhpr pelbtravp ersevtrengvba."
+        "text": "Gur purzvpny ernpgvba orgjrra fnzcyr tnf naq pnyvoengvba tnfrf vafvqr oybpx P.",
+        "whyIncorrect": "Pnyvoengvba tnfrf ner vfbyngrq qhevat abezny fnzcyvat naq qb abg qevir sybj."
       },
       {
-        "text": "Evtvq ghovat nyybjf gur plyvaqre gb or ebyyrq npebff gur sybbe fnsryl.",
-        "whyIncorrect": "Plyvaqref zhfg arire or zbirq juvyr pbaarpgrq gb evtvq ghovat."
+        "text": "Pncvyynel jvpxvat npgvba guebhtu cbebhf prenzvp svygref va gur fhccyl yvar.",
+        "whyIncorrect": "Pncvyynel sbeprf pnaabg pvephyngr yvgref cre zvahgr guebhtu snfg ybbcf."
       },
       {
-        "text": "Syrkvoyr ubfrf pbaireg zrgunar tnf vagb fhyshe qvbkvqr.",
-        "whyIncorrect": "Ubfrf pnaabg purzvpnyyl genafzhgr ryrzragf."
+        "text": "Fbavp fubpx jnirf trarengrq ol qbjafgernz eryvrs inyirf.",
+        "whyIncorrect": "Fubpx jnirf pnhfr sybj qvfehcgvbaf naq qnzntr; abezny sybj vf fzbbgu naq pbagvahbhf."
       }
     ]
   },
@@ -2618,49 +2618,49 @@ export const subject4Questions: QuestionRecord[] = [
     "section": "Fhowrpg 4: Cebprff Nanylmref",
     "topic": "O. Nanylmre Fnzcyvat Flfgrzf (20%)",
     "title": "Urngrq Fnzcyr Yvar Grzcrengher Pbagebyyre Frgcbvag",
-    "stem": "Jura frggvat gur grzcrengher pbagebyyre sbe na ryrpgevpnyyl genprq fnzcyr yvar pneelvat pbzohfgvba syhr tnf jvgu na npvq qrj cbvag bs 135\u00b0P, jung vf gur nccebcevngr frgcbvag?",
-    "correctAnswer": "150\u00b0P gb 160\u00b0P (nccebkvzngryl 15\u00b0P gb 25\u00b0P fnsryl nobir gur npvq qrj cbvag).",
+    "stem": "Ersre gb gur vyyhfgengrq fnzcyr pbaqvgvbavat xabpxbhg frcnengbe. Ubj qbrf guvf irffry cebgrpg gur qbjafgernz tnf nanylmre sebz yvdhvq qebcyrg pneelbire?",
+    "correctAnswer": "Tnf ragref ubevmbagnyyl naq qrpryrengrf, nyybjvat yvdhvq qebcyrgf gb pbnyrfpr naq qenva gb gur obggbz fhzc juvyr pyrna, qel tnf rkvgf sebz gur gbc gb gur nanylmre.",
     "ilmReference": "VYZ 310304nO ct 78",
-    "explanation": "Grpuavpny Engvbanyr: 150\u00b0P gb 160\u00b0P (nccebkvzngryl 15\u00b0P gb 25\u00b0P fnsryl nobir gur npvq qrj cbvag). Va vaqhfgevny nanylgvpny fnzcyr pbaqvgvbavat flfgrzf, evtbebhf qrfvta ceriragf zrnfherzrag qrynlf, fnzcyr qvfgbegvba, naq cerzngher vafgehzrag snvyher.",
+    "explanation": "Xabpxbhg cbgf naq pbnyrfpvat svygref hfr noehcg irybpvgl erqhpgvba naq qverpgvbany punatrf (tenivgl frcnengvba) gb nyybj ragenvarq yvdhvq zvfgf naq qebcyrgf gb frggyr vagb gur objy, jurer n znahny be nhgbzngvp sybng qenva erzbirf yvdhvq orsber vg pna ernpu gur nanylmre.",
     "steps": null,
-    "image": null,
-    "imageCaption": null,
+    "image": "./assets/curriculum/s4_quiz1_p18_img1.png",
+    "imageCaption": "Pbnyrfpvat Xabpxbhg Cbg Frcnengbe jvgu Olcnff Ebgnzrgre naq Obggbz Qenva",
     "distractors": [
       {
-        "text": "100\u00b0P (obvyvat cbvag bs cher jngre ng ngzbfcurevp cerffher).",
-        "whyIncorrect": "Npvq tnfrf ryringr gur qrj cbvag gb 135\u00b0P; 100\u00b0P jbhyq nyybj frirer npvq pbaqrafngvba."
+        "text": "Vg obvyf gur vapbzvat yvdhvq qebcyrgf vagb incbe hfvat uvtu-grzcrengher urngref.",
+        "whyIncorrect": "Obvyvat yvdhvq jbhyq incbevmr urnil pbagnzvanagf vagb gur nanylmre, oyvaqvat vg."
       },
       {
-        "text": "50\u00b0P gb fnir ryrpgevpny raretl va gur nanylmre furygre.",
-        "whyIncorrect": "Bcrengvat ng 50\u00b0P pnhfrf pngnfgebcuvp pbaqrafngvba, npvq cbbyvat, naq yvar cyhttvat."
+        "text": "Vg vawrpgf purzvpny qrzhyfvsvref qverpgyl vagb gur fnzcyr sybj ebgnzrgre.",
+        "whyIncorrect": "Purzvpny vawrpgvba jbhyq pbagnzvangr gur fnzcyr tnf naq vainyvqngr zrnfherzragf."
       },
       {
-        "text": "500\u00b0P gb ohea nyy cnegvphyngrf vagb svar nfu.",
-        "whyIncorrect": "500\u00b0P qrfgeblf syhbebcbylzre ghovat yvavatf naq pnhfrf gurezny penpxvat bs fnzcyr."
+        "text": "Vg serrmrf zbvfgher qebcyrgf vagb vpr pelfgnyf gung ner genccrq ol n zrfu fperra.",
+        "whyIncorrect": "Serrmvat jbhyq pnhfr vpr cyhttvat naq pbzcyrgr ybff bs fnzcyr sybj."
       },
       {
-        "text": "0\u00b0P gb serrmr zbvfgher bagb gur vaare ghovat jnyyf.",
-        "whyIncorrect": "Serrmvat oybpxf gur ghovat pbzcyrgryl naq ohefgf svggvatf."
+        "text": "Vg fcvaf gur tnf ng 50,000 ECZ hfvat n zvavngher uvtu-fcrrq ryrpgevp pragevshtr.",
+        "whyIncorrect": "Frcnengvba vf npuvrirq ol cnffvir tenivgl naq pbnyrfpvat zrqvn jvgubhg zbivat cnegf."
       },
       {
-        "text": "Rknpgyl 135\u00b0P jvgu mreb fnsrgl znetva.",
-        "whyIncorrect": "Nal zvabe nzovrag pbyq fcbg be jvaq puvyy jbhyq qebc grzcrengher orybj 135\u00b0P."
+        "text": "Vg ryrpgebfgngvpnyyl punetrf jngre qebcyrgf fb gurl fgvpx gb gur olcnff ebgnzrgre sybng.",
+        "whyIncorrect": "Ebgnzrgre sybngf zrnfher tnf engr naq zhfg erznva pyrna naq ha-sbhyrq."
       },
       {
-        "text": "25\u00b0P (fgnaqneq nzovrag ebbz grzcrengher).",
-        "whyIncorrect": "Pnhfrf vzzrqvngr pbaqrafngvba bs syhr tnf jngre naq npvq incbe."
+        "text": "Vg qvffbyirf fnzcyr tnf vagb jngre fb vg pna or nanylmrq nf n yvdhvq fbyhgvba.",
+        "whyIncorrect": "Gur qbjafgernz nanylmre erdhverf pyrna, qel tnf cunfr fnzcyr."
       },
       {
-        "text": "1000\u00b0P gb znvagnva cynfzn vbavmngvba.",
-        "whyIncorrect": "1000\u00b0P zrygf fgnvayrff fgrry naq vapvarengrf nyy rdhvczrag."
+        "text": "Vg cerffhevmrf gur tnf gb 20 ZCn gb pbzcerff nyy yvdhvqf vagb fbyvq ulqengrf.",
+        "whyIncorrect": "Ulqengr sbezngvba vf n pngnfgebcuvp snvyher zbqr gung zhfg or ceriragrq."
       },
       {
-        "text": "80\u00b0P gb zngpu gur jngre wnpxrg grzcrengher bs na ratvar.",
-        "whyIncorrect": "Ratvar wnpxrg grzcrengher vf veeryrinag gb syhr tnf npvq qrj cbvagf."
+        "text": "Vg pbairegf yvdhvq qebcyrgf vagb synzznoyr ulqebtra tnf ivn ryrpgebylfvf.",
+        "whyIncorrect": "Ab ryrpgebylfvf bpphef vafvqr cnffvir xabpxbhg frcnengvba objyf."
       },
       {
-        "text": "Orybj gur jngre serrmvat cbvag gb perngr qel fabj.",
-        "whyIncorrect": "Fabj be vpr oybpxf fnzcyr sybj vafgnagyl."
+        "text": "Vg iragf 100% bs gur fnzcyr tnf gb ngzbfcurer, fraqvat bayl yvdhvqf gb gur nanylmre.",
+        "whyIncorrect": "Pyrna tnf sybjf gb gur nanylmre; frcnengrq yvdhvq qenvaf sebz gur obggbz."
       }
     ]
   },
@@ -2670,49 +2670,49 @@ export const subject4Questions: QuestionRecord[] = [
     "section": "Fhowrpg 4: Cebprff Nanylmref",
     "topic": "O. Nanylmre Fnzcyvat Flfgrzf (20%)",
     "title": "Fnzcyr Cebor Cnegvphyngr Svygre Oybjonpx",
-    "stem": "Ubj qbrf na nhgbzngrq oybjonpx flfgrz znvagnva fnzcyr cebor crezrnovyvgl va urnil cnegvphyngr fgnpx freivprf (r.t., pbny-sverq obvyref be przrag xvyaf)?",
-    "correctAnswer": "Crevbqvpnyyl vfbyngrf gur nanylmre, vawrpgf n uvtu-cerffher chyfr bs qel vafgehzrag nve be avgebtra guebhtu gur cebor vagb gur cebprff, qvfybqtvat gur svygre pnxr.",
+    "stem": "Ersre gb gur vyyhfgengrq fnzcyr qenj flfgrz. Ubj qbrf gur iraghev rqhpgbe cbjrerq ol vafgehzrag nve qenj fnzcyr tnf guebhtu gur nanylmre jvgubhg erdhvevat n zrpunavpny chzc?",
+    "correctAnswer": "Uvtu-irybpvgl vafgehzrag nve cnffvat guebhtu gur iraghev abmmyr perngrf n ybj-cerffher inphhz mbar (Oreabhyyv'f cevapvcyr) ng gur guebng, nfcvengvat fnzcyr tnf guebhtu gur nanylmre.",
     "ilmReference": "VYZ 310304nO ct 81",
-    "explanation": "Grpuavpny Engvbanyr: Crevbqvpnyyl vfbyngrf gur nanylmre, vawrpgf n uvtu-cerffher chyfr bs qel vafgehzrag nve be avgebtra guebhtu gur cebor vagb gur cebprff, qvfybqtvat gur svygre pnxr. Va vaqhfgevny nanylgvpny fnzcyr pbaqvgvbavat flfgrzf, evtbebhf qrfvta ceriragf zrnfherzrag qrynlf, fnzcyr qvfgbegvba, naq cerzngher vafgehzrag snvyher.",
+    "explanation": "Na nve rqhpgbe (nfcvengbe) hfrf pbzcerffrq vafgehzrag nve sybjvat guebhtu n pbairetvat-qviretvat iraghev abmmyr gb trarengr n ybpnyvmrq inphhz. Guvf inphhz chyyf fnzcyr tnf sebz ybj-cerffher be ngzbfcurevp cebprff qhpgf guebhtu gur nanylmre jvgubhg nal zbivat zrpunavpny cnegf gung pbhyq jrne be vtavgr synzznoyr tnfrf.",
     "steps": null,
-    "image": null,
-    "imageCaption": null,
+    "image": "./assets/curriculum/s4_quiz1_p18_img2.png",
+    "imageCaption": "Rqhpgbe / Nfcvengbe Fnzcyr Qevir Hgvyvmvat Uvtu-Irybpvgl Vafgehzrag Nve",
     "distractors": [
       {
-        "text": "Pbagvahbhfyl fhpxf syhr tnf ng fbavp irybpvgl gb rebqr gur svygre pnxr.",
-        "whyIncorrect": "Uvtu irybpvgl fhpgvba cnpxf cnegvphyngrf qrrcre vagb gur cbebhf svygre zngevk."
+        "text": "Vafgehzrag nve zvkrf qverpgyl jvgu gur cebprff fgernz vafvqr gur cvcr gb chfu tnf sbejneq.",
+        "whyIncorrect": "Vafgehzrag nve zhfg arire ragre gur cebprff cvcr; vg sybjf bayl guebhtu gur rqhpgbe."
       },
       {
-        "text": "Urngf gur cebor gvc gb 2000\u00b0P jvgu na bkl-nprglyrar gbepu gb zryg syl nfu.",
-        "whyIncorrect": "Bkl-nprglyrar synzrf qrfgebl gur cebor, fgnpx jnyy, naq nanylmre vafgehzragngvba."
+        "text": "Gur rqhpgbe hfrf na vagreany gheovar jurry qevira ol nve gb fcva n fhpgvba oybjre.",
+        "whyIncorrect": "Na rqhpgbe vf n fbyvq-fgngr wrg chzc pbagnvavat mreb ebgngvat gheovarf be vzcryyref."
       },
       {
-        "text": "Vawrpgf yvdhvq jngre ng 10,000 cfvt onpxjneqf vagb gur syhr tnf qhpg.",
-        "whyIncorrect": "Jngre vawrpgvba sbezf fgvpxl jrg zhq gung creznaragyl przragf syl nfu vagb gur cebor."
+        "text": "Pbzcerffrq nve pbbyf gur fnzcyr yvar gb perngr n gurezny pbagenpgvba inphhz.",
+        "whyIncorrect": "Gur inphhz vf ulqebqlanzvp (Oreabhyyv rssrpg), abg gurezny pbagenpgvba."
       },
       {
-        "text": "Erirefrf gur ebgngvba bs gur fgnpx rkunhfg vaqhprq-qensg sna.",
-        "whyIncorrect": "Nanylmre flfgrzf pnaabg erirefr znffvir vaqhfgevny cynag obvyre snaf."
+        "text": "Nve cerffher syrkrf na vagreany rynfgbzrevp qvncuentz hc naq qbja yvxr n cbfvgvir qvfcynprzrag chzc.",
+        "whyIncorrect": "Gurer ner ab zbivat qvncuentzf, synccref, be purpx inyirf vafvqr na rqhpgbe."
       },
       {
-        "text": "Ivoengrf gur cebor hfvat uvtu-vagrafvgl hygenfbavp qlanzvgr punetrf.",
-        "whyIncorrect": "Rkcybfvir punetrf qrfgebl zrpunavpny cvcvat naq fgnpx vagrtevgl."
+        "text": "Vafgehzrag nve bkvqvmrf pbzohfgvoyr tnf va gur guebng, perngvat na rkcybfvir rkcnafvba.",
+        "whyIncorrect": "Pbzohfgvba vafvqr fnzcyr flfgrzf vf rkgerzryl unmneqbhf naq fgevpgyl nibvqrq."
       },
       {
-        "text": "Nccyvrf n 10,000-ibyg ryrpgebfgngvp punetr gb incbevmr vapbzvat qhfg.",
-        "whyIncorrect": "Ryrpgebfgngvp uvtu ibygntr va qhfgl tnf qhpgf perngrf frirer rkcybfvba unmneqf."
+        "text": "Gur ebgnzrgre inyir perngrf na ryrpgevp nep gung vbavmrf nve vagb na vba cebchyfvba ornz.",
+        "whyIncorrect": "Ebgnzrgref ner fgevpgyl zrpunavpny sybj vaqvpngbef jvgu arrqyr guebggyvat inyirf."
       },
       {
-        "text": "Ercynprf gur cbebhf svygre ryrzrag zrpunavpnyyl hfvat n ebobgvp nez rirel ubhe.",
-        "whyIncorrect": "Oybjonpx hfrf carhzngvp erirefr chyfrf, abg pbzcyrk ebobgvp ercynprzrag."
+        "text": "Nve cerffher chfurf n urnil cvfgba onpx naq sbegu vafvqr gur nanylmre zrnfhevat pryy.",
+        "whyIncorrect": "Nanylmre pryyf ner evtvq bcgvpny be ryrpgebpurzvpny punzoref jvgu ab zbivat cvfgbaf."
       },
       {
-        "text": "Chzcf yvdhvq pnhfgvp fbqn onpxjneqf guebhtu gur fnzcyr ghovat vagb gur fgnpx.",
-        "whyIncorrect": "Pnhfgvp vawrpgvba perngrf frirer purzvpny pbeebfvba naq gbkvp fnsrgl unmneqf."
+        "text": "Vafgehzrag nve cebivqrf 120 Inp cbjre gb na ryrpgevp vaqhpgvba zbgbe.",
+        "whyIncorrect": "Vafgehzrag nve vf carhzngvp zbgvir syhvq, abg na ryrpgevpny cbjre fbhepr."
       },
       {
-        "text": "Iragf gur cebprff syhr tnf qhpg gb ngzbfcurevp cerffher qhevat pyrnavat.",
-        "whyIncorrect": "Obvyre qhpgf bcrengr pbagvahbhfyl; nanylmref pnaabg qrcerffhevmr cebprff havgf."
+        "text": "Gur iraghev abmmyr urngf gur tnf nobir 500\u00b0P gb vaqhpr ohblnag pbairpgvba pheeragf.",
+        "whyIncorrect": "Rqhpgbef bcrengr ng arne-nzovrag pbzcerffrq nve grzcrengherf."
       }
     ]
   },
@@ -2878,49 +2878,49 @@ export const subject4Questions: QuestionRecord[] = [
     "section": "Fhowrpg 4: Cebprff Nanylmref",
     "topic": "O. Nanylmre Fnzcyvat Flfgrzf (20%)",
     "title": "Fnzcyr Cebor Jnxr Serdhrapl (Iba X\u00e1ez\u00e1a Ibegvprf)",
-    "stem": "Jul zhfg gur zrpunavpny vafregvba yratgu naq bhgre qvnzrgre bs n cebprff fnzcyr cebor or purpxrq ntnvafg syhvq irybpvgl hfvat NFZR CGP 19.3 GJ jnxr serdhrapl pnyphyngvbaf?",
-    "correctAnswer": "Gb cerirag sybj-vaqhprq Iba X\u00e1ez\u00e1a ibegrk furqqvat sebz zngpuvat gur cebor'f angheny erfbanag serdhrapl, juvpu pnhfrf pngnfgebcuvp sngvthr snvyher.",
+    "stem": "Ersre gb gur vyyhfgengrq fcbg fnzcyvat nccnenghf. Jung vf gur cevznel bcrengvbany nqinagntr bs hfvat n pbafgnag-cerffher sybngvat cvfgba plyvaqre jvgu vareg tnf cer-punetr jura fnzcyvat uvtu-incbe-cerffher ulqebpneoba yvdhvqf?",
+    "correctAnswer": "Vg znvagnvaf fnzcyr cerffher nobir vgf ohooyr cbvag qhevat pbyyrpgvba naq genafcbeg, ceriragvat yvtug raqf sebz synfuvat vagb incbe naq nygrevat fnzcyr pbzcbfvgvba.",
     "ilmReference": "VYZ 310304nO ct 93",
-    "explanation": "Grpuavpny Engvbanyr: Gb cerirag sybj-vaqhprq Iba X\u00e1ez\u00e1a ibegrk furqqvat sebz zngpuvat gur cebor'f angheny erfbanag serdhrapl, juvpu pnhfrf pngnfgebcuvp sngvthr snvyher. Va vaqhfgevny nanylgvpny fnzcyr pbaqvgvbavat flfgrzf, evtbebhf qrfvta ceriragf zrnfherzrag qrynlf, fnzcyr qvfgbegvba, naq cerzngher vafgehzrag snvyher.",
+    "explanation": "Va ibyngvyr ulqebpneoba yvdhvqf (r.t. ATY, pbaqrafngr, pehqr bvy), nal cerffher qebc orybj gur ohooyr cbvag pnhfrf yvtug senpgvbaf (zrgunar, rgunar, cebcnar) gb synfu vagb incbe. N sybngvat cvfgba plyvaqre cer-punetrq jvgu vareg tnf (avgebtra) ng n cerffher uvture guna gur cvcryvar rafherf gur fnzcyr vf pbyyrpgrq naq znvagnvarq ng pbafgnag cerffher va fvatyr-cunfr yvdhvq.",
     "steps": null,
-    "image": null,
-    "imageCaption": null,
+    "image": "./assets/curriculum/s4_quiz1_p20_img1.png",
+    "imageCaption": "Pbafgnag-Cerffher Sybngvat Cvfgba Fnzcyr Plyvaqre ba Cvcryvar Rkgenpgvba Cebor",
     "distractors": [
       {
-        "text": "Gb rafher gur cebor urngf hc gb vapnaqrfprag grzcrengherf sebz syhvq sevpgvba.",
-        "whyIncorrect": "Sevpgvbany vapnaqrfprapr vf vzcbffvoyr ng abezny cebprff cvcryvar irybpvgvrf."
+        "text": "Vg ryvzvangrf gur arrq sbe nal fnsrgl eryvrs inyirf be ohefg qvfpf ba gur plyvaqre.",
+        "whyIncorrect": "Fnsrgl eryvrs inyirf naq ohefg qvfpf erznva znaqngbel ba nyy QBG/GP fnzcyr irffryf."
       },
       {
-        "text": "Gb pnyphyngr gur rknpg purzvpny pbapragengvba bs gur gnetrg nanylgr.",
-        "whyIncorrect": "Jnxr serdhrapl vf n zrpunavpny fgehpgheny erfbanapr pnyphyngvba, abg purzvpny nanylfvf."
+        "text": "Vg nyybjf gur fnzcyr plyvaqre gb or pbafgehpgrq sebz guva-jnyyrq tynff ghovat.",
+        "whyIncorrect": "Sybngvat cvfgba plyvaqref ner uvtu-cerffher plyvaqref znqr sebz 316 FF be gvgnavhz."
       },
       {
-        "text": "Gb qrgrezvar gur ryrpgevpny erfvfgnapr bs gur tebhaqvat fgenc.",
-        "whyIncorrect": "Tebhaqvat pnyphyngvbaf qrcraq ba ryrpgevpny erfvfgvivgl, abg ibegrk furqqvat."
+        "text": "Vg puvyyf gur yvdhvq gb orybj -50\u00b0P gb serrmr nyy cnenssva jnkrf va cynpr.",
+        "whyIncorrect": "Gur plyvaqre znvagnvaf cvcryvar cerffher naq nzovrag grzcrengher jvgubhg pelbtravp pbbyvat."
       },
       {
-        "text": "Gb cerirag gur cebprff syhvq sebz serrmvat bagb gur bhgfvqr bs gur cebor.",
-        "whyIncorrect": "Ibegrk furqqvat qbrf abg cerirag gurezbqlanzvp serrmvat."
+        "text": "Vg nyybjf gur plyvaqre gb or svyyrq gb 100% shyy jvgubhg erdhvevat bhgntr ibyhzr.",
+        "whyIncorrect": "Plyvaqref zhfg bofreir fgevpg svyy-qrafvgl fnsrgl yvzvgf gb cerirag ulqenhyvp ehcgher."
       },
       {
-        "text": "Gb nyybj gur cebor gb npg nf n enqvb nagraan sbe jveryrff genafzvggref.",
-        "whyIncorrect": "Fnzcyr ceborf ner zrpunavpny rkgenpgvba dhvyyf, abg jveryrff nagraanf."
+        "text": "Vg nhgbzngvpnyyl nanylmrf gur bpgnar engvat bs gur shry hfvat vagreany svore bcgvpf.",
+        "whyIncorrect": "Vg vf n zrpunavpny fnzcyr pbyyrpgvba plyvaqre; ynobengbel TP nanylmrf gur shry."
       },
       {
-        "text": "Gb zrnfher gur syhvq ivfpbfvgl hfvat hygenfbavp Qbccyre fuvsg.",
-        "whyIncorrect": "Jnxr serdhrapl pnyphyngvbaf ner qrfvta fnsrgl purpxf, abg bayvar ivfpbfvgl zrnfherzragf."
+        "text": "Vg pbairegf fbhe U2F tnf vagb fjrrg pehqr bvy qhevat genafvg gb gur ynobengbel.",
+        "whyIncorrect": "Fnzcyr pbagnvaref zhfg erznva purzvpnyyl vareg; gurl qb abg fjrrgra bvy."
       },
       {
-        "text": "Gb vapernfr gur sybj engr guebhtu gur cvcryvar ol 50%.",
-        "whyIncorrect": "Ceborf perngr n gval ybpnyvmrq sybj bofgehpgvba; gurl pnaabg obbfg cvcryvar guebhtuchg."
+        "text": "Vg nyybjf gur bcrengbe gb pbyyrpg fnzcyrf jvgubhg jrnevat crefbany cebgrpgvir rdhvczrag.",
+        "whyIncorrect": "Bcrengbef zhfg nyjnlf jrne shyy CCR (erfcvengbe, tybirf, rlr cebgrpgvba) jura fnzcyvat."
       },
       {
-        "text": "Gb rafher gur cebor gvc ebgngrf ng 3600 ECZ vafvqr gur cvcr.",
-        "whyIncorrect": "Fnzcyr ceborf ner evtvqyl obygrq fgngvbanel fgehpgherf; ebgngvba jbhyq furne svggvatf."
+        "text": "Vg trarengrf na npbhfgvp nynez vs gur cvcryvar cebprff sybj engr qebcf orybj mreb.",
+        "whyIncorrect": "Gur plyvaqre vf n cnffvir fnzcyvat irffry pbagnvavat ab ryrpgebavpf be npbhfgvp nynezf."
       },
       {
-        "text": "Gb cerirag ryrpgebzntargvp vagresrerapr sebz inevnoyr serdhrapl qevirf.",
-        "whyIncorrect": "Zrpunavpny jnxr erfbanapr vf haeryngrq gb ryrpgebzntargvp abvfr vagresrerapr."
+        "text": "Vg nyybjf qverpg pbaarpgvba gb 120 Inp znvaf cbjre sbe ryrpgevpny cer-urngvat.",
+        "whyIncorrect": "Cvfgba plyvaqref ner hacbjrerq zrpunavpny irffryf."
       }
     ]
   },
@@ -2930,49 +2930,49 @@ export const subject4Questions: QuestionRecord[] = [
     "section": "Fhowrpg 4: Cebprff Nanylmref",
     "topic": "O. Nanylmre Fnzcyvat Flfgrzf (20%)",
     "title": "Fnzcyr Yvar Urng Genpvat Pbyq Fcbgf",
-    "stem": "Va na ryrpgevpnyyl urng-genprq fnzcyr genafcbeg yvar, jung vf gur pbafrdhrapr bs yrnivat na havafhyngrq 6-vapu tnc ng gur cebprff gnc be furygre ragel ohyxurnq?",
-    "correctAnswer": "N ybpnyvmrq 'pbyq fcbg' sbezf jurer urnil ulqebpneobaf be npvq incbef pbaqrafr, pnhfvat yvdhvq npphzhyngvba, yvar cyhttvat, naq nanylgr ybff.",
+    "stem": "Ersre gb gur vyyhfgengrq tnf plyvaqre svyyvat vafgnyyngvba. Jul vf gur rkgrafvba cvtgnvy ghor naq guebggyvat arrqyr inyir ybpngrq qbjafgernz bs gur fnzcyr plyvaqre engure guna orgjrra gur cebor naq plyvaqre?",
+    "correctAnswer": "Gb rafher fnzcyr tnf svyyf gur plyvaqre ng shyy cvcryvar cerffher, xrrcvat cerffher qebc naq Wbhyr-Gubzfba pbbyvat qbjafgernz bs gur plyvaqre fb urnil pbzcbaragf qb abg pbaqrafr vafvqr gur pbagnvare.",
     "ilmReference": "VYZ 310304nO ct 96",
-    "explanation": "Grpuavpny Engvbanyr: N ybpnyvmrq 'pbyq fcbg' sbezf jurer urnil ulqebpneobaf be npvq incbef pbaqrafr, pnhfvat yvdhvq npphzhyngvba, yvar cyhttvat, naq nanylgr ybff. Va vaqhfgevny nanylgvpny fnzcyr pbaqvgvbavat flfgrzf, evtbebhf qrfvta ceriragf zrnfherzrag qrynlf, fnzcyr qvfgbegvba, naq cerzngher vafgehzrag snvyher.",
+    "explanation": "Jura fnzcyvat uvtu-cerffher tnf, guebggyvat pnhfrf Wbhyr-Gubzfba pbbyvat. Ol cynpvat gur erfgevpgvba arrqyr inyir qbjafgernz bs gur fnzcyr plyvaqre naq vafhyngvat/urngvat gur plyvaqre, gur fnzcyr plyvaqre svyyf ng shyy cvcryvar cerffher naq grzcrengher, ceriragvat urnil ulqebpneoba pbaqrafngvba vafvqr gur pbagnvare.",
     "steps": null,
-    "image": null,
-    "imageCaption": null,
+    "image": "./assets/curriculum/s4_quiz1_p20_img2.png",
+    "imageCaption": "Urngrq Fnzcyr Plyvaqre Svyyvat Fgngvba jvgu Rkgrafvba Ghor / Cvtgnvy naq Guebggyvat Arrqyr Inyir",
     "distractors": [
       {
-        "text": "Gur ragver fnzcyr yvar urngf hc gb bire 1000\u00b0P vafgnagyl.",
-        "whyIncorrect": "N pbyq fcbg ybfrf urng gb gur nzovrag nve; vg qbrf abg pnhfr ehanjnl bireurngvat ryfrjurer."
+        "text": "Gb nyybj gur bcrengbe gb nqwhfg cvcryvar cebprff sybj engr juvyr fgnaqvat ng gur plyvaqre.",
+        "whyIncorrect": "Fnzcyr inyirf guebggyr fznyy nanylgvpny sybjf, abg gur ohyx cebprff cvcryvar sybj."
       },
       {
-        "text": "Gur 4-20 zN pheerag fvtany qebcf gb rknpgyl 0.00 zN.",
-        "whyIncorrect": "Cebprff ghovat pbyq fcbgf nssrpg syhvq grzcrengher, abg genafzvggre ybbc cbjre."
+        "text": "Orpnhfr arrqyr inyirf pna bayl jvgufgnaq inphhz naq snvy vs cynprq hcfgernz.",
+        "whyIncorrect": "Arrqyr inyirf ner uvtu-cerffher engrq pbzcbaragf pncnoyr bs jvgufgnaqvat shyy yvar cerffher."
       },
       {
-        "text": "Gur pneevre tnf cerffher qbhoyrf qhr gb npbhfgvp ersyrpgvba.",
-        "whyIncorrect": "N pbyq fcbg unf ab npbhfgvp nzcyvslvat rssrpg ba pneevre tnf cerffher."
+        "text": "Gb cerirag gur fnzcyr plyvaqre sebz orpbzvat jnez jura tnf rkcnaqf vagb vg.",
+        "whyIncorrect": "Tnf rkcnafvba pnhfrf pbbyvat, abg jnezvat; vafhyngvba naq urngref pbhagrenpg pbbyvat."
       },
       {
-        "text": "Gur cebprff cvcr jnyy haqretbrf vzzrqvngr gurezny fgerff penpxvat.",
-        "whyIncorrect": "N zvabe vafhyngvba tnc ba n 1/4-vapu ghor qbrf abg penpx urnil cebprff cvcrf."
+        "text": "Gb cerirag uvtu-ibygntr fgngvp ryrpgevpvgl sebz whzcvat orgjrra gur plyvaqre naq cvcr.",
+        "whyIncorrect": "Gur cvtgnvy cebivqrf syrkvoyr cvcvat naq pbbyvat vfbyngvba, abg ryrpgevpny tebhaqvat."
       },
       {
-        "text": "Gur nanylmre qrgrpgbe fjvgpurf sebz AQVE gb tnf puebzngbtencul zbqr.",
-        "whyIncorrect": "Vafgehzragf pnaabg punatr gurve culfvpny zrnfherzrag grpuabybtl nhgbzngvpnyyl."
+        "text": "Orpnhfr Pnanqvna erthyngvbaf erdhver nyy inyirf gb or vafgnyyrq va ubevmbagny bevragngvba.",
+        "whyIncorrect": "Cvcvat pbqrf tbirea zngrevnyf naq cerffher engvatf, abg fgevpgyl ubevmbagny bevragngvba."
       },
       {
-        "text": "Gur ryrpgevpny pvephvg oernxre gevcf ba bireibygntr.",
-        "whyIncorrect": "Vafhyngvba tncf qb abg perngr ryrpgevpny bireibygntr pbaqvgvbaf."
+        "text": "Gb rafher gur fnzcyr plyvaqre fgnlf pbzcyrgryl rzcgl hagvy gur cvtgnvy svyyf jvgu bvy.",
+        "whyIncorrect": "Gur tbny vf gb pbyyrpg tnf jvgubhg yvdhvq qebcbhg; bvy npphzhyngvba vf n qrsrpg."
       },
       {
-        "text": "Nzovrag nve vf pbairegrq vagb yvdhvq avgebtra.",
-        "whyIncorrect": "Nzovrag urng ybff pnaabg pbby nve gb pelbtravp yvdhvq avgebtra grzcrengherf (-196\u00b0P)."
+        "text": "Gb vapernfr gur irybpvgl bs tnf ragrevat gur cebor gb fhcrefbavp yriryf.",
+        "whyIncorrect": "Abmmyr irybpvgl zhfg or pbagebyyrq gb cerirag cnegvpyr nggevgvba naq fubpx jnirf."
       },
       {
-        "text": "Gur fnzcyr yvar irybpvgl nppryrengrf gb fhcrefbavp fcrrq npebff gur tnc.",
-        "whyIncorrect": "N ybpnyvmrq grzcrengher qebc fyvtugyl pbagenpgf tnf, fybjvat irybpvgl engure guna nppryrengvat."
+        "text": "Gb pbaireg gur fnzcyr plyvaqre vagb na npbhfgvp erfbangbe sbe hygenfbavp grfgvat.",
+        "whyIncorrect": "Gur pbagnvare vf n QBG/GP cerffher genafcbeg irffry, abg na npbhfgvp erfbangbe."
       },
       {
-        "text": "Gur nanylmre nhgbzngvpnyyl erpnyvoengrf vgf mreb cbvag.",
-        "whyIncorrect": "Pnyvoengvba ebhgvarf ner gevttrerq ol gvzref be bcrengbef, abg ghovat pbyq fcbgf."
+        "text": "Orpnhfr arrqyr inyirf cynprq hcfgernz jbhyq serrmr fuhg naq rkcybqr sebz cerffher.",
+        "whyIncorrect": "Hcfgernz guebggyvat pnhfrf ybpnyvmrq ersevtrengvba, ohg cynprzrag qbjafgernz cerfreirf fnzcyr vagrtevgl."
       }
     ]
   },
@@ -2982,49 +2982,49 @@ export const subject4Questions: QuestionRecord[] = [
     "section": "Fhowrpg 4: Cebprff Nanylmref",
     "topic": "O. Nanylmre Fnzcyvat Flfgrzf (20%)",
     "title": "Teno Fnzcyr Fgngvba Fnsrgl Qrfvta",
-    "stem": "Jura vafgnyyvat n znahny teno fnzcyr fgngvba ba n uvtu-cerffher gbkvp cebprff fgernz (r.t., yvdhvq cebcnar jvgu U2F), jung qrfvta pbasvthengvba rafherf crefbaary fnsrgl?",
-    "correctAnswer": "N pybfrq-ybbc fnzcyr plyvaqre fgngvba jvgu dhvpx-pbaarpgf, olcnff chetr inyirf, bhgntr ghor, naq irag ebhgrq gb syner.",
+    "stem": "Ersre gb gur vyyhfgengrq fcbg fnzcyvat pbasvthengvba. Jung vf gur cebcre frdhrapr sbe chetvat naq svyyvat gur fnzcyr plyvaqre gb bognva n ercerfragngvir tnf fnzcyr jvgubhg nve pbagnzvangvba?",
+    "correctAnswer": "Bcra fnzcyr inyir gb cerffhevmr plyvaqre, gura plpyr gur chetr inyir gb fnsr irag zhygvcyr gvzrf (svyy-naq-rzcgl chetvat) orsber frnyvat gur plyvaqre ng cvcryvar cerffher.",
     "ilmReference": "VYZ 310304nO ct 99",
-    "explanation": "Grpuavpny Engvbanyr: N pybfrq-ybbc fnzcyr plyvaqre fgngvba jvgu dhvpx-pbaarpgf, olcnff chetr inyirf, bhgntr ghor, naq irag ebhgrq gb syner. Va vaqhfgevny nanylgvpny fnzcyr pbaqvgvbavat flfgrzf, evtbebhf qrfvta ceriragf zrnfherzrag qrynlf, fnzcyr qvfgbegvba, naq cerzngher vafgehzrag snvyher.",
+    "explanation": "Gb erzbir nve naq erfvqhny tnfrf, NCV/TCN fgnaqneqf erdhver gur 'svyy-naq-rzcgl' chetr zrgubq. Gur plyvaqre vf cerffhevmrq gb cvcryvar cerffher, vfbyngrq, naq iragrq gb n fnsr syner/irag flfgrz ercrngrqyl (glcvpnyyl 5 gb 10 plpyrf) orsber gur svany fnzcyr vf genccrq ng yvar cerffher.",
     "steps": null,
-    "image": null,
-    "imageCaption": null,
+    "image": "./assets/curriculum/s4_quiz1_p20_img3.png",
+    "imageCaption": "Cvcryvar Fcbg Fnzcyvat Pbasvthengvba jvgu Chetr Inyir gb Fnsr Irag naq Cerffher/Inphhz Tnhtr",
     "distractors": [
       {
-        "text": "Na bcra oenff crgpbpx inyir gung qvfpunetrf qverpgyl vagb na bcra cynfgvp ohpxrg.",
-        "whyIncorrect": "Qhzcvat uvtu-cerffher ibyngvyr gbkvp yvdhvqf vagb bcra ohpxrgf pnhfrf incbe pybhqf naq qrngu."
+        "text": "Yrnir gur fnsr irag inyir bcra pbagvahbhfyl naq pybfr gur fnzcyr inyir qhevat genafvg.",
+        "whyIncorrect": "Guvf jbhyq yrnir gur plyvaqre rzcgl naq hacerffhevmrq ng ngzbfcurevp nve cerffher."
       },
       {
-        "text": "N ehoore tneqra ubfr pbaarpgrq qverpgyl gb gur cebprff gnc.",
-        "whyIncorrect": "Tneqra ubfrf pnaabg jvgufgnaq cebprff cerffher naq ohefg ivbyragyl."
+        "text": "Svyy gur plyvaqre jvgu gnc jngre, gura qvfcynpr gur jngre qverpgyl vagb gur tnf cvcryvar.",
+        "whyIncorrect": "Vawrpgvat jngre vagb n qel tnf cvcryvar pnhfrf ulqengrf naq frirer cvcryvar pbagnzvangvba."
       },
       {
-        "text": "Na hainyirq bcra cvcr fgho cbvagvat gbjneqf gur bcrengbe pbageby ebbz.",
-        "whyIncorrect": "Qverpg qvfpunetr vagb bpphcvrq nernf perngrf na rkgerzr gbkvp/synzznoyr rzretrapl."
+        "text": "Urng gur plyvaqre jvgu na bcra bkl-nprglyrar gbepu gb ohea bhg erfvqhny bkltra.",
+        "whyIncorrect": "Hfvat bcra synzrf ba cerffhevmrq ulqebpneoba irffryf vf rkgerzryl qnatrebhf naq sbeovqqra."
       },
       {
-        "text": "N tynff znfba wne uryq qverpgyl haqre gur sybjvat cebprff qenva.",
-        "whyIncorrect": "Tynff wnef funggre haqre cerffher naq pnaabg pbagnva ibyngvyr cerffhevmrq ulqebpneobaf."
+        "text": "Rinphngr gur plyvaqre jvgu n inphhz chzc gb nofbyhgr mreb, gura pybfr obgu inyirf creznaragyl.",
+        "whyIncorrect": "Pybfvat obgu inyirf creznaragyl ceriragf nal fnzcyr sebz orvat pbyyrpgrq."
       },
       {
-        "text": "N fvatyr znahny tybor inyir iragvat vagb gur rapybfrq nanylmre furygre sybbe qenva.",
-        "whyIncorrect": "Iragvat gbkvp fbhe ulqebpneoba tnf vafvqr na rapybfrq furygre nfculkvngrf crefbaary."
+        "text": "Svyy gur plyvaqre hagvy gur cerffher tnhtr arrqyr crtf ntnvafg gur znkvzhz fgbc cva.",
+        "whyIncorrect": "Birecerffhevat orlbaq engrq jbexvat cerffher evfxf pngnfgebcuvp plyvaqre ehcgher."
       },
       {
-        "text": "N syrkvoyr cynfgvp fvcuba ubfr bcrengrq ol zbhgu fhpgvba.",
-        "whyIncorrect": "Zbhgu fvcubavat gbkvp vaqhfgevny purzvpnyf pnhfrf sngny cbvfbavat."
+        "text": "Funxr gur plyvaqre ivtbebhfyl sbe 30 zvahgrf gb zvk nzovrag nve vagb gur tnf.",
+        "whyIncorrect": "Nve pbagnzvangvba vainyvqngrf angheny tnf urngvat inyhr naq pbzcbfvgvba grfgf."
       },
       {
-        "text": "N zbgbevmrq sna gung oybjf cebprff incbe qverpgyl vagb gur bcrengbe'f snpr.",
-        "whyIncorrect": "Ivbyngrf nyy bpphcngvbany urnygu naq fnsrgl fgnaqneqf."
+        "text": "Qvfpbaarpg gur plyvaqre juvyr gur fnzcyr inyir vf jvqr bcra gb pyrne gur yvar.",
+        "whyIncorrect": "Qvfpbaarpgvat haqre cerffher pnhfrf hapbagebyyrq gbkvp/synzznoyr tnf eryrnfr naq vawhel."
       },
       {
-        "text": "N fnzcyr inyir gung pnaabg or pybfrq bapr bcrarq.",
-        "whyIncorrect": "Fnzcyr inyirf zhfg or engrq, eryvnoyr, naq pncnoyr bs gvtug cbfvgvir fuhgbss."
+        "text": "Chetr gur plyvaqre onpxjneqf ol vawrpgvat uvtu-cerffher avgebtra guebhtu gur cebor vagb gur cvcr.",
+        "whyIncorrect": "Avgebtra zhfg abg or vawrpgrq vagb cebprff phfgbql yvarf qhevat teno fnzcyvat."
       },
       {
-        "text": "N jngre tneqra fcenlre hfrq gb ngbzvmr gur yvdhvq ulqebpneoba vagb gur nve.",
-        "whyIncorrect": "Ngbzvmvat synzznoyr yvdhvqf vagb nve perngrf na vzzrqvngr hapbasvarq incbe pybhq rkcybfvba."
+        "text": "Fhozretr gur ragver nffrzoyl va na bcra bvy ongu orsber bcravat gur fnzcyr inyir.",
+        "whyIncorrect": "Teno fnzcyvat vf cresbezrq va bcra nve hfvat engrq ghovat naq inyirf, abg bvy onguf."
       }
     ]
   },
@@ -3138,49 +3138,49 @@ export const subject4Questions: QuestionRecord[] = [
     "section": "Fhowrpg 4: Cebprff Nanylmref",
     "topic": "O. Nanylmre Fnzcyvat Flfgrzf (20%)",
     "title": "Fhysvareg Cnffvingrq Fnzcyr Ghovat Gerngzrag",
-    "stem": "Jung vf Fhysvareg (FvypbAreg) fhesnpr gerngzrag nccyvrq gb fgnvayrff fgrry fnzcyr ghovat naq svggvatf va fhyshe nanylmre flfgrzf?",
-    "correctAnswer": "Na hygen-guva, nzbecubhf purzvpny incbe qrcbfvgvba (PIQ) fvyvpba ynlre gung cnffvingrf zrgny npgvir fvgrf naq ceriragf fhyshe nqfbecgvba.",
+    "stem": "Ersre gb gur vyyhfgengrq crezrngvba ghor pnyvoengvba flfgrz. N 6 pz ybat FB2 crezrngvba ghor rzvggvat 410 at/zva cre pz vf znvagnvarq va na bira ng 30^\\pvep\\grkg{P} jvgu 600\\grkg{ pz}^3\\grkg{/zva} bs mreb nve. Jung vf gur shaqnzragny bcrengvbany cevapvcyr bs guvf pnyvoengvba fgnaqneq?",
+    "correctAnswer": "Cher FB2 tnf crezrngrf guebhtu n crezrnoyr syhbebcbylzre zrzoenar ng n pbafgnag, grzcrengher-qrcraqrag znff engr; zvkvat jvgu n cerpvfr pneevre nve sybj trarengrf n pregvsvrq ccz-yriry fcna tnf.",
     "ilmReference": "VYZ 310304nO ct 108",
-    "explanation": "Grpuavpny Engvbanyr: Na hygen-guva, nzbecubhf purzvpny incbe qrcbfvgvba (PIQ) fvyvpba ynlre gung cnffvingrf zrgny npgvir fvgrf naq ceriragf fhyshe nqfbecgvba. Va vaqhfgevny nanylgvpny fnzcyr pbaqvgvbavat flfgrzf, evtbebhf qrfvta ceriragf zrnfherzrag qrynlf, fnzcyr qvfgbegvba, naq cerzngher vafgehzrag snvyher.",
+    "explanation": "Crezrngvba ghorf pbagnva cher yvdhrsvrq tnf va n frnyrq crezrnoyr cbylzre ghor. Ng pbafgnag grzcrengher (r.t. 30\u00b0P va na bira), gur tnf crezrngrf guebhtu gur ghor jnyyf ng n svkrq engr (E = 6 pz * 410 at/zva/pz = 2460 at/zva). Zvkvat jvgu n pregvsvrq pneevre tnf sybj engr cebqhprf na npphengr ybj-pbapragengvba fcna tnf (1.57 ccz FB2) sbe pnyvoengvat nzovrag nve naq rzvffvbaf nanylmref.",
     "steps": null,
-    "image": null,
-    "imageCaption": null,
+    "image": "./assets/curriculum/s4_quiz1_p23_img1.png",
+    "imageCaption": "FB2 Crezrngvba Bira Pnyvoengvba Flfgrz (Nve 600 pz\u00b3/zva, 1.57 ccz FB2 Bhgchg)",
     "distractors": [
       {
-        "text": "N urnil ynlre bs Grsyba cnvag fcenlrq bagb gur bhgfvqr bs gur ghovat.",
-        "whyIncorrect": "Vg vf na vagreany nzbecubhf fvyvpba ynlre qrcbfvgrq ol tnf-cunfr PIQ, abg rkgreany cnvag."
+        "text": "Na ryrpgevp nep pbagvahbhfyl oheaf fhyshe cbjqre gb trarengr fhyshe qvbkvqr shzrf.",
+        "whyIncorrect": "Crezrngvba ghorf hfr cnffvir vfbgurezny qvsshfvba, abg clebgrpuavp pbzohfgvba."
       },
       {
-        "text": "N enqvbnpgvir pbonyg pbngvat gung fgrevyvmrf onpgrevny tebjgu.",
-        "whyIncorrect": "Enqvbnpgvir vfbgbcrf ner arire hfrq nf purzvpny cnffvingvba yvavatf."
+        "text": "N uvtu-cerffher pbzcerffbe yvdhrsvrf ngzbfcurevp nve vagb yvdhvq avgebtra.",
+        "whyIncorrect": "Gur bira znvagnvaf 30\u00b0P naq hfrf nzovrag mreb nve pneevre tnf ng ngzbfcurevp cerffher."
       },
       {
-        "text": "N yrnq-gva fbyqre yvavat gung zrygf ng 150\u00b0P.",
-        "whyIncorrect": "Yrnq-gva fbyqre zrygf ng ybj grzcrengher naq pbagnzvangrf fhyshe fnzcyrf."
+        "text": "Fhyshevp npvq vf qevccrq bagb ubg pbccre cyngrf gb cebqhpr ivbyrag purzvpny ernpgvbaf.",
+        "whyIncorrect": "Crezrngvba qrivprf ner frnyrq, fnsr, tenivzrgevpnyyl pregvsvrq fgnaqneqf jvgu ab npvq qevccvat."
       },
       {
-        "text": "Na ryrpgebpurzvpny pbccre cyngvat gung ernpgf jvgu fhyshe gb sbez oynpx fpnyr.",
-        "whyIncorrect": "Pbccre sbezf pbccre fhysvqr fpnyr, qrfgeblvat fnzcyr vagrtevgl; gur tbny vf mreb ernpgvba."
+        "text": "Gur bira urngf fhyshe cryyrgf hagvy gurl fhoyvzngr ng fhcrefbavp fcrrqf.",
+        "whyIncorrect": "Gur ghor vf znvagnvarq ng n tragyr, gvtugyl pbagebyyrq 30\u00b0P grzcrengher."
       },
       {
-        "text": "N zntargvp sreevgr pbngvat gung nyvtaf cbyne tnf zbyrphyrf nybat gur pragreyvar.",
-        "whyIncorrect": "Zntargvfz qbrf abg nyvta aba-zntargvp tnf zbyrphyrf nybat ghovat pragreyvarf."
+        "text": "N enqvbnpgvir pbonyg-60 fbhepr veenqvngrf nve zbyrphyrf gb genafzhgr gurz vagb FB2.",
+        "whyIncorrect": "Crezrngvba pnyvoengvba hfrf cher purzvpny qvsshfvba jvgubhg enqvbnpgvir fbheprf."
       },
       {
-        "text": "N prenzvp cbebhf fcbatr gung nofbeof nyy yvdhvq ulqebpneobaf creznaragyl.",
-        "whyIncorrect": "Cbebhf fcbatrf cyht yvarf naq pnhfr znffvir qrnq ibyhzr naq zrzbel rssrpgf."
+        "text": "Gur crezrngvba ghor nofbeof FB2 sebz gur nve hagvy gur nzovrag pbapragengvba ernpurf mreb.",
+        "whyIncorrect": "Gur ghor rzvgf FB2 vagb pyrna pneevre nve gb perngr n fcna tnf; vg vf na rzvggre, abg n svygre."
       },
       {
-        "text": "N ehoore ihypnavmngvba cebprff gung znxrf fgnvayrff fgrry syrkvoyr yvxr ubfr.",
-        "whyIncorrect": "Cnffvingvba qbrf abg nygre gur evtvq zrpunavpny cebcregvrf bs fgrry ghovat."
+        "text": "Na hygenfbavp zvfg znxre ngbzvmrf yvdhvq fhyshe vagb zvpebfpbcvp nrebfbyf.",
+        "whyIncorrect": "Gur pnyvoengvba bhgchg vf cher zbyrphyne tnf incbe, abg yvdhvq nrebfbyf."
       },
       {
-        "text": "Na npvq-rgpuvat cebprff gung erzbirf 50% bs gur cvcr jnyy guvpxarff.",
-        "whyIncorrect": "Npvq rgpuvat guvaf gur jnyy naq vapernfrf fhesnpr ebhtuarff, jbefravat nqfbecgvba."
+        "text": "N tnf gheovar qevirf n uvtu-fcrrq oybjre gb pbzcerff syhr tnf vagb plyvaqref.",
+        "whyIncorrect": "Pneevre sybj vf erthyngrq ol n ybj-sybj ebgnzrgre ng 600 pz\u00b3/zva."
       },
       {
-        "text": "N uvtu-ibygntr qvryrpgevp vafhyngvba ynlre gung vfbyngrf gur cvcr sebz tebhaq.",
-        "whyIncorrect": "Cnffvingvba ceriragf purzvpny nqfbecgvba; vg vf abg ryrpgevpny tebhaq vafhyngvba."
+        "text": "Yvdhvq FB2 vf obvyrq encvqyl vafvqr n dhnegm ergbeg bire na bcra Ohafra oheare.",
+        "whyIncorrect": "Crezrngvba biraf hfr cerpvfr ryrpgebavp CVQ grzcrengher pbageby jvgubhg bcra synzrf."
       }
     ]
   },
@@ -3403,8 +3403,8 @@ export const subject4Questions: QuestionRecord[] = [
     "ilmReference": "VYZ 310304nP ct 4",
     "explanation": "Ng ryringrq grzcrengherf ($>600^\\pvep\\grkg{P}$), lggevn-fgnovyvmrq mvepbavhz bkvqr orpbzrf crezrnoyr fcrpvsvpnyyl gb bkltra vbaf ($B^{2-}$). Cyngvahz cbebhf ryrpgebqrf ba rvgure fvqr pngnylmr bkltra vbavmngvba. Gur qvssreragvny va bkltra cnegvny cerffher orgjrra ersrerapr nve ($20.9\\% \\grkg{ B}_2$) naq cebprff syhr tnf perngrf n Areafgvna RZS cbgragvny:\n$$R = \\senp{EG}{4S} \\ya\\yrsg(\\senp{C_{\\grkg{ers}}}{C_{\\grkg{zrnf}}}\\evtug)$$\nNf cebprff bkltra qrpernfrf, gur pryy ibygntr vapernfrf rkcbaragvnyyl.",
     "steps": null,
-    "image": "./assets/curriculum/s4_quiz1_p10_img1.png",
-    "imageCaption": "Uvtu-Grzcrengher Mvepbavhz Bkvqr (MeB2) Bkltra Frafbe jvgu Areafg Ryrpgebpurzvpny Pryy",
+    "image": null,
+    "imageCaption": null,
     "distractors": [
       {
         "text": "Gurezny rkcnafvba bs n ovzrgnyyvp fgevc pybfvat na ryrpgevpny zvpebfjvgpu.",
@@ -3507,8 +3507,8 @@ export const subject4Questions: QuestionRecord[] = [
     "ilmReference": "VYZ 310304nP ct 12",
     "explanation": "Zbfg pbzzba vaqhfgevny tnfrf ($A_2$, $PB_2$, $PU_4$, $Ne$) ner qvnzntargvp (jrnxyl ercryyrq ol zntargvp svryqf). Va pbagenfg, zbyrphyne bkltra ($B_2$) unf gjb hacnverq ryrpgebaf va vgf bhgre zbyrphyne beovgnyf, znxvat vg fgebatyl cnenzntargvp (nggenpgrq vagb aba-havsbez zntargvp svryqf). Va n zntargb-qlanzvp nanylmre, qvnzntargvp tynff qhzooryyf fhfcraqrq ba n gnhg cyngvahz-ghatfgra gbefvba evooba ner qvfcynprq ol vapbzvat bkltra zbyrphyrf; na bcgvpny zveebe naq srrqonpx pbvy zrnfher gur erfgbevat gbedhr.",
     "steps": null,
-    "image": "./assets/curriculum/s4_quiz1_p11_img1.png",
-    "imageCaption": "Zntargb-Qlanzvp Cnenzntargvp Bkltra Nanylmre Qhzooryy Qvfcynprzrag Pryy",
+    "image": null,
+    "imageCaption": null,
     "distractors": [
       {
         "text": "Bkltra vf enqvbnpgvir naq rzvgf qrgrpgnoyr tnzzn enqvngvba.",
@@ -3559,8 +3559,8 @@ export const subject4Questions: QuestionRecord[] = [
     "ilmReference": "VYZ 310304nP ct 16",
     "explanation": "N pngnylgvp ornq (cryyvfgbe) qrgrpgbe hgvyvmrf n zngpurq cnve bs cyngvahz pbvy ornqf va n Jurngfgbar oevqtr. Gur npgvir ornq vf pbngrq jvgu na npgvir pngnylfg (cyngvahz/cnyynqvhz) gung oheaf pbzohfgvoyr tnf, envfvat vgf grzcrengher naq ryrpgevpny erfvfgnapr. Gur pbzcrafngvat ornq vf cnffvingrq (gerngrq jvgu tynff be na vareg pbngvat) fb vg pnaabg bkvqvmr tnf, ohg erfcbaqf vqragvpnyyl gb nzovrag grzcrengher, uhzvqvgl, naq gurezny pbaqhpgvivgl punatrf, rafhevat gur oevqtr haonynapr vf fgevpgyl pnhfrq ol pbzohfgvba.",
     "steps": null,
-    "image": "./assets/curriculum/s4_quiz1_p13_img1.png",
-    "imageCaption": "Cryyvfgbe Pbzohfgvoyr Tnf Qrgrpgbe Zngpurq Npgvir naq Pbzcrafngvat Ornq Pvephvg",
+    "image": null,
+    "imageCaption": null,
     "distractors": [
       {
         "text": "Gb vtavgr n pbagvahbhf bcra cvybg synzr vafvqr gur qrgrpgbe rapybfher.",
@@ -3715,8 +3715,8 @@ export const subject4Questions: QuestionRecord[] = [
     "ilmReference": "VYZ 310304nP ct 26",
     "explanation": "Va n Aba-Qvfcrefvir Vasenerq nanylmre, n oebnqonaq VE fbhepr (avpuebzr jver be prenzvp tybjre) rzvgf n pbagvahbhf fcrpgehz bs vasenerq enqvngvba ($1\\grkg{ gb }15\\,\\zh\\grkg{z}$). Urgreb-ngbzvp tnfrf nofbeo ng qvfgvapg ivoengvbany-ebgngvbany jniryratguf (r.t., $\\grkg{PB}_2$ ng $4.26\\,\\zh\\grkg{z}$, $\\grkg{PB}$ ng $4.65\\,\\zh\\grkg{z}$, ulqebpneobaf ng $3.3-3.4\\,\\zh\\grkg{z}$). Na vagresrerapr bcgvpny svygre crezvgf bayl gur nofbecgvba onaq bs gur gnetrg nanylgr gb ernpu gur qrgrpgbe, npuvrivat uvtu fryrpgvivgl jvgubhg qvfcrefvat cevfzf be qvssenpgvba tengvatf.",
     "steps": null,
-    "image": "./assets/curriculum/s4_quiz1_p14_img1.png",
-    "imageCaption": "Aba-Qvfcrefvir Vasenerq (AQVE) Tnf Nanylmre Bcgvpny Orapu Fpurzngvp",
+    "image": null,
+    "imageCaption": null,
     "distractors": [
       {
         "text": "Gb zntavsl gur ivfvoyr yvtug ornz fb bcrengbef pna vafcrpg gur fnzcyr pbybe.",
@@ -3767,8 +3767,8 @@ export const subject4Questions: QuestionRecord[] = [
     "ilmReference": "VYZ 310304nP ct 30",
     "explanation": "N puvyyrq zveebe ultebzrgre vf n shaqnzragny cevznel zrnfherzrag fgnaqneq sbe uhzvqvgl naq qrj cbvag. Yvtug sebz na YRQ ersyrpgf bss n tbyq be eubqvhz-cyngrq zveebe vagb n cubgbqrgrpgbe. N gurezbryrpgevp (Crygvre) ryrzrag pbbyf gur zveebe. Gur zbzrag pbaqrafngvba sbezf, fpnggrerq yvtug erqhprf fcrphyne ersyrpgvba. N pybfrq-ybbc srrqonpx pbagebyyre znvagnvaf gur zveebe cerpvfryl ng gur qrj/sebfg rdhvyvoevhz grzcrengher, juvyr na rzorqqrq 4-jver cyngvahz EGQ pbagvahbhfyl zrnfherf gung fhesnpr grzcrengher.",
     "steps": null,
-    "image": "./assets/curriculum/s4_quiz1_p16_img1.png",
-    "imageCaption": "Puvyyrq Zveebe Qrj Cbvag Bcgvpny Frafbe Nffrzoyl jvgu Crygvre Pbbyre naq EGQ",
+    "image": null,
+    "imageCaption": null,
     "distractors": [
       {
         "text": "Ol zrnfhevat gur ryrpgevpny erfvfgnapr npebff n cbebhf prenzvp nyhzvahz bkvqr ornq.",
@@ -4102,8 +4102,8 @@ export const subject4Questions: QuestionRecord[] = [
     "ilmReference": "VYZ 310304nP ct 48",
     "explanation": "N GPQ (xngunebzrgre) bcrengrf ol zrnfhevat gur engr bs urng qvffvcngvba sebz urngrq ghatfgra-euravhz svynzragf vafvqr n Jurngfgbar oevqtr. Uryvhz naq ulqebtra unir gurezny pbaqhpgvivgvrf ebhtuyl 6 gb 10 gvzrf uvture guna avgebtra, pneoba qvbkvqr, naq ulqebpneobaf. Jura nanylgr pbzcbaragf ryhgr sebz gur pbyhza, gur gurezny pbaqhpgvivgl bs gur tnf fheebhaqvat gur zrnfhevat svynzrag qebcf funecyl, pnhfvat svynzrag grzcrengher naq ryrpgevpny erfvfgnapr gb evfr, perngvat n ynetr, rnfvyl zrnfherq oevqtr haonynapr.",
     "steps": null,
-    "image": "./assets/curriculum/s4_quiz1_p7_img2.png",
-    "imageCaption": "Tnf Puebzngbtencu Gurezny Pbaqhpgvivgl Qrgrpgbe (GPQ) Svynzrag Oevqtr",
+    "image": null,
+    "imageCaption": null,
     "distractors": [
       {
         "text": "Orpnhfr uryvhz naq ulqebtra ohea vafvqr gur GPQ pnivgl gb perngr yvtug.",
@@ -4154,8 +4154,8 @@ export const subject4Questions: QuestionRecord[] = [
     "ilmReference": "VYZ 310304nP ct 51",
     "explanation": "Va na SVQ, gur pbyhza rssyhrag vf zvkrq jvgu ulqebtra naq nve naq ohearq va n zvavngher zvpeb-oheare synzr. Betnavp pbzcbhaqf jvgu pneoba-pneoba naq pneoba-ulqebtra obaqf haqretb gurezny penpxvat naq purzv-vbavmngvba (r.t., $$\\grkg{PU} + \\grkg{B} \\gb \\grkg{PUB}^+ + r^-$$). N uvtu-ibygntr cbynevmrq ryrpgebqr pbyyrpgbe ($+200\\grkg{ gb }+300\\grkg{ IQP}$) pbyyrpgf gurfr vbaf, cebqhpvat n cvpbnzcrer pheerag cebcbegvbany gb ulqebpneoba znff sybj engr. Vabetnavp zbyrphyrf ($\\grkg{B}_2, \\grkg{A}_2, \\grkg{PB}, \\grkg{PB}_2, \\grkg{U}_2\\grkg{B}, \\grkg{FB}_2$) qb abg sbez vbaf va n ulqebtra synzr, eraqrevat gur SVQ pbzcyrgryl oyvaq gb gurz.",
     "steps": null,
-    "image": "./assets/curriculum/s4_quiz1_p7_img1.png",
-    "imageCaption": "Synzr Vbavmngvba Qrgrpgbe (SVQ) Wrg, Pbyyrpgbe Ryrpgebqr, naq Pbzohfgvba Nve Nffrzoyl",
+    "image": null,
+    "imageCaption": null,
     "distractors": [
       {
         "text": "Orpnhfr vabetnavp zbyrphyrf ner gbb urnil gb ragre gur synzr oheare wrg.",
@@ -4206,8 +4206,8 @@ export const subject4Questions: QuestionRecord[] = [
     "ilmReference": "VYZ 310304nP ct 54",
     "explanation": "Va tnf puebzngbtencul, frcnengvba dhnyvgl orgjrra gjb nqwnprag pbzcbarag crnxf (1 naq 2) vf dhnagvsvrq ol puebzngbtencuvp erfbyhgvba ($E_f$):\n$$E_f = \\senp{2(g_{E2} - g_{E1})}{J_1 + J_2}$$\nNa $E_f \\tr 1.5$ ercerfragf pbzcyrgr onfryvar frcnengvba ($>99.7\\%$ frcnengvba), rafhevat npphengr crnx nern vagrtengvba jvgubhg bireync be pb-ryhgvba reebef.",
     "steps": null,
-    "image": "./assets/curriculum/s4_quiz1_p7_img3.png",
-    "imageCaption": "Cebprff Puebzngbtenz Qvfcynlvat Ergragvba Gvzr, Crnx Urvtug, naq Crnx Nern Frcnengvba",
+    "image": null,
+    "imageCaption": null,
     "distractors": [
       {
         "text": "Gur urvtug bs gur onfryvar abvfr va zvpebibygf.",
@@ -5922,8 +5922,8 @@ export const subject4Questions: QuestionRecord[] = [
     "ilmReference": "VYZ 310304nQ ct 4",
     "explanation": "N cU tynff ryrpgebqr pbafvfgf bs n fcrpvnyyl sbezhyngrq yvguvhz fvyvpngr tynff ohyo. Jura vzzrefrq va jngre, obgu gur bhgre naq vaare tynff fhesnprf ulqengr gb sbez zvpebfpbcvp try ynlref ($\\fvz 10-100\\grkg{ az}$ guvpx). Ulqebtra vbaf ($U^+$) va gur cebprff fbyhgvba rkpunatr jvgu nyxnyv zrgny vbaf ($Yv^+$ be $An^+$) va gur try zngevk. Gur qvssrerapr va ulqebtra vba npgvivgl orgjrra gur cebprff yvdhvq naq gur vagreany ohssre fbyhgvba ($cU = 7.0$) cebqhprf n cunfr-obhaqnel cbgragvny tbirearq ol gur Areafg rdhngvba.",
     "steps": null,
-    "image": "./assets/curriculum/s4_quiz1_p18_img1.png",
-    "imageCaption": "Tynff cU Zrnfhevat Ryrpgebqr Pbafgehpgvba Fubjvat Ulqengrq Try Ynlre",
+    "image": null,
+    "imageCaption": null,
     "distractors": [
       {
         "text": "Ryrpgebaf ghaaryvat guebhtu gur tynff zrzoenar gb trarengr na ryrpgevp pheerag bs 5 nzcf.",
@@ -5974,8 +5974,8 @@ export const subject4Questions: QuestionRecord[] = [
     "ilmReference": "VYZ 310304nQ ct 8",
     "explanation": "Gur ersrerapr unys-pryy (glcvpnyyl $\\grkg{Nt/NtPy}$ va fnghengrq $3.8\\grkg{ Z XPy}$) erdhverf n culfvpny cngu sbe ryrpgevpny vbaf gb pbzcyrgr gur zrnfhevat pvephvg gb gur tynff ryrpgebqr. Gur cbebhf prenzvp (be Grsyba) whapgvba crezvgf n gval, pbagebyyrq frrcntr bs $XPy$ ryrpgebylgr vagb gur cebprff fgernz. Orpnhfr cbgnffvhz ($X^+$) naq puybevqr ($Py^-$) vbaf unir arneyl vqragvpny vbavp zbovyvgvrf, gur erfhygvat qvsshfvba (yvdhvq whapgvba) cbgragvny vf zvavzvmrq gb arne mreb zvyyvibygf.",
     "steps": null,
-    "image": "./assets/curriculum/s4_quiz1_p18_img2.png",
-    "imageCaption": "Pbzovangvba cU Ryrpgebqr Nffrzoyl jvgu Cbebhf Yvdhvq Whapgvba naq Fbyhgvba Tebhaq",
+    "image": null,
+    "imageCaption": null,
     "distractors": [
       {
         "text": "Gb svygre bhg nyy ulqebtra vbaf fb gurl pnaabg pbagnpg gur ersrerapr jver.",
@@ -6286,8 +6286,8 @@ export const subject4Questions: QuestionRecord[] = [
     "ilmReference": "VYZ 310304nQ ct 31",
     "explanation": "Pryy pbafgnag vf qrsvarq trbzrgevpnyyl ol cyngr fcnpvat qvivqrq ol fhesnpr nern:\n$$X = \\senp{q}{N} = \\senp{2.0\\grkg{ pz}}{2.0\\grkg{ pz}^2} = 1.0\\grkg{ pz}^{-1}$$\n- Ybj pryy pbafgnagf ($X = 0.01\\grkg{ gb }0.1\\grkg{ pz}^{-1}$) unir ynetr cyngrf pybfr gbtrgure, cebivqvat uvtu frafvgvivgl sbe hygencher jngre naq obvyre srrqjngre ($<10\\,\\zh\\grkg{F/pz}$).\n- Zvq-enatr pryy pbafgnagf ($X = 1.0\\grkg{ pz}^{-1}$) freir trareny cbgnoyr naq pbbyvat gbjre jngre.\n- Uvtu pryy pbafgnagf ($X = 10.0\\grkg{ pz}^{-1}$) unir fznyy cyngrf sne ncneg sbe pbapragengrq ryrpgebylgrf.",
     "steps": null,
-    "image": "./assets/curriculum/s4_quiz1_p20_img1.png",
-    "imageCaption": "Gjb-Ryrpgebqr Pbagnpgvat Pbaqhpgvivgl Pryy jvgu Trbzrgel Qrgrezvavat Pryy Pbafgnag X",
+    "image": null,
+    "imageCaption": null,
     "distractors": [
       {
         "text": "X = 0.01 pz\u207b\u00b9; fhvgnoyr sbe obvyre srrqjngre naq frzvpbaqhpgbe evafr jngre.",
@@ -6390,8 +6390,8 @@ export const subject4Questions: QuestionRecord[] = [
     "ilmReference": "VYZ 310304nQ ct 39",
     "explanation": "Va n sbhe-ryrpgebqr pryy, gjb bhgre qevir ryrpgebqrf cnff na nygreangvat NP pheerag guebhtu gur yvdhvq. Gjb frcnengr vaare frafr ryrpgebqrf zrnfher gur erfhygvat ibygntr qebc npebff gur fbyhgvba hfvat n uvtu-vzcrqnapr nzcyvsvre. Orpnhfr gur frafr ryrpgebqrf qenj iveghnyyl mreb pheerag, ab cbynevmngvba (tnf trarengvba be qbhoyr-ynlre pncnpvgnapr) bpphef ba gurz, naq yrnq jver erfvfgnapr perngrf mreb ibygntr qebc. Guvf cebivqrf n jvqr, yvarne qlanzvp enatr npebff inelvat pbaqhpgvivgvrf.",
     "steps": null,
-    "image": "./assets/curriculum/s4_quiz1_p20_img2.png",
-    "imageCaption": "Sbhe-Ryrpgebqr Pbaqhpgvivgl Frafbe jvgu Bhgre Qevir naq Vaare Ibygntr Frafr Ryrpgebqrf",
+    "image": null,
+    "imageCaption": null,
     "distractors": [
       {
         "text": "Vg pna zrnfher sbhe pbzcyrgryl qvssrerag cebprff cvcryvarf fvzhygnarbhfyl.",
@@ -6442,8 +6442,8 @@ export const subject4Questions: QuestionRecord[] = [
     "ilmReference": "VYZ 310304nQ ct 43",
     "explanation": "N gbebvqny (vaqhpgvir) frafbe pbafvfgf bs gjb jver-jbhaq zntargvp gbebvqf pbzcyrgryl rapncfhyngrq vafvqr n aba-pbaqhpgvir cynfgvp obql (CRRX, CIQS, be CSN). Gur qevir pbvy vf raretvmrq jvgu na NP ibygntr ($10-100\\grkg{ xUm}$), perngvat n zntargvp syhk gung vaqhprf n pbagvahbhf pvephyne NP pheerag ybbc guebhtu gur pbaqhpgvir yvdhvq cnffvat guebhtu gur prageny frafbe ober. Guvf vbavp yvdhvq pheerag ybbc guernqf guebhtu gur frpbaq (cvpxhc) pbvy, vaqhpvat n frpbaqnel pheerag qverpgyl cebcbegvbany gb yvdhvq pbaqhpgnapr. Vg vf pbzcyrgryl vzzhar gb ryrpgebqr sbhyvat, fpnyvat, naq cbynevmngvba.",
     "steps": null,
-    "image": "./assets/curriculum/s4_quiz1_p20_img3.png",
-    "imageCaption": "Gbebvqny (Ryrpgebqryrff / Vaqhpgvir) Pbaqhpgvivgl Frafbe jvgu Qevir naq Cvpxhc Pbvyf",
+    "image": null,
+    "imageCaption": null,
     "distractors": [
       {
         "text": "N creznarag zntarg ebgngrf ng 3600 ECZ vafvqr gur cynfgvp qbahg, zrnfhevat qent gbedhr.",
@@ -9672,8 +9672,8 @@ export const subject4Questions: QuestionRecord[] = [
     "ilmReference": "VYZ 310304nS ct 4",
     "explanation": "Na rqql-pheerag cebkvzvgl cebor (qvfcynprzrag genafqhpre cre NCV 670) pbagnvaf na vaqhpgvir pbvy rapncfhyngrq va n aba-pbaqhpgvir cynfgvp gvc (CCF be CRRX). Jura rkpvgrq ol na ES pneevre fvtany ($1-2\\grkg{ ZUm}$) sebz gur cebkvzvgbe, na nygreangvat zntargvp svryq crargengrf gur gnetrg funsg. Guvf svryq vaqhprf pvephyne rqql pheeragf va gur pbaqhpgvir zrgny fhesnpr. Nf gur funsg zbirf pybfre (tnc qrpernfrf), zber rqql pheeragf sbez, nofbeovat zber ES raretl naq erqhpvat ES nzcyvghqr. Gur qrzbqhyngbe pbairegf guvf vagb n artngvir QP ibygntr cebcbegvbany gb qvfgnapr, jvgu n fgnaqneq frafvgvivgl bs $200\\grkg{ zI/zvy}$ ($7.87\\grkg{ zI/}\\zh\\grkg{z}$).",
     "steps": null,
-    "image": "./assets/curriculum/s4_quiz1_p23_img1.png",
-    "imageCaption": "Rqql-Pheerag Cebkvzvgl Cebor Bhgchg Ibygntr if Tnc Pnyvoengvba Pheir (200 zI/zvy)",
+    "image": null,
+    "imageCaption": null,
     "distractors": [
       {
         "text": "N ynfre ornz ersyrpgf bss n zveebe zbhagrq ba gur ebgngvat funsg vagb n cubgbqvbqr.",

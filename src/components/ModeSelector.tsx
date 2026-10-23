@@ -80,7 +80,7 @@ export function ModeSelector({ onStartMode, onLock }: ModeSelectorProps) {
           mode: 'diagrams',
           title: 'Schematics & Diagrams Mastery',
           subtitle: 'Authentic 3rd Period Exam Diagrams',
-          badge: '63+ DIAGRAMS',
+          badge: '50 DIAGRAMS',
           description:
             'Drill questions referencing authentic P&IDs, Bode plots, calibration curves, reactor jacket schemes, and wiring schematics extracted from curriculum notebooks.',
           icon: <ImageIcon className="w-5 h-5 text-cyan-400" aria-hidden="true" />,
@@ -239,7 +239,7 @@ export function ModeSelector({ onStartMode, onLock }: ModeSelectorProps) {
                 </span>
               </h1>
               <p className="text-xs text-slate-400 font-mono">
-                1,000 Questions (200 / Subject) • 9,000 Calibrated Distractors • Formula Sheet 2017 Grounded • 63+ Authentic Diagrams
+                1,000 Questions (200 / Subject) • 9,000 Calibrated Distractors • Formula Sheet 2017 Grounded • 50 Authentic Diagrams
               </p>
             </div>
           </div>
