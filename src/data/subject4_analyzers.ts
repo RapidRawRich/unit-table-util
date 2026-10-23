@@ -1308,7 +1308,7 @@ export const subject4Questions: QuestionRecord[] = [
     "ilmReference": "VYZ 310304nO ct 4",
     "explanation": "Fnzcyvat sebz gur pragre bar-guveq bs gur cvcr nibvqf gur fgntanag, qvegl ynzvane obhaqnel ynlre nybat gur cvcr jnyyf naq rkgenpgf ercerfragngvir ohyx syhvq. Gbc vafgnyyngvba ceriragf yvdhvq pbaqrafngr sebz qenvavat vagb gur cebor. N 45-qrterr oriry snpvat qbjafgernz hfrf varegvny zbzraghz gb erwrpg urnil cnegvphyngr znggre sebz ragrevat gur cebor bevsvpr.",
     "steps": null,
-    "image": "/assets/curriculum/s4_quiz1_p2_img2.png",
+    "image": "./assets/curriculum/s4_quiz1_p2_img2.png",
     "imageCaption": "Glcvpny Rkgenpgvir Fnzcyr Cebor jvgu 45-Qrterr Qbjafgernz Oriry naq Ergenpgvba Pbyyne",
     "distractors": [
       {
@@ -1360,7 +1360,7 @@ export const subject4Questions: QuestionRecord[] = [
     "ilmReference": "VYZ 310304nO ct 8",
     "explanation": "Orpnhfr nanylmre zrnfhevat pryyf erdhver irel fznyy ibyhzrgevp sybj engrf ($0.1\\grkg{ gb }1.0\\grkg{ Y/zva}$) gb bcrengr fgnoyl, sybjvat ng guvf ybj engr guebhtu uhaqerqf bs srrg bs ghovat jbhyq pnhfr vagbyrenoyr gvzr qrynlf (ubhef bs ynt gvzr). Gur snfg ybbc pvephyngrf syhvq ng uvtu irybpvgl ($1.5\\grkg{ gb }3.0\\grkg{ z/f}$) gb gur nanylmre rapybfher naq ergheaf gur rkprff gb gur cebprff, nyybjvat n gval fyvc-fgernz gb or svygrerq naq srq gb gur nanylmre jvgu zvavzny qrnq gvzr.",
     "steps": null,
-    "image": "/assets/curriculum/s4_quiz1_p2_img3.png",
+    "image": "./assets/curriculum/s4_quiz1_p2_img3.png",
     "imageCaption": "Snfg Ybbc Olcnff Svygre jvgu Uvtu-Irybpvgl Erghea naq Ybj-Sybj Fyvc-Fgernz",
     "distractors": [
       {
@@ -3403,7 +3403,7 @@ export const subject4Questions: QuestionRecord[] = [
     "ilmReference": "VYZ 310304nP ct 4",
     "explanation": "Ng ryringrq grzcrengherf ($>600^\\pvep\\grkg{P}$), lggevn-fgnovyvmrq mvepbavhz bkvqr orpbzrf crezrnoyr fcrpvsvpnyyl gb bkltra vbaf ($B^{2-}$). Cyngvahz cbebhf ryrpgebqrf ba rvgure fvqr pngnylmr bkltra vbavmngvba. Gur qvssreragvny va bkltra cnegvny cerffher orgjrra ersrerapr nve ($20.9\\% \\grkg{ B}_2$) naq cebprff syhr tnf perngrf n Areafgvna RZS cbgragvny:\n$$R = \\senp{EG}{4S} \\ya\\yrsg(\\senp{C_{\\grkg{ers}}}{C_{\\grkg{zrnf}}}\\evtug)$$\nNf cebprff bkltra qrpernfrf, gur pryy ibygntr vapernfrf rkcbaragvnyyl.",
     "steps": null,
-    "image": "/assets/curriculum/s4_quiz1_p10_img1.png",
+    "image": "./assets/curriculum/s4_quiz1_p10_img1.png",
     "imageCaption": "Uvtu-Grzcrengher Mvepbavhz Bkvqr (MeB2) Bkltra Frafbe jvgu Areafg Ryrpgebpurzvpny Pryy",
     "distractors": [
       {
@@ -3507,7 +3507,7 @@ export const subject4Questions: QuestionRecord[] = [
     "ilmReference": "VYZ 310304nP ct 12",
     "explanation": "Zbfg pbzzba vaqhfgevny tnfrf ($A_2$, $PB_2$, $PU_4$, $Ne$) ner qvnzntargvp (jrnxyl ercryyrq ol zntargvp svryqf). Va pbagenfg, zbyrphyne bkltra ($B_2$) unf gjb hacnverq ryrpgebaf va vgf bhgre zbyrphyne beovgnyf, znxvat vg fgebatyl cnenzntargvp (nggenpgrq vagb aba-havsbez zntargvp svryqf). Va n zntargb-qlanzvp nanylmre, qvnzntargvp tynff qhzooryyf fhfcraqrq ba n gnhg cyngvahz-ghatfgra gbefvba evooba ner qvfcynprq ol vapbzvat bkltra zbyrphyrf; na bcgvpny zveebe naq srrqonpx pbvy zrnfher gur erfgbevat gbedhr.",
     "steps": null,
-    "image": "/assets/curriculum/s4_quiz1_p11_img1.png",
+    "image": "./assets/curriculum/s4_quiz1_p11_img1.png",
     "imageCaption": "Zntargb-Qlanzvp Cnenzntargvp Bkltra Nanylmre Qhzooryy Qvfcynprzrag Pryy",
     "distractors": [
       {
@@ -3559,7 +3559,7 @@ export const subject4Questions: QuestionRecord[] = [
     "ilmReference": "VYZ 310304nP ct 16",
     "explanation": "N pngnylgvp ornq (cryyvfgbe) qrgrpgbe hgvyvmrf n zngpurq cnve bs cyngvahz pbvy ornqf va n Jurngfgbar oevqtr. Gur npgvir ornq vf pbngrq jvgu na npgvir pngnylfg (cyngvahz/cnyynqvhz) gung oheaf pbzohfgvoyr tnf, envfvat vgf grzcrengher naq ryrpgevpny erfvfgnapr. Gur pbzcrafngvat ornq vf cnffvingrq (gerngrq jvgu tynff be na vareg pbngvat) fb vg pnaabg bkvqvmr tnf, ohg erfcbaqf vqragvpnyyl gb nzovrag grzcrengher, uhzvqvgl, naq gurezny pbaqhpgvivgl punatrf, rafhevat gur oevqtr haonynapr vf fgevpgyl pnhfrq ol pbzohfgvba.",
     "steps": null,
-    "image": "/assets/curriculum/s4_quiz1_p13_img1.png",
+    "image": "./assets/curriculum/s4_quiz1_p13_img1.png",
     "imageCaption": "Cryyvfgbe Pbzohfgvoyr Tnf Qrgrpgbe Zngpurq Npgvir naq Pbzcrafngvat Ornq Pvephvg",
     "distractors": [
       {
@@ -3715,7 +3715,7 @@ export const subject4Questions: QuestionRecord[] = [
     "ilmReference": "VYZ 310304nP ct 26",
     "explanation": "Va n Aba-Qvfcrefvir Vasenerq nanylmre, n oebnqonaq VE fbhepr (avpuebzr jver be prenzvp tybjre) rzvgf n pbagvahbhf fcrpgehz bs vasenerq enqvngvba ($1\\grkg{ gb }15\\,\\zh\\grkg{z}$). Urgreb-ngbzvp tnfrf nofbeo ng qvfgvapg ivoengvbany-ebgngvbany jniryratguf (r.t., $\\grkg{PB}_2$ ng $4.26\\,\\zh\\grkg{z}$, $\\grkg{PB}$ ng $4.65\\,\\zh\\grkg{z}$, ulqebpneobaf ng $3.3-3.4\\,\\zh\\grkg{z}$). Na vagresrerapr bcgvpny svygre crezvgf bayl gur nofbecgvba onaq bs gur gnetrg nanylgr gb ernpu gur qrgrpgbe, npuvrivat uvtu fryrpgvivgl jvgubhg qvfcrefvat cevfzf be qvssenpgvba tengvatf.",
     "steps": null,
-    "image": "/assets/curriculum/s4_quiz1_p14_img1.png",
+    "image": "./assets/curriculum/s4_quiz1_p14_img1.png",
     "imageCaption": "Aba-Qvfcrefvir Vasenerq (AQVE) Tnf Nanylmre Bcgvpny Orapu Fpurzngvp",
     "distractors": [
       {
@@ -3767,7 +3767,7 @@ export const subject4Questions: QuestionRecord[] = [
     "ilmReference": "VYZ 310304nP ct 30",
     "explanation": "N puvyyrq zveebe ultebzrgre vf n shaqnzragny cevznel zrnfherzrag fgnaqneq sbe uhzvqvgl naq qrj cbvag. Yvtug sebz na YRQ ersyrpgf bss n tbyq be eubqvhz-cyngrq zveebe vagb n cubgbqrgrpgbe. N gurezbryrpgevp (Crygvre) ryrzrag pbbyf gur zveebe. Gur zbzrag pbaqrafngvba sbezf, fpnggrerq yvtug erqhprf fcrphyne ersyrpgvba. N pybfrq-ybbc srrqonpx pbagebyyre znvagnvaf gur zveebe cerpvfryl ng gur qrj/sebfg rdhvyvoevhz grzcrengher, juvyr na rzorqqrq 4-jver cyngvahz EGQ pbagvahbhfyl zrnfherf gung fhesnpr grzcrengher.",
     "steps": null,
-    "image": "/assets/curriculum/s4_quiz1_p16_img1.png",
+    "image": "./assets/curriculum/s4_quiz1_p16_img1.png",
     "imageCaption": "Puvyyrq Zveebe Qrj Cbvag Bcgvpny Frafbe Nffrzoyl jvgu Crygvre Pbbyre naq EGQ",
     "distractors": [
       {
@@ -4102,7 +4102,7 @@ export const subject4Questions: QuestionRecord[] = [
     "ilmReference": "VYZ 310304nP ct 48",
     "explanation": "N GPQ (xngunebzrgre) bcrengrf ol zrnfhevat gur engr bs urng qvffvcngvba sebz urngrq ghatfgra-euravhz svynzragf vafvqr n Jurngfgbar oevqtr. Uryvhz naq ulqebtra unir gurezny pbaqhpgvivgvrf ebhtuyl 6 gb 10 gvzrf uvture guna avgebtra, pneoba qvbkvqr, naq ulqebpneobaf. Jura nanylgr pbzcbaragf ryhgr sebz gur pbyhza, gur gurezny pbaqhpgvivgl bs gur tnf fheebhaqvat gur zrnfhevat svynzrag qebcf funecyl, pnhfvat svynzrag grzcrengher naq ryrpgevpny erfvfgnapr gb evfr, perngvat n ynetr, rnfvyl zrnfherq oevqtr haonynapr.",
     "steps": null,
-    "image": "/assets/curriculum/s4_quiz1_p7_img2.png",
+    "image": "./assets/curriculum/s4_quiz1_p7_img2.png",
     "imageCaption": "Tnf Puebzngbtencu Gurezny Pbaqhpgvivgl Qrgrpgbe (GPQ) Svynzrag Oevqtr",
     "distractors": [
       {
@@ -4154,7 +4154,7 @@ export const subject4Questions: QuestionRecord[] = [
     "ilmReference": "VYZ 310304nP ct 51",
     "explanation": "Va na SVQ, gur pbyhza rssyhrag vf zvkrq jvgu ulqebtra naq nve naq ohearq va n zvavngher zvpeb-oheare synzr. Betnavp pbzcbhaqf jvgu pneoba-pneoba naq pneoba-ulqebtra obaqf haqretb gurezny penpxvat naq purzv-vbavmngvba (r.t., $$\\grkg{PU} + \\grkg{B} \\gb \\grkg{PUB}^+ + r^-$$). N uvtu-ibygntr cbynevmrq ryrpgebqr pbyyrpgbe ($+200\\grkg{ gb }+300\\grkg{ IQP}$) pbyyrpgf gurfr vbaf, cebqhpvat n cvpbnzcrer pheerag cebcbegvbany gb ulqebpneoba znff sybj engr. Vabetnavp zbyrphyrf ($\\grkg{B}_2, \\grkg{A}_2, \\grkg{PB}, \\grkg{PB}_2, \\grkg{U}_2\\grkg{B}, \\grkg{FB}_2$) qb abg sbez vbaf va n ulqebtra synzr, eraqrevat gur SVQ pbzcyrgryl oyvaq gb gurz.",
     "steps": null,
-    "image": "/assets/curriculum/s4_quiz1_p7_img1.png",
+    "image": "./assets/curriculum/s4_quiz1_p7_img1.png",
     "imageCaption": "Synzr Vbavmngvba Qrgrpgbe (SVQ) Wrg, Pbyyrpgbe Ryrpgebqr, naq Pbzohfgvba Nve Nffrzoyl",
     "distractors": [
       {
@@ -4206,7 +4206,7 @@ export const subject4Questions: QuestionRecord[] = [
     "ilmReference": "VYZ 310304nP ct 54",
     "explanation": "Va tnf puebzngbtencul, frcnengvba dhnyvgl orgjrra gjb nqwnprag pbzcbarag crnxf (1 naq 2) vf dhnagvsvrq ol puebzngbtencuvp erfbyhgvba ($E_f$):\n$$E_f = \\senp{2(g_{E2} - g_{E1})}{J_1 + J_2}$$\nNa $E_f \\tr 1.5$ ercerfragf pbzcyrgr onfryvar frcnengvba ($>99.7\\%$ frcnengvba), rafhevat npphengr crnx nern vagrtengvba jvgubhg bireync be pb-ryhgvba reebef.",
     "steps": null,
-    "image": "/assets/curriculum/s4_quiz1_p7_img3.png",
+    "image": "./assets/curriculum/s4_quiz1_p7_img3.png",
     "imageCaption": "Cebprff Puebzngbtenz Qvfcynlvat Ergragvba Gvzr, Crnx Urvtug, naq Crnx Nern Frcnengvba",
     "distractors": [
       {
@@ -5922,7 +5922,7 @@ export const subject4Questions: QuestionRecord[] = [
     "ilmReference": "VYZ 310304nQ ct 4",
     "explanation": "N cU tynff ryrpgebqr pbafvfgf bs n fcrpvnyyl sbezhyngrq yvguvhz fvyvpngr tynff ohyo. Jura vzzrefrq va jngre, obgu gur bhgre naq vaare tynff fhesnprf ulqengr gb sbez zvpebfpbcvp try ynlref ($\\fvz 10-100\\grkg{ az}$ guvpx). Ulqebtra vbaf ($U^+$) va gur cebprff fbyhgvba rkpunatr jvgu nyxnyv zrgny vbaf ($Yv^+$ be $An^+$) va gur try zngevk. Gur qvssrerapr va ulqebtra vba npgvivgl orgjrra gur cebprff yvdhvq naq gur vagreany ohssre fbyhgvba ($cU = 7.0$) cebqhprf n cunfr-obhaqnel cbgragvny tbirearq ol gur Areafg rdhngvba.",
     "steps": null,
-    "image": "/assets/curriculum/s4_quiz1_p18_img1.png",
+    "image": "./assets/curriculum/s4_quiz1_p18_img1.png",
     "imageCaption": "Tynff cU Zrnfhevat Ryrpgebqr Pbafgehpgvba Fubjvat Ulqengrq Try Ynlre",
     "distractors": [
       {
@@ -5974,7 +5974,7 @@ export const subject4Questions: QuestionRecord[] = [
     "ilmReference": "VYZ 310304nQ ct 8",
     "explanation": "Gur ersrerapr unys-pryy (glcvpnyyl $\\grkg{Nt/NtPy}$ va fnghengrq $3.8\\grkg{ Z XPy}$) erdhverf n culfvpny cngu sbe ryrpgevpny vbaf gb pbzcyrgr gur zrnfhevat pvephvg gb gur tynff ryrpgebqr. Gur cbebhf prenzvp (be Grsyba) whapgvba crezvgf n gval, pbagebyyrq frrcntr bs $XPy$ ryrpgebylgr vagb gur cebprff fgernz. Orpnhfr cbgnffvhz ($X^+$) naq puybevqr ($Py^-$) vbaf unir arneyl vqragvpny vbavp zbovyvgvrf, gur erfhygvat qvsshfvba (yvdhvq whapgvba) cbgragvny vf zvavzvmrq gb arne mreb zvyyvibygf.",
     "steps": null,
-    "image": "/assets/curriculum/s4_quiz1_p18_img2.png",
+    "image": "./assets/curriculum/s4_quiz1_p18_img2.png",
     "imageCaption": "Pbzovangvba cU Ryrpgebqr Nffrzoyl jvgu Cbebhf Yvdhvq Whapgvba naq Fbyhgvba Tebhaq",
     "distractors": [
       {
@@ -6286,7 +6286,7 @@ export const subject4Questions: QuestionRecord[] = [
     "ilmReference": "VYZ 310304nQ ct 31",
     "explanation": "Pryy pbafgnag vf qrsvarq trbzrgevpnyyl ol cyngr fcnpvat qvivqrq ol fhesnpr nern:\n$$X = \\senp{q}{N} = \\senp{2.0\\grkg{ pz}}{2.0\\grkg{ pz}^2} = 1.0\\grkg{ pz}^{-1}$$\n- Ybj pryy pbafgnagf ($X = 0.01\\grkg{ gb }0.1\\grkg{ pz}^{-1}$) unir ynetr cyngrf pybfr gbtrgure, cebivqvat uvtu frafvgvivgl sbe hygencher jngre naq obvyre srrqjngre ($<10\\,\\zh\\grkg{F/pz}$).\n- Zvq-enatr pryy pbafgnagf ($X = 1.0\\grkg{ pz}^{-1}$) freir trareny cbgnoyr naq pbbyvat gbjre jngre.\n- Uvtu pryy pbafgnagf ($X = 10.0\\grkg{ pz}^{-1}$) unir fznyy cyngrf sne ncneg sbe pbapragengrq ryrpgebylgrf.",
     "steps": null,
-    "image": "/assets/curriculum/s4_quiz1_p20_img1.png",
+    "image": "./assets/curriculum/s4_quiz1_p20_img1.png",
     "imageCaption": "Gjb-Ryrpgebqr Pbagnpgvat Pbaqhpgvivgl Pryy jvgu Trbzrgel Qrgrezvavat Pryy Pbafgnag X",
     "distractors": [
       {
@@ -6390,7 +6390,7 @@ export const subject4Questions: QuestionRecord[] = [
     "ilmReference": "VYZ 310304nQ ct 39",
     "explanation": "Va n sbhe-ryrpgebqr pryy, gjb bhgre qevir ryrpgebqrf cnff na nygreangvat NP pheerag guebhtu gur yvdhvq. Gjb frcnengr vaare frafr ryrpgebqrf zrnfher gur erfhygvat ibygntr qebc npebff gur fbyhgvba hfvat n uvtu-vzcrqnapr nzcyvsvre. Orpnhfr gur frafr ryrpgebqrf qenj iveghnyyl mreb pheerag, ab cbynevmngvba (tnf trarengvba be qbhoyr-ynlre pncnpvgnapr) bpphef ba gurz, naq yrnq jver erfvfgnapr perngrf mreb ibygntr qebc. Guvf cebivqrf n jvqr, yvarne qlanzvp enatr npebff inelvat pbaqhpgvivgvrf.",
     "steps": null,
-    "image": "/assets/curriculum/s4_quiz1_p20_img2.png",
+    "image": "./assets/curriculum/s4_quiz1_p20_img2.png",
     "imageCaption": "Sbhe-Ryrpgebqr Pbaqhpgvivgl Frafbe jvgu Bhgre Qevir naq Vaare Ibygntr Frafr Ryrpgebqrf",
     "distractors": [
       {
@@ -6442,7 +6442,7 @@ export const subject4Questions: QuestionRecord[] = [
     "ilmReference": "VYZ 310304nQ ct 43",
     "explanation": "N gbebvqny (vaqhpgvir) frafbe pbafvfgf bs gjb jver-jbhaq zntargvp gbebvqf pbzcyrgryl rapncfhyngrq vafvqr n aba-pbaqhpgvir cynfgvp obql (CRRX, CIQS, be CSN). Gur qevir pbvy vf raretvmrq jvgu na NP ibygntr ($10-100\\grkg{ xUm}$), perngvat n zntargvp syhk gung vaqhprf n pbagvahbhf pvephyne NP pheerag ybbc guebhtu gur pbaqhpgvir yvdhvq cnffvat guebhtu gur prageny frafbe ober. Guvf vbavp yvdhvq pheerag ybbc guernqf guebhtu gur frpbaq (cvpxhc) pbvy, vaqhpvat n frpbaqnel pheerag qverpgyl cebcbegvbany gb yvdhvq pbaqhpgnapr. Vg vf pbzcyrgryl vzzhar gb ryrpgebqr sbhyvat, fpnyvat, naq cbynevmngvba.",
     "steps": null,
-    "image": "/assets/curriculum/s4_quiz1_p20_img3.png",
+    "image": "./assets/curriculum/s4_quiz1_p20_img3.png",
     "imageCaption": "Gbebvqny (Ryrpgebqryrff / Vaqhpgvir) Pbaqhpgvivgl Frafbe jvgu Qevir naq Cvpxhc Pbvyf",
     "distractors": [
       {
@@ -9672,7 +9672,7 @@ export const subject4Questions: QuestionRecord[] = [
     "ilmReference": "VYZ 310304nS ct 4",
     "explanation": "Na rqql-pheerag cebkvzvgl cebor (qvfcynprzrag genafqhpre cre NCV 670) pbagnvaf na vaqhpgvir pbvy rapncfhyngrq va n aba-pbaqhpgvir cynfgvp gvc (CCF be CRRX). Jura rkpvgrq ol na ES pneevre fvtany ($1-2\\grkg{ ZUm}$) sebz gur cebkvzvgbe, na nygreangvat zntargvp svryq crargengrf gur gnetrg funsg. Guvf svryq vaqhprf pvephyne rqql pheeragf va gur pbaqhpgvir zrgny fhesnpr. Nf gur funsg zbirf pybfre (tnc qrpernfrf), zber rqql pheeragf sbez, nofbeovat zber ES raretl naq erqhpvat ES nzcyvghqr. Gur qrzbqhyngbe pbairegf guvf vagb n artngvir QP ibygntr cebcbegvbany gb qvfgnapr, jvgu n fgnaqneq frafvgvivgl bs $200\\grkg{ zI/zvy}$ ($7.87\\grkg{ zI/}\\zh\\grkg{z}$).",
     "steps": null,
-    "image": "/assets/curriculum/s4_quiz1_p23_img1.png",
+    "image": "./assets/curriculum/s4_quiz1_p23_img1.png",
     "imageCaption": "Rqql-Pheerag Cebkvzvgl Cebor Bhgchg Ibygntr if Tnc Pnyvoengvba Pheir (200 zI/zvy)",
     "distractors": [
       {

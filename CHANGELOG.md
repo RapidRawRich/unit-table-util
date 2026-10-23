@@ -2,6 +2,13 @@
 
 All notable changes to this project are documented in this file.
 
+## [1.3.1] - 2026-10-22
+
+### Fixed
+- **Schematics & Diagrams Display on GitHub Pages**: Normalized all curriculum diagram paths from absolute `/assets/curriculum/` to relative `./assets/curriculum/` across all 5 subject banks (96 images).
+- Added `normalizeAssetUrl` utility in `src/lib/assetHelper.ts` with runtime fallback retry in `QuestionCard.tsx` and `ResultsView.tsx`, resolving 404 image errors on GitHub Pages (`/unit-table-util/`).
+- Updated `decodeQuestionRecord` in `src/lib/codec.ts` to sanitize any leading root slash on image URLs at runtime.
+
 ## [1.3.0] - 2026-10-22
 
 ### Added

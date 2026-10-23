@@ -85,8 +85,8 @@ describe('Curriculum Banks: 1,000 Multiple-Choice Questions, 9 Distractors, Offi
 
     for (const q of withDiagrams) {
       assert.ok(
-        q.image?.startsWith('/assets/curriculum/'),
-        `Image path ${q.image} should point to /assets/curriculum/`
+        q.image?.startsWith('./assets/curriculum/') || q.image?.startsWith('/assets/curriculum/'),
+        `Image path ${q.image} should point to assets/curriculum/`
       );
     }
   });

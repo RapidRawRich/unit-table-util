@@ -9,10 +9,12 @@ import {
   ZoomIn,
   X,
   Flag,
+  Image as ImageIcon,
 } from 'lucide-react';
 import type { QuizSession } from '../lib/types.ts';
 import { getSessionStats } from '../lib/quizEngine.ts';
 import { rot13 } from '../lib/codec.ts';
+import { normalizeAssetUrl } from '../lib/assetHelper.ts';
 import { MathText } from './MathText.tsx';
 
 interface QuestionCardProps {
@@ -195,14 +197,15 @@ export function QuestionCard({
 
           {/* Source Diagram from 3rd_Year_TQ_Question.pdf */}
           {question.image && (
-            <figure className="mt-4 bg-white rounded-md p-3 border border-slate-700">
+            <figure className="mt-4 bg-white rounded-md p-3 border border-slate-700 shadow-md">
               <div className="flex items-center justify-between mb-2">
-                <figcaption className="text-xs font-mono text-slate-700 font-semibold">
-                  {question.imageCaption ?? `Source Diagram (Question ${question.id})`}
+                <figcaption className="text-xs font-mono text-slate-700 font-semibold flex items-center gap-1.5">
+                  <ImageIcon className="w-3.5 h-3.5 text-slate-600" aria-hidden="true" />
+                  <span>{question.imageCaption ?? `Source Diagram (Question ${question.id})`}</span>
                 </figcaption>
                 <button
                   type="button"
-                  onClick={() => setZoomedImage(question.image!)}
+                  onClick={() => setZoomedImage(normalizeAssetUrl(question.image))}
                   className="inline-flex items-center gap-1 text-xs font-mono text-slate-700 hover:text-slate-950 bg-slate-200 hover:bg-slate-300 px-2 py-1 rounded cursor-pointer"
                 >
                   <ZoomIn className="w-3.5 h-3.5" aria-hidden="true" />
@@ -210,10 +213,20 @@ export function QuestionCard({
                 </button>
               </div>
               <img
-                src={question.image}
+                src={normalizeAssetUrl(question.image)}
                 alt={question.imageCaption ?? `Diagram for question ${question.id}`}
-                onClick={() => setZoomedImage(question.image!)}
-                className="max-h-80 w-auto mx-auto object-contain cursor-zoom-in"
+                onClick={() => setZoomedImage(normalizeAssetUrl(question.image))}
+                onError={(e) => {
+                  const target = e.currentTarget;
+                  if (!target.dataset.retried) {
+                    target.dataset.retried = 'true';
+                    const fallback = question.image?.startsWith('./')
+                      ? question.image.slice(2)
+                      : `./${question.image?.replace(/^\//, '')}`;
+                    target.src = fallback;
+                  }
+                }}
+                className="max-h-80 w-auto mx-auto object-contain cursor-zoom-in rounded"
               />
             </figure>
           )}
@@ -445,9 +458,9 @@ export function QuestionCard({
               </button>
             </div>
             <img
-              src={zoomedImage}
+              src={normalizeAssetUrl(zoomedImage)}
               alt={question.imageCaption ?? 'Enlarged diagram'}
-              className="w-full h-auto object-contain mx-auto"
+              className="w-full h-auto object-contain mx-auto rounded"
             />
           </div>
         </div>

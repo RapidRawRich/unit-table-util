@@ -28,7 +28,7 @@ export function decodeQuestionRecord(encoded: QuestionRecord): QuestionRecord {
     explanation: rot13(encoded.explanation),
     steps: encoded.steps ? encoded.steps.map(rot13) : undefined,
     discrepancyNote: encoded.discrepancyNote ? rot13(encoded.discrepancyNote) : undefined,
-    image: encoded.image,
+    image: encoded.image ? encoded.image.replace(/^\/assets\//, './assets/') : undefined,
     imageCaption: encoded.imageCaption ? rot13(encoded.imageCaption) : undefined,
     distractors: encoded.distractors.map((d) => ({
       text: rot13(d.text),

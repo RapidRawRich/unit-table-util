@@ -10,6 +10,7 @@ import {
 import type { QuizSession } from '../lib/types.ts';
 import { getSessionStats } from '../lib/quizEngine.ts';
 import { rot13 } from '../lib/codec.ts';
+import { normalizeAssetUrl } from '../lib/assetHelper.ts';
 import { MathText } from './MathText.tsx';
 
 interface ResultsViewProps {
@@ -178,12 +179,12 @@ export function ResultsView({
                     {item.question.image && (
                       <div className="bg-white rounded p-2.5 border border-slate-700 max-w-md">
                         <img
-                          src={item.question.image}
+                          src={normalizeAssetUrl(item.question.image)}
                           alt={
                             item.question.imageCaption ??
                             `Diagram for Q${item.question.id}`
                           }
-                          className="max-h-48 w-auto mx-auto object-contain"
+                          className="max-h-48 w-auto mx-auto object-contain rounded"
                         />
                       </div>
                     )}

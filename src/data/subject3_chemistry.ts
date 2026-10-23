@@ -65,7 +65,7 @@ export const ENCODED_SUBJECT3_CHEMISTRY: QuestionRecord[] = [
     "ilmReference": "VYZ 310303nN ct 8",
     "explanation": "Grpuavpny engvbanyr: Ryrpgebartngvivgl vapernfrf npebff n crevbq (terngre ahpyrne punetr nggenpgf ryrpgebaf) naq vapernfrf hc n tebhc (srjre ryrpgeba furyyf oevat ryrpgebaf pybfre gb ahpyrhf).",
     "steps": null,
-    "image": "/assets/curriculum/s3_wk_aA_p14_img1.png",
+    "image": "./assets/curriculum/s3_wk_aA_p14_img1.png",
     "imageCaption": "Crevbqvp Gnoyr Ryrpgebartngvivgl naq Ngbzvp Enqvhf Geraqf",
     "distractors": [
       {
@@ -117,7 +117,7 @@ export const ENCODED_SUBJECT3_CHEMISTRY: QuestionRecord[] = [
     "ilmReference": "VYZ 310303nN ct 6",
     "explanation": "Grpuavpny engvbanyr: Gurl cbffrff n fvatyr inyrapr ryrpgeba ($f^1$) va gurve bhgrezbfg furyy, juvpu gurl ernqvyl ybfr gb npuvrir n fgnoyr aboyr tnf ryrpgeba pbasvthengvba.",
     "steps": null,
-    "image": "/assets/curriculum/s3_wk_aA_p14_img1.png",
+    "image": "./assets/curriculum/s3_wk_aA_p14_img1.png",
     "imageCaption": "Crevbqvp Gnoyr Ryrpgebartngvivgl naq Ngbzvp Enqvhf Geraqf",
     "distractors": [
       {
@@ -169,7 +169,7 @@ export const ENCODED_SUBJECT3_CHEMISTRY: QuestionRecord[] = [
     "ilmReference": "VYZ 310303nN ct 4",
     "explanation": "Grpuavpny engvbanyr: Ngbzf bs gur fnzr ryrzrag pbagnvavat vqragvpny ahzoref bs cebgbaf (fnzr ngbzvp ahzore) ohg qvssrevat ahzoref bs arhgebaf (qvssrerag znff ahzoref).",
     "steps": null,
-    "image": "/assets/curriculum/s3_wk_aA_p14_img1.png",
+    "image": "./assets/curriculum/s3_wk_aA_p14_img1.png",
     "imageCaption": "Crevbqvp Gnoyr Ryrpgebartngvivgl naq Ngbzvp Enqvhf Geraqf",
     "distractors": [
       {
@@ -221,7 +221,7 @@ export const ENCODED_SUBJECT3_CHEMISTRY: QuestionRecord[] = [
     "ilmReference": "VYZ 310303nN ct 2",
     "explanation": "Grpuavpny engvbanyr: Synevat fbhe tnf gb cebqhpr fhyshe qvbkvqr ($\\grkg{FB}_2$) naq jngre incbe.",
     "steps": null,
-    "image": "/assets/curriculum/s3_wk_aA_p14_img1.png",
+    "image": "./assets/curriculum/s3_wk_aA_p14_img1.png",
     "imageCaption": "Crevbqvp Gnoyr Ryrpgebartngvivgl naq Ngbzvp Enqvhf Geraqf",
     "distractors": [
       {
@@ -273,7 +273,7 @@ export const ENCODED_SUBJECT3_CHEMISTRY: QuestionRecord[] = [
     "ilmReference": "VYZ 310303nN ct 9",
     "explanation": "Grpuavpny engvbanyr: Gur ahzore bs cebgbaf va gur ahpyrhf vapernfrf, vapernfvat rssrpgvir ahpyrne punetr ($M_{\\grkg{rss}}$), chyyvat gur bhgre inyrapr ryrpgeba furyy gvtugre gbjneq gur pragre.",
     "steps": null,
-    "image": "/assets/curriculum/s3_wk_aA_p14_img1.png",
+    "image": "./assets/curriculum/s3_wk_aA_p14_img1.png",
     "imageCaption": "Crevbqvp Gnoyr Ryrpgebartngvivgl naq Ngbzvp Enqvhf Geraqf",
     "distractors": [
       {
@@ -325,7 +325,7 @@ export const ENCODED_SUBJECT3_CHEMISTRY: QuestionRecord[] = [
     "ilmReference": "VYZ 310303nN ct 7",
     "explanation": "Grpuavpny engvbanyr: Gurl cbffrff pbzcyrgryl svyyrq inyrapr ryrpgeba furyyf (n fgnoyr bpgrg $f^2 c^6$, be qhrg $1f^2$ sbe Ur), pbasreevat znkvzhz gurezbqlanzvp fgnovyvgl.",
     "steps": null,
-    "image": "/assets/curriculum/s3_wk_aA_p14_img1.png",
+    "image": "./assets/curriculum/s3_wk_aA_p14_img1.png",
     "imageCaption": "Crevbqvp Gnoyr Ryrpgebartngvivgl naq Ngbzvp Enqvhf Geraqf",
     "distractors": [
       {
@@ -377,7 +377,7 @@ export const ENCODED_SUBJECT3_CHEMISTRY: QuestionRecord[] = [
     "ilmReference": "VYZ 310303nN ct 8",
     "explanation": "Grpuavpny engvbanyr: Uryvhz ($\\grkg{Ur}$), qhr gb vgf fznyy ngbzvp enqvhf naq gvtugyl obhaq qhrg bs ryrpgebaf.",
     "steps": null,
-    "image": "/assets/curriculum/s3_wk_aA_p14_img1.png",
+    "image": "./assets/curriculum/s3_wk_aA_p14_img1.png",
     "imageCaption": "Crevbqvp Gnoyr Ryrpgebartngvivgl naq Ngbzvp Enqvhf Geraqf",
     "distractors": [
       {
@@ -429,7 +429,7 @@ export const ENCODED_SUBJECT3_CHEMISTRY: QuestionRecord[] = [
     "ilmReference": "VYZ 310303nN ct 5",
     "explanation": "Grpuavpny engvbanyr: Uvtu ryrpgevpny pbaqhpgvivgl, uvtu gurezny pbaqhpgvivgl, znyyrnovyvgl, qhpgvyvgl, naq zrgnyyvp yhfgre.",
     "steps": null,
-    "image": "/assets/curriculum/s3_wk_aA_p14_img1.png",
+    "image": "./assets/curriculum/s3_wk_aA_p14_img1.png",
     "imageCaption": "Crevbqvp Gnoyr Ryrpgebartngvivgl naq Ngbzvp Enqvhf Geraqf",
     "distractors": [
       {
@@ -481,7 +481,7 @@ export const ENCODED_SUBJECT3_CHEMISTRY: QuestionRecord[] = [
     "ilmReference": "VYZ 310303nN ct 2",
     "explanation": "Grpuavpny engvbanyr: Znff vf arvgure perngrq abe qrfgeblrq; gbgny znff bs ernpgnagf rdhnyf gbgny znff bs cebqhpgf, erdhvevat purzvpny rdhngvbaf gb or fgevpgyl onynaprq.",
     "steps": null,
-    "image": "/assets/curriculum/s3_wk_aA_p14_img1.png",
+    "image": "./assets/curriculum/s3_wk_aA_p14_img1.png",
     "imageCaption": "Crevbqvp Gnoyr Ryrpgebartngvivgl naq Ngbzvp Enqvhf Geraqf",
     "distractors": [
       {
@@ -533,7 +533,7 @@ export const ENCODED_SUBJECT3_CHEMISTRY: QuestionRecord[] = [
     "ilmReference": "VYZ 310303nN ct 10",
     "explanation": "Grpuavpny engvbanyr: N zbqrengr raretl tnc ($\\nccebk 1.1\\grkg{ rI}$ sbe Fv) orgjrra gur inyrapr onaq naq pbaqhpgvba onaq gung pna or pebffrq ng ebbz grzcrengher ivn gurezny rkpvgngvba.",
     "steps": null,
-    "image": "/assets/curriculum/s3_wk_aA_p14_img1.png",
+    "image": "./assets/curriculum/s3_wk_aA_p14_img1.png",
     "imageCaption": "Crevbqvp Gnoyr Ryrpgebartngvivgl naq Ngbzvp Enqvhf Geraqf",
     "distractors": [
       {
@@ -4764,7 +4764,7 @@ export const ENCODED_SUBJECT3_CHEMISTRY: QuestionRecord[] = [
     "ilmReference": "VYZ 310303qO ct 7",
     "explanation": "Grpuavpny engvbanyr: Vg eryrnfrf urng raretl gb gur fheebhaqvatf, erfhygvat va n artngvir punatr va ragunycl ($\\Qrygn U < 0$).",
     "steps": null,
-    "image": "/assets/curriculum/s3_wk_dB_p10_img1.png",
+    "image": "./assets/curriculum/s3_wk_dB_p10_img1.png",
     "imageCaption": "Tnyinavp Pbeebfvba Pryy: Mvap Nabqr Fnpevsvpvny Cebgrpgvba",
     "distractors": [
       {
@@ -4816,7 +4816,7 @@ export const ENCODED_SUBJECT3_CHEMISTRY: QuestionRecord[] = [
     "ilmReference": "VYZ 310303qO ct 9",
     "explanation": "Grpuavpny engvbanyr: Vg cebivqrf na nygreangvir ernpgvba cngujnl jvgu n ybjre npgvingvba raretl ($R_n$), nyybjvat zber zbyrphyrf gb ernpg ng ybjre grzcrengherf jvgubhg orvat pbafhzrq.",
     "steps": null,
-    "image": "/assets/curriculum/s3_wk_dB_p10_img1.png",
+    "image": "./assets/curriculum/s3_wk_dB_p10_img1.png",
     "imageCaption": "Tnyinavp Pbeebfvba Pryy: Mvap Nabqr Fnpevsvpvny Cebgrpgvba",
     "distractors": [
       {
@@ -4868,7 +4868,7 @@ export const ENCODED_SUBJECT3_CHEMISTRY: QuestionRecord[] = [
     "ilmReference": "VYZ 310303qO ct 18",
     "explanation": "Grpuavpny engvbanyr: Bkvqngvba (ybff bs ryrpgebaf: $\\grkg{Ma} \\gb \\grkg{Ma}^{2+} + 2r^-$) bpphef ng gur Nabqr; Erqhpgvba (tnva bs ryrpgebaf) bpphef ng gur Pngubqr.",
     "steps": null,
-    "image": "/assets/curriculum/s3_wk_dB_p10_img1.png",
+    "image": "./assets/curriculum/s3_wk_dB_p10_img1.png",
     "imageCaption": "Tnyinavp Pbeebfvba Pryy: Mvap Nabqr Fnpevsvpvny Cebgrpgvba",
     "distractors": [
       {
@@ -4920,7 +4920,7 @@ export const ENCODED_SUBJECT3_CHEMISTRY: QuestionRecord[] = [
     "ilmReference": "VYZ 310303qO ct 16",
     "explanation": "Grpuavpny engvbanyr: Vg erfvfgf punatrf va cU jura fznyy nzbhagf bs npvq be onfr ner nqqrq, znvagnvavat n fgnoyr, pregvsvrq ersrerapr cU inyhr.",
     "steps": null,
-    "image": "/assets/curriculum/s3_wk_dB_p10_img1.png",
+    "image": "./assets/curriculum/s3_wk_dB_p10_img1.png",
     "imageCaption": "Tnyinavp Pbeebfvba Pryy: Mvap Nabqr Fnpevsvpvny Cebgrpgvba",
     "distractors": [
       {
@@ -4972,7 +4972,7 @@ export const ENCODED_SUBJECT3_CHEMISTRY: QuestionRecord[] = [
     "ilmReference": "VYZ 310303qO ct 14 (Ncceragvprfuvc Sbezhyn Furrg 2017 ct 8)",
     "explanation": "Grpuavpny engvbanyr: $n_{U^+} = [U^+] \\gvzrf \\grkg{Npgvivgl Pbrssvpvrag}$ (Npgvivgl nppbhagf sbe vagre-vbavp ryrpgebfgngvp vagresrerapr va erny aba-vqrny fbyhgvbaf).",
     "steps": null,
-    "image": "/assets/curriculum/s3_wk_dB_p10_img1.png",
+    "image": "./assets/curriculum/s3_wk_dB_p10_img1.png",
     "imageCaption": "Tnyinavp Pbeebfvba Pryy: Mvap Nabqr Fnpevsvpvny Cebgrpgvba",
     "distractors": [
       {
@@ -5024,7 +5024,7 @@ export const ENCODED_SUBJECT3_CHEMISTRY: QuestionRecord[] = [
     "ilmReference": "VYZ 310303qO ct 20",
     "explanation": "Grpuavpny engvbanyr: Mvap naq Zntarfvhz unir zber artngvir fgnaqneq erqhpgvba cbgragvnyf guna veba (zber npgvir ba gur tnyinavp frevrf), bkvqvmvat cersreragvnyyl gb cebgrpg gur fgrry pngubqr.",
     "steps": null,
-    "image": "/assets/curriculum/s3_wk_dB_p10_img1.png",
+    "image": "./assets/curriculum/s3_wk_dB_p10_img1.png",
     "imageCaption": "Tnyinavp Pbeebfvba Pryy: Mvap Nabqr Fnpevsvpvny Cebgrpgvba",
     "distractors": [
       {
@@ -5076,7 +5076,7 @@ export const ENCODED_SUBJECT3_CHEMISTRY: QuestionRecord[] = [
     "ilmReference": "VYZ 310303qO ct 11",
     "explanation": "Grpuavpny engvbanyr: Rdhvyvoevhz fuvsgf gb gur yrsg (gbjneq ernpgnagf) gb nofbeo nqqrq urng, qrpernfvat cebqhpg lvryq.",
     "steps": null,
-    "image": "/assets/curriculum/s3_wk_dB_p10_img1.png",
+    "image": "./assets/curriculum/s3_wk_dB_p10_img1.png",
     "imageCaption": "Tnyinavp Pbeebfvba Pryy: Mvap Nabqr Fnpevsvpvny Cebgrpgvba",
     "distractors": [
       {
@@ -5128,7 +5128,7 @@ export const ENCODED_SUBJECT3_CHEMISTRY: QuestionRecord[] = [
     "ilmReference": "VYZ 310303qO ct 13",
     "explanation": "Grpuavpny engvbanyr: N purzvpny fnyg ($\\grkg{AnPy}$) naq jngre ($\\grkg{U}_2\\grkg{B}$).",
     "steps": null,
-    "image": "/assets/curriculum/s3_wk_dB_p10_img1.png",
+    "image": "./assets/curriculum/s3_wk_dB_p10_img1.png",
     "imageCaption": "Tnyinavp Pbeebfvba Pryy: Mvap Nabqr Fnpevsvpvny Cebgrpgvba",
     "distractors": [
       {
@@ -5180,7 +5180,7 @@ export const ENCODED_SUBJECT3_CHEMISTRY: QuestionRecord[] = [
     "ilmReference": "VYZ 310303qO ct 15",
     "explanation": "Grpuavpny engvbanyr: Nppbeqvat gb gur Areafg rdhngvba ($R = \\senp{2.303 EG}{S} \\pqbg \\grkg{cU}$), gur zvyyvibyg fybcr cre cU havg vf grzcrengher-qrcraqrag ($54.2\\grkg{ zI/cU}$ ng $0^\\pvep\\grkg{P}$ if $59.16\\grkg{ zI/cU}$ ng $25^\\pvep\\grkg{P}$).",
     "steps": null,
-    "image": "/assets/curriculum/s3_wk_dB_p10_img1.png",
+    "image": "./assets/curriculum/s3_wk_dB_p10_img1.png",
     "imageCaption": "Tnyinavp Pbeebfvba Pryy: Mvap Nabqr Fnpevsvpvny Cebgrpgvba",
     "distractors": [
       {
@@ -9392,7 +9392,7 @@ export const ENCODED_SUBJECT3_CHEMISTRY: QuestionRecord[] = [
     "ilmReference": "VYZ 310303s ct 4",
     "explanation": "Grpuavpny engvbanyr: 316 fgnvayrff fgrry pbagnvaf $2\\%\\grkg{ gb }3\\%$ zbyloqrahz, juvpu qenzngvpnyyl vzcebirf erfvfgnapr gb puybevqr cvggvat naq perivpr pbeebfvba.",
     "steps": null,
-    "image": "/assets/curriculum/s3_wk_g1_p4_img1.png",
+    "image": "./assets/curriculum/s3_wk_g1_p4_img1.png",
     "imageCaption": "Veba-Pneoba Cunfr Qvntenz naq Zrgnyyhetvpny Urng Gerngzrag",
     "distractors": [
       {
@@ -9444,7 +9444,7 @@ export const ENCODED_SUBJECT3_CHEMISTRY: QuestionRecord[] = [
     "ilmReference": "VYZ 310303s ct 12",
     "explanation": "Grpuavpny engvbanyr: Fhysvqr Fgerff Penpxvat (FFP) naq ulqebtra rzoevggyrzrag va uvtu-fgeratgu fgrryf.",
     "steps": null,
-    "image": "/assets/curriculum/s3_wk_g1_p4_img1.png",
+    "image": "./assets/curriculum/s3_wk_g1_p4_img1.png",
     "imageCaption": "Veba-Pneoba Cunfr Qvntenz naq Zrgnyyhetvpny Urng Gerngzrag",
     "distractors": [
       {
@@ -9496,7 +9496,7 @@ export const ENCODED_SUBJECT3_CHEMISTRY: QuestionRecord[] = [
     "ilmReference": "VYZ 310303s ct 6",
     "explanation": "Grpuavpny engvbanyr: Bhgfgnaqvat erfvfgnapr gb frirer cvggvat, perivpr pbeebfvba, naq fgebat bkvqvmvat naq erqhpvat npvqf npebff rkgerzr grzcrengher enatrf.",
     "steps": null,
-    "image": "/assets/curriculum/s3_wk_g1_p4_img1.png",
+    "image": "./assets/curriculum/s3_wk_g1_p4_img1.png",
     "imageCaption": "Veba-Pneoba Cunfr Qvntenz naq Zrgnyyhetvpny Urng Gerngzrag",
     "distractors": [
       {
@@ -9548,7 +9548,7 @@ export const ENCODED_SUBJECT3_CHEMISTRY: QuestionRecord[] = [
     "ilmReference": "VYZ 310303s ct 7",
     "explanation": "Grpuavpny engvbanyr: Zbary 400",
     "steps": null,
-    "image": "/assets/curriculum/s3_wk_g1_p4_img1.png",
+    "image": "./assets/curriculum/s3_wk_g1_p4_img1.png",
     "imageCaption": "Veba-Pneoba Cunfr Qvntenz naq Zrgnyyhetvpny Urng Gerngzrag",
     "distractors": [
       {
@@ -9600,7 +9600,7 @@ export const ENCODED_SUBJECT3_CHEMISTRY: QuestionRecord[] = [
     "ilmReference": "VYZ 310303s ct 10",
     "explanation": "Grpuavpny engvbanyr: Tnyinavp pbeebfvba: gur pneoba fgrry npgf nf na npgvir nabqr naq pbeebqrf ng na nppryrengrq engr juvyr gur fgnvayrff fgrry pngubqr vf cebgrpgrq.",
     "steps": null,
-    "image": "/assets/curriculum/s3_wk_g1_p4_img1.png",
+    "image": "./assets/curriculum/s3_wk_g1_p4_img1.png",
     "imageCaption": "Veba-Pneoba Cunfr Qvntenz naq Zrgnyyhetvpny Urng Gerngzrag",
     "distractors": [
       {
@@ -9652,7 +9652,7 @@ export const ENCODED_SUBJECT3_CHEMISTRY: QuestionRecord[] = [
     "ilmReference": "VYZ 310303s ct 11",
     "explanation": "Grpuavpny engvbanyr: N fhfprcgvoyr zrgny nyybl (r.t. nhfgravgvp fgnvayrff fgrry), n fcrpvsvp pbeebfvir raivebazrag (r.t. ndhrbhf puybevqrf), naq fhfgnvarq grafvyr fgerff.",
     "steps": null,
-    "image": "/assets/curriculum/s3_wk_g1_p4_img1.png",
+    "image": "./assets/curriculum/s3_wk_g1_p4_img1.png",
     "imageCaption": "Veba-Pneoba Cunfr Qvntenz naq Zrgnyyhetvpny Urng Gerngzrag",
     "distractors": [
       {
@@ -9704,7 +9704,7 @@ export const ENCODED_SUBJECT3_CHEMISTRY: QuestionRecord[] = [
     "ilmReference": "VYZ 310303s ct 5",
     "explanation": "Grpuavpny engvbanyr: N 50/50 qhny zvpebfgehpgher bs nhfgravgr naq sreevgr cebivqvat gjvpr gur zrpunavpny lvryq fgeratgu bs 316 naq infgyl fhcrevbe puybevqr fgerff pbeebfvba penpxvat erfvfgnapr.",
     "steps": null,
-    "image": "/assets/curriculum/s3_wk_g1_p4_img1.png",
+    "image": "./assets/curriculum/s3_wk_g1_p4_img1.png",
     "imageCaption": "Veba-Pneoba Cunfr Qvntenz naq Zrgnyyhetvpny Urng Gerngzrag",
     "distractors": [
       {
@@ -9756,7 +9756,7 @@ export const ENCODED_SUBJECT3_CHEMISTRY: QuestionRecord[] = [
     "ilmReference": "VYZ 310303s ct 8",
     "explanation": "Grpuavpny engvbanyr: Sbe hygen-ntterffvir, obvyvat zvareny npvqf (pbapragengrq fhyshevp, avgevp, naq ulqebpuybevp npvqf) jurer rira Unfgryybl pbeebqrf.",
     "steps": null,
-    "image": "/assets/curriculum/s3_wk_g1_p4_img1.png",
+    "image": "./assets/curriculum/s3_wk_g1_p4_img1.png",
     "imageCaption": "Veba-Pneoba Cunfr Qvntenz naq Zrgnyyhetvpny Urng Gerngzrag",
     "distractors": [
       {
@@ -9808,7 +9808,7 @@ export const ENCODED_SUBJECT3_CHEMISTRY: QuestionRecord[] = [
     "ilmReference": "VYZ 310303s ct 9",
     "explanation": "Grpuavpny engvbanyr: Vgf gurbergvpny erfvfgnapr gb ybpnyvmrq cvggvat pbeebfvba va puybevqr-pbagnvavat frn jngre naq cebprff raivebazragf.",
     "steps": null,
-    "image": "/assets/curriculum/s3_wk_g1_p4_img1.png",
+    "image": "./assets/curriculum/s3_wk_g1_p4_img1.png",
     "imageCaption": "Veba-Pneoba Cunfr Qvntenz naq Zrgnyyhetvpny Urng Gerngzrag",
     "distractors": [
       {
@@ -9860,7 +9860,7 @@ export const ENCODED_SUBJECT3_CHEMISTRY: QuestionRecord[] = [
     "ilmReference": "VYZ 310303s ct 13",
     "explanation": "Grpuavpny engvbanyr: Ebpxjryy P 22 ($22\\grkg{ UEP}$ be $250\\grkg{ UOJ}$).",
     "steps": null,
-    "image": "/assets/curriculum/s3_wk_g1_p4_img1.png",
+    "image": "./assets/curriculum/s3_wk_g1_p4_img1.png",
     "imageCaption": "Veba-Pneoba Cunfr Qvntenz naq Zrgnyyhetvpny Urng Gerngzrag",
     "distractors": [
       {

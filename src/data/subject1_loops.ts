@@ -179,7 +179,7 @@ export const ENCODED_SUBJECT1_LOOPS: QuestionRecord[] = [
     "ilmReference": "VYZ 310301n ct 16",
     "explanation": "Va genafzvggre grfg qvbqr pvephvgf, n fvyvpba qvbqr vf pbaarpgrq va frevrf jvgu gur pheerag ybbc. Jura n ybj-vzcrqnapr nzzrgre vf pbaarpgrq npebff gur grfg grezvanyf, pheerag qviregf guebhtu gur zrgre orpnhfr gur erfhygvat ibygntr qebc (n srj zvyyvibygf) vf jryy orybj gur qvbqr'f $0.6\\grkg{\u2013}0.7\\grkg{ I}$ pbaqhpgvba guerfubyq. Vs gur zrgre vf qvfpbaarpgrq, gur qvbqr pbaqhpgf vzzrqvngryl, ceriragvat ybbc vagreehcgvba.",
     "steps": null,
-    "image": "/assets/curriculum/s1_quiz1_p5_img1.png",
+    "image": "./assets/curriculum/s1_quiz1_p5_img1.png",
     "imageCaption": "Vagreany Grfg Qvbqr Pbasvthengvba va 2-Jver Genafzvggre",
     "distractors": [
       {
@@ -231,7 +231,7 @@ export const ENCODED_SUBJECT1_LOOPS: QuestionRecord[] = [
     "ilmReference": "VYZ 310301n ct 11 (Ryrpgebavp Vafgehzragf Dhvm #1 D7)",
     "explanation": "N 4-jver genafzvggre vf frys-cbjrerq (yvar-cbjrerq ivn 120 Inp be 24 Iqp frcnengr znvaf) naq hfrf gjb qrqvpngrq jverf sbe cbjre naq gjb frcnengr vfbyngrq jverf sbe gur 4-20 zN bhgchg fvtany. Va pbagenfg, n 2-jver genafzvggre erprvirf QP cbjre naq genafzvgf fvtany bire gur fnzr gjb pbaqhpgbef.",
     "steps": null,
-    "image": "/assets/curriculum/s1_quiz1_p10_img1.png",
+    "image": "./assets/curriculum/s1_quiz1_p10_img1.png",
     "imageCaption": "Svryq Jvevat Qvntenz: Frcnengryl Cbjrerq 4-Jver Genafzvggre",
     "distractors": [
       {

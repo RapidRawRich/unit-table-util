@@ -1689,7 +1689,7 @@ export const ENCODED_SUBJECT2_MEASUREMENT: QuestionRecord[] = [
     "ilmReference": "VYZ 310302p ct 6 (Ncceragvprfuvc Sbezhyn Furrg 2017 ct 7)",
     "explanation": "Grpuavpny engvbanyr: $-3150\\grkg{ zzU}_2\\grkg{B}$ ($-30.89\\grkg{ xCn}$)",
     "steps": null,
-    "image": "/assets/curriculum/s2_wk_a_p12_img1.png",
+    "image": "./assets/curriculum/s2_wk_a_p12_img1.png",
     "imageCaption": "Pybfrq Irffry Ulqebfgngvp Yriry Zrnfherzrag jvgu Ersrerapr Yrt",
     "distractors": [
       {
@@ -1741,7 +1741,7 @@ export const ENCODED_SUBJECT2_MEASUREMENT: QuestionRecord[] = [
     "ilmReference": "VYZ 310302p ct 7",
     "explanation": "Grpuavpny engvbanyr: $-450\\grkg{ zzU}_2\\grkg{B}$ ($-4.41\\grkg{ xCn}$)",
     "steps": null,
-    "image": "/assets/curriculum/s2_wk_a_p12_img1.png",
+    "image": "./assets/curriculum/s2_wk_a_p12_img1.png",
     "imageCaption": "Pybfrq Irffry Ulqebfgngvp Yriry Zrnfherzrag jvgu Ersrerapr Yrt",
     "distractors": [
       {
@@ -1793,7 +1793,7 @@ export const ENCODED_SUBJECT2_MEASUREMENT: QuestionRecord[] = [
     "ilmReference": "VYZ 310302p ct 8",
     "explanation": "Grpuavpny engvbanyr: $2700\\grkg{ zzU}_2\\grkg{B}$ ($26.48\\grkg{ xCn}$), pnyphyngrq nf $\\grkg{HEI} - \\grkg{YEI} = -450 - (-3150)$.",
     "steps": null,
-    "image": "/assets/curriculum/s2_wk_a_p12_img1.png",
+    "image": "./assets/curriculum/s2_wk_a_p12_img1.png",
     "imageCaption": "Pybfrq Irffry Ulqebfgngvp Yriry Zrnfherzrag jvgu Ersrerapr Yrt",
     "distractors": [
       {
@@ -1845,7 +1845,7 @@ export const ENCODED_SUBJECT2_MEASUREMENT: QuestionRecord[] = [
     "ilmReference": "VYZ 310302p ct 5",
     "explanation": "Grpuavpny engvbanyr: Gur ybj-cerffher fvqr frrf gur shyy yvdhvq ulqebfgngvp urnq bs gur jrg yrt, juvyr gur uvtu-cerffher fvqr frrf bayl incbe fcnpr cerffher.",
     "steps": null,
-    "image": "/assets/curriculum/s2_wk_a_p12_img1.png",
+    "image": "./assets/curriculum/s2_wk_a_p12_img1.png",
     "imageCaption": "Pybfrq Irffry Ulqebfgngvp Yriry Zrnfherzrag jvgu Ersrerapr Yrt",
     "distractors": [
       {
@@ -1897,7 +1897,7 @@ export const ENCODED_SUBJECT2_MEASUREMENT: QuestionRecord[] = [
     "ilmReference": "VYZ 310302p ct 14",
     "explanation": "Grpuavpny engvbanyr: Hardhny fbyne urngvat be nzovrag grzcrengher syhpghngvbaf rkcnaqvat gur svyy syhvq va hardhny yratgu pncvyynel ghorf.",
     "steps": null,
-    "image": "/assets/curriculum/s2_wk_a_p12_img1.png",
+    "image": "./assets/curriculum/s2_wk_a_p12_img1.png",
     "imageCaption": "Pybfrq Irffry Ulqebfgngvp Yriry Zrnfherzrag jvgu Ersrerapr Yrt",
     "distractors": [
       {
@@ -1949,7 +1949,7 @@ export const ENCODED_SUBJECT2_MEASUREMENT: QuestionRecord[] = [
     "ilmReference": "VYZ 310302p ct 10",
     "explanation": "Grpuavpny engvbanyr: Pbaqrafngr qebcyrgf npphzhyngr va gur qel yrt, perngvat na reengvp ulqebfgngvp yvdhvq pbyhza gung snyfryl qrcerffrf gur yriry ernqvat.",
     "steps": null,
-    "image": "/assets/curriculum/s2_wk_a_p12_img1.png",
+    "image": "./assets/curriculum/s2_wk_a_p12_img1.png",
     "imageCaption": "Pybfrq Irffry Ulqebfgngvp Yriry Zrnfherzrag jvgu Ersrerapr Yrt",
     "distractors": [
       {
@@ -2001,7 +2001,7 @@ export const ENCODED_SUBJECT2_MEASUREMENT: QuestionRecord[] = [
     "ilmReference": "VYZ 310302p ct 18",
     "explanation": "Grpuavpny engvbanyr: Pybfr ybj-cerffher oybpx inyir -> Bcra pragre rdhnyvmvat inyir -> Pybfr uvtu-cerffher oybpx inyir.",
     "steps": null,
-    "image": "/assets/curriculum/s2_wk_a_p12_img1.png",
+    "image": "./assets/curriculum/s2_wk_a_p12_img1.png",
     "imageCaption": "Pybfrq Irffry Ulqebfgngvp Yriry Zrnfherzrag jvgu Ersrerapr Yrt",
     "distractors": [
       {
@@ -2053,7 +2053,7 @@ export const ENCODED_SUBJECT2_MEASUREMENT: QuestionRecord[] = [
     "ilmReference": "VYZ 310302p ct 22",
     "explanation": "Grpuavpny engvbanyr: Gur ulqebfgngvp cerffher bs gur yvdhvq pbyhza nobir gur obggbz qvc ghor bhgyrg ($C = \\eub t u$).",
     "steps": null,
-    "image": "/assets/curriculum/s2_wk_a_p12_img1.png",
+    "image": "./assets/curriculum/s2_wk_a_p12_img1.png",
     "imageCaption": "Pybfrq Irffry Ulqebfgngvp Yriry Zrnfherzrag jvgu Ersrerapr Yrt",
     "distractors": [
       {
@@ -2105,7 +2105,7 @@ export const ENCODED_SUBJECT2_MEASUREMENT: QuestionRecord[] = [
     "ilmReference": "VYZ 310302p ct 12",
     "explanation": "Grpuavpny engvbanyr: Gb fzbbgu bhg encvq ulqebfgngvp jnir fhetrf pnhfrq ol ebgngvat vzcryyre oynqrf jvgubhg fuvsgvat gur nirentr yriry ernqvat.",
     "steps": null,
-    "image": "/assets/curriculum/s2_wk_a_p12_img1.png",
+    "image": "./assets/curriculum/s2_wk_a_p12_img1.png",
     "imageCaption": "Pybfrq Irffry Ulqebfgngvp Yriry Zrnfherzrag jvgu Ersrerapr Yrt",
     "distractors": [
       {
@@ -2157,7 +2157,7 @@ export const ENCODED_SUBJECT2_MEASUREMENT: QuestionRecord[] = [
     "ilmReference": "VYZ 310302p ct 16",
     "explanation": "Grpuavpny engvbanyr: Ryvzvangvba bs ybat bvy-svyyrq pncvyynevrf erzbirf nzovrag grzcrengher urnq reebef naq ryvzvangrf pncvyynel ynt gvzr.",
     "steps": null,
-    "image": "/assets/curriculum/s2_wk_a_p12_img1.png",
+    "image": "./assets/curriculum/s2_wk_a_p12_img1.png",
     "imageCaption": "Pybfrq Irffry Ulqebfgngvp Yriry Zrnfherzrag jvgu Ersrerapr Yrt",
     "distractors": [
       {
@@ -5143,7 +5143,7 @@ export const ENCODED_SUBJECT2_MEASUREMENT: QuestionRecord[] = [
     "ilmReference": "VYZ 310302w ct 4",
     "explanation": "Grpuavpny engvbanyr: Vg dhnqehcyrf ($400\\%$ bs bevtvany $\\Qrygn C$, orpnhfr $\\Qrygn C \\cebcgb d^2$).",
     "steps": null,
-    "image": "/assets/curriculum/s2_wk_h_p12_img1.png",
+    "image": "./assets/curriculum/s2_wk_h_p12_img1.png",
     "imageCaption": "Qvssreragvny Cerffher Bevsvpr Cyngr naq Gnc Ybpngvbaf",
     "distractors": [
       {
@@ -5195,7 +5195,7 @@ export const ENCODED_SUBJECT2_MEASUREMENT: QuestionRecord[] = [
     "ilmReference": "VYZ 310302w ct 5",
     "explanation": "Grpuavpny engvbanyr: Gur engvb bs gur bevsvpr cyngr ober qvnzrgre ($q$) gb gur vagreany cvcr qvnzrgre ($Q$): $\\orgn = q / Q$.",
     "steps": null,
-    "image": "/assets/curriculum/s2_wk_h_p12_img1.png",
+    "image": "./assets/curriculum/s2_wk_h_p12_img1.png",
     "imageCaption": "Qvssreragvny Cerffher Bevsvpr Cyngr naq Gnc Ybpngvbaf",
     "distractors": [
       {
@@ -5247,7 +5247,7 @@ export const ENCODED_SUBJECT2_MEASUREMENT: QuestionRecord[] = [
     "ilmReference": "VYZ 310302w ct 7",
     "explanation": "Grpuavpny engvbanyr: Rknpgyl $1.0\\grkg{ vapu}$ ($25.4\\grkg{ zz}$) hcfgernz sebz gur hcfgernz snpr naq $1.0\\grkg{ vapu}$ qbjafgernz sebz gur qbjafgernz snpr bs gur cyngr.",
     "steps": null,
-    "image": "/assets/curriculum/s2_wk_h_p12_img1.png",
+    "image": "./assets/curriculum/s2_wk_h_p12_img1.png",
     "imageCaption": "Qvssreragvny Cerffher Bevsvpr Cyngr naq Gnc Ybpngvbaf",
     "distractors": [
       {
@@ -5299,7 +5299,7 @@ export const ENCODED_SUBJECT2_MEASUREMENT: QuestionRecord[] = [
     "ilmReference": "VYZ 310302w ct 6",
     "explanation": "Grpuavpny engvbanyr: Gur funec fdhner 90-qrterr rqtr zhfg snpr hcfgernz gbjneq gur vapbzvat cebprff sybj; gur oriry zhfg snpr qbjafgernz.",
     "steps": null,
-    "image": "/assets/curriculum/s2_wk_h_p12_img1.png",
+    "image": "./assets/curriculum/s2_wk_h_p12_img1.png",
     "imageCaption": "Qvssreragvny Cerffher Bevsvpr Cyngr naq Gnc Ybpngvbaf",
     "distractors": [
       {
@@ -5351,7 +5351,7 @@ export const ENCODED_SUBJECT2_MEASUREMENT: QuestionRecord[] = [
     "ilmReference": "VYZ 310302w ct 12",
     "explanation": "Grpuavpny engvbanyr: Fvtavsvpnagyl uvture creznarag cerffher erpbirel (erpbiref $85\\%\\grkg{{ gb }}90\\%$ bs $\\Qrygn C$ pbzcnerq gb bayl $30\\%\\grkg{{ gb }}40\\%$ sbe na bevsvpr).",
     "steps": null,
-    "image": "/assets/curriculum/s2_wk_h_p12_img1.png",
+    "image": "./assets/curriculum/s2_wk_h_p12_img1.png",
     "imageCaption": "Qvssreragvny Cerffher Bevsvpr Cyngr naq Gnc Ybpngvbaf",
     "distractors": [
       {
@@ -5403,7 +5403,7 @@ export const ENCODED_SUBJECT2_MEASUREMENT: QuestionRecord[] = [
     "ilmReference": "VYZ 310302w ct 10",
     "explanation": "Grpuavpny engvbanyr: Ybj Erlabyqf ahzore, uvtuyl ivfpbhf syhvqf ($Er < 10,000$), jurer n funec rqtr qvfpunetr pbrssvpvrag jbhyq or aba-yvarne.",
     "steps": null,
-    "image": "/assets/curriculum/s2_wk_h_p12_img1.png",
+    "image": "./assets/curriculum/s2_wk_h_p12_img1.png",
     "imageCaption": "Qvssreragvny Cerffher Bevsvpr Cyngr naq Gnc Ybpngvbaf",
     "distractors": [
       {
@@ -5455,7 +5455,7 @@ export const ENCODED_SUBJECT2_MEASUREMENT: QuestionRecord[] = [
     "ilmReference": "VYZ 310302w ct 11",
     "explanation": "Grpuavpny engvbanyr: Gur bevsvpr ober vf cbfvgvbarq syhfu jvgu gur cvcr obggbz (sbe fyheevrf/pbaqrafngr) be cvcr gbc (sbe ragenvarq tnfrf) gb cerirag qnzzvat naq fbyvqf ohvyqhc.",
     "steps": null,
-    "image": "/assets/curriculum/s2_wk_h_p12_img1.png",
+    "image": "./assets/curriculum/s2_wk_h_p12_img1.png",
     "imageCaption": "Qvssreragvny Cerffher Bevsvpr Cyngr naq Gnc Ybpngvbaf",
     "distractors": [
       {
@@ -5507,7 +5507,7 @@ export const ENCODED_SUBJECT2_MEASUREMENT: QuestionRecord[] = [
     "ilmReference": "VYZ 310302w ct 14",
     "explanation": "Grpuavpny engvbanyr: Zhygvcyr vzcnpg cbegf frafr gbgny cerffher npebff gur irybpvgl cebsvyr juvyr n erne cbeg frafrf fgngvp cerffher; gur qvssrerapr ercerfragf nirentr qlanzvp cerffher ($C_{\\grkg{gbgny}} - C_{\\grkg{fgngvp}} = \\senp{1}{2}\\eub i^2$).",
     "steps": null,
-    "image": "/assets/curriculum/s2_wk_h_p12_img1.png",
+    "image": "./assets/curriculum/s2_wk_h_p12_img1.png",
     "imageCaption": "Qvssreragvny Cerffher Bevsvpr Cyngr naq Gnc Ybpngvbaf",
     "distractors": [
       {
@@ -5559,7 +5559,7 @@ export const ENCODED_SUBJECT2_MEASUREMENT: QuestionRecord[] = [
     "ilmReference": "VYZ 310302w ct 8",
     "explanation": "Grpuavpny engvbanyr: Gheohyrapr, rqql sbezngvba, naq ivfpbhf sevpgvba qbjafgernz bs gur iran pbagenpgn pbaireg syhvq zrpunavpny raretl veerirefvoyl vagb gurezny raretl.",
     "steps": null,
-    "image": "/assets/curriculum/s2_wk_h_p12_img1.png",
+    "image": "./assets/curriculum/s2_wk_h_p12_img1.png",
     "imageCaption": "Qvssreragvny Cerffher Bevsvpr Cyngr naq Gnc Ybpngvbaf",
     "distractors": [
       {
@@ -5611,7 +5611,7 @@ export const ENCODED_SUBJECT2_MEASUREMENT: QuestionRecord[] = [
     "ilmReference": "VYZ 310302w ct 7",
     "explanation": "Grpuavpny engvbanyr: Gur ybpngvba qbjafgernz bs gur cyngr jurer syhvq fgernzyvarf pbairetr gb gurve zvavzhz pebff-frpgvbany nern naq znkvzhz irybpvgl, cebqhpvat zvavzhz fgngvp cerffher.",
     "steps": null,
-    "image": "/assets/curriculum/s2_wk_h_p12_img1.png",
+    "image": "./assets/curriculum/s2_wk_h_p12_img1.png",
     "imageCaption": "Qvssreragvny Cerffher Bevsvpr Cyngr naq Gnc Ybpngvbaf",
     "distractors": [
       {
@@ -5719,7 +5719,7 @@ export const ENCODED_SUBJECT2_MEASUREMENT: QuestionRecord[] = [
     "ilmReference": "VYZ 310302x ct 3",
     "explanation": "Grpuavpny engvbanyr: Zntargvp syhk qrafvgl ($O$), syhvq irybpvgl ($i$), naq pbaqhpgbe yratgu (vafvqr cvcr qvnzrgre orgjrra ryrpgebqrf $Q$).",
     "steps": null,
-    "image": "/assets/curriculum/s2_wk_j_p4_img1.png",
+    "image": "./assets/curriculum/s2_wk_j_p4_img1.png",
     "imageCaption": "Zntargvp Sybjzrgre Pbvy, Ghor Yvare, naq Ryrpgebqr Nyvtazrag",
     "distractors": [
       {
@@ -5771,7 +5771,7 @@ export const ENCODED_SUBJECT2_MEASUREMENT: QuestionRecord[] = [
     "ilmReference": "VYZ 310302x ct 5",
     "explanation": "Grpuavpny engvbanyr: Ulqebpneobaf ner aba-pbaqhpgvir qvryrpgevp yvdhvqf; zntzrgref erdhver n zvavzhz syhvq ryrpgevpny pbaqhpgvivgl (glcvpnyyl $\\tr 5\\ \\zh\\grkg{F/pz}$) gb trarengr na RZS.",
     "steps": null,
-    "image": "/assets/curriculum/s2_wk_j_p4_img1.png",
+    "image": "./assets/curriculum/s2_wk_j_p4_img1.png",
     "imageCaption": "Zntargvp Sybjzrgre Pbvy, Ghor Yvare, naq Ryrpgebqr Nyvtazrag",
     "distractors": [
       {
@@ -5823,7 +5823,7 @@ export const ENCODED_SUBJECT2_MEASUREMENT: QuestionRecord[] = [
     "ilmReference": "VYZ 310302x ct 6",
     "explanation": "Grpuavpny engvbanyr: Chyfrq QP rfgnoyvfurf n fgnoyr zntargvp svryq, zrnfherf qhevat fgrnql fgngr, naq fhogenpgf ryrpgebpurzvpny mreb abvfr, iveghnyyl ryvzvangvat mreb qevsg.",
     "steps": null,
-    "image": "/assets/curriculum/s2_wk_j_p4_img1.png",
+    "image": "./assets/curriculum/s2_wk_j_p4_img1.png",
     "imageCaption": "Zntargvp Sybjzrgre Pbvy, Ghor Yvare, naq Ryrpgebqr Nyvtazrag",
     "distractors": [
       {
@@ -5875,7 +5875,7 @@ export const ENCODED_SUBJECT2_MEASUREMENT: QuestionRecord[] = [
     "ilmReference": "VYZ 310302x ct 8",
     "explanation": "Grpuavpny engvbanyr: Gnagnyhz be Cyngvahz-Vevqvhz (qhr gb rkgerzr npvq pbeebfvba erfvfgnapr).",
     "steps": null,
-    "image": "/assets/curriculum/s2_wk_j_p4_img1.png",
+    "image": "./assets/curriculum/s2_wk_j_p4_img1.png",
     "imageCaption": "Zntargvp Sybjzrgre Pbvy, Ghor Yvare, naq Ryrpgebqr Nyvtazrag",
     "distractors": [
       {
@@ -5927,7 +5927,7 @@ export const ENCODED_SUBJECT2_MEASUREMENT: QuestionRecord[] = [
     "ilmReference": "VYZ 310302x ct 7",
     "explanation": "Grpuavpny engvbanyr: Gb cerirag gur zvpebfpbcvp zvyyvibyg fvtany trarengrq va gur pbaqhpgvir syhvq sebz fubeg-pvephvgvat guebhtu gur pbaqhpgvir zrgny cvcr jnyy.",
     "steps": null,
-    "image": "/assets/curriculum/s2_wk_j_p4_img1.png",
+    "image": "./assets/curriculum/s2_wk_j_p4_img1.png",
     "imageCaption": "Zntargvp Sybjzrgre Pbvy, Ghor Yvare, naq Ryrpgebqr Nyvtazrag",
     "distractors": [
       {
@@ -5979,7 +5979,7 @@ export const ENCODED_SUBJECT2_MEASUREMENT: QuestionRecord[] = [
     "ilmReference": "VYZ 310302x ct 10",
     "explanation": "Grpuavpny engvbanyr: Gb cebivqr n qverpg ryrpgevpny pbaarpgvba orgjrra gur cebprff syhvq naq gur genafzvggre ersrerapr tebhaq, ryvzvangvat pbzzba-zbqr ryrpgebpurzvpny ibygntrf.",
     "steps": null,
-    "image": "/assets/curriculum/s2_wk_j_p4_img1.png",
+    "image": "./assets/curriculum/s2_wk_j_p4_img1.png",
     "imageCaption": "Zntargvp Sybjzrgre Pbvy, Ghor Yvare, naq Ryrpgebqr Nyvtazrag",
     "distractors": [
       {
@@ -6031,7 +6031,7 @@ export const ENCODED_SUBJECT2_MEASUREMENT: QuestionRecord[] = [
     "ilmReference": "VYZ 310302x ct 12",
     "explanation": "Grpuavpny engvbanyr: Gur zrgre frireryl bire-ernqf be syhpghngrf jvyqyl orpnhfr syhvq irybpvgl vf pnyphyngrq nffhzvat shyy cvcr pebff-frpgvbany nern; na rzcgl cvcr qrgrpgbe ceriragf snyfr gbgnyf.",
     "steps": null,
-    "image": "/assets/curriculum/s2_wk_j_p4_img1.png",
+    "image": "./assets/curriculum/s2_wk_j_p4_img1.png",
     "imageCaption": "Zntargvp Sybjzrgre Pbvy, Ghor Yvare, naq Ryrpgebqr Nyvtazrag",
     "distractors": [
       {
@@ -6083,7 +6083,7 @@ export const ENCODED_SUBJECT2_MEASUREMENT: QuestionRecord[] = [
     "ilmReference": "VYZ 310302x ct 9",
     "explanation": "Grpuavpny engvbanyr: Pbagvahbhf uvtu-serdhrapl hygenfbavp be pncnpvgvir pyrnavat pvephvgf gung ivoengr be chyfr gur ryrpgebqrf gb qvfybqtr ternfr.",
     "steps": null,
-    "image": "/assets/curriculum/s2_wk_j_p4_img1.png",
+    "image": "./assets/curriculum/s2_wk_j_p4_img1.png",
     "imageCaption": "Zntargvp Sybjzrgre Pbvy, Ghor Yvare, naq Ryrpgebqr Nyvtazrag",
     "distractors": [
       {
@@ -6135,7 +6135,7 @@ export const ENCODED_SUBJECT2_MEASUREMENT: QuestionRecord[] = [
     "ilmReference": "VYZ 310302x ct 2",
     "explanation": "Grpuavpny engvbanyr: Mreb sybj bofgehpgvba, mreb creznarag cerffher ybff, naq mreb zbivat cnegf fhowrpg gb zrpunavpny jrne be cyhttvat.",
     "steps": null,
-    "image": "/assets/curriculum/s2_wk_j_p4_img1.png",
+    "image": "./assets/curriculum/s2_wk_j_p4_img1.png",
     "imageCaption": "Zntargvp Sybjzrgre Pbvy, Ghor Yvare, naq Ryrpgebqr Nyvtazrag",
     "distractors": [
       {

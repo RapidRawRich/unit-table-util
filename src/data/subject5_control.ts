@@ -13,7 +13,7 @@ export const subject5Questions: QuestionRecord[] = [
     "ilmReference": "VYZ 310305nN ct 4",
     "explanation": "Va n pynffvp artngvir srrqonpx pbageby ybbc, gur genafzvggre zrnfherf gur cebprff naq genafzvgf gur Cebprff Inevnoyr (CI) onpx gb gur fhzzvat whapgvba. Gur reebe qrgrpgbe fhogenpgf CI sebz gur Frgcbvag (FC) gb trarengr gur reebe fvtany ($r = \\grkg{FC} - \\grkg{CI}$ be $r = \\grkg{CI} - \\grkg{FC}$), juvpu qevirf gur pbagebyyre nytbevguz gb trarengr Pbagebyyre Bhgchg (PB) gb gur svany pbageby ryrzrag.",
     "steps": null,
-    "image": "/assets/curriculum/s5_quiz1_p4_img1.png",
+    "image": "./assets/curriculum/s5_quiz1_p4_img1.png",
     "imageCaption": "Artngvir Srrqonpx Pybfrq Ybbc Oybpx Qvntenz jvgu Fhzzvat Whapgvba naq Sbejneq Cngu",
     "distractors": [
       {
@@ -70,7 +70,7 @@ export const subject5Questions: QuestionRecord[] = [
       "Abeznyvmr $\\Qrygn \\grkg{CI}$ npebff $200^\\pvep\\grkg{P}$ fcna: $\\Qrygn \\grkg{CI}_{\\%} = \\senp{25}{200} \\gvzrf 100\\% = 12.5\\%$",
       "Pnyphyngr abeznyvmrq cebprff tnva: $X_c = \\senp{12.5\\%}{10\\%} = 1.25$ (qvzrafvbayrff)"
     ],
-    "image": "/assets/curriculum/s5_quiz1_p2_img1.png",
+    "image": "./assets/curriculum/s5_quiz1_p2_img1.png",
     "imageCaption": "Svefg-Beqre Cyhf Qrnq Gvzr (SBCQG) Fgrc Erfcbafr Ernpgvba Pheir",
     "distractors": [
       {
@@ -920,7 +920,7 @@ export const subject5Questions: QuestionRecord[] = [
     "ilmReference": "VYZ 310305nN ct 57",
     "explanation": "Grpuavpny Engvbanyr: Cebprff tnva ($X_c$), nccnerag qrnq gvzr ($\\gurgn$ be $\\gnh_Q$), naq nccnerag gvzr pbafgnag ($\\gnh$ be $\\gnh_1$). Va vaqhfgevny cebprff pbageby, evtbebhf pybfrq-ybbc qlanzvp nanylfvf rafherf pbeerpg npgvba fryrpgvba, ceriragf qnatrebhf cbfvgvir srrqonpx ehanjnl, naq bcgvzvmrf ybbc fgnovyvgl.",
     "steps": null,
-    "image": "/assets/curriculum/s5_quiz1_p5_img1.png",
+    "image": "./assets/curriculum/s5_quiz1_p5_img1.png",
     "imageCaption": "Cebprff Ernpgvba Pheir Fubjvat Qrnq Gvzr (gurgn), Gvzr Pbafgnag (gnh), naq Fgrnql-Fgngr Tnva (Xc)",
     "distractors": [
       {
@@ -2016,7 +2016,7 @@ export const subject5Questions: QuestionRecord[] = [
     "ilmReference": "VYZ 310305nN ct 120",
     "explanation": "Grpuavpny Engvbanyr: $$\\grkg{QE} = \\senp{1}{4} = 0.25$$; rnpu fhpprffvir birefubbg crnx vf rknpgyl bar-sbhegu ($25\\%$) gur nzcyvghqr bs gur cerprqvat crnx. Va vaqhfgevny cebprff pbageby, evtbebhf pybfrq-ybbc qlanzvp nanylfvf rafherf pbeerpg npgvba fryrpgvba, ceriragf qnatrebhf cbfvgvir srrqonpx ehanjnl, naq bcgvzvmrf ybbc fgnovyvgl.",
     "steps": null,
-    "image": "/assets/curriculum/s5_quiz1_p8_img1.png",
+    "image": "./assets/curriculum/s5_quiz1_p8_img1.png",
     "imageCaption": "Pybfrq-Ybbc Haqreqnzcrq Erfcbafr Qvfcynlvat Dhnegre Nzcyvghqr Qnzcvat (N2 / N1 = 0.25)",
     "distractors": [
       {
@@ -2238,7 +2238,7 @@ export const subject5Questions: QuestionRecord[] = [
     "ilmReference": "VYZ 310305nO ct 11",
     "explanation": "Ba n Obqr cybg:\n1. Cunfr Pebffbire Serdhrapl ($\\bzrtn_h$): Jurer gbgny cunfr ynt ernpurf $-180^\\pvep$. Gur Tnva Znetva ($TZ$) vf $1 / |T(w\\bzrtn_h)|$ (be $-20\\ybt_{10}|T(w\\bzrtn_h)|\\grkg{ va qO}$). Glcvpny gnetrg: $TZ \\tr 2.0$ ($>+6\\grkg{ qO}$).\n2. Tnva Pebffbire Serdhrapl ($\\bzrtn_t$): Jurer zntavghqr ernpurf havgl ($|T(w\\bzrtn_t)| = 1.0$, $0\\grkg{ qO}$). Gur Cunfr Znetva ($CZ$) vf $180^\\pvep + \\cuv(\\bzrtn_t)$. Glcvpny gnetrg: $CZ \\tr 30^\\pvep \\grkg{ gb } 45^\\pvep$.",
     "steps": null,
-    "image": "/assets/curriculum/s5_quiz1_p6_img1.png",
+    "image": "./assets/curriculum/s5_quiz1_p6_img1.png",
     "imageCaption": "Obqr Serdhrapl Erfcbafr Qvntenz Qvfcynlvat Tnva Znetva naq Cunfr Znetva",
     "distractors": [
       {
@@ -2290,7 +2290,7 @@ export const subject5Questions: QuestionRecord[] = [
     "ilmReference": "VYZ 310305nO ct 15",
     "explanation": "Sbe n fvatyr svefg-beqre ynt ($$\\senp{1}{1 + w\\bzrtn\\gnh}$$), ng serdhrapvrf jryy nobir gur pbeare serdhrapl ($\\bzrtn \\tt 1/\\gnh$), gur zntavghqr nggrahngrf vairefryl jvgu serdhrapl ($|T| \\nccebk \\senp{X}{\\bzrtn \\gnh}$). Va ybtnevguzvp qrpvoryf, n 10-sbyq vapernfr va serdhrapl (bar qrpnqr) cebqhprf n snpgbe bs 10 nggrahngvba va zntavghqr ($20\\ybt_{10}(0.10) = -20\\grkg{ qO}$). N gjb-sbyq vapernfr (bar bpgnir) cebqhprf n snpgbe bs 2 nggrahngvba ($-6\\grkg{ qO}$).",
     "steps": null,
-    "image": "/assets/curriculum/s5_quiz1_p6_img2.png",
+    "image": "./assets/curriculum/s5_quiz1_p6_img2.png",
     "imageCaption": "Obqr Nzcyvghqr naq Cunfr Pheirf sbe Svefg-Beqre, Frpbaq-Beqre, naq Qrnq Gvzr Ryrzragf",
     "distractors": [
       {
@@ -4657,7 +4657,7 @@ export const subject5Questions: QuestionRecord[] = [
     "ilmReference": "Ncceragvprfuvc Sbezhyn Furrg 2017 / VYZ 310305nP ct 28",
     "explanation": "Va gur Mvrtyre-Avpubyf Pybfrq-Ybbc (Hygvzngr Frafvgvivgl) zrgubq:\n1. Qvfnoyr Vagrteny ($G_v = \\vasgl$ be $X_v = 0$) naq Qrevingvir ($G_q = 0$).\n2. Chg pbagebyyre va Nhgb.\n3. Znxr n fznyy frgcbvag fgrc.\n4. Tenqhnyyl vapernfr $X_p$ (qrpernfr Cebcbegvbany Onaq) hagvy gur ybbc npuvrirf pbagvahbhf, fhfgnvarq, aba-qrpnlvat fvahfbvqny bfpvyyngvbaf.\n5. Gur tnva ng guvf obhaqnel vf gur Hygvzngr Tnva ($X_{ph}$), naq gur zrnfherq crnx-gb-crnx crevbq vf gur Hygvzngr Crevbq ($C_h$).",
     "steps": null,
-    "image": "/assets/curriculum/s5_quiz1_p9_img1.png",
+    "image": "./assets/curriculum/s5_quiz1_p9_img1.png",
     "imageCaption": "Pybfrq-Ybbc Yvzvg Plpyr Bfpvyyngvbaf sbe Hygvzngr Tnva naq Crevbq Qrgrezvangvba",
     "distractors": [
       {
@@ -4865,7 +4865,7 @@ export const subject5Questions: QuestionRecord[] = [
     "ilmReference": "Ncceragvprfuvc Sbezhyn Furrg 2017 / VYZ 310305nP ct 35",
     "explanation": "Sebz gur Ncceragvprfuvc Sbezhyn Furrg 2017:\n$$\\grkg{Qrpnl Engvb (QE)} = \\senp{N_2}{N_1} = 0.25$$\nTvira $N_1 = 12.0\\%$:\n$$N_2 = 0.25 \\gvzrf N_1 = 0.25 \\gvzrf 12.0\\% = 3.0\\%$$\nDhnegre nzcyvghqr qrpnl cebivqrf na rkpryyrag pbzcebzvfr orgjrra encvq evfr gvzr naq fgnovyvgl, pbeerfcbaqvat gb n qnzcvat engvb bs $\\mrgn \\nccebk 0.215$.",
     "steps": null,
-    "image": "/assets/curriculum/s5_quiz1_p24_img1.png",
+    "image": "./assets/curriculum/s5_quiz1_p24_img1.png",
     "imageCaption": "Genafvrag Erfcbafr Qrsvavat Crnx Birefubbgf N1 naq N2 sbe Qrpnl Engvb",
     "distractors": [
       {
@@ -5281,7 +5281,7 @@ export const subject5Questions: QuestionRecord[] = [
     "ilmReference": "Ncceragvprfuvc Sbezhyn Furrg 2017 / VYZ 310305nP ct 55",
     "explanation": "Va gur bcra-ybbc fgrc grfg zrgubq (Mvrtyre-Avpubyf bcra ybbc / Pbura-Pbba SBCQG):\n1. Gur ybbc vf cynprq va ZNAHNY ng fgrnql fgngr.\n2. N fgrc punatr va pbagebyyre bhgchg ($\\Qrygn \\grkg{PB}$) vf nccyvrq.\n3. Gur vasyrpgvba gnatrag yvar ba gur F-funcrq CI pheir vf qenja.\n4. Qrnq gvzr ($\\gurgn$ be $g_q$) vf zrnfherq sebz fgrc gvzr gb gur gnatrag yvar mreb-vagreprcg.\n5. Gvzr pbafgnag ($\\gnh$ be $G$) vf zrnfherq sebz gur mreb-vagreprcg gb gur gvzr pbeerfcbaqvat gb $63.2\\%$ bs fgrnql-fgngr punatr (be sebz gnatrag fybcr).\n6. Cebprff Tnva vf $X_c = \\senp{\\Qrygn \\grkg{CI}_{\\%}}{\\Qrygn \\grkg{PB}_{\\%}}$.",
     "steps": null,
-    "image": "/assets/curriculum/s5_quiz1_p24_img2.png",
+    "image": "./assets/curriculum/s5_quiz1_p24_img2.png",
     "imageCaption": "Cebprff Ernpgvba Pheir Gnatrag Yvar Pbafgehpgvba sbe SBCQG Cnenzrgref",
     "distractors": [
       {
@@ -6321,7 +6321,7 @@ export const subject5Questions: QuestionRecord[] = [
     "ilmReference": "VYZ 310305nQ ct 5",
     "explanation": "Va Ynzoqn ghavat (n sbez bs Vagreany Zbqry Pbageby / VZP):\n1. Gur hfre fcrpvsvrf $\\ynzoqn$ (gur qrfverq pybfrq-ybbc gvzr pbafgnag $\\gnh_p$).\n2. Gur pbagebyyre vagrteny gvzr vf frg rdhny gb gur cebprff gvzr pbafgnag: $G_v = \\gnh$. Guvf zngurzngvpnyyl pnapryf gur bcra-ybbc cebprff cbyr.\n3. Gur cebcbegvbany tnva vf pnyphyngrq nf: $X_p = \\senp{\\gnh}{X_c (\\ynzoqn + \\gurgn)}$.\n4. Gur erfhygvat pybfrq-ybbc erfcbafr vf pevgvpnyyl qnzcrq (mreb birefubbg), ceriragvat plpyvp vagrenpgvba jvgu qbjafgernz cebprffrf.",
     "steps": null,
-    "image": "/assets/curriculum/s5_quiz1_p25_img1.png",
+    "image": "./assets/curriculum/s5_quiz1_p25_img1.png",
     "imageCaption": "Ynzoqn Pybfrq-Ybbc Erfcbafr jvgu Mreb Birefubbg",
     "distractors": [
       {
@@ -6581,7 +6581,7 @@ export const subject5Questions: QuestionRecord[] = [
     "ilmReference": "VYZ 310305nQ ct 18",
     "explanation": "Gur \u00c5fge\u00f6z-U\u00e4ttyhaq erynl zrgubq:\n1. Gur CVQ nytbevguz vf grzcbenevyl fjvgpurq gb n erynl shapgvba.\n2. Jura reebe $r > 0$, erynl bhgchgf $+q$; jura $r < 0$, erynl bhgchgf $-q$.\n3. Gur cebprff erfcbaqf ol ragrevat n fgnoyr, obhaqrq yvzvg plpyr bfpvyyngvba jvgu nzcyvghqr $n$ naq crevbq $C_h$.\n4. Orpnhfr gur erynl yvzvgf bhgchg gb $\\cz q$, gur cebprff arire ehaf njnl vagb qnatrebhf vafgnovyvgl.\n5. Hfvat Sbhevre qrfpevovat shapgvba nanylfvf, gur hygvzngr tnva vf:\n$$X_{ph} = \\senp{4 q}{\\cv n}$$\n6. Fgnaqneq CVQ ehyrf (M-A, Pbura-Pbba, be Ynzoqn) ner gura nhgbzngvpnyyl nccyvrq.",
     "steps": null,
-    "image": "/assets/curriculum/s5_quiz1_p9_img1.png",
+    "image": "./assets/curriculum/s5_quiz1_p9_img1.png",
     "imageCaption": "Nfgebz-Unttyhaq Erynl Yvzvg Plpyr Bfpvyyngvba Jnirsbez",
     "distractors": [
       {
@@ -7881,7 +7881,7 @@ export const subject5Questions: QuestionRecord[] = [
     "ilmReference": "VYZ 310305nR ct 4",
     "explanation": "Va pnfpnqr pbageby:\n1. Gur Cevznel (Znfgre/Bhgre) pbagebyyre zrnfherf gur pevgvpny cebprff dhnyvgl inevnoyr (grzcrengher GP).\n2. Vafgrnq bs qverpgyl fgebxvat gur inyir, gur Znfgre pbagebyyre'f 4-20 zN be qvtvgny bhgchg vf jverq qverpgyl nf gur Erzbgr Frgcbvag (EFC) bs gur Frpbaqnel (Fynir/Vaare) pbagebyyre (sybj SP).\n3. Gur Frpbaqnel pbagebyyre zrnfherf gur frpbaqnel inevnoyr (fgrnz sybj) naq znavchyngrf gur svany pbageby ryrzrag (fgrnz inyir).\n4. Guvf vfbyngrf qvfgheonaprf va fgrnz urnqre cerffher vafvqr gur vaare ybbc orsber gurl pna nssrpg grzcrengher.",
     "steps": null,
-    "image": "/assets/curriculum/s5_quiz1_p10_img1.png",
+    "image": "./assets/curriculum/s5_quiz1_p10_img1.png",
     "imageCaption": "Pnfpnqr Pbageby Nepuvgrpgher: Cevznel Znfgre Bhgre Ybbc naq Frpbaqnel Fynir Vaare Ybbc",
     "distractors": [
       {
@@ -7985,7 +7985,7 @@ export const subject5Questions: QuestionRecord[] = [
     "ilmReference": "VYZ 310305nR ct 10",
     "explanation": "Qlanzvp frcnengvba ehyr:\n- Vs gur vaare ybbc vf snfg (r.t. sybj ybbc jvgu gvzr pbafgnag $\\gnh_{\\grkg{vaare}} = 1\\grkg{ f}$), vg ernpurf vgf frgcbvag nyzbfg vafgnagyl pbzcnerq gb gur fybj bhgre ybbc (r.t. grzcrengher ybbc jvgu $\\gnh_{\\grkg{bhgre}} = 60\\grkg{ f}$).\n- Sebz gur crefcrpgvir bs gur bhgre pbagebyyre, gur vaare ybbc orunirf nf n fvzcyr havgl tnva oybpx ($T_{\\grkg{vaare}}(f) \\nccebk 1.0$) jvgu artyvtvoyr cunfr ynt.\n- Vs gur vaare ybbc vf fybj be pbzcnenoyr va fcrrq gb gur bhgre ybbc, cunfr ynt sebz gur vaare ybbc pnhfrf frirer plpyvp vagrenpgvba naq qrfgnovyvmrf gur znfgre ybbc.",
     "steps": null,
-    "image": "/assets/curriculum/s5_quiz1_p12_img1.png",
+    "image": "./assets/curriculum/s5_quiz1_p12_img1.png",
     "imageCaption": "Pnfpnqr Wnpxrgrq Ernpgbe: Snfg Vaare Cerffher/Sybj Ybbc naq Fybj Bhgre Grzcrengher Ybbc",
     "distractors": [
       {
@@ -9441,7 +9441,7 @@ export const subject5Questions: QuestionRecord[] = [
     "ilmReference": "VYZ 310305nS ct 4",
     "explanation": "Va fryrpgvir (bireevqr) pbageby:\n- Ybj Fvtany Fryrpgbe ($<$, YF, be ZVA): $L = \\zva(K_1, K_2, \\qbgf, K_a)$. Cnffrf gur ybjrfg vachg. Hfrq va fnsrgl bireevqr nepuvgrpgherf jurer gur zbfg erfgevpgvir (ybjrfg) inyir pbzznaq zhfg gnxr cerprqrapr (r.t. yvzvgvat shry sybj be pybfvat na Nve-gb-Bcra inyir qhevat rzretrapl bire-grzcrengher).\n- Uvtu Fvtany Fryrpgbe ($>$, UF, be ZNK): $L = \\znk(K_1, K_2, \\qbgf, K_a)$. Cnffrf gur uvturfg vachg. Hfrq jurer gur uvturfg qrznaq zhfg gnxr cerprqrapr (r.t. qrznaqvat pbbyvat jngre, bcravat ngzbfcurevp eryvrs iragf, be fryrpgvat uvturfg oheare synzr fpnaare fvtany).",
     "steps": null,
-    "image": "/assets/curriculum/s5_quiz1_p13_img1.png",
+    "image": "./assets/curriculum/s5_quiz1_p13_img1.png",
     "imageCaption": "Uvtu naq Ybj Fvtany Fryrpgbe Oybpxf va Fryrpgvir Pbageby Fpurzrf",
     "distractors": [
       {
@@ -9597,7 +9597,7 @@ export const subject5Questions: QuestionRecord[] = [
     "ilmReference": "VYZ 310305nS ct 16",
     "explanation": "Rkgreany Erfrg Srrqonpx (RES / genpxvat):\n- Va pbagebyyref pbasvtherq jvgu RES (be cbfvgvir srrqonpx vagrteny zbqryf):\n$$\\grkg{PB} = X_p \\pqbg r + \\senp{1}{G_v f + 1} (\\grkg{Srrqonpx Fvtany})$$\n- Ol srrqvat gur FRYRPGRQ bhgchg fvtany ($L$) onpx gb gur erfrg cbeg bs obgu Pbagebyyre N naq Pbagebyyre O:\n- Gur fryrpgrq pbagebyyre shapgvbaf abeznyyl orpnhfr vgf srrqonpx zngpurf vgf bhgchg.\n- Gur hafryrpgrq pbagebyyre'f vagrtengbe qbrf abg enzc gb fnghengvba; vafgrnq, vgf bhgchg vf pbafgenvarq gb genpx: $\\grkg{PB}_{\\grkg{hafryrpgrq}} = L + X_p \\pqbg r$.\n- Vg erznvaf cbvfrq vzzrqvngryl nqwnprag gb gur fjvgpuvat guerfubyq, ernql gb gnxr bire fzbbguyl naq vafgnagnarbhfyl gur rknpg zvyyvfrpbaq gur bireevqr pbafgenvag vf oernpurq.",
     "steps": null,
-    "image": "/assets/curriculum/s5_quiz1_p16_img1.png",
+    "image": "./assets/curriculum/s5_quiz1_p16_img1.png",
     "imageCaption": "Bireevqr Pbageby Fpurzr jvgu Rkgreany Erfrg Srrqonpx gb Cerirag Vagrteny Jvaqhc",
     "distractors": [
       {
@@ -9701,7 +9701,7 @@ export const subject5Questions: QuestionRecord[] = [
     "ilmReference": "VYZ 310305nS ct 24",
     "explanation": "Va fcyvg-enatr pbageby:\n- Bar CVQ pbagebyyre erthyngrf n fvatyr cebprff inevnoyr (r.t. irffry cerffher be grzcrengher).\n- Gur pbagebyyre bhgchg ($0-100\\%$) vf fcyvg orgjrra gjb (be zber) pbageby inyirf:\n  - Inyir N fgebxrf npebff $0-50\\%$ bs pbagebyyre bhgchg.\n  - Inyir O fgebxrf npebff $50-100\\%$ bs pbagebyyre bhgchg.\n- Nccyvpngvbaf:\n  1. Urngvat / Pbbyvat: $0-50\\%$ pbbyf, $50-100\\%$ urngf.\n  2. Oynaxrg / Irag: $0-50\\%$ nqqf vareg avgebtra oynaxrg tnf, $50-100\\%$ iragf rkprff tnf gb syner.\n  3. Jvqr enatrnovyvgl: Fznyy inyir unaqyrf fznyy sybjf ($0-25\\%$), ynetr inyir bcraf sbe urnil ybnq ($25-100\\%$).",
     "steps": null,
-    "image": "/assets/curriculum/s5_quiz1_p15_img1.png",
+    "image": "./assets/curriculum/s5_quiz1_p15_img1.png",
     "imageCaption": "Fcyvg-Enatr Pbageby: Fvatyr Pbagebyyre Bhgchg Cnegvgvbarq Orgjrra Gjb Pbageby Inyirf",
     "distractors": [
       {
@@ -9753,7 +9753,7 @@ export const subject5Questions: QuestionRecord[] = [
     "ilmReference": "VYZ 310305nS ct 28",
     "explanation": "Oynaxrg / Irag fcyvg-enatr nanylfvf:\n1. Vs gnax cerffher qebcf (r.t. pbyq avtug be yvdhvq orvat chzcrq bhg), avgebtra zhfg or vawrpgrq gb cerirag gnax pbyyncfr.\n2. Vs gnax cerffher evfrf (r.t. ubg qnl be gnax orvat svyyrq), rkprff tnf zhfg or iragrq gb syner gb cerirag gnax ehcgher.\n3. Fnsr bcrengvba znaqngrf:\n   - Cerffher Ybj $\\vzcyvrf$ Avgebtra Bcra, Irag Pybfrq.\n   - Cerffher Abezny (Frgcbvag) $\\vzcyvrf$ Obgu Avgebtra naq Irag PYBFRQ (pbafreivat rkcrafvir avgebtra tnf naq ceriragvat syner rzvffvbaf).\n   - Cerffher Uvtu $\\vzcyvrf$ Avgebtra Pybfrq, Irag BCRA.\n4. Enatvat:\n   - Qverpg Npgvat Pbagebyyre ($r = \\grkg{CI} - \\grkg{FC}$):\n   - $\\grkg{PB} = 0\\%$: Gnax cerffher irel ybj. Avgebtra inyir vf shyy bcra ($4\\grkg{ zN}$), Irag vf pybfrq.\n   - $\\grkg{PB} = 50\\%$: Gnax ng frgcbvag. Avgebtra inyir vf pybfrq, Irag vf pybfrq (qrnqonaq).\n   - $\\grkg{PB} = 100\\%$: Gnax cerffher uvtu. Avgebtra vf pybfrq, Irag inyir vf shyy bcra ($20\\grkg{ zN}$).",
     "steps": null,
-    "image": "/assets/curriculum/s5_quiz1_p15_img2.png",
+    "image": "./assets/curriculum/s5_quiz1_p15_img2.png",
     "imageCaption": "Fcyvg-Enatr Gnax Oynaxrgvat naq Iragvat Inyir Pnyvoengvba Pheirf",
     "distractors": [
       {
@@ -9857,7 +9857,7 @@ export const subject5Questions: QuestionRecord[] = [
     "ilmReference": "VYZ 310305nS ct 36",
     "explanation": "Pebffbire qrfvta genqr-bssf:\n- Qrnqonaq (Tnc): Inyir N pybfrf ng $48\\%$; Inyir O qbrf abg ortva bcravat hagvy $52\\%$. Nebhaq frgcbvag ($48-52\\%$), obgu inyirf ner pybfrq. Rffragvny va urngvat/pbbyvat be oynaxrg/irag flfgrzf gb cerirag svtugvat naq jnfgvat pbfgyl hgvyvgvrf.\n- Bireync: Inyir N pybfrf ng $52\\%$; Inyir O ortvaf bcravat ng $48\\%$. Obgu inyirf ner penpxrq bcra fyvtugyl orgjrra $48-52\\%$. Hfrq va jvqr-enatr sybj flfgrzf gb rafher fzbbgu pbagvahbhf sybj tnva jvgubhg n syng qrnq mbar jurer gur cebprff qbrf abg erfcbaq gb pbagebyyre bhgchg.",
     "steps": null,
-    "image": "/assets/curriculum/s5_quiz1_p15_img3.png",
+    "image": "./assets/curriculum/s5_quiz1_p15_img3.png",
     "imageCaption": "Fcyvg-Enatr Pebffbire Punenpgrevfgvpf: Qrnqonaq Tnc if Cebcbegvbany Bireync",
     "distractors": [
       {
@@ -9909,7 +9909,7 @@ export const subject5Questions: QuestionRecord[] = [
     "ilmReference": "VYZ 310305nS ct 40",
     "explanation": "Va engvb pbageby (r.t. oyraqvat, nve-gb-shry engvb, npvq-gb-jngre arhgenyvmngvba):\n1. Jvyq Sybj ($S_1$): Na hapbagebyyrq fgernz jubfr engr inevrf onfrq ba cynag qrznaq.\n2. Engvb Fgngvba: Zhygvcyvrf zrnfherq jvyq sybj ol gur qrfverq engvb frggvat $E$:\n$$\\grkg{FC}_2 = E \\gvzrf S_1$$\n3. Pbagebyyrq Sybj ($S_2$): N qrqvpngrq sybj pbagebyyre zrnfherf $S_2$ naq guebggyrf gur pbageby inyir gb zngpu gur pnyphyngrq frgcbvag $\\grkg{FC}_2$.\n4. Guvf cebivqrf srrqsbejneq-yvxr npgvba: nal punatr va jvyq sybj vzzrqvngryl nqwhfgf gur frgcbvag bs gur pbagebyyrq fgernz orsber dhnyvgl qrivngrf.",
     "steps": null,
-    "image": "/assets/curriculum/s5_quiz1_p17_img2.png",
+    "image": "./assets/curriculum/s5_quiz1_p17_img2.png",
     "imageCaption": "Engvb Pbageby Fpurzr: Jvyq Fgernz Zhygvcyvrq ol Engvb gb Frg Pbagebyyrq Fgernz",
     "distractors": [
       {
@@ -10377,7 +10377,7 @@ export const subject5Questions: QuestionRecord[] = [
     "ilmReference": "VYZ 310305nS ct 76",
     "explanation": "Nanylfvf bs Rkgreany Erfrg Srrqonpx va fryrpgbe ybbcf:\n- Gur Ybj Fryrpgbe bhgchg $L$ ercerfragf gur erny fvtany frag gb gur inyir.\n- Vs Pbagebyyre 1 vf fryrpgrq ($L = \\grkg{PB}_1$), Pbagebyyre 1 erprvirf vgf bja bhgchg, bcrengvat nf n fgnaqneq pybfrq-ybbc CVQ.\n- Pbagebyyre 2 vf hafryrpgrq ($L < \\grkg{PB}_2$). Jvgubhg RES, Pbagebyyre 2'f vagrtengbe jbhyq enzc gb $100\\%$.\n- Jvgu RES jverq gb $L$, Pbagebyyre 2'f vagrtengbe vf sbeprq gb genpx $L$:\n$$\\grkg{PB}_2 = X_{p2} \\pqbg r_2 + L$$\n- Orpnhfr $\\grkg{PB}_2$ vf uryq evtug nobir $L$, gur rknpg vafgnag Pbagebyyre 2'f reebe punatrf fvta naq $X_{p2} \\pqbg r_2$ orpbzrf artngvir, Pbagebyyre 2'f bhgchg qebcf ORYBJ $L$.\n- Gur Ybj Fryrpgbe vafgnagyl fjvgpurf gb Pbagebyyre 2 jvgu mreb qrynl, mreb jvaqhc, naq mreb ohzc!",
     "steps": null,
-    "image": "/assets/curriculum/s5_quiz1_p16_img1.png",
+    "image": "./assets/curriculum/s5_quiz1_p16_img1.png",
     "imageCaption": "Nagv-Erfrg Jvaqhc Rkgreany Erfrg Srrqonpx Gbcbybtl va Fryrpgvir Pbageby Fpurzrf",
     "distractors": [
       {
